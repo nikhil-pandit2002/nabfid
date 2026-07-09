@@ -1,0 +1,98 @@
+{
+ "key_points": "## Treatment of Wilful Defaulters and Large Defaulters — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/333, dated 2025-11-28)*\n\n**Introduction & purpose:** A non-discriminatory, transparent, natural-justice-based procedure for (a) classifying a borrower as a **wilful defaulter**, and (b) disseminating credit information on wilful/large defaulters so lenders can withhold further institutional finance. Issued under s.45L RBI Act, 1934 and s.11 of the Credit Information Companies (Regulation) Act, 2005.\n\n### Chapter I — Preliminary\n- **Commencement:** immediate (2025-11-28).\n- **Applicability:** the five AIFIs — EXIM Bank, NABARD, NHB, SIDBI, **NaBFID**. **Note:** the restrictions on further finance to wilful defaulters and the large-defaulter provisions apply to **all RBI-regulated entities**, whether or not they meet the \"lender\" definition.\n- **Key definitions:**\n  - **Wilful defaulter** — a borrower/guarantor who has committed wilful default with **outstanding of ₹25 lakh and above** (and, for companies, its promoters/directors per para 5(14)).\n  - **Large defaulter** — a defaulter with **outstanding of ₹1 crore and above** where a suit has been filed, or the account is classified **doubtful or loss**.\n  - **Wilful default** — default despite capacity to pay; or **diversion of funds**; **siphoning of funds**; disposing of secured assets without approval; or failing to infuse committed equity despite ability. Guarantor wilful default = not honouring an invoked guarantee despite means.\n  - **Diversion of funds** (six limbs) vs **siphoning** (using funds for purposes unrelated to the borrower's operations).\n  - **Identification Committee** (WTD other than MD&CEO as chair + 2 senior officials) and **Review Committee** (MD&CEO as chair + 2 independent/non-executive directors) — members cannot overlap.\n\n### Chapter II — Function of the Board\n- Each AIFI must frame a **Board-approved policy** covering: rank of official who issues show-cause notices/orders; periodicity for re-examining accounts where wilful default was not initially found; non-discriminatory criteria for publishing photographs; measures to ensure end-use of funds; and the threshold for commissioning forensic audits.\n\n### Chapter III — Treatment of Wilful Defaulters (the core mechanism)\n- **Two-stage, natural-justice process:** Identification Committee examines evidence → if satisfied, issues a **show-cause notice** with all supporting material and calls for submissions within **21 days** → if still satisfied, proposes classification to the **Review Committee** → borrower gets **15 days** to make a written representation → Review Committee gives a **personal hearing** → passes a **reasoned order** communicated to the defaulter. No right to a lawyer (in-house proceeding).\n- **Non-whole-time / independent / nominee directors:** not classified unless it is conclusively established the default occurred with their consent/connivance, or they knew and did not record objections (para 5(14)).\n- **Review of accounts:** examine wilful-default aspect in **all NPA accounts ≥ ₹25 lakh**; complete classification within **six months** of the account becoming NPA.\n- **Penal measures against a wilful defaulter (and associated entities):** no additional credit; bar continues **1 year** after removal from the List of Wilful Defaulters (LWD); **no credit for floating new ventures for 5 years** after removal; restructuring only per the Resolution of Stressed Assets Directions, 2025.\n- **Covenant:** loan agreements must bar inducting an LWD-listed person on the board/management; no renewal/enhancement/fresh/restructured facilities while such a name remains on the LWD.\n- **Guarantor liability** (Indian Contract Act s.128): co-extensive and immediate; a non-complying guarantor can itself be classified as a wilful defaulter.\n- **Internal audit** and the **Audit Committee** must periodically review wilful-default cases and root causes.\n\n### Chapter IV — Reporting of Wilful & Large Defaulters\n- **Large defaulters (₹1 crore+):** submit **Annex I** to all CICs **monthly** (suit-filed list; and non-suit-filed doubtful/loss list). Unapplied interest counts toward the ₹1 crore threshold.\n- **Wilful defaulters:** submit **Annex II** to all CICs **monthly** (suit-filed and non-suit-filed LWDs). **Removal** within **30 days** once outstanding falls below ₹25 lakh (subject to compromise-settlement rules).\n- **Compromise settlements:** name removed from LWD only on **full payment** of the compromise amount; part-payment keeps the name on the LWD even if below threshold.\n- **Transferred defaulted loans (≥₹25 lakh):** investigate wilful-default aspect **before transfer**; transfer is **not** treated as recovery for threshold purposes.\n- **IBC / resolution:** on a change of management/control via IBC or the Resolution Directions, remove the name from the LWD after plan implementation; penal measures cease for the new entity but continue for erstwhile promoters/directors/guarantors.\n- **Correct reporting, guarantors, and directors (with DIN):** accuracy is the reporting AIFI's responsibility; include **DIN** to avoid mis-identification.\n\n### Chapter V — Preventive Measures & Role of Auditors\n- **Credit appraisal:** verify directors/guarantors against the large-defaulter list / LWD via **DIN/PAN**; use independent sources for identical-name doubts.\n- **End-use monitoring:** obtain end-use certificates; illustrative measures — scrutiny of quarterly statements, asset inspections, stock audits, unit visits, CA certification for project finance, plus the AIFI's own due diligence.\n- **Statutory auditors:** on falsified accounts with negligent auditors, complain to **NFRA/ICAI** (and forward to RBI Dept. of Supervision & IBA); commission **forensic audit** above the board-set threshold.\n- **Third parties:** accountability for negligent/deficient third parties per the Fraud Risk Management Directions, 2024; report to IBA for caution lists.\n\n### Chapter VI — Repeal and Other Provisions\n- Repeals prior wilful/large-defaulter instructions for AIFIs (per circular dated 2025-11-28); saving clause preserves accrued rights/liabilities and pending proceedings. RBI's interpretation is final and binding.\n\n**Annexes I & II:** prescribed monthly CIC reporting formats (borrower name/PAN/address, outstanding in ₹ lakh, suit status, asset classification, other lenders, director/promoter name+DIN+PAN, guarantor details); separate files for suit-filed vs non-suit-filed.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** As a large infrastructure lender, NaBFID must run a defensible, natural-justice-compliant machinery to classify wilful defaulters (₹25 lakh+) and report large defaulters (₹1 crore+) monthly to CICs. Getting the **two-committee process** (Identification → Review, with the 21-day and 15-day windows and a personal hearing) exactly right is critical — a procedural lapse can get a classification set aside in court.\n\n*Illustrative example:* If a project SPV that borrowed from NaBFID diverts sanctioned funds to a group company without consent and then defaults, NaBFID's Identification Committee would examine the diversion evidence, issue a show-cause notice (21 days to respond), and — if satisfied — refer it to the Review Committee, which hears the promoter before passing a reasoned order. Once classified, the promoter and associated entities face the no-additional-credit bar and the 5-year new-venture bar, and the name goes to CICs in Annex II. Independent/nominee directors are shielded unless consent/connivance is conclusively shown (RBI/DOR/2025-26/333, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "979082d9d95e": [
+    1
+   ],
+   "a1bde5314e39": [
+    3
+   ],
+   "b88066a286a9": [
+    3
+   ],
+   "8e7e646ab9b2": [
+    8
+   ],
+   "d2a338730a28": [
+    5
+   ],
+   "69de53e94373": [
+    7
+   ],
+   "3028a94ba2d0": [
+    4
+   ],
+   "b4b7ac4288aa": [
+    6
+   ],
+   "8fe1996cb354": [
+    9
+   ],
+   "d10419913414": [
+    10,
+    11
+   ],
+   "9d8334bc0fe9": [
+    11
+   ],
+   "1b594ff62536": [
+    12
+   ],
+   "a90012e5f3c4": [
+    13
+   ],
+   "28571ee8b4b0": [
+    14
+   ],
+   "0159555a02dc": [
+    15
+   ],
+   "70457ab4909b": [
+    15
+   ],
+   "16e44ffedb27": [
+    16
+   ],
+   "60edc3ec8cb6": [
+    16
+   ],
+   "39431ab2e89a": [
+    16
+   ],
+   "22a21579177f": [
+    17
+   ],
+   "1287f107f01c": [
+    18
+   ],
+   "2ec0321916d5": [
+    19
+   ],
+   "c9349b949bb3": [
+    20
+   ],
+   "c30652017117": [
+    20
+   ],
+   "d39a9b5afaad": [
+    22
+   ],
+   "97a667dc929b": [
+    22
+   ],
+   "371699e9e395": [
+    23
+   ],
+   "134e9eb48f7a": [
+    16
+   ]
+  },
+  "implications": {
+   "221811a1a8de": [
+    1
+   ]
+  }
+ }
+}

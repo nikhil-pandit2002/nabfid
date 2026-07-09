@@ -1,0 +1,38 @@
+{
+ "key_points": "### Key Compliance Points — Undertaking of Financial Services Directions, 2025\n*(RBI/DOR/2025-26/320, dated 2025-11-28, updated as on 2026-04-27; effective immediately)*\n\nGoverns AIFIs' **investments in financial/non-financial entities, subsidiaries, AIFs and overseas/IFSC operations** (RBI/DOR/2025-26/320).\n\n**Chapter I – Preliminary:** applies to the five AIFIs; key definitions — *debtor company*, *equity instrument* (equity shares, CCPS, CCD), *capital funds*, *financial services company* (extensive list), *non-financial services company*, *subsidiary*, *control* (Companies Act s.2(27)).\n\n**Chapter II – General Guidelines**\n- **Prudential regulation for investments:** Board-approved policy; **limits (as % of paid-up capital and reserves)** on equity investment in a single financial-services entity, aggregate non-affiliates, aggregate including affiliates, factoring entities, single deposit-taking NBFC, and AIF units.\n- **Regulatory approval (para 9):** prior RBI approval needed to invest in a subsidiary / financial-services company (with carve-outs where holding <10% and aggregate <20% and the AIFI is profitable/adequately capitalised), in a non-financial company beyond **10%** of its paid-up capital, or **>10%** in a Category I/II AIF; **no investment in Category III AIF**.\n- **AIF investments (paras 11–17):** individual contribution **≤10%** of an AIF scheme's corpus; aggregate by all REs **≤20%**; if an AIFI contributes **>5%** of a scheme's corpus that has downstream (debt) investment in the AIFI's **debtor company → 100% provision** on the proportionate amount (capped at direct exposure); **subordinated units** fully deducted from capital funds; exemptions for pre-2025-07-29 RBI-approved commitments and notified AIFs.\n\n**Chapter III – Financial Services**\n- **Arm's-length with subsidiaries (para 21):** periodic Board review/inspection; subsidiary needs RBI approval for new subsidiary/business; no online access to customer accounts; no unsecured advances to the subsidiary without RBI approval; all transactions arm's-length.\n- **Foreign / IFSC operations (paras 22–28):** foreign branches/subsidiaries and IFSC (GIFT City) units may deal in derivative products not permitted domestically, subject to Board approval, risk capability, reporting, **no Rupee-linked products** unless RBI-permitted, no structured deposits from Indian residents, and prudential norms (capital, LEF, valuation) applying the more stringent of home/host rules.\n\n**Chapter IV – Repeal and other provisions.** **Annex I:** exempted AIFs — **SWAMIH Investment Fund-I** and **AgriSURE** (added 2026-04-27).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This governs how NaBFID may invest in and operate financial-services subsidiaries, AIFs, and overseas/IFSC (GIFT City) units — with hard approval thresholds and the significant AIF anti-evergreening rule (100% provision where an AIFI's >5% AIF stake routes back to its own debtor). It shapes NaBFID's ability to use fund structures and its GIFT City presence.\n\n*Illustrative example:* If NaBFID contributes more than 5% of an AIF's corpus and that AIF lends (non-equity) to a company NaBFID already has a loan to, NaBFID must make a 100% provision on its proportionate exposure through the fund — preventing indirect evergreening. Investing beyond 10% in a Category I/II AIF needs prior RBI approval; Category III AIFs are off-limits.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "812d32ef60ee": [
+    1
+   ],
+   "0b5823b4b005": [
+    2
+   ],
+   "f911b51874b9": [
+    5
+   ],
+   "20941a83d145": [
+    5
+   ],
+   "d91c1fc6dfcf": [
+    7,
+    8
+   ],
+   "95f1880181a7": [
+    9
+   ],
+   "8a90bcd5da86": [
+    10
+   ],
+   "9e070042e9b1": [
+    14
+   ]
+  },
+  "implications": {
+   "eaffb386f591": [
+    1
+   ]
+  }
+ }
+}

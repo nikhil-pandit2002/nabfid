@@ -1,0 +1,25 @@
+# --- Never commit ---------------------------------------------------------
+# Real secrets (API keys). On Hugging Face, set these as Space *secrets*.
+.env
+
+# Runtime-generated user chats (the app writes these; not source data).
+data/conversations/
+
+# --- Python / environment -------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# --- OS / editor / local tooling ------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# NOTE (deployment): unlike the local dev repo, data/, index/, static/ and
+# "AIFI latest/" ARE committed here — the app reads the manifest/chunks/vector
+# index/served PDFs at runtime, and the 34 baked explanation guides are
+# hand-authored (not regenerable by a script). They are public RBI documents
+# and small (~60 MB total), so they ship with the deploy.

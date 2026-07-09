@@ -1,0 +1,56 @@
+{
+ "key_points": "### Key Compliance Points — Credit Risk Management (Amendment) Directions, 2026\n*(RBI/2025-26/180, dated 2026-01-05; effective 2026-04-01)*\n\nOverhauls the **related-party / connected-lending** framework, aligning definitions with the Companies Act, 2013 and IBC, 2016 (RBI/2025-26/180, 2026-01-05).\n\n- **New definitions in Chapter I, para 4(1):** *Committee on lending to related parties*, *Contract or arrangement* (Companies Act s.188), *Control* (s.2(27)), *KMP* (s.2(51)), *Promoter* (s.2(69)), *Lending* (funded/non-fund credit + debt instruments; **equity excluded**), *Reciprocally Related Person*, *Related Party* (detailed 10%/20%/control tests), *Related Person* (>5% holding/voting, director/KMP/promoter, control), *Specified employees* (up to two levels below the Board). *Relative* and *Substantial interest* re-defined.\n- **Board policy (Chapter II, para 5 replaced):** comprehensive Credit Risk Management policy covering related-party lending, LEI, security-interest filing, and revolving-facility restrictions.\n- **Chapter III replaced by new Chapter IIIA – Regulatory Restrictions:**\n  - **No loans against the AIFI's own shares (17A).**\n  - **No loans to the AIFI's directors** or firms/companies/individuals connected to them (17B), with limited carve-outs (pre-appointment facilities, public trusts, secured loans against govt securities/LIC/FD ≤100% value, approved staff-type personal loans, cash-collateralised NFB facilities) (17C).\n  - **Restrictions on lending to related parties (17D–17S):** Board responsibility; policy safeguards + whistleblowing; **aggregate + single/group sub-limits**; **materiality thresholds** by asset size (**₹25 cr** for asset size > ₹10,00,000 cr; **₹10 cr**; **₹5 cr**); loans above threshold sanctioned by the **Board or the Committee on Lending to Related Parties**; **recusal** of interested directors/KMP; monitoring, quarterly internal-audit review, Audit Committee reporting; anti-circumvention (reciprocal/quid-pro-quo treated as related-party lending); enforcement actions incl. penalties, provisioning, forensic audit.\n- **Commencement:** **April 1, 2026** (earlier adoption allowed; non-conforming existing exposures may run off till maturity but not be renewed/enhanced unless compliant). A corresponding Financial Statements amendment adds related-party disclosures.\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2025-26/180, dated 2026-01-05 · effective 2026-04-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Chapter I, para 4(1)** | **Inserted / replaced** | New related-party ecosystem definitions (Related Party/Person, Reciprocally Related Person, Control, KMP, Promoter, Lending, Specified employees); Relative & Substantial interest re-defined. |\n| **Chapter II, para 5** | **Replaced** | Comprehensive Credit Risk Management policy (related-party lending, LEI, security filing, revolving-facility limits). |\n| **Chapter III → new Chapter IIIA (17A–17S)** | **Deleted & replaced** | 'Regulatory Restrictions': no loans on own shares / to directors; related-party lending limits, materiality thresholds (₹25/10/5 cr), Board/Committee sanction, recusal, monitoring, anti-circumvention, enforcement. |\n\n- **Effective date:** April 1, 2026 (existing non-conforming exposures run off till maturity).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This tightens governance around who NaBFID may lend to. NaBFID must map its \"related parties/persons\" (directors, KMP, promoters, >5%/10%/20% holders, controlled entities), set aggregate and per-party limits, route large related-party loans through the Board or a dedicated Committee, and ensure interested directors recuse themselves — with penalties for circumvention.\n\n*Illustrative example:* A proposed facility to a company where a NaBFID director holds substantial interest is generally prohibited (17B); any permitted related-party loan above the ₹25 crore materiality threshold must be sanctioned by the Board / Committee on Lending to Related Parties, with that director recusing from the decision.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "39ec3eda576f": [
+    1,
+    2
+   ],
+   "4de04804b74c": [
+    1,
+    2
+   ],
+   "2fabadbb4090": [
+    4
+   ],
+   "2e417cc1e9ed": [
+    4
+   ],
+   "bb22c01394f9": [
+    4
+   ],
+   "11778d7fb01f": [
+    5
+   ],
+   "ce1fafec6ce6": [
+    6,
+    7
+   ],
+   "15af29cdc304": [
+    8
+   ]
+  },
+  "what_changed": {
+   "224ea450a43a": [
+    2
+   ],
+   "640a8183436e": [
+    4
+   ],
+   "fa373e8e50ec": [
+    4,
+    7
+   ],
+   "d626b6b77b7f": [
+    8
+   ]
+  },
+  "implications": {
+   "88d31e582160": [
+    1
+   ]
+  }
+ }
+}

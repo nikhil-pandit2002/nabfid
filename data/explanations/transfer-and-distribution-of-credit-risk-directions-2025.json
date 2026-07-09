@@ -1,0 +1,43 @@
+{
+ "key_points": "## Transfer & Distribution of Credit Risk — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/327, dated 2025-11-28)*\n\nA single, self-contained framework for the ways an AIFI moves credit risk off (or onto) its books: **loan transfers/assignments, co-lending, and consortium/multiple-banking arrangements.**\n\n### Chapter (Preliminary) & Applicability\n- **Applicability:** the five AIFIs (incl. **NaBFID**). Four parts: **A** loan transfers, **B** co-lending (from **1 Jan 2026**), **C** consortium/multiple-banking, **D** repeal.\n\n### PART A — Transfer of Loan Exposures\n- **Board policy** required, with the transfer/acquisition function kept **independent of loan origination**. A transfer moves **economic interest**; except in **loan participation**, legal ownership must also pass. **Lenders must not give credit enhancements or liquidity facilities** on loan transfers; a transferor **cannot re-acquire** a transferred loan (except under a resolution plan / IBC). Fraud-classified loans **may** be transferred.\n- **Chapter III — loans not in default:** transfer to **permitted transferees** (SCBs, AIFIs, SFBs, NBFCs/HFCs) by assignment/novation/participation, **on cash basis**. **Minimum Holding Period (MHP)** from CERSAI registration: **3 months** (tenor ≤ 2 yrs) / **6 months** (tenor > 2 yrs); for **project loans, MHP runs from actual DCCO**; loans bought from others must be held **6 months** before onward transfer (MHP not applicable to a syndication arranger's transfers). **Due diligence cannot be outsourced** — transferee's own staff, at each-loan level; for a portfolio, if it can DD **≥ one-third** individually it may do the rest at portfolio level **provided the transferor retains ≥ 10% economic interest**. Unrealised transfer profits are **deducted from CET1**; reps-and-warranty asset replacement only within **30 days**.\n- **Chapter IV — stressed loans (NPA/SMA):** **assignment/novation only (no loan participation)**; to permitted transferees and **ARCs**. Valuation where exposure is **₹100 crore+** needs **two external valuation reports**; bilateral sale of a **₹100 crore+** aggregate exposure must go through a **Swiss Challenge auction** (mandatory for ICA-approved full-exit resolutions regardless of size). Swiss Challenge minimum mark-up **5–15%**. Post-transfer **cooling period of ≥ 12 months** before fresh exposure; provisioning on acquired stressed loans uses a discount rate = contract rate + **risk-premium floor of 3%**. Sale below NBV → shortfall to P&L; above NBV → excess provision reversed as cash is received. SRs/PTCs not redeemed by end of the resolution period (5/8 yrs) become a **loss asset, fully provided**.\n\n### PART B — Co-Lending Arrangements (CLA) — from 1 Jan 2026\n- CLAs with SCBs, other AIFIs, and NBFCs/HFCs, to **jointly fund a loan portfolio in a pre-agreed proportion with revenue/risk sharing** (does **not** cover consortium/syndication/multiple banking).\n- **The AIFI must retain a minimum 10% share of each individual loan.** Borrower pays a **blended interest rate** (funding-weighted average). The partner's share must reflect in both books **within 15 calendar days** (else the loan stays with the originator and can only move under Part A). All flows route through an **escrow account**; **borrower-level asset classification** is shared (SMA/NPA on one side applies to both, latest by next working day). The originating AIFI may give a **Default Loss Guarantee up to 5%** of CLA loans outstanding. KFS disclosure, website list of active CLA partners, and quarterly/annual Notes-to-Accounts disclosures required.\n\n### PART C — Consortium / Multiple Banking\n- Obtain a borrower **declaration of other credit facilities** (existing borrowers with limits **₹5 crore+**), **exchange conduct information at least quarterly**, obtain periodic professional (CS/CA/CMA) compliance certification, and use CIC reports. The **consortium leader / largest-exposure AIFI leads monitoring of the borrower's unhedged forex exposure**.\n\n### PART D — Repeal\n- Repeals prior AIFI transfer/co-lending/consortium instructions; RBI interpretation final. Annexes give the multiple-banking declaration, credit-information-exchange and diligence-report formats.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This direction is NaBFID's rulebook for **distributing and acquiring credit risk** — syndicating parts of a large infrastructure loan, selling down seasoned exposures for liquidity, offloading stressed assets to ARCs, or co-lending alongside a bank/NBFC. The **MHP-from-DCCO rule for project loans**, the **₹100-crore Swiss Challenge / two-valuation requirements** for stressed-loan sales, the **CET1 deduction of unrealised gains**, and the **10%-retention + blended-rate + escrow** mechanics of co-lending directly shape how it structures these deals. It interlocks with the Resolution of Stressed Assets Directions (restructuring test, ICA thresholds), Securitisation Directions (MHP), Concentration Norms, and Financial Statements Directions (disclosures).\n\n*Illustrative example:* NaBFID wants to sell down a ₹300-crore operating-road loan to another lender for liquidity. Because it is a project loan, the **MHP is counted from actual DCCO**; the sale is on a **cash basis**, the buyer's own staff must do loan-level due diligence, and any unrealised gain is **deducted from CET1** until maturity. If instead the loan had gone NPA and NaBFID sold it bilaterally (exposure ₹100 crore+), it would need **two external valuations** and a **Swiss Challenge auction**, and could not take fresh exposure to that borrower for **at least 12 months**. Under a co-lending tie-up with an NBFC, NaBFID keeps **≥ 10%** of each loan, the borrower sees a single **blended rate**, and both books reflect the split within **15 days** through an escrow (RBI/DOR/2025-26/327, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "10c7bb64b183": [
+    1
+   ],
+   "c7ad0f6733ee": [
+    30
+   ],
+   "a41d04880e2d": [
+    8
+   ],
+   "0399aeac89b6": [
+    6,
+    46
+   ],
+   "069ac92fb593": [
+    6,
+    19
+   ],
+   "07ccf74078fe": [
+    30
+   ],
+   "193b41a92775": [
+    33,
+    34
+   ],
+   "45a2bba76184": [
+    36
+   ],
+   "4e80591989c3": [
+    37
+   ]
+  },
+  "implications": {
+   "78b74aa10c71": [
+    1
+   ]
+  }
+ }
+}

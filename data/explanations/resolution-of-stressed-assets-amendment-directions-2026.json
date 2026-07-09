@@ -1,0 +1,70 @@
+{
+ "key_points": "### Key Compliance Points — Resolution of Stressed Assets (Amendment) Directions, 2026\n*(RBI/2026-27/72, dated 2026-04-29; effective 2026-07-01)*\n\nCreates a dedicated framework for resolving loans of borrowers hit by **natural calamities** (RBI/2026-27/72, 2026-04-29).\n\n- **New definitions (paras 4(3A), 4(8A)):** *date of invocation* = date borrower and AIFI agree to a Chapter VI-A resolution plan (or deemed invocation per 119N); *natural calamity* = an event recognised under **NDRF/SDRF**.\n- **Board policy (para 12A):** must include objective principles for relief terms, potential relief measures + verifiable parameters, and a delegation matrix for timely implementation.\n- **New Chapter VI-A – Resolution of Accounts Impacted by Calamities:**\n  - **Scope (119A–119B):** applies on Government declaration of a calamity (incl. riots/disturbances causing economic loss); not to accounts already given relief before the effective date (fresh resolution after that follows this Chapter).\n  - **SLBC/UTLBC/DCC role (119C–119H):** special meeting within **15 days** of declaration; assess severity, set objective criteria for impacted borrowers and any moratorium; publicise decisions.\n  - **Eligibility (119J):** accounts classified **'Standard'** and **not in default > 30 days** as on the date of the calamity's occurrence. Not for the refinance portfolio (119L).\n  - **Invocation/implementation (119M–119O):** invoke within **45 days**, implement within **135 days** of declaration; **deemed (suo-moto) invocation** allowed with a borrower opt-out until day 135; one-time **30-day extension** possible via RBI Regional Director.\n  - **Nature (119P–119Q):** rescheduling, conversion of accrued interest into another facility, and possible additional finance — all subject to viability assessment.\n  - **Ancillary (119R–119U):** factor in insurance proceeds; pass on Government interest subvention/incentives; for agricultural loans, accept **Revenue Department certificates** where original land title is lost (community certificates in Sixth-Schedule areas).\n  - **Reporting (119V–119X):** upload calamity notifications to CIMS within 15 days; half-yearly relief data within 30 days of half-year end; NIL statement if none.\n- **Commencement:** **July 1, 2026** (with coordinated amendments to Credit Risk Management, IRACP and Responsible Business Conduct of the same date).\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2026-27/72, dated 2026-04-29 · effective 2026-07-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Paras 4(3A), 4(8A)** | **Inserted** | Defines 'date of invocation' and 'natural calamity' (NDRF/SDRF). |\n| **Para 12A** | **Inserted** | Board policy must cover calamity-resolution principles, measures and delegation. |\n| **Chapter VI-A (paras 119A–119X)** | **Inserted** | Full calamity-resolution framework: SLBC/DCC role, eligibility (Standard, ≤30 days default at calamity date), 45-day invocation / 135-day implementation, deemed invocation with opt-out, relief measures, agricultural-title relaxation, CIMS reporting. |\n\n- Consequential amendments to Credit Risk Mgmt, IRACP and Responsible Business Conduct (same date).\n- **Effective date:** July 1, 2026.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This gives NaBFID a clear, time-bound playbook to support infrastructure borrowers whose projects are disrupted by floods, cyclones or similar declared calamities — including the ability to act suo-moto (deemed invocation) without waiting for each borrower's request, provided the account was Standard and ≤30 days overdue when the calamity struck.\n\n*Illustrative example:* After a cyclone is officially declared in a coastal district hosting a NaBFID-financed port project, NaBFID can implement a resolution plan (rescheduling + additional finance) within 135 days, keeping the account 'Standard', while reporting the relief on the CIMS portal.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "619f0322dcc5": [
+    1
+   ],
+   "99e41094c06c": [
+    1
+   ],
+   "75721d1797d0": [
+    2
+   ],
+   "6fa9d1b3b41b": [
+    1
+   ],
+   "4c88e96ca36d": [
+    2
+   ],
+   "ed5255cb022a": [
+    3
+   ],
+   "a3dbb081a239": [
+    4
+   ],
+   "aed5f16e7898": [
+    4,
+    5
+   ],
+   "dd6c4d89c465": [
+    5
+   ],
+   "2f4713eed4a9": [
+    5,
+    6
+   ],
+   "acad1cc42442": [
+    6
+   ],
+   "82f107ea4a0a": [
+    6
+   ]
+  },
+  "what_changed": {
+   "b56cc830e17c": [
+    1
+   ],
+   "713f57926776": [
+    2
+   ],
+   "a92e119bcd0b": [
+    4,
+    6
+   ],
+   "f05a794998cf": [
+    6
+   ],
+   "0edb24b55c9f": [
+    6
+   ]
+  },
+  "implications": {
+   "f542f9154da4": [
+    1
+   ]
+  }
+ }
+}

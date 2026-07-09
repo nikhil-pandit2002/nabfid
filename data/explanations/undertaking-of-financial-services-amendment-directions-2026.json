@@ -1,0 +1,40 @@
+{
+ "key_points": "### Key Compliance Points — Undertaking of Financial Services (Amendment) Directions, 2026\n*(RBI/2026-27/16, dated 2026-04-27; effective immediately)*\n\n- **What it does:** Amends the Reserve Bank of India (AIFIs – Undertaking of Financial Services) Directions, 2025 by expanding **Annex I** (RBI/2026-27/16, 2026-04-27).\n- **Single change:** Adds the following permitted entry to Annex I:\n  - **\"2. AgriSURE – Agri Fund for Start Ups & Rural Enterprises.\"**\n- **Effect:** AgriSURE is now recognised within Annex I of the parent Directions, so AIFIs' dealings/investments relating to that fund fall within the permitted framework there.\n- **Commencement:** With **immediate effect** (2026-04-27).\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2026-27/16, dated 2026-04-27 · effective immediately)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Annex I** | **Inserted** | New item **\"2. AgriSURE – Agri Fund for Start Ups & Rural Enterprises\"** added to the list in Annex I. |\n\n- Nothing else in the parent Directions is altered.\n- **Effective date:** immediate (2026-04-27).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** Annex I lists funds/entities that AIFIs are permitted to deal with under this framework. Adding AgriSURE (a fund supporting start-ups and rural enterprises) means NaBFID can now treat exposures or participation connected to AgriSURE as covered by Annex I, without seeking separate clearance for that specific fund.\n\n*Illustrative example:* If NaBFID is asked to co-invest alongside or extend a facility connected to the AgriSURE fund, the compliance team can point to Annex I item 2 as the enabling entry, rather than treating it as an unlisted activity.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "cf2e8ec9e0c6": [
+    1
+   ],
+   "ae8f5361830d": [
+    1
+   ],
+   "6ada68754b03": [
+    1
+   ],
+   "0fbe06e97820": [
+    1
+   ],
+   "5fd54d9a3d7a": [
+    1
+   ]
+  },
+  "what_changed": {
+   "f8f87deeda7c": [
+    1
+   ],
+   "5555ee157b6a": [
+    1
+   ],
+   "56528e36c842": [
+    1
+   ]
+  },
+  "implications": {
+   "be84566a9282": [
+    1
+   ]
+  }
+ }
+}

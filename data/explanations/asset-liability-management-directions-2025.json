@@ -1,0 +1,77 @@
+{
+ "key_points": "## Asset Liability Management (ALM) — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/330, dated 2025-11-28)*\n\nFramework for measuring, monitoring and managing an AIFI's **liquidity risk, interest rate risk and foreign-exchange risk** through disciplined balance-sheet management.\n\n### Chapter I — Preliminary\n- **Effective from date of issue.** **Applicability:** the five AIFIs (EXIM, NABARD, SIDBI, NHB, **NaBFID**).\n- **Definitions:** **Interest Rate Risk** (adverse impact of rate changes on financial condition), **Gap** (Rate-Sensitive Assets − Rate-Sensitive Liabilities per time bucket), **Liquidity Risk** (inability to meet obligations as due), **Stress Test**.\n\n### Chapter II — Role of the Board\n- The **Board** owns risk management, sets the risk policy and limits for liquidity, interest-rate, exchange-rate and equity-price risks, and constitutes a Management Committee / **ALCO**.\n- The **Board/ALCO** approve: Trading Book limits (volume, composition, max maturity/duration, holding, cut-loss); optionally an integrated **VaR** limit for the whole balance sheet; internal prudential limits for **cumulative negative liquidity gaps** and **interest-rate gaps** (as simple gap limits or as impact on NII/NIM/Earnings-at-Risk); and the time-bucket classification of assets/liabilities.\n\n### Chapter III — ALM Governance\n- ALM rests on **three pillars**: (1) **ALM Information System** (MIS + timely, accurate data), (2) **ALM Organisation** (structure + top-management involvement), (3) **ALM Process** (risk identification, measurement, management, policies/tolerances).\n- **ALCO** is the decision-making unit for integrated balance-sheet management — headed by CEO/CMD/DMD/ED, with the heads of Investment, Credit, Resources, Treasury and Risk as members. It monitors risk limits, articulates the interest-rate view, and sets business/funding strategy. An **ALM Support Group** does the analysis, monitoring and simulations.\n\n### Chapter IV — Liquidity Risk Management\n- Assess **market** and **funding** liquidity risk; the Board sets **liquidity risk tolerance**; price liquidity into internal pricing and new-product approval.\n- Use **early-warning indicators**, run regular **stress tests / scenario analysis**, and maintain a **contingency funding plan**.\n- **Statement of Liquidity** (maturity-ladder approach, Annex I) across **10 time buckets** (1–14 days; 15–28 days; 29 days–3 months; 3–6m; 6m–1y; 1–3y; 3–5y; 5–7y; 7–10y; over 10y).\n- **Negative gap limits:** the negative gap must not exceed **10%** of outflows in the 1–14 day bucket and **15%** in the 15–28 day bucket; cumulative mismatches monitored against Board/ALCO limits.\n- **Trading Book** securities: defined composition, restricted max maturity/duration, **holding period ≤ 90 days**, cut-loss limits, and daily/weekly mark-to-market with gains/losses to P&L.\n\n### Chapter V — Management of Currency Risk\n- Prepare **currency-wise** Statements of Liquidity and Interest Rate Sensitivity for each currency of exposure (Annex I-A / II-A).\n\n### Chapter VI — Interest Rate Risk Management (IRR)\n- Two lenses: **earnings perspective** (impact on NII/NIM) and **economic-value perspective** (impact on Market Value of Equity / net worth).\n- Use **Traditional Gap Analysis (TGA)** as the baseline; advanced techniques (Duration Gap, Simulation, VaR) with Board/ALCO approval.\n- Prepare the **Interest Rate Sensitivity statement** (Annex II) across defined time buckets; set Board/ALCO **prudential gap limits** (related to Total/Earning Assets or Equity, or to EaR/NIM).\n\n### Chapter VII — General\n- **Behavioural pattern & embedded options:** better-equipped AIFIs may slot cash flows by behavioural maturity (with ALCO/Board approval and a note to RBI DoS); otherwise slot embedded-option amounts to the earliest exercise date.\n- **Internal Transfer Pricing (ITP):** a scientifically designed mechanism to value funds provided/used, centralise interest-rate risk management, and price assets/liabilities consistently.\n\n### Chapter VIII — Monitoring and Reporting\n- **Statement of Liquidity — fortnightly.** **Interest Rate Sensitivity statement — monthly.** Top Management/Board/ALCO review regularly. **Both statements submitted to RBI (DoS) quarterly.**\n\n### Chapter IX — Repeal and Other Provisions\n- Repeals prior AIFI ALM instructions (circular dated 2025-11-28); standard saving clause; RBI's interpretation is final.\n\n**Annexes I–IV** provide the prescribed formats: Statement of Liquidity (₹ and foreign currency), Interest Rate Sensitivity statement, the Maturity Profile (how each asset/liability head is slotted into time buckets), and the Interest Rate Sensitivity profile (which items are rate-sensitive and when they re-price).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** ALM is central to NaBFID's model — it **borrows via bonds (shorter/medium tenor) and lends 15–20 years to infrastructure**, so it structurally runs long-dated assets against shorter liabilities. This direction forces that mismatch to be measured (liquidity and interest-rate gaps), bounded (the 10%/15% short-bucket negative-gap limits, Board/ALCO gap limits) and governed (ALCO, stress tests, contingency funding plan), with fortnightly/monthly statements and quarterly filing to RBI.\n\n*Illustrative example:* If NaBFID funds a 18-year power-project loan with 5-year bonds, the loan sits in the 'over 10 years' inflow bucket while the bond maturity sits in the '3–5 years' outflow bucket — creating a structural gap ALCO must monitor. The short-term negative liquidity gap in the 1–14 day bucket must stay within 10% of outflows, and the interest-rate re-pricing mismatch feeds the NII/EaR limits the Board has set (RBI/DOR/2025-26/330, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "dd7ba588e62c": [
+    1
+   ],
+   "8db183a25afe": [
+    3
+   ],
+   "dd2f03b4489e": [
+    3
+   ],
+   "57072ae9821a": [
+    5
+   ],
+   "08cfd4c91d64": [
+    5
+   ],
+   "520810187605": [
+    6
+   ],
+   "40275b8f1ab8": [
+    8
+   ],
+   "a4cbadad0168": [
+    9
+   ],
+   "63efba617360": [
+    9
+   ],
+   "8054274ebd97": [
+    10
+   ],
+   "73038600f825": [
+    11
+   ],
+   "54e6db918553": [
+    11
+   ],
+   "c750d45014d8": [
+    13
+   ],
+   "def0ed3951ab": [
+    14
+   ],
+   "89555b324438": [
+    14
+   ],
+   "7fb962f17185": [
+    15
+   ],
+   "b0fcf2dec81e": [
+    16
+   ],
+   "98d5898739e0": [
+    16
+   ],
+   "460731b653af": [
+    17
+   ],
+   "8a039b95184e": [
+    18,
+    46
+   ],
+   "9d3d33da5802": [
+    41
+   ]
+  },
+  "implications": {
+   "3206e42923e1": [
+    1
+   ]
+  }
+ }
+}

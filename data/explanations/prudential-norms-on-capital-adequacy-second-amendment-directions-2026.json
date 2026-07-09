@@ -1,0 +1,56 @@
+{
+ "key_points": "### Key Compliance Points — Prudential Norms on Capital Adequacy (Second Amendment) Directions, 2026\n*(RBI/2025-26/241, dated 2026-03-10; effective from date of issue)*\n\n- **What it does:** Amends **paragraph 77 – \"Treatment of total counterparty credit risk (CCR)\"** of the Capital Adequacy Directions, 2025, to add clarity and align with international standards (RBI/2025-26/241, 2026-03-10).\n- **Para 77(1) (note added):** for consolidated capital computation, an AIFI must include CCR exposures of **all entities consolidated** under the \"Scope of application\" section (Chapter II).\n- **Table 13 (substituted) — add-on factors for market-related off-balance-sheet items** (% by residual maturity), e.g. Interest Rate: **0.25 / 0.50 / 1.50**; Exchange Rate & Gold: **1.00 / 5.00 / 7.50**; Equities: **6.00 / 8.00 / 10.00**; Precious Metals ex-Gold: **7.00 / 7.00 / 8.00**; Other Commodities: **10.00 / 12.00 / 15.00** (for ≤1yr / >1–5yr / >5yr).\n- **Note (b) (substituted):** for reset contracts, residual maturity = time to next reset; interest-rate contracts >1yr meeting the criteria carry an **add-on floor of 0.50%**.\n- **New notes (e)–(g):** add-ons apply to **all** outstanding CCR exposures; clearing members of SEBI-recognised equity/commodity derivative segments must maintain CCR capital; definitions of \"Precious Metals\" (Silver, Platinum, Palladium) and \"Other Commodities\".\n- **Para 77(6)(i)(a) (substituted):** **2% risk weight** on an AIFI's trade exposure to a **QCCP** (own or client clearing, where it must reimburse client losses on QCCP default); no capital needed if not obligated to reimburse, subject to a supporting legal opinion.\n- **Commencement:** **from date of issue** (2026-03-10).\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2025-26/241, dated 2026-03-10 · effective from date of issue)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Para 77(1)** | **Note inserted** | Consolidated CCR capital must include all consolidated entities' CCR exposures. |\n| **Table 13 (para 77(2))** | **Substituted** | Revised add-on factors for market-related off-balance-sheet items by asset class and residual maturity. |\n| **Note (b), para 77(2)** | **Substituted** | Reset-contract residual maturity rule + 0.50% add-on floor for qualifying >1yr interest-rate contracts. |\n| **Notes (e)–(g), para 77(2)** | **Inserted** | Add-ons apply to all CCR exposures; clearing-member capital duty; asset-class definitions. |\n| **Para 77(6)(i)(a)** | **Substituted** | 2% risk weight on trade exposure to a QCCP (with reimbursement condition + legal-opinion carve-out). |\n\n- **Effective date:** from date of issue (2026-03-10).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** These are technical capital rules for derivative and counterparty-credit exposures. If NaBFID uses interest-rate or currency derivatives (e.g. to hedge long-tenor infrastructure funding), the revised add-on factors and QCCP treatment change the capital it must hold, and consolidation now explicitly sweeps in subsidiaries' CCR.\n\n*Illustrative example:* A >5-year interest-rate swap now carries a 1.50% add-on factor; exposure cleared through a Qualifying CCP attracts a 2% risk weight rather than a bilateral counterparty weight.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "63fb7459f214": [
+    1
+   ],
+   "c49d04cb6629": [
+    1
+   ],
+   "56ad8c62bc4c": [
+    2
+   ],
+   "fb4dff66ce8a": [
+    2
+   ],
+   "60c04efff899": [
+    2
+   ],
+   "0f584a09018b": [
+    2,
+    3
+   ],
+   "38887666461a": [
+    1
+   ]
+  },
+  "what_changed": {
+   "9b8403d4f615": [
+    1
+   ],
+   "b44540a0755b": [
+    2
+   ],
+   "22ed587f7e3a": [
+    2
+   ],
+   "cb7bd87b38ec": [
+    2
+   ],
+   "dbc1cf5f2dc6": [
+    2
+   ],
+   "ee838c86e2be": [
+    1
+   ]
+  },
+  "implications": {
+   "9490f9430588": [
+    1
+   ]
+  }
+ }
+}

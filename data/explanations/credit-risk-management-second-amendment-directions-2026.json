@@ -1,0 +1,37 @@
+{
+ "key_points": "### Key Compliance Points — Credit Risk Management (Second Amendment) Directions, 2026\n*(RBI/2026-27/75, dated 2026-04-29; effective 2026-07-01)*\n\n- **What it does:** Inserts a new **Chapter II-A – Credit Risk Evaluation** into the Credit Risk Management Directions, 2025 (RBI/2026-27/75, 2026-04-29).\n- **New obligation (para 5A):** Credit assessments carried out by an AIFI shall **suitably factor in the possible impact of calamities** on borrowers who may be affected by such events.\n- **Context:** Issued alongside the Resolution of Stressed Assets Amendment of the same date, forming part of a coordinated \"calamity\" package.\n- **Commencement:** **July 1, 2026.**\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2026-27/75, dated 2026-04-29 · effective 2026-07-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Chapter II-A – Credit Risk Evaluation (para 5A)** | **Inserted** | New requirement that credit assessments factor in the possible impact of calamities on borrowers likely to be affected. |\n\n- Cross-references the Resolution of Stressed Assets Amendment Directions, 2026 (same date).\n- **Effective date:** July 1, 2026.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** Given NaBFID's long-tenor infrastructure lending, borrower projects can be exposed to natural calamities (floods, cyclones) over 15–20 year horizons. This amendment makes calamity-impact a formal input to credit evaluation, not an afterthought.\n\n*Illustrative example:* When appraising a road or power project located in a flood-prone region, NaBFID's credit note should now explicitly assess how a declared calamity could affect the borrower's cash flows and repayment capacity.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "36fb2c6afdad": [
+    1
+   ],
+   "4a6a3d9cb4a4": [
+    1
+   ],
+   "a860e4621077": [
+    1
+   ],
+   "a7129c47896d": [
+    1
+   ]
+  },
+  "what_changed": {
+   "13b5f048cad1": [
+    1
+   ],
+   "d59677f23a07": [
+    1
+   ],
+   "0edb24b55c9f": [
+    1
+   ]
+  },
+  "implications": {
+   "9711f7351a1b": [
+    1
+   ]
+  }
+ }
+}

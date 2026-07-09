@@ -1,0 +1,72 @@
+{
+ "key_points": "### Key Compliance Points — Credit Facilities (Amendment) Directions, 2026\n*(RBI/2026-27/113, dated 2026-06-10; effective 2026-10-01)*\n\nOpens up AIFI **lending to Infrastructure Investment Trusts (InvITs)**, including acquisition finance (RBI/2026-27/113, 2026-06-10).\n\n- **Deletion:** In Chapter VI, **paragraphs 123–126 are deleted**.\n- **New 126A–126B — Lending to InvITs (general):**\n  - AIFIs may lend to InvITs **registered with and regulated by SEBI**; Board-approved policy required (appraisal, DSCR benchmarks, exposure limits, monitoring covenants, valuation methodology).\n  - Lend only to a **listed** InvIT, with **≥80%** of asset value in **completed, revenue-generating** infrastructure projects generating positive operating cash flows for **≥1 year**.\n  - Monitor end-use; do not fund SPVs in financial difficulty; refinancing only for completed projects at COD; **no bullet/ballooning** repayment structures (except bond/debenture/CP investment exposures).\n- **New 126C — Acquisition finance to InvITs:**\n  - Permitted to acquire **'control'** (as per Companies Act s.2(27)) of a **non-financial infrastructure** target, as a strategic (synergy-driven) investment; acquiring company must have **standalone & consolidated net worth ≥ ₹500 crore**.\n  - Total lender financing **≤ 75% of the acquisition value** (independent valuation per SEBI SAST norms); control within **12 months** of first disbursal; acquirer's own claims on the target rank **subordinate** to the AIFI; not for targets with financial-entity subsidiaries/JVs; aggregate acquisition-finance exposure within the **capital-market exposure limit** (Concentration Risk Directions para 52).\n- **126D — Leverage ceiling:** InvIT's overall leverage within **SEBI's prescribed ceiling** (or a lower Board limit).\n- **126E — Security:** financing **fully secured** (first/pari-passu charge on immovable property, assignment of cash flows/receivables, pledge of SPV equity), with escrow ring-fencing and lender step-in/termination protections.\n- **Commencement:** **October 1, 2026** (or earlier if fully adopted); non-conforming existing InvIT loans may run off till maturity but cannot be renewed/enhanced unless compliant.\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2026-27/113, dated 2026-06-10 · effective 2026-10-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Chapter VI, paras 123–126** | **Deleted** | Removed. |\n| **Paras 126A–126B** | **Inserted** | Permits lending to SEBI-registered, listed InvITs (≥80% completed revenue-generating assets), with Board policy, end-use monitoring and no bullet/balloon repayment. |\n| **Para 126C** | **Inserted** | Acquisition finance to InvITs for 'control' of non-financial infra targets: ≥₹500cr net worth, ≤75% of acquisition value, 12-month control window, subordinated acquirer claims, capital-market exposure limit. |\n| **Para 126D** | **Inserted** | InvIT leverage within SEBI ceiling / lower Board limit. |\n| **Para 126E** | **Inserted** | Full security + escrow ring-fencing + lender protections. |\n\n- **Effective date:** October 1, 2026 (existing non-conforming loans may run off till maturity).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This directly expands NaBFID's core mandate — infrastructure financing — by allowing lending to InvITs and even financing the acquisition of control over infrastructure companies, subject to strong prudential guardrails (listing, ≥80% completed assets, ≤75% acquisition-value cap, full security).\n\n*Illustrative example:* NaBFID could extend acquisition finance to an infra-focused acquiring InvIT (net worth ≥ ₹500 crore) to acquire control of an operating toll-road company — lending up to 75% of the independently-valued acquisition price, secured by the shares acquired, with the acquirer's own claims subordinated to NaBFID.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "20d5ee9e22fb": [
+    1
+   ],
+   "3b3c9d854cc4": [
+    1
+   ],
+   "d4c1993247d7": [
+    1
+   ],
+   "aa08755e1bba": [
+    1
+   ],
+   "e2262bee9386": [
+    2
+   ],
+   "44d7a0685572": [
+    3
+   ],
+   "6cfa5381f701": [
+    3
+   ],
+   "90a8a5107ebf": [
+    4
+   ],
+   "de44fbb4c236": [
+    6
+   ],
+   "5e6937f48cf2": [
+    6
+   ],
+   "7820323180aa": [
+    7
+   ],
+   "c266e82f7195": [
+    7
+   ]
+  },
+  "what_changed": {
+   "8a0ffc2a2adb": [
+    1
+   ],
+   "03cf33ccc4dd": [
+    1,
+    2
+   ],
+   "595d1de9f875": [
+    3,
+    6
+   ],
+   "a32a4c751cfb": [
+    6
+   ],
+   "b97c8209d49a": [
+    7
+   ],
+   "d11af831fcf0": [
+    7
+   ]
+  },
+  "implications": {
+   "2065e347fd0b": [
+    1
+   ]
+  }
+ }
+}

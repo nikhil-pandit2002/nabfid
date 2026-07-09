@@ -1,0 +1,68 @@
+{
+ "key_points": "### Key Compliance Points — Responsible Business Conduct (Second Amendment) Directions, 2026\n*(RBI/2026-27/122, dated 2026-06-15; effective 2027-01-01)*\n\nAdds a comprehensive framework on **advertising, marketing and sale of financial products/services** (RBI/2026-27/122, 2026-06-15).\n\n- **New definitions (Chapter I, para 3A):** *Compulsory bundling*, *Dark pattern*, *DSA/DMA* and *sub-agent*, *Explicit consent*, *Mis-selling* (unsuitable sale, incomplete/misleading info, no consent, compulsory bundling), *Third-party Product or Service (TPPS)*.\n- **New Chapter IIIA – Advertising, Marketing and Sale:**\n  - **Policy (32A–32B):** comprehensive sale/marketing policy incl. suitability criteria, feedback, mis-selling compensation, and DSA/DMA governance.\n  - **DSAs/DMAs (32C–32F):** publish an up-to-date empanelled list (update within 7 days); required qualifications; on-person identification within premises; a **Code of Conduct** binding employees, DSAs/DMAs and TPPS reps.\n  - **Consent (32G–32I):** sell only with **explicit consent** per product; disclose key features (fees, rate, risks, lock-in, exit penalties); consent flow must require reading T&Cs, with default choice **'No'**; preserve consent records for **1 year** after contract cessation.\n  - **Advertising (32J–32O):** don't pass off TPPS as own; ads clear/factual with rates and charges; promotional comms only with consent; easy unsubscribe; contact **09:00–19:00** only; no misrepresentation/coercion; respect Do-Not-Disturb.\n  - **Sale (32P–32X):** **suitability & appropriateness** assessment; product-specific/clearly-demarcated application forms; acknowledgements and copies of signed T&Cs; **no incentives that drive mis-selling**; **no compulsory bundling** of TPPS; no funding a purchase out of a loan without consent; **no dark patterns** (user testing + audit; adhere to CCPA dark-pattern guidelines).\n  - **Feedback & compensation (32Y–32Z):** feedback mechanism within **30 days** of sale; complaint window (30 days where none specified); on established **mis-selling, refund the entire amount** and compensate for loss.\n  - **Other regulators (32ZA):** comply with TRAI/DoT (TCCCPR), SEBI/IRDAI/PFRDA and related RBI guidelines.\n- **Annex I:** illustrative **dark patterns** for AIFIs — false urgency, basket sneaking, confirm shaming, forced action, subscription trap, interface interference, bait and switch, drip pricing, disguised advertisement, nagging, trick wording.\n- **Commencement:** **January 1, 2027.**\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2026-27/122, dated 2026-06-15 · effective 2027-01-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Chapter I, para 3A (Definitions)** | **Inserted** | Defines compulsory bundling, dark pattern, DSA/DMA, explicit consent, mis-selling, TPPS. |\n| **New Chapter IIIA (32A–32ZA)** | **Inserted** | Full advertising/marketing/sale framework: policy, DSA/DMA governance + Code of Conduct, explicit consent, honest advertising, suitability assessment, anti-mis-selling, no dark patterns, feedback + full refund/compensation on mis-selling. |\n| **Annex I** | **Inserted** | Illustrative list of dark patterns relevant to AIFIs. |\n\n- **Effective date:** January 1, 2027.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** Although NaBFID is a wholesale infrastructure lender (not a retail bank), any product it markets or sells — including third-party products through agency arrangements — must now follow explicit-consent, suitability, honest-advertising and no-dark-pattern rules, with full refund + compensation if mis-selling is established.\n\n*Illustrative example:* If NaBFID markets a third-party product to a borrower, it must obtain product-specific explicit consent, disclose all fees/risks upfront, avoid compulsory bundling, and cannot fund that purchase from a sanctioned loan without the borrower's consent — with records kept for a year and a feedback check within 30 days.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "048bf9a57e45": [
+    1
+   ],
+   "519233ff7c3b": [
+    1
+   ],
+   "17c321f43997": [
+    3
+   ],
+   "791586e306ad": [
+    3
+   ],
+   "246697a2d38c": [
+    3,
+    4
+   ],
+   "fe6daf463a61": [
+    4,
+    5
+   ],
+   "25ddc808a3c3": [
+    5,
+    6
+   ],
+   "a37c8bd4d02a": [
+    7,
+    8
+   ],
+   "5d2439014b12": [
+    9
+   ],
+   "03e392b9ba00": [
+    10
+   ],
+   "53b0cd13e1f9": [
+    10
+   ],
+   "7ab00466805d": [
+    1
+   ]
+  },
+  "what_changed": {
+   "1d75ff423032": [
+    1
+   ],
+   "658dfbd7c9f8": [
+    3
+   ],
+   "1e44a07176ac": [
+    8
+   ],
+   "7d2418ef4628": [
+    1
+   ]
+  },
+  "implications": {
+   "55c5971b7b44": [
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "key_points": "## Credit Information Reporting — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/324, dated 2025-11-28)*\n\nStandardises how an AIFI (as a **Credit Institution / CI**) reports borrower credit data to Credit Information Companies (CICs), and sets the customer-protection and grievance rules around that data.\n\n### Chapter I–II — Preliminary & CIC Membership\n- **Applicability:** the five AIFIs (incl. **NaBFID**), each a \"Credit Institution (CI)\". The four RBI-registered **CICs** are **TransUnion CIBIL, Equifax, Experian, and CRIF High Mark**.\n- A CI must become a **member of all four CICs**. Fees are capped: **one-time membership ≤ ₹10,000** each and **annual fee ≤ ₹5,000** each.\n\n### Chapter III — Reporting & Dissemination\n- Report in the **Uniform Credit Reporting Format (UCRF)** — **Form 1 (Consumer), Form 2 (Commercial), Form 3 (MFI)**.\n- **Fortnightly reporting:** update data as on the **15th and last day** of each month, submitted **within 7 calendar days** of the fortnight (or shorter if agreed). No repayment (incl. the last instalment) may be left unreported. **No borrower 'consent clause' is needed** — CICRA gives statutory backing.\n- Specific rules: report **CIN and directors' (DIN) credit history** in the commercial segment; report **compromise settlements** and the reason; use **'settled'** only for genuine waiver situations and **'disputed'** for contested charges; the **Issuing & Payment Agent (IPA)** reports Commercial Paper details and any redemption default (the investing CI need not); the **lending CI / consortium-leader / largest-lender** reports the borrower's **Unhedged Foreign Currency Exposure (UFCE)**; **NCLT/NCLAT (IBC)** cases report as suit-filed; the **Relationship Segment** is mandatory for accounts opened on/after **1 July 2018**; and detailed **SHG member-level** data rules apply (₹30,000 collection thresholds).\n- **Data quality:** rectify rejected data and resubmit **within 7 days**; review the **Data Quality Index (DQI)** half-yearly and put a report to top management **within 2 months** of the half-year; correct erroneous data **at source**.\n\n### Chapter III (contd.) — Credit appraisal & SARFAESI display\n- Loan/credit-appraisal policies must require pulling **CIRs from one or more CICs**. A CI that is a secured creditor must **display on its website** (monthly-updated) the list of **borrowers whose secured assets it has possessed under SARFAESI** (for possessions on/after 25 Sept 2023), removing entries once the asset is sold or dues are cleared.\n\n### Chapter IV — Technical Working Group (TWG)\n- An industry **TWG** (CICs convene by rotation) reviews the data formats **at least yearly**; a **Standing Sub-Group** meets **half-yearly** on technical reporting issues.\n\n### Chapter V — Customer Service & Compensation\n- Send borrowers **SMS/email alerts** when reporting default/DPD; maintain a **nodal officer** for CICs; do **Root Cause Analysis** of grievances half-yearly (top-management review annually).\n- **Compensation framework: ₹100 per calendar day** to a complainant if a data-correction complaint is not resolved **within 30 days**. Of the 30 days, the **CI gets 21 days and the CIC the remaining ~9**; delay is apportioned by weighted average across the responsible CIs/CICs; compensation is **credited within 5 working days**; unresolved cases escalate to the **RBI Ombudsman / CEPC**. (Exclusions: Section-18 CICRA disputes, HR/administrative matters, and cases pending in courts/tribunals.)\n\n### Chapter VI–VII — Best Practices & Repeal\n- Best practices include centralising **NOC**/repayment updates, prioritising grievance redressal, giving full identifier data (PAN etc.), and **not rejecting first-time borrowers merely for lack of credit history**. Repeals prior AIFI credit-information instructions; RBI interpretation final. Annexes give the full UCRF field catalogues and the SARFAESI-display format.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** NaBFID both **feeds** the credit bureaus (reporting its borrowers' conduct fortnightly) and **relies** on them (pulling CIRs during appraisal). Accurate, timely reporting is a supervised obligation — late or wrong data triggers the **₹100/day compensation** liability and RBI monitoring. Because NaBFID lends large ticket amounts to infrastructure companies, the **commercial-segment rules** matter most: reporting the borrower company's **CIN and directors' DIN credit history**, its **UFCE** (where NaBFID is sole/lead/largest lender), any **compromise settlement**, and **NCLT/IBC** status. It ties into the Resolution of Stressed Assets Directions (settlements, IBC), Transfer of Credit Risk (UFCE monitoring by lead lender), and Credit Facilities Directions.\n\n*Illustrative example:* When NaBFID sanctions a ₹500-crore loan to an infrastructure SPV, it reports the facility to all four CICs in the **Form 2 (Commercial)** format every 15th and month-end (within 7 days), including the SPV's CIN, its directors' DINs, and — as lead lender — the SPV's unhedged forex exposure. If the SPV later enters a compromise settlement, NaBFID reports it as **'settled'** with the reason; if it goes to NCLT, it reports the account as **suit-filed**. Should NaBFID possess the SPV's secured assets under SARFAESI, it must list them on its website and update monthly. A borrower who disputes an entry and isn't rectified within 30 days is owed **₹100 for each day of delay** (RBI/DOR/2025-26/324, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "be98421d3585": [
+    1
+   ],
+   "c08a30bfb2c4": [
+    3
+   ],
+   "f1eb9717bc36": [
+    4
+   ],
+   "46ab9f8776c0": [
+    5
+   ],
+   "00e7a3f40b47": [
+    5
+   ],
+   "2d5930f9fba7": [
+    6,
+    7
+   ],
+   "42d7ef4f4bee": [
+    10
+   ],
+   "de8925b9789c": [
+    11
+   ],
+   "d9a7053de7e7": [
+    14
+   ],
+   "cb9d4889832d": [
+    16
+   ],
+   "511d67fd8dc5": [
+    17,
+    18
+   ],
+   "04fe6b86fe82": [
+    25
+   ]
+  },
+  "implications": {
+   "93e2c461a116": [
+    1
+   ]
+  }
+ }
+}

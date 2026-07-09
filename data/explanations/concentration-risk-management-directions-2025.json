@@ -1,0 +1,68 @@
+{
+ "key_points": "## Concentration Risk Management — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/326, dated 2025-11-28)*\n\nLimits how much an AIFI can be exposed to any one counterparty, group of connected counterparties, and the capital markets — to prevent a single failure from threatening the institution.\n\n### Chapter I — Preliminary\n- **Commencement:** immediate. **Applicability:** the five AIFIs (EXIM, NABARD, SIDBI, NHB, **NaBFID**).\n- **Key definitions:** **Eligible capital base** = effective **Tier 1 capital** (per the Capital Adequacy Directions, last audited balance sheet; mid-year infusion allowed with auditor certificate to RBI). **Large Exposure** = total exposure to a counterparty/group **≥ 10%** of eligible capital base. **QCCP**, **CCP**, **clearing member**, **trade exposures**, **infrastructure lending** (Harmonized Master List) defined.\n\n### Chapter II — Large Exposures Framework (the core limits)\n- **Board policy** must set: refinance-portfolio exposure limits; the conditions for allowing exposure **beyond 20%** to a single counterparty; how connectedness is determined; and an internal ceiling for equity in non-financial enterprises. An **annual review** goes to the Board by **end-June** (September for NHB).\n- **Scope:** applied at **consolidated (group)** and **solo** levels; covers counterparty exposures (not sectoral).\n- **Exemptions** from the limits: the **refinance portfolio** (needs its own Board policy); GoI / State Government exposures eligible for 0% risk weight; RBI; GoI-guaranteed / GoI-security-backed exposures; intra-day bank exposures; QCCP clearing exposures.\n- **Exposure ceilings (the headline numbers):**\n  - **Single counterparty: 20%** of eligible capital base. The Board may allow **+5% (up to 25%)** with a specific Board-approved policy and **written exceptional reasons per case**. A further **+5% of Tier-1** is allowed where the extra exposure is an **infrastructure** loan/investment. **In no case may a single-counterparty exposure exceed 25%.**\n  - **Group of connected counterparties: 25%** of eligible capital base, with **+10% of Tier-1** allowed for **infrastructure** loans/investments.\n- **Connected counterparties** — group two+ parties as a single risk if either: (a) **Control** — one controls the other(s) or a common third party controls them (**>50% voting rights = automatic control**); or (b) **Economic interdependence** — assessed whenever exposure to one counterparty exceeds **5%** of eligible capital, using criteria such as ≥50% of one party's receipts/expenditure being with the other, cross-guarantees, single buyer/supplier dependence, or common funding source. The Directions give detailed one-way/two-way dependency and downstream/upstream contagion examples; a ring-fenced, bankruptcy-remote SPE can be excluded.\n- **Exposure values:** computed per the Capital Adequacy method; off-balance-sheet items via CCFs with a **10% floor**; CRM-provider exposures recognised; special CDS treatment. **Bank exposures** (ex-refinance, ex-intra-day) capped at **25% of Tier-1**.\n- **Look-Through Approach (LTA)** for funds/securitisations/InvITs/REITs: look through to underlying counterparties where an underlying exposure is **≥ 0.25%** of eligible capital; smaller underlyings can be assigned to the structure; unidentifiable underlyings go to a single aggregated **\"unknown client.\"**\n- **NBFC exposures:** subject to the single/group limits. **CCP exposures:** QCCP clearing exposures **exempt**; non-QCCP subject to the 25% limit; **segregated initial margin = 0** exposure.\n- **Reporting & breaches:** monthly **Large Exposures return (Annex I)** to RBI (DOS) incl. the **20 largest exposures**; breaches are exceptional, must be **reported to RBI immediately**, and **no further exposure** is permitted until brought within limit; penalties may apply.\n\n### Chapter III — Other Permitted Exposures & Prudential Limits\n- **Sectoral internal limits** to ensure diversification.\n- **Capital Market Exposure (CME):** aggregate CME (fund + non-fund, direct + indirect, solo & consolidated) **≤ 40% of net worth** (as of 31 March prior year), of which **direct ≤ 20%**.\n- **Equity in a single company:** **≤ 49%** where made under statutory mandate, otherwise **≤ 10%**; as a pledgee up to 49%, but if acquired in satisfaction of claims, bring **below 10% within 3 years**. **Aggregate equity in non-financial enterprises ≤ 10% of net worth.**\n- Detailed **exemptions** (financial-infrastructure entities like CCIL/NSDL/NPCI, Tier I/II bank instruments, debt MF units, infra-SPV promoter pledges, etc.) and computation rules (sanctioned vs outstanding, cost price for equity).\n\n### Chapter IV — Repeal and Other Provisions\n- Repeals prior AIFI concentration-risk instructions (circular dated 2025-11-28), with the standard saving clause; RBI's interpretation is final.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This is one of the most operationally important directions for NaBFID. As a DFI writing very large infrastructure tickets, NaBFID will regularly press against the **single-counterparty (20%, up to 25%) and group (25%) limits**, and the **infrastructure carve-outs (+5% / +10% of Tier-1)** are precisely designed for its business. Getting the **connected-counterparty** grouping right — especially for project SPVs, sponsors, and EPC chains — is where concentration risk actually bites.\n\n*Illustrative example:* If NaBFID lends to a power-project SPV and also to the sponsor group that controls it, those exposures must be aggregated as a **group of connected counterparties** (control via >50% voting is automatic) and kept within 25% of eligible capital — unless the extra exposure is infrastructure lending, which allows up to +10% of Tier-1. A ring-fenced, bankruptcy-remote SPV may be assessed separately. NaBFID must also file the monthly Large Exposures return listing its 20 largest exposures (RBI/DOR/2025-26/326, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "395c169551e3": [
+    1
+   ],
+   "e8b496b42736": [
+    2
+   ],
+   "c9fbfc3e9cb6": [
+    3
+   ],
+   "f7bf686ee47f": [
+    5
+   ],
+   "df3bc0234620": [
+    5
+   ],
+   "ca7807682b59": [
+    5,
+    18
+   ],
+   "89e2e93c3885": [
+    6
+   ],
+   "728d920dc98e": [
+    3
+   ],
+   "ce59118270c7": [
+    9
+   ],
+   "66b8c6d6de95": [
+    16
+   ],
+   "a01925606fe2": [
+    19
+   ],
+   "0610471a4385": [
+    22
+   ],
+   "ea24473ac14d": [
+    23
+   ],
+   "4c006a0ad104": [
+    24
+   ],
+   "cc352b74dcc0": [
+    25
+   ],
+   "35f8c92e396e": [
+    25
+   ],
+   "4c01fd5ad98e": [
+    26
+   ],
+   "fa4610bebf2b": [
+    28
+   ]
+  },
+  "implications": {
+   "a01bf9b7d8d1": [
+    1
+   ]
+  }
+ }
+}

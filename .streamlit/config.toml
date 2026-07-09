@@ -1,0 +1,9 @@
+# Streamlit configuration for the RBI Compliance Assistant.
+#
+# enableStaticServing lets the app serve the source PDFs from the ./static/
+# folder at the URL path "app/static/<file>". We use this so citation links can
+# open the real PDF in the browser's native scrollable viewer jumped to the
+# exact page (data: URIs don't honour "#page=N" reliably; real URLs do).
+[server]
+enableStaticServing = true
+headless = true

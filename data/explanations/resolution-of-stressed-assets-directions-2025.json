@@ -1,0 +1,71 @@
+{
+ "key_points": "## Resolution of Stressed Assets — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/332, dated 2025-11-28)*\n\nThe framework for **early recognition, reporting and time-bound resolution** of stressed loans — restructuring, compromise settlements, technical write-offs, project-finance DCCO extensions, and Government Debt Relief Schemes.\n\n### Chapter I–II — Definitions, Board Policy & Early Recognition\n- **Applicability:** the five AIFIs (incl. **NaBFID**). Read with the **IRACP Directions**. Project-finance terms (DCCO, financial closure, etc.) carry the **Credit Facilities Directions** meanings.\n- **Credit event** (project finance) = default with any lender, need to extend DCCO, DCCO expiry, need for additional debt, or financial difficulty.\n- Board-approved policies required for resolution, compromise settlements and technical write-offs (with staff-accountability framework, permissible-sacrifice rules, and **approval one level above the sanctioning authority** — the original sanctioner cannot approve the settlement).\n- **SMA tagging on default:** **SMA-0** (overdue ≤ 30 days), **SMA-1** (30–60), **SMA-2** (60–90). **Report to CRILC monthly** for borrowers with aggregate exposure **≥ ₹5 crore**; file a **weekly default report every Friday**. Evergreening/concealment invites penalties and higher provisioning.\n\n### Chapter III — Resolution Process\n- **Review Period = 30 days** from default/credit event; specified lenders jointly decide the strategy.\n- **Inter-Creditor Agreement (ICA):** a decision by lenders holding **75% by value AND 60% by number** binds all; dissenters get **not less than liquidation value**.\n- **Independent Credit Evaluation (ICE):** required where aggregate exposure **≥ ₹100 crore** (one ICE); **≥ ₹500 crore** needs **two**. Only plans rated **RP4 or better** are implementable.\n- **RP must be implemented within 180 days** from the end of the Review Period. Accounts **below ₹1,500 crore** are outside the Chapter IV additional-provisioning regime.\n\n### Chapter IV — Additional Provisioning for Delay\n- If a viable RP is **not implemented within 180 days** of the Review Period → **+20%** additional specific provision; if still not within **365 days** of Review-Period commencement → a further **+15% (35% total)**; total provisions capped at **100%** of outstanding. Reversal rules keyed to clearing overdues (6-month clean record), RP implementation, IBC filing/admission, or completed recovery.\n\n### Chapter V — Prudential Norms on Restructuring\n- **Restructuring downgrades a 'standard' account to NPA (sub-standard);** an NPA keeps its class. **Upgrade only after 'satisfactory performance' through the monitoring period, and not before 1 year** from the first interest/principal payment on the longest-moratorium facility. For **≥ ₹100 crore**, upgrade also needs an **investment-grade (BBB−) rating** (two ratings if **≥ ₹500 crore**).\n- Additional finance / IBC interim finance may be 'standard' during the monitoring period; income accrual only for 'standard' accounts (else cash basis); IBC provision-freeze window (6 months / 90 days).\n\n### Chapter VI — Special Cases\n- **Change in ownership** to 'standard': new promoter not disqualified u/s 29A, unconnected to old promoter, holds **≥ 26% equity + voting**, is single-largest shareholder and in 'control'.\n- **Sale-and-leaseback** = restructuring where seller is in difficulty, **> 50%** of buyer's asset revenue depends on the seller, and **≥ 25%** of the buyer's purchase loan comes from the seller's existing lenders.\n- **Frauds / wilful defaulters ineligible for restructuring** (except genuine change of ownership); **compromise settlement is allowed with Board approval**, without prejudice to criminal proceedings. **Cooling-off floor of 12 months** (non-farm) before fresh exposure. Lok Adalat ceilings: **₹20 lakh** (civil courts), **₹10 lakh+** (DRT/DRAT).\n- **Projects under implementation** (financial closure **after 1 Oct 2025**): a DCCO extension keeping the account 'Standard' is allowed up to **3 years (infrastructure) / 2 years (non-infra incl. CRE, CRE-RH)**, with cost overrun **≤ 10%** of original cost via a Standby Credit Facility; a **'change in scope' (≥ 25% cost rise)** benefit is allowed **once per project life**. While 'standard', hold an **extra provision of 0.375% (infra) / 0.5625% (non-infra) per quarter of deferment** (reversed at commercial operations). Failure to implement → immediate NPA.\n\n### Chapter VII — Government Debt Relief Schemes (DRS)\n- Participation is a Board decision. Any interest waiver / principal sacrifice under a DRS is treated as a **compromise settlement**. No receivable against Government is created — exposure stays on the borrower till funds arrive. For pre-31 Dec 2024 schemes, **Government dues pending > 90 days attract 100% provision**. An indicative **Model Operating Procedure** (settlement in 45–60 days, full pre-funding) is annexed.\n\n### Chapter VIII–XI — Instruments, Exemptions, Repeal\n- Instruments (FITL / converted debt / equity) inherit the restructured advance's classification; conservative valuation floors (equity DCF discount ≥ 14%, risk premium ≥ 3%, cash flows only within 85% of useful life; ZCB/LCB without sinking fund valued at ₹1). Debt-to-equity conversion is **exempt from capital-market-exposure and unlisted-security limits** (with monthly reporting). Repeals prior AIFI stressed-asset instructions; RBI interpretation final.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** As a long-tenor project-finance lender, NaBFID's stressed-asset story is dominated by **construction-phase credit events and DCCO slippage** — exactly what Chapter VI(E) governs. The direction decides whether a delayed infrastructure project stays 'Standard' (with an extra per-quarter provision) or drops to NPA, how a consortium resolves stress under an ICA, and how compromise settlements / technical write-offs are approved and disclosed. It works hand-in-glove with the IRACP Directions (which set the underlying provisioning) and the Credit Facilities Directions (which define the project-finance terms).\n\n*Illustrative example:* A ₹2,000-crore NaBFID-financed metro project misses its DCCO. Because financial closure was after 1 Oct 2025, NaBFID may extend the DCCO by up to **3 years** and keep the loan 'Standard', but only if it funds any cost overrun (≤ 10%) through a Standby Credit Facility and holds an **extra 0.375% provision for every quarter of deferment** (₹1,000cr outstanding, one year's deferment ≈ ₹18.75cr). As lead lender it signs an ICA — a plan backed by **75% of value and 60% of lenders by number** binds the consortium — obtains an **RP4-or-better ICE** (two, since exposure exceeds ₹500cr), and implements within **180 days**, else a **20% additional provision** kicks in (RBI/DOR/2025-26/332, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "ad4b26eda28c": [
+    1
+   ],
+   "fc456d8ae7d3": [
+    4
+   ],
+   "ded4fbeaeb82": [
+    7
+   ],
+   "d1555ddf1577": [
+    10
+   ],
+   "392648d2d967": [
+    11,
+    12
+   ],
+   "506c9162bf01": [
+    7
+   ],
+   "9b01dba1f5db": [
+    13
+   ],
+   "1dad9ccfc57c": [
+    14,
+    15
+   ],
+   "825f94c9b309": [
+    16
+   ],
+   "faa224bf96d1": [
+    18
+   ],
+   "52d261761c57": [
+    21
+   ],
+   "e14de8b67a6e": [
+    23
+   ],
+   "3548a8113809": [
+    25
+   ],
+   "2f313d1643a8": [
+    26
+   ],
+   "a3607fa6140a": [
+    29,
+    31
+   ],
+   "9d22aebe5220": [
+    33,
+    36
+   ],
+   "b461dd8bbdb9": [
+    41
+   ],
+   "1853d5ee2f8d": [
+    44
+   ]
+  },
+  "implications": {
+   "434c1efe3e88": [
+    1
+   ]
+  }
+ }
+}

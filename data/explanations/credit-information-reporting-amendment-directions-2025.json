@@ -1,0 +1,56 @@
+{
+ "key_points": "### Key Compliance Points — Credit Information Reporting (Amendment) Directions, 2025\n*(RBI/DOR/2025-26/116, dated 2025-12-04; effective 2026-07-01)*\n\n- **What it does:** Moves credit-information reporting from monthly to a **near-real-time, four-times-a-month** cycle, by substituting **para 10(2)** and adding/replacing paras 12(10) and 14 (RBI/DOR/2025-26/116, 2025-12-04).\n- **Para 10(2) (substituted) — reporting cadence:**\n  - Submit credit information as on the **9th, 16th, 23rd and last day** of each month (the **\"reference dates\"**).\n  - **Full file** (all active accounts + accounts closed since last reference date) as on month-end → to CICs **by the 5th** of the next month.\n  - For the 9th/16th/23rd → submit only **\"incremental accounts\"** (newly opened, closed, changed-since-last-date, or overdue accounts; a change in days-past-due also counts) **within 4 calendar days** of each reference date.\n  - CICs report defaulting CIs on the **DAKSH portal** to RBI half-yearly (31 Mar / 30 Sep).\n- **Para 12(10) (inserted):** a CI shall report the **CKYC number** of borrowers to CICs wherever available.\n- **Para 14 (substituted):** rejected data must be **rectified and re-submitted** before/along with the next reference-date submission.\n- **Commencement:** **July 1, 2026** (illustrative timelines in Annex-VI).\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/DOR/2025-26/116, dated 2025-12-04 · effective 2026-07-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Para 10(2)** | **Substituted** | Reporting on 4 reference dates/month (9th, 16th, 23rd, last day); full file by 5th of next month; incremental accounts within 4 days; DAKSH-portal monitoring of non-compliant CIs. |\n| **Para 12(10)** | **Inserted** | Report borrower **CKYC number** to CICs where available. |\n| **Para 14** | **Substituted** | Rectify and re-submit rejected data before/with the next reference-date submission. |\n\n- **Effective date:** July 1, 2026.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** NaBFID's credit-reporting operations must shift from a monthly batch to a **weekly incremental** rhythm, with tight 4-day turnarounds. This needs systems and process changes well before July 1, 2026, or NaBFID risks appearing on the DAKSH non-compliance list.\n\n*Illustrative example:* When a borrower repays or an account turns overdue on the 15th, that change must be captured and reported as an \"incremental account\" by the 20th (within 4 days of the 16th reference date) — not held for a month-end batch.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "b481c7ac3572": [
+    1,
+    2
+   ],
+   "4cea36438f1a": [
+    1
+   ],
+   "b642cb36a6c9": [
+    1
+   ],
+   "1848d3394df3": [
+    1
+   ],
+   "c9b0926f3e65": [
+    2
+   ],
+   "021417e291e8": [
+    2
+   ],
+   "5a9bc695008e": [
+    2
+   ],
+   "b34f332c51b3": [
+    2
+   ],
+   "042c926a2b0a": [
+    1
+   ]
+  },
+  "what_changed": {
+   "0266fa207ea0": [
+    2
+   ],
+   "00f9e7e49046": [
+    2
+   ],
+   "a8e429793327": [
+    2
+   ],
+   "0edb24b55c9f": [
+    1
+   ]
+  },
+  "implications": {
+   "0bd7f996bdc6": [
+    1
+   ]
+  }
+ }
+}

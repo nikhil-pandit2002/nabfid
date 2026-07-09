@@ -1,0 +1,86 @@
+{
+ "key_points": "## Prudential Norms on Capital Adequacy — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/321, dated 2025-11-28, updated as on 2026-06-16)*\n\nThe AIFI's **Basel III capital framework** — how much capital it must hold, what counts as capital, and how assets are risk-weighted. The largest and most technical direction; summarised chapter by chapter.\n\n### Chapter I–II — Preliminary, Board Policies & Scope\n- **Applicability:** the five AIFIs (incl. **NaBFID**). The Board must approve the **ICAAP** (Internal Capital Adequacy Assessment Process), a **capital plan**, and a **disclosure policy**, and review the ICAAP at least yearly.\n- **Two levels:** capital adequacy is maintained at both **solo (standalone)** and **consolidated (group)** levels. Banking/financial subsidiaries are **consolidated**; **insurance and non-financial subsidiaries are NOT consolidated** — instead the capital invested in them is **deducted** (shortfalls in an unconsolidated entity are deducted from CET1).\n\n### Chapter III — Regulatory Capital (the ratios)\n- **Three Pillars:** Pillar 1 (Minimum Capital), Pillar 2 (SREP), Pillar 3 (Market Discipline).\n- **Minimum ratios (of total RWAs), on an ongoing basis:**\n  - **CRAR (total capital) ≥ 9%**\n  - **CET1 ≥ 5.5%**\n  - **Tier 1 ≥ 7%** (so max **AT1 = 1.5%** within Tier 1)\n  - Max **Tier 2 = 2%** within the 9% total.\n- **Total RWAs = Credit-risk RWAs + Market-risk RWAs + Operational-risk RWAs.**\n- **CET1 (going-concern, highest quality):** paid-up common shares + share premium + statutory/capital reserves + **revaluation reserves at a 55% discount** + **FCTR at a 25% discount** + free reserves + retained profit. **AT1:** Perpetual Non-Cumulative Preference Shares (PNCPS) and Perpetual Debt Instruments (PDI) — perpetual, no step-ups, **call only after ≥ 5 years with RBI approval**, with loss-absorption (conversion/write-down) at a pre-specified trigger and at the **Point of Non-Viability (PONV)**. **Tier 2 (gone-concern):** subordinated instruments, general provisions (capped at 1.25% of credit RWAs), etc. Prescribed **regulatory adjustments/deductions** (goodwill, DTAs, investments in own/other financial entities) apply.\n\n### Chapter IV — Risk-Weighted Assets (the core of the workload)\n- **Credit risk — Standardised Approach** (external ratings from RBI-accredited agencies). Key risk weights:\n  - **Central Government / RBI / DICGC: 0%**; **State Government direct: 0%** (state-**guaranteed 20%**; ECGC 20%); CGTMSE/NCGTC-guaranteed portions **0%**.\n  - **Foreign sovereigns / PSEs / banks:** rating-based (0–150%). **MDBs / BIS / IMF (incl. AIIB): 20%**.\n  - **Corporates & NBFCs (long-term):** AAA **20%**, AA **30%**, A **50%**, BBB **100%**, BB & below **150%**, **Unrated 100%** — but **150% if unrated aggregate banking exposure > ₹200 crore** (or if a >₹100-crore exposure lost its rating). **CICs 100%**.\n  - **Regulatory retail: 75%** (turnover < ₹50 crore, exposure ≤ ₹7.5 crore, 0.2% granularity). **Residential mortgages:** LTV-based **35–50%**. **CRE 100%, CRE-RH 75%**.\n  - **NPAs (unsecured, net of provisions):** **150%** if provisions < 20%, **100%** if ≥ 20%, **50%** if ≥ 50%.\n  - **AIFs / high-risk 150%; consumer credit 100%; capital-market exposure 125%**; equity in non-financial entities above the statutory 49% (or 10% non-mandate) ceiling **1250%**; unhedged-forex-exposed borrowers carry an incremental capital add-on.\n- **Market risk — Standardised measurement** (interest-rate, equity, forex positions in the trading book). **Operational risk — Basic Indicator Approach (BIA):** capital = **15% (alpha)** of average positive annual gross income over the past three years.\n- **Credit Risk Mitigation (CRM):** recognised eligible financial collateral, guarantees and netting reduce exposure (comprehensive approach with haircuts).\n\n### Chapter V — SREP (Pillar 2) & Market Discipline (Pillar 3)\n- **Pillar 2:** the AIFI runs its **ICAAP** to hold capital for risks not fully captured in Pillar 1 (interest-rate risk in the banking book, liquidity, concentration, residual risk); RBI may set a **higher minimum ratio** for a specific AIFI via supervisory review, and expects operation **well above** the minimum. **Pillar 3:** prescribed public **disclosures** (capital structure, adequacy, risk exposures) for market discipline.\n\n### Chapter VI — Leverage Ratio\n- **Minimum Leverage Ratio = 4%** (Tier 1 capital ÷ total exposure measure), maintained at all times and **disclosed quarterly**. The exposure measure covers on-balance-sheet, derivative, SFT and off-balance-sheet items, generally without netting or collateral offset.\n\n### Chapter VII — Repeal\n- Repeals prior AIFI capital-adequacy instructions; RBI interpretation final. (This consolidated text already incorporates the 2026 amendments up to 16 June 2026.)\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** Capital adequacy is the master constraint on how much NaBFID can lend. Its **CRAR must stay ≥ 9% (CET1 ≥ 5.5%, Tier 1 ≥ 7%)** and its **leverage ratio ≥ 4%** at all times, and every loan consumes capital according to its risk weight. Because NaBFID lends large, often **unrated or sub-investment-grade infrastructure exposures**, the corporate risk-weight table bites hard — a large **unrated** exposure above ₹200 crore attracts **150%**, and an NPA with thin provisioning attracts **150%**. This direction is the arithmetic behind its growth headroom and pricing, and it consumes the outputs of the IRACP (provisions → NPA risk weights), Concentration Norms, Securitisation (securitisation-exposure capital) and Investment-Portfolio Directions.\n\n*Illustrative example:* If NaBFID sanctions a ₹1,000-crore loan to an **A-rated** infrastructure corporate, the credit-risk RWA is **₹500 crore** (50% weight), requiring at least **₹45 crore** of total capital (9%) — of which **₹27.5 crore** must be CET1. If the same borrower were **unrated with > ₹200 crore** total banking exposure, the weight jumps to **150%** (₹1,500-crore RWA, ₹135-crore capital). Should the loan turn NPA with under-20% provisioning, its unsecured portion is weighted **150%**. NaBFID must also hold operational-risk capital at **15% of average gross income** and keep its **leverage ratio above 4%** — all reported to RBI and disclosed under Pillar 3 (RBI/DOR/2025-26/321, dated 2025-11-28, updated as on 2026-06-16).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "05c0f8b2f6b7": [
+    1
+   ],
+   "f63afcd14174": [
+    14
+   ],
+   "27bf5efe0e18": [
+    15
+   ],
+   "952bc1034dea": [
+    17
+   ],
+   "bbfceef2d346": [
+    18
+   ],
+   "7dfedb044208": [
+    17
+   ],
+   "72ee12ac4a5c": [
+    18
+   ],
+   "d653e9cdc38c": [
+    18
+   ],
+   "e456612dffea": [
+    18
+   ],
+   "f5839dc9522f": [
+    17
+   ],
+   "fee8c532e077": [
+    41
+   ],
+   "c8fd315f44f8": [
+    86
+   ],
+   "074271e02b50": [
+    86,
+    186
+   ],
+   "00b454368943": [
+    90
+   ],
+   "a7eedafcee04": [
+    96
+   ],
+   "b4ab52b08457": [
+    98,
+    99
+   ],
+   "7c3d00c2eb92": [
+    102
+   ],
+   "02d4f26e474d": [
+    103,
+    104
+   ],
+   "e3da4c9a11e5": [
+    233,
+    234
+   ],
+   "d2fd85c8349d": [
+    333
+   ],
+   "244e7035f834": [
+    236
+   ],
+   "a9e8108dc762": [
+    306
+   ],
+   "4524fc146ad7": [
+    337
+   ]
+  },
+  "implications": {
+   "c8f6b8cd6a5a": [
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "key_points": "### Key Compliance Points — Financial Statements: Presentation and Disclosures (Amendment) Directions, 2026\n*(RBI/2025-26/188, dated 2026-01-05; effective 2026-04-01)*\n\n- **What it does:** Inserts a new **related-party disclosure** into **Chapter IV (Notes to Accounts)** of the Financial Statements Directions, 2025 — new sub-sub-paragraph **19(9)(vi) \"Exposures to Related Parties\"** under para 19(9) on Credit concentration risk (RBI/2025-26/188, 2026-01-05).\n- **Consequential:** Issued following the Credit Risk Management Amendment, 2026; \"related parties\" take the meaning defined in the **Credit Risk Management Directions, 2025**.\n- **New disclosure table (in ₹ crore, Previous Year / Current Year):**\n  - **A. Loans to Related Parties** — value sanctioned during the year; outstanding as on 31 March; outstanding as a proportion of total credit exposure; amounts classified as SMA and as NPA; provisions held.\n  - **B. Contracts and Arrangements involving Related Parties** — value awarded during the year; outstanding as on 31 March.\n- **Commencement:** **April 1, 2026** (AIFIs may adopt earlier, in entirety).\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2025-26/188, dated 2026-01-05 · effective 2026-04-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Chapter IV, para 19(9)(vi) \"Exposures to Related Parties\"** | **Inserted** | New Notes-to-Accounts disclosure table for loans to, and contracts/arrangements with, related parties (definition per Credit Risk Management Directions, 2025). |\n\n- **Effective date:** April 1, 2026 (earlier adoption permitted if adopted in full).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This adds a transparency requirement — NaBFID must now disclose, in its financial statements, the scale and quality of its related-party lending and contracts (including how much is SMA/NPA and provisions held). It ties directly to the related-party framework in the Credit Risk Management Directions.\n\n*Illustrative example:* NaBFID's finance team must set up a data feed that tags related-party exposures so the year-end Notes to Accounts can report sanctioned/outstanding loans, their proportion of total credit exposure, SMA/NPA classification, and provisions — for both the current and previous year.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "7cd1fe5f02de": [
+    1
+   ],
+   "44cbd71abc57": [
+    1
+   ],
+   "23d0771568b5": [
+    1
+   ],
+   "11fa8d33c1bb": [
+    1
+   ],
+   "85da2267032a": [
+    2
+   ],
+   "642f86ed6988": [
+    2
+   ]
+  },
+  "what_changed": {
+   "9c0bb61226fa": [
+    1
+   ],
+   "639c6917e6bd": [
+    2
+   ]
+  },
+  "implications": {
+   "a8915b8f34ea": [
+    1
+   ]
+  }
+ }
+}

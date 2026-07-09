@@ -1,0 +1,75 @@
+{
+ "key_points": "## Financial Statements: Presentation & Disclosures — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/334, dated 2025-11-28, updated as on 2026-04-01)*\n\nPrescribes how an AIFI prepares its financial statements and, most importantly, the **minimum Notes-to-Accounts disclosures** it must publish.\n\n### Chapter I — Preliminary\n- **Commencement:** immediate. **Applicability:** the five AIFIs (incl. **NaBFID**).\n\n### Chapter II — Format & Consolidated Financial Statements (CFS)\n- Comply strictly with **Accounting Standards** (Companies (Accounting Standards) Rules, 2021), subject to RBI directions; prepare a balance sheet and P&L in the form prescribed under the AIFI's governing Act.\n- Prepare **both solo statements and CFS** — CFS per **AS 21** (+ AS 23 associates, AS 27 joint ventures). **Consolidate all subsidiaries (domestic and foreign)** except those AS 21 permits to exclude (disclosing reasons); use uniform accounting policies; associates via the **equity method**, joint ventures via **proportionate consolidation**.\n- **Submit solo statements and CFS to RBI (DoS) within one month** of publishing the annual accounts.\n\n### Chapter III — Guidance on specific Accounting Standards\n- **AS 9 (Revenue):** not recognising income on NPAs/NPIs is consistent with the standard; an income item is **not material if ≤ 1%** of total income (gross) or net profit before tax.\n- **AS 11 (Foreign exchange):** integral vs non-integral foreign operations; use FEDAI weekly/quarterly average rates (with defined 3.5%/7% deviation thresholds); FCTR treatment on repatriation.\n- **AS 23 (Associates):** equity method; **≥ 20% voting power presumes significant influence** — but the real test is the *intention* to exercise it (a >20% stake acquired on debt conversion with only protective rights need not be an associate).\n- **AS 26 (Intangibles/software), AS 27 (Joint ventures), AS 28 (Impairment of fixed assets)** guidance also given.\n\n### Chapter IV — Notes to Accounts (the core disclosures)\nAn AIFI must disclose (minimum) in Notes to Accounts, for current and previous year:\n- **Capital adequacy:** CET1, AT1, Tier 1, Tier 2, total capital, RWAs, CET1/Tier1/Tier2 ratios, **CRAR, Leverage Ratio**, shareholding %, and capital raised (Basel III-compliant instruments).\n- **Provisions** (standard-asset, floating) and **asset quality** — Net NPA %, movement of gross/net NPAs, NPIs, provisions; **project-finance** disclosure (projects under implementation, DCCO extensions, resolution status); movement of NPAs; write-offs/recoveries; overseas assets/NPAs; depreciation on investments; **PCR**.\n- **Investment portfolio:** repo/reverse-repo, issuer composition of debt securities, **HTM sale/transfer disclosure if > 5%** of HTM book value, GSL transactions.\n- **Transfer of loan exposures**, **Co-Lending Arrangements** (from 1 Jan 2026), **Non-Fund-Based facilities** (secured/unsecured, from 1 Apr 2026).\n- **Operating results** (interest income/working funds, ROA, ROE, net profit per employee).\n- **Credit concentration risk:** capital-market exposure, country-risk exposure, **prudential single/group limits exceeded**, credit exposure to the **20 largest** borrowers/groups, **sector-wise** concentration and NPAs (with an AIFI-specific NaBFID \"Infrastructure\" table), intangible-security advances, unhedged forex, and **Exposures to Related Parties** (inserted 1 Apr 2026 via the amendment — loans to and contracts with related parties as defined in the Credit Risk Management Directions).\n- **Derivatives** (FRA/IRS, exchange-traded, risk exposure), **Letters of Comfort**, **ALM maturity buckets**, draw-down from reserves, **RBI penalties**, **customer complaints**, **securitisation** (MRR retained), off-balance-sheet SPVs, and AS 5 / AS 17 (segment: Treasury, Wholesale-Refinance, Wholesale-Direct-Lending, Other) / AS 18 (related-party) disclosures.\n\n### Chapter V — Consolidated Prudential Reporting (CPR)\n- Where an AIFI has subsidiaries/JVs/associates, it also files a **half-yearly CPR** to RBI (group-level consolidated balance sheet, P&L, and risk data).\n- **Group exposure limits (of capital funds):** single borrower **≤ 15%**, borrower group **≤ 40%**, extendable by **+10% (to 50%) for infrastructure projects**; report large exposures, forex open positions, capital-market exposure and structural liquidity.\n\n### Repeal\n- Repeals prior AIFI presentation/disclosure instructions; RBI interpretation final.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This direction shapes what NaBFID's published accounts must reveal — its capital ratios, NPA movement, **project-finance and infrastructure sector concentration** (there's a NaBFID-specific \"Infrastructure Projects\" sector table), related-party exposures (new from 1 Apr 2026), and RBI penalties. It ties directly to the other directions: the numbers disclosed here are computed under the IRACP, Capital Adequacy, Concentration Risk, and Transfer-of-Credit-Risk Directions.\n\n*Illustrative example:* In its annual report NaBFID must disclose, in Notes to Accounts, its CRAR and Leverage Ratio, the movement of gross/net NPAs, a project-finance table showing how many under-implementation accounts had DCCO extensions/resolutions, its exposure to the 20 largest borrower groups, sector-wise infrastructure concentration and NPAs, and — from FY2026-27 — the value of loans and contracts involving related parties (SMA/NPA split and provisions held). CFS and the half-yearly CPR go to RBI within the prescribed windows (RBI/DOR/2025-26/334, dated 2025-11-28, updated as on 2026-04-01).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "095221d62a93": [
+    1
+   ],
+   "cc20064aad36": [
+    2
+   ],
+   "48a1c52a56ac": [
+    3
+   ],
+   "9e497c826a04": [
+    3
+   ],
+   "d2ddd903c33a": [
+    5
+   ],
+   "7d56659970c5": [
+    6
+   ],
+   "1eb5f44bd054": [
+    8
+   ],
+   "34bb188328dc": [
+    9
+   ],
+   "a2d5d3e043c0": [
+    10
+   ],
+   "53d3870db7f4": [
+    12
+   ],
+   "36b12e8272d7": [
+    13
+   ],
+   "c8000fd4104b": [
+    14
+   ],
+   "f919c498a1ac": [
+    19
+   ],
+   "c60b43bb2172": [
+    24
+   ],
+   "0d4b193bf3d2": [
+    25
+   ],
+   "2006a58b6ec8": [
+    27,
+    35
+   ],
+   "12dfa6ae8091": [
+    39,
+    42
+   ],
+   "ffa4ae4a7dc2": [
+    47
+   ],
+   "4b62e90e99e9": [
+    49
+   ],
+   "574a1648a977": [
+    55
+   ]
+  },
+  "implications": {
+   "ad245a863f4b": [
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "key_points": "### Key Compliance Points — Prudential Norms on Capital Adequacy (Fourth Amendment) Directions, 2026\n*(RBI/2026-27/161, dated 2026-06-24; effective 2027-04-01)*\n\nRewrites **paragraph 192 (Section D.4 – Foreign Exchange Risk)** — the methodology for **Net Open Position (NOP)** and the **capital charge on forex risk** — to align with international standards (RBI/2026-27/161, 2026-06-24).\n\n- **Scope (192(1)–(2)):** compute NOP and hold forex-risk capital at **both consolidated and solo** levels, met **continuously** (close of each business day).\n- **Exclusions (192(3)–(5)):** positions deducted from regulatory capital (and their hedges), capital instruments deducted / risk-weighted at 1250%, and matured-unpaid / NPA securities are excluded from forex-risk capital.\n- **Structural FX positions (192(6)–(12)):** option to exclude **structural (non-dealing)** foreign-currency investments (capital in overseas subsidiaries/branches/IFSC units, unremitted surplus) from NOP, subject to strict conditions (exclusion limited to the amount neutralising capital-ratio sensitivity; held ≥6 months; documented policy; consistent application; supervisory availability). Detailed worked illustration + a CET1-ratio × forex-RWA cap, recalculated quarterly.\n- **Calculating NOP (192(13)–(30)):** include all foreign-currency positions (incl. gold), banking + trading book; net spot + net forward + certain-to-be-called guarantees + hedged future income + option delta; treatment of gold, overseas-operation capital and unremitted surplus (quarter-end); **shorthand method** aggregating the greater of net long/short across currencies plus the net gold position.\n- **Capital charge (192(31)):** **9%** of the overall NOP under the shorthand method (in addition to credit/interest-rate capital).\n- **Cross-reference (192(32)):** other NOP matters (reporting, limits, NOP-INR) governed by the FMRD Master Direction on Risk Management and Inter-Bank Dealings.\n- **Commencement:** **April 1, 2027.**\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2026-27/161, dated 2026-06-24 · effective 2027-04-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Paragraph 192 (D.4 Foreign Exchange Risk)** | **Substituted** | New Net Open Position methodology: consolidated+solo daily computation, exclusions, optional structural-FX-position exclusion (with worked illustration and quarterly CET1×forex-RWA cap), shorthand aggregation, and a **9%** capital charge on the overall NOP. |\n\n- **Effective date:** April 1, 2027 (longer lead time than other amendments).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** NaBFID raises funds partly abroad and may hold foreign-currency assets/liabilities to fund long-tenor infrastructure. This amendment changes how it measures its open currency exposure and how much capital it holds against forex risk — notably allowing structural FX positions (e.g. capital in overseas/IFSC units) to be excluded from the Net Open Position, which can protect the capital ratio.\n\n*Illustrative example:* If NaBFID has a portfolio of matched foreign-currency assets and liabilities, a depreciation of the rupee would still erode its capital ratio; by running a structural long FX position (within the computed cap) it can protect the ratio — and holds 9% capital on the residual overall Net Open Position.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "2e43c17e6158": [
+    1
+   ],
+   "9acbfd1b2c80": [
+    2
+   ],
+   "3e92ac354694": [
+    2
+   ],
+   "046fef0c97c7": [
+    3
+   ],
+   "daee936b8d07": [
+    8,
+    10
+   ],
+   "2183c8af1033": [
+    11
+   ],
+   "0f097f5d8a49": [
+    11
+   ],
+   "7374df60dae5": [
+    1
+   ]
+  },
+  "what_changed": {
+   "6c4dff5e1686": [
+    1
+   ],
+   "951a6178aa0e": [
+    1
+   ]
+  },
+  "implications": {
+   "0f95097bb3ee": [
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "key_points": "## Managing Risks in Outsourcing (IT Services) — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/337, dated 2025-11-28)*\n\nGoverns how AIFIs manage risk when they outsource **material IT services**. Core principle: **outsourcing never diminishes the AIFI's — or its Board's and Senior Management's — ultimate responsibility** for the outsourced service.\n\n### Chapter I — Preliminary\n- **Commencement:** immediate. **Transition:** existing IT outsourcing agreements must comply at renewal **or by April 10, 2026, whichever is earlier**; **new** agreements must comply **from the date of the agreement**.\n- **Applicability:** the five AIFIs — EXIM Bank, NABARD, **NaBFID**, NHB, SIDBI.\n- **Scope — applies to MATERIAL outsourcing of IT services**, e.g. IT infrastructure management/maintenance, network & security solutions, application development/maintenance/testing (ASPs), data-centre operations, **cloud computing**, managed security services, and payment-system IT.\n- **Exclusions (not \"outsourcing\" here):** corporate internet banking as a corporate customer/sub-member; external audit/VA-PT; SMS gateways; IT hardware procurement; **licensed software (e.g. CBS, databases) on licence/subscription** and OEM maintenance; regulator/institution platforms (CCIL, NSE, BSE); Reuters/Bloomberg/SWIFT; off-the-shelf products (anti-virus, email); sub-member CPS services; BC services, payroll processing, statement printing.\n- **Key definitions:** **Material Outsourcing** = arrangements whose disruption would significantly impact operations or materially affect customers on data loss; **Service Provider** (incl. group entities) and **Sub-contractor**.\n\n### Chapter II — Role of the Board\n- A comprehensive **Board-approved IT outsourcing policy** is mandatory.\n- Board responsibilities: an approval framework keyed to risk/materiality; policies to evaluate risk & materiality of all arrangements; a Senior-Management administrative framework; ensuring **no conflict of interest** (a service provider, if not a group company, must not be owned/controlled by any director, KMP, the approver, or their relatives — exception only with Board/Committee approval + disclosure); and reviewing adverse developments.\n\n### Chapter III — Outsourcing of IT Services\n- **A. Authorisation, accountability, oversight:** the service provider must apply the **same high standard of care** as the AIFI; must not compromise the AIFI's reputation; must not impede the AIFI's oversight or **RBI's supervision**; and must not be owned/controlled by a director/KMP/approver/relative. **Incident reporting: the service provider must report cyber incidents without undue delay so the AIFI can report to RBI within SIX HOURS of detection.**\n- **B. Governance framework:** the outsourcing policy must cover roles/responsibilities, selection criteria, materiality parameters, delegation of authority, DR/BCP, monitoring, and **termination/exit**. Senior Management owns risk evaluation, monitoring and reporting to the Board; the **IT Function** must maintain a **central database of all IT outsourcing arrangements**.\n- **C. Risk management:** a documented risk-management framework; assess **concentration risk** (multiple arrangements with one provider, or critical functions with few providers); **confidentiality & security** — access on a **need-to-know** basis, **no comingling** of data in multi-tenant setups, and **notify RBI immediately** on any security breach/leak of confidential customer information.\n- **D. Outsourcing process:**\n  - **Due diligence** on the provider (financial soundness, competence, reputation, security, data segregation, sub-contractor quality, regulatory compliance).\n  - **Outsourcing agreement** — a legally binding written contract with ~24 minimum clauses, including: effective AIFI access to all data/records; incident reporting; **data storage only in India** (as applicable); confidentiality and provider liability for breaches; **audit rights** over the provider and sub-contractors; **RBI inspection/access rights**; provider contractually liable for its sub-contractors; prior consent for sub-contracting; termination and orderly transfer rights; cooperation on AIFI insolvency; and non-disclosure.\n  - **Monitoring & control:** SLA monitoring, regular audits (including **pooled/shared audits** where multiple REs use the same provider), an **inventory** of outsourced services + supply-chain dependency map, **BCP/DRP**, a documented **exit strategy**, and termination publicity where customers are involved.\n- **E. Specific arrangements:**\n  - **Within group/conglomerate:** allowed with Board policy + SLAs, **arm's-length** dealing, and the **same** risk practices as for third parties.\n  - **Offshore/cross-border:** only in jurisdictions upholding confidentiality; specify governing law; preserve AIFI/RBI record access and audit rights even on provider liquidation.\n  - **SOC outsourcing:** clear asset ownership, AIFI oversight of rule definitions/logs, integration with the AIFI's incident-response process.\n  - **Cloud computing (extensive):** covers IaaS/PaaS/SaaS and deployment models; the AIFI must run a business-technology risk assessment, address the **full data lifecycle**, apply the **shared-responsibility model** (NIST SP 800-210), enforce strong **IAM** (need-to-know, least privilege, **MFA**, segregation of duties), keep **encryption keys/HSMs under AIFI control**, integrate CSP logs into its SOC, and maintain a contractually agreed **cloud exit strategy** (data return/portability, secure purge).\n- **F. Grievance redressal:** responsibility for redressing customer grievances on outsourced services **stays with the AIFI**; outsourcing must not affect customers' rights.\n\n### Chapter IV — Repeal and Other Provisions\n- Repeals prior AIFI IT-outsourcing instructions (per circular dated 2025-11-28), with the usual saving clause; RBI's interpretation is final and binding.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** NaBFID runs core systems (loan management, treasury, data centres, likely cloud) via IT vendors. This direction makes NaBFID — not the vendor — accountable, and imposes concrete obligations: a Board-approved IT outsourcing policy, a central register of arrangements, **data localisation in India**, strong contract clauses (audit + RBI-access rights, sub-contractor liability, exit), and the sharp **6-hour RBI cyber-incident reporting** clock that flows from the vendor to NaBFID.\n\n*Illustrative example:* If NaBFID moves its loan-management system to a public cloud, it must run a business-technology risk assessment, keep encryption keys under its own control, enforce MFA and least-privilege access, ensure the contract gives NaBFID and RBI audit/inspection rights and data stored in India, and have a tested exit plan to move off that CSP. If the CSP detects a breach, NaBFID must be able to report it to RBI **within six hours** (RBI/DOR/2025-26/337, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "06dfae4cf778": [
+    1
+   ],
+   "f039ee8e6477": [
+    3
+   ],
+   "eab701aac7ac": [
+    3
+   ],
+   "a101b3d8dc88": [
+    4
+   ],
+   "f85ebcdbf579": [
+    5
+   ],
+   "6781bc7bd62c": [
+    6
+   ],
+   "e7fa2db0946b": [
+    8
+   ],
+   "84227a10daf9": [
+    8
+   ],
+   "606b5a02ccc9": [
+    9
+   ],
+   "fabf33238702": [
+    12
+   ],
+   "267a03a6ccbd": [
+    12
+   ],
+   "0f8e2cadb26c": [
+    14
+   ],
+   "168d518fca91": [
+    15
+   ],
+   "3291b1de1ae1": [
+    18
+   ],
+   "81d1f2e37686": [
+    21
+   ],
+   "71c65e5ab669": [
+    22
+   ],
+   "cf79a378ef82": [
+    23
+   ],
+   "62572a6b5c39": [
+    24
+   ],
+   "99a721a2da58": [
+    28
+   ],
+   "835129642ee0": [
+    29
+   ]
+  },
+  "implications": {
+   "844c8f07cf15": [
+    1
+   ]
+  }
+ }
+}

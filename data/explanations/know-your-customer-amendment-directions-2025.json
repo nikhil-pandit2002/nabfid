@@ -1,0 +1,40 @@
+{
+ "key_points": "### Key Compliance Points — Know Your Customer (Amendment) Directions, 2025\n*(RBI/2025-26/157, dated 2025-12-29; effective immediately)*\n\n- **Purpose:** Clarifies, in line with the Department of Revenue OM dated 2025-09-18 (\"CKYCR and the ultimate responsibility of REs\"), who is responsible for customer verification under the **Central KYC Records Registry (CKYCR)** (RBI/2025-26/157, 2025-12-29).\n- **New Explanation inserted after paragraph 62(9):**\n  - The **RE that last uploaded or updated** a customer's KYC records in CKYCR is responsible for **verifying the identity and/or address** of that customer.\n  - An **AIFI downloading and relying** on such records **need NOT re-verify** identity/address — **provided** the downloaded records are **current and compliant** with the PML Act, 2002 / PML Rules, 2005.\n  - The downloading AIFI **remains responsible for all other aspects of Customer Due Diligence (CDD)** and these Directions — everything **except** verification of identity/address.\n- **Commencement:** **immediate** (2025-12-29).\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2025-26/157, dated 2025-12-29 · effective immediately)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Paragraph 62 — new \"Explanation\" after sub-para (9)** | **Inserted** | Fixes CKYCR responsibility: the last uploader/updater verifies identity/address; a downloading AIFI relying on current, compliant records need not re-verify, but stays responsible for all other CDD. |\n\n- **Effective date:** immediate (2025-12-29).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** When NaBFID onboards a borrower whose KYC already exists in CKYCR, it can rely on those records without duplicating identity/address verification — reducing friction — **as long as** the records are current and PMLA-compliant. But NaBFID still owns the rest of the due-diligence chain (risk categorisation, beneficial ownership, ongoing monitoring).\n\n*Illustrative example:* If a corporate borrower's CKYC record was last updated by another regulated entity and is current, NaBFID need not re-verify its address — but must still complete its own risk profiling and continue monitoring the relationship.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "43f7bc4ead52": [
+    1
+   ],
+   "ee2cfa80e388": [
+    2
+   ],
+   "209c055ad125": [
+    2
+   ],
+   "0df84a2999ab": [
+    2
+   ],
+   "7556554ad0d8": [
+    2
+   ],
+   "08cd8bff1eb1": [
+    1
+   ]
+  },
+  "what_changed": {
+   "64c6e77f06f1": [
+    2
+   ],
+   "447c5058900a": [
+    1
+   ]
+  },
+  "implications": {
+   "91fbd48592ab": [
+    1
+   ]
+  }
+ }
+}

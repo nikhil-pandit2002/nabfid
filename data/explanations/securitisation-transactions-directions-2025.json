@@ -1,0 +1,62 @@
+{
+ "key_points": "## Securitisation Transactions — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/328, dated 2025-11-28)*\n\nGoverns how an AIFI **securitises** its loans (as originator) and **invests** in securitisation notes — repackaging pools of loans into tradeable, tranched securities via a bankruptcy-remote SPE.\n\n### Chapter I — Preliminary\n- **Applicability:** the five AIFIs (incl. **NaBFID**). Defines securitisation, SPE, tranches (senior/subordinate), credit enhancement, first/second loss facility, MRR, excess spread, interest-only strip, re-securitisation, synthetic securitisation.\n\n### Chapter II — General Requirements\n- **Prohibited:** re-securitisation, synthetic securitisation, ABCP-style structures (short-term paper rolled over against long-term assets), and securitising **revolving credit, restructured loans (in specified period), exposures to other lenders, AIFI refinance exposures, bullet-repayment loans, or loans of residual maturity < 365 days** (narrow carve-outs for short-tenor agri loans and trade receivables with a clean 2-loan track record). **Only Standard assets** are eligible, and the **Minimum Holding Period (MHP)** (per the Transfer of Credit Risk Directions) must be met.\n- **Minimum Retention Requirement (MRR)** — originator keeps skin in the game: **5%** of book value for loans of original maturity ≤ 24 months; **10%** for > 24 months / bullet loans; **5%** for RMBS regardless of maturity. MRR is held **by the originating AIFI itself** (not a group entity), its form is fixed for the life of the deal, and the interest-only strip does **not** count toward it.\n- **Total retained exposure** to a given structure is capped at **20%** of the total securitisation exposures it creates (credit-enhancing I/O strip and swaps excluded; amortisation-driven breaches ignored).\n- **Issuance:** minimum **ticket size ₹1 crore**; listing not mandatory but any offer to **50+ persons** must be listed (SEBI SDI Regulations).\n- **SPE conditions:** arm's-length, **bankruptcy-remote**, no originator ownership/share capital, at most one non-veto board representative (independent directors in majority). **Reps & warranties:** asset replacement only within **120 days** of transfer. **Accounting:** sale on **cash basis**, ≤ **30-day gap** between asset transfer and note issuance; unrealised future-margin gains parked in an **\"Unrealised Gain on Loan Transfer Transactions\"** account, not P&L.\n\n### Chapter III — Simple, Transparent, Comparable (STC) Securitisations\n- A Basel-based criteria set that, if met, allows **preferential capital treatment** (per the Prudential Norms/Capital Adequacy Directions). Key gates: **homogeneous** underlying assets; **loss-performance history ≥ 7 years (non-retail) / 5 years (retail)**; no defaulted/delinquent assets at inclusion; no active/discretionary \"cherry-picking\"; underlying risk-weight caps (**40%** value-weighted RMBS, **50%** commercial mortgage, **75%** retail, **100%** other); **granularity — single-obligor ≤ 1%** of the pool (2% if the originator retains a ≥ 10% first-loss tranche). The originator asserts STC compliance; **RBI verifies** and can withdraw preferential treatment / add Pillar-2 capital.\n\n### Chapter IV — Facilities Supporting Securitisation\n- Facility providers must be regulated; facilities are arm's-length, capped in amount and duration, non-recourse beyond contract.\n- **Credit enhancement:** only at initiation, available for the whole life; any draw-down **written off immediately to P&L**. **Resets** allowed only after **≥ 50% amortisation (25% for RMBS)** for the first reset, then in 10% steps with a **6-month gap**, subject to a **reserve floor of 30% (20% RMBS)** of initial CE, and at most **60% of the excess** released — never below MRR.\n- **Liquidity facility:** to smooth timing mismatches only (not credit support); **if drawn and outstanding > 90 days → classify as NPA and fully provide**.\n- **Underwriting facility:** originator may underwrite only **investment-grade senior notes**, and devolved notes must be sold to unrelated third parties **within 3 months** (capital held meanwhile).\n- **Servicing facility:** service provider holds collections in trust, no co-mingling, no loss support beyond contract.\n\n### Chapter V — AIFI as Investor\n- Invest only if the originator has disclosed **MRR + MHP + KYC** compliance. Maintain a comprehensive understanding of pool and structural risks; run **own stress tests**; apply the **Look-Through Approach** to the underlying obligors under the Large Exposures / Concentration Norms; Board-approved valuation policy (subject to supervisory review); ongoing monitoring of 30/60/90-DPD, default and prepayment data.\n\n### Chapter VI — Capital & Disclosures\n- Hold capital against **all** securitisation exposures (notes, credit enhancement, liquidity, subordinated tranches) per the Prudential Norms/Capital Adequacy Directions. **Disclose MRR/MHP fulfilment at origination and at least half-yearly (Sept & March)**; report all securitisation transactions to **RBI quarterly**; Notes-to-Accounts disclosures per the Financial Statements Directions.\n\n### Chapter VII — Repeal\n- Repeals prior AIFI securitisation instructions; RBI interpretation final. **Annex I** = the detailed servicer/investor/trustee disclosure format (maturity, MHP, MRR, credit quality, LTV/DTI, default & prepayment rates).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** Securitisation is a **balance-sheet and liquidity-management tool** — NaBFID can free up capital and recycle funds by packaging seasoned infrastructure/loan pools into notes for investors, or it can invest in others' securitisation notes. This direction sets the guardrails: what it can securitise (only Standard assets meeting MHP; **not** bullet loans or sub-365-day loans without carve-out), how much risk it must retain (**MRR 5–10%**), the **20%** retained-exposure cap, the STC criteria that unlock lighter capital, and the investor-side due-diligence. It plugs into the Transfer of Credit Risk (MHP), Prudential Norms/Capital Adequacy (risk weights), Concentration Norms (Look-Through), and Financial Statements Directions.\n\n*Illustrative example:* If NaBFID (as originator) securitises a pool of seasoned operating-road loans (> 24 months maturity), it must **retain 10% MRR**, keep total exposure to the structure **≤ 20%**, sell on a cash basis with the notes issued within 30 days, and disclose MRR/MHP each September and March. If instead it *invests* in another lender's RMBS notes, it may do so only after the originator discloses MRR/MHP/KYC compliance, and it must look through to the underlying home-loan borrowers for its Large-Exposure limits and run its own downturn stress tests. A liquidity facility it extends that stays drawn beyond **90 days** becomes an NPA to be fully provided (RBI/DOR/2025-26/328, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "dae882f5f2d8": [
+    1
+   ],
+   "8a77702feacd": [
+    7
+   ],
+   "7b31114ccf79": [
+    9
+   ],
+   "d6d6511b046e": [
+    10
+   ],
+   "cc835474138f": [
+    13
+   ],
+   "0330334e7a73": [
+    13
+   ],
+   "d9ba5f158803": [
+    16
+   ],
+   "0b8529c37467": [
+    27
+   ],
+   "fd1f6fc6b228": [
+    29
+   ],
+   "7b0ae099e884": [
+    32,
+    33
+   ],
+   "981e58d1c68b": [
+    35
+   ],
+   "3857fc00bbaa": [
+    35
+   ],
+   "44a07fb81270": [
+    36
+   ],
+   "bb6493acf949": [
+    39
+   ],
+   "af9d1405c790": [
+    41
+   ],
+   "ac1b666a0a16": [
+    42
+   ]
+  },
+  "implications": {
+   "1226b2f101d4": [
+    1
+   ]
+  }
+ }
+}

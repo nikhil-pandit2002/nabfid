@@ -1,0 +1,81 @@
+{
+ "key_points": "## Income Recognition, Asset Classification & Provisioning (IRACP) — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/331, dated 2025-11-28)*\n\nThe prudential rules for **when to recognise income, when a loan becomes an NPA, and how much to provision**. One of the most operationally critical directions.\n\n### Chapter I — Preliminary\n- **Commencement:** immediate. **Applicability:** the five AIFIs (incl. **NaBFID**). Read together with the **Resolution of Stressed Assets Directions, 2025** for restructured accounts.\n- **Key definitions:** **NPA** (an asset that has ceased to generate income); **substandard** (NPA ≤ 12 months); **doubtful** (substandard for > 12 months); **loss** (uncollectible); **overdue** (not paid on due date); **unsecured exposure** (realisable security ≤ **10%** of outstanding, ab initio); **security** = tangible security only (guarantees excluded).\n\n### Chapter II — General Instructions\n- **Board policy** on income recognition (objective, record-of-recovery based), higher-than-minimum standard-asset provisions for stressed sectors, and appointment of stock-audit/valuation agencies.\n- Loan agreements (from 31 Dec 2021) must **spell out exact due dates, repayment frequency, principal/interest split, and SMA/NPA classification examples**; borrowers to be apprised.\n- **Stock audit annually** by external agencies for NPAs of **₹5 crore and above**; **collateral (immovable) valued once every 3 years** for such NPAs. Consumer-education literature on overdue/SMA/NPA concepts.\n\n### Chapter III — Asset Classification\n- **An account is NPA when:** interest/principal on a **term loan is overdue > 90 days**; a bill is overdue > 90 days; crop-season norms (2 short-duration / 1 long-duration); a securitisation liquidity facility is outstanding > 90 days; or a derivative MTM receivable is unpaid > 90 days.\n- **Borrower-wise, not facility-wise** — if one facility is NPA, all facilities to that borrower are NPA.\n- **Day-end tagging:** overdue on the due date → **SMA-1 at 30 days** overdue → **SMA-2 at 60 days** → **NPA at 90 days** (classification date = the calendar day the day-end process is run).\n- **Categories:** substandard (≤12 months NPA), doubtful (>12 months), loss. **Straight to doubtful/loss** where security has eroded — **> 50%** erosion vs last-assessed value → doubtful; realisable security **< 10%** of outstanding → loss.\n- **Upgradation to 'standard' only on full payment of ALL arrears** (interest + principal) across all facilities; partial/technical write-off does not make the remainder 'standard'.\n\n### Chapter IV — Provisioning Norms\n- **Standard assets (general provision):** farm credit / individual housing / SME **0.25%**; **CRE 1.00%**; **CRE-RH 0.75%**; **teaser-rate housing 2.00%** (reverts to 0.40% one year after reset); medium enterprises and all other loans **0.40%**. Shown separately as 'Contingent Provisions against Standard Assets'.\n- **Substandard: 15%** of outstanding (secured); **unsecured substandard +10% = 25%**; **infrastructure loans 20%** (given escrow safeguards).\n- **Doubtful:** **100%** of the unsecured portion; on the secured portion **25%** (up to 1 year), **40%** (1–3 years), **100%** (over 3 years).\n- **Loss:** written off, or **100%** provided if retained.\n- **Project finance (portfolio general provision):** construction phase 1.00–1.25%, operational phase 0.40–1.00% (higher for CRE/CRE-RH); projects with financial closure by **1 Oct 2025** stay under prior norms unless a fresh credit event occurs.\n- **Special cases:** **fraud** — full provision (may spread over ≤4 quarters); **country risk** — graded 0.25%–100% where net funded exposure to a country is ≥1% of total assets; **wilful defaulters** — 5% on standard accounts (director on ≥2 wilful-defaulter lists), with **accelerated provisioning** if NPA; **ECGC/CGTMSE/NCGTC-guaranteed** portions need no provision. **Rights/licenses charged as collateral are NOT tangible security** (advances treated unsecured), but **BOT annuities/toll rights and PPP escrow-backed dues** may count as secured under strict conditions.\n- **PCR:** no regulatory minimum prescribed — left to the AIFI.\n\n### Chapter V — Income Recognition\n- **Accrual basis only for 'standard' assets;** for NPAs (incl. Government-guaranteed), income is recognised on **cash/receipt basis** only.\n- On an account turning NPA, **reverse** unrealised interest/fees already booked, **stop further interest application**, and record accrued interest in a **Memorandum account** (excluded from Gross Advances). Detailed rules for appropriation of recoveries, derivative-NPA suspense accounts, and take-out finance.\n- **Tax (s.43D Income Tax Act):** provisions made under these Directions are **not** tax-deductible; full provision or write-off is needed to claim the benefit.\n\n### Chapter VI — Repeal and Other Provisions\n- Repeals prior AIFI IRACP instructions (circular dated 2025-11-28); standard saving clause; RBI's interpretation is final. **Annex I** prescribes the Gross/Net Advances and Gross/Net NPA computation format.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** IRACP determines NaBFID's reported asset quality (Gross/Net NPA), its P&L (through provisions and income reversal), and therefore its capital. For a long-tenor infrastructure lender the **project-finance and infrastructure-specific rules** matter most: the lower **20% substandard provisioning** for infrastructure (conditional on enforceable escrow of cash flows), the treatment of **rights/licenses as unsecured**, the **BOT annuity / PPP escrow** conditions for treating dues as secured, and the **1 Oct 2025** project-finance cutoff.\n\n*Illustrative example:* If a NaBFID-financed toll road misses interest for 91 days, the account becomes an **NPA** (borrower-wise, so every facility to that SPV), previously accrued interest is **reversed**, income shifts to **cash basis**, and NaBFID provisions **15%** (or **20%** if it has an enforceable first claim on escrowed toll cash flows). If the SPV's security is a toll-collection right that isn't a legally enforceable annuity, that portion is treated as **unsecured** and attracts the higher 25% (RBI/DOR/2025-26/331, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "33434f5059c5": [
+    1
+   ],
+   "4db5a0f65736": [
+    3
+   ],
+   "5b9fd6f4c509": [
+    4,
+    5
+   ],
+   "a6f3b70f0c4e": [
+    6
+   ],
+   "a27a3a354eba": [
+    6
+   ],
+   "299bdb7b25ce": [
+    7
+   ],
+   "19ae3f66b1bd": [
+    10
+   ],
+   "4feacfe90868": [
+    11
+   ],
+   "9ab62a57ef28": [
+    10
+   ],
+   "4564633ead20": [
+    17
+   ],
+   "87bfa2850374": [
+    19
+   ],
+   "46a31ad93854": [
+    21,
+    25
+   ],
+   "b2273b822ca3": [
+    22
+   ],
+   "672f5335c13d": [
+    30
+   ],
+   "ca68496dbf77": [
+    23
+   ],
+   "26c0cd55d2a3": [
+    25
+   ],
+   "96c821ffc0d3": [
+    28
+   ],
+   "60a4202d4345": [
+    31
+   ],
+   "45f48e7db68f": [
+    32
+   ],
+   "f89ec6c890d7": [
+    33
+   ],
+   "5746b905f051": [
+    35
+   ],
+   "b7cadc049679": [
+    36
+   ]
+  },
+  "implications": {
+   "b7dd2eae8ee8": [
+    1
+   ]
+  }
+ }
+}

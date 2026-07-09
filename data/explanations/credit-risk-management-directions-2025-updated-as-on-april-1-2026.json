@@ -1,0 +1,51 @@
+{
+ "key_points": "### Key Compliance Points — Credit Risk Management Directions, 2025\n*(RBI/DOR/2025-26/325, dated 2025-11-28, updated as on 2026-04-01; effective immediately)*\n\nThe core credit-risk / connected-lending framework for AIFIs (RBI/DOR/2025-26/325). This consolidated version already incorporates the Credit Risk Management Amendment Directions, 2026 (effective 2026-04-01).\n\n**Chapter I – Preliminary**\n- Applies to the five AIFIs (EXIM, NABARD, SIDBI, NHB, NaBFID); effective immediately upon issuance.\n- Extensive definitions, incl. Bank Guarantee, Bills Purchased/Discounted, Letter of Credit, and the full **related-party ecosystem** (Related Party, Related Person, Reciprocally Related Person, Control per Companies Act s.2(27), KMP, Promoter, Lending [debt covered, equity excluded], Specified employees [up to two levels below the Board], Substantial interest per BR Act s.5(ne)).\n\n**Chapter II – Board Approved Policies**\n- Comprehensive Board-approved **Credit Risk Management policy** covering lending to related parties, Legal Entity Identifier (LEI), filing of security interest, and restrictions on revolving credit facilities.\n\n**Chapter III – [Deleted]** (the old \"Connected Lending\" chapter was deleted and replaced by Chapter IIIA).\n\n**Chapter IIIA – Regulatory Restrictions**\n- **No advances against the AIFI's own shares (17A).**\n- **No loans to the AIFI's directors** or connected firms/companies/individuals (17B), with limited carve-outs (17C): pre-appointment facilities (not renewable/enhanceable), public trusts, loans against govt securities/LIC/FD (LTV ≤100%), approved staff-type personal loans, cash-collateralised NFB facilities.\n- **Restrictions on lending to related parties (17D–17S):** Board responsibility; policy safeguards + whistleblowing + anti-quid-pro-quo; **aggregate + single/group sub-limits**; **materiality thresholds** by asset size — **₹25 crore** (asset size > ₹10,00,000 cr), **₹10 crore** (₹1,00,000–10,00,000 cr), **₹5 crore** (< ₹1,00,000 cr); loans above threshold sanctioned by the **Board or Committee on Lending to Related Parties**; **recusal** of interested directors/KMP/specified employees; maintain a related-party register; annual Board reporting of specified-employee loans; quarterly internal-audit review; deviations to the Audit Committee; circumvention (reciprocal/quid-pro-quo) always treated as related-party lending; enforcement (penalties, full provisioning, forensic audit).\n\n**Chapter IV – Legal Entity Identifier (LEI) for Borrowers**\n- Non-individual borrowers with **aggregate exposure ≥ ₹5 crore** from banks/FIs must obtain a **20-digit LEI** from an authorised LOU.\n- Borrowers without an LEI **cannot be sanctioned new exposure or renewal/enhancement** (Central/State Government departments/agencies exempt). AIFIs to encourage LEI for parent + subsidiaries/associates.\n\n**Chapter V – Filing of Security Interest in CERSAI**\n- Filing/registration of security interests (immovable other than equitable mortgage, movable, and intangible assets) with **CERSAI**, per the Board-approved policy.\n\n**Chapter VI – Working Capital Finance and Revolving Facility**\n- Board-approved framework and restrictions on **working-capital / revolving credit facilities**.\n\n**Chapter VII – Repeal and other provisions.**\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This is the backbone of NaBFID's credit governance — the related-party lending restrictions (who it may lend to, at what limits, sanctioned by whom, with recusal), the mandatory LEI for large borrowers, CERSAI security-interest filing, and revolving-facility limits. Non-compliance carries penalties, full provisioning and forensic audit.\n\n*Illustrative example:* Before sanctioning a facility to any non-individual infrastructure borrower with ≥ ₹5 crore aggregate exposure, NaBFID must ensure the borrower has a valid LEI — no LEI means no new sanction or renewal. A related-party loan above the ₹25 crore materiality threshold must go to the Board / Committee on Lending to Related Parties, with interested directors recusing themselves.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "5103b4fd9532": [
+    1
+   ],
+   "78a6abc7db2a": [
+    2
+   ],
+   "032c24f5188f": [
+    3
+   ],
+   "09bfa79e263b": [
+    8
+   ],
+   "d465ef69044c": [
+    9
+   ],
+   "6d32787d5a0a": [
+    10
+   ],
+   "3ed62919f28f": [
+    10,
+    11
+   ],
+   "e2074b9bef00": [
+    12,
+    13
+   ],
+   "0224449cd917": [
+    15
+   ],
+   "f31c7fc1ffe1": [
+    15
+   ],
+   "15e6b69cd3a3": [
+    17
+   ],
+   "ff70bc218707": [
+    19
+   ]
+  },
+  "implications": {
+   "081fc2b23a10": [
+    1
+   ]
+  }
+ }
+}

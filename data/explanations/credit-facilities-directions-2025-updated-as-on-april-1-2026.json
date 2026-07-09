@@ -1,0 +1,82 @@
+{
+ "key_points": "## Credit Facilities — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/323, dated 2025-11-28, updated as on 2026-04-01)*\n\nConsolidates the rules on how AIFIs design and deliver credit — digital lending, **project finance**, non-fund-based facilities, and infrastructure/InvIT lending.\n\n### Chapter I — Preliminary\n- **Commencement:** immediate (unless otherwise stated). **Applicability:** the five AIFIs (incl. **NaBFID**).\n- **Key definitions:** **DCCO** (original / extended / actual Date of Commencement of Commercial Operations), **Financial Closure** (capital structure covering ≥90% of project cost becomes binding), **Project Finance** (≥51% of repayment from the project's own cash flows, common agreement among lenders), **Credit Event**, **Default Loss Guarantee (DLG)**, **Digital Lending / LSP / DLA**, **Infrastructure Sector** (Harmonised Master List).\n\n### Chapter II — Board-Approved Policies\n- A Board-approved credit policy must cover: **Digital Lending incl. DLG, Project Finance, Non-Fund-Based facilities, Finance to NBFCs, Bridge Loans, and Lending to InvITs.**\n\n### Chapter III — Digital Lending\n- **LSP arrangements:** enhanced due diligence on the Lending Service Provider; **the AIFI remains fully liable for the LSP's acts/omissions**; multi-lender platforms must show unbiased loan offers (no dark patterns), each with a KFS link.\n- **Customer protection:** provide a **Key Fact Statement (KFS)**; **disburse only into the borrower's bank account** (no third-party/LSP pass-through/pool accounts); **cooling-off period** (set by policy, **not less than 1 day**) to exit by repaying principal + proportionate APR; grievance redressal with **30-day escalation** to RBI's Complaint cell.\n- **Data:** need-based collection with explicit consent; **no biometric storage**; **all data stored only on servers in India** (data processed abroad deleted and brought back within 24 hours).\n- **DLG:** only with an LSP/lender incorporated as a company; **cap = 5% of the disbursed loan portfolio (the 'DLG set')**; accepted only as **cash / FD (lien) / bank guarantee**; **invoke within a maximum 120-day overdue period**; DLG does not substitute for credit appraisal; NPA recognition is still per the IRACP Directions.\n\n### Chapter IV — Project Finance\n- **Three phases:** design → construction → operational (from actual DCCO to full repayment).\n- **Sanction conditions:** financial closure achieved and DCCO documented before disbursement; **repayment tenor (incl. moratorium) ≤ 85% of the project's economic life**; **DCCO must be the same across all lenders**.\n- **Minimum exposure floors** (under-construction): where aggregate lender exposure is **≤ ₹1,500 crore**, each AIFI must hold **≥ 10%**; where **> ₹1,500 crore**, the floor is **5% or ₹150 crore, whichever is higher** (floors lift post-actual-DCCO).\n- **Disbursement/monitoring:** minimum land/right-of-way before disbursal — **50% for PPP infrastructure, 75% for others**; PPP disbursement only after the **Appointed Date**; **TEV study** required where aggregate exposure ≥ ₹100 crore; maintain an electronic **project-finance database** updated within **15 days** of any change.\n- **Effective date:** Chapter IV applies to projects reaching financial closure **on/after 1 Oct 2025** (older projects keep prior norms unless a fresh credit event occurs).\n\n### Chapter V — Non-Fund-Based (NFB) Credit Facilities\n- Guarantees must be **irrevocable, unconditional, incontrovertible**; NFB facilities generally only for a customer with a **funded facility** (with defined exceptions); honour guarantees on invocation absent a court order.\n- **Electronic guarantees:** maker/checker/authorizer segregation, STP integration with CBS/TFS, SOC monitoring, VA/PT.\n- **Co-acceptances:** only genuine trade bills. **Partial Credit Enhancement (PCE):** subordinated contingent line to lift a bond's rating — **single AIFI ≤ 50% of issue size**, aggregate PCE providers ≤ 50%; pre-enhanced rating **≥ BBB−**, rated by **≥ 2 ECAIs**; **aggregate PCE ≤ 20% of Tier 1**; for NBFC/HFC bonds, tenor **≥ 3 years** and **only to refinance existing debt**, capped at **1% of capital funds** per NBFC/HFC.\n\n### Chapter VI — Other Instructions\n- **Finance to NBFCs — prohibited** for: bill discounting (except commercial-vehicle bills), stock-in-trade investments, investments/advances to subsidiaries/group, inter-corporate loans, and **any bridge loans to NBFCs**.\n- **Infrastructure financing:** finance technically feasible, viable, bankable projects; term loans to PSUs only as corporate entities and **not as a substitute for budgetary resources**; financing promoters' share acquisition is restricted to **50%** of the required finance, tenor **≤ 7 years**, within the **40% of net worth** capital-market ceiling.\n- **Bridge loans / interim finance:** permitted (not to NBFCs) against expected equity flows (not rights issues) or against the AIFI's own commitment.\n- **Lending to InvITs:** permitted with a Board-approved policy (appraisal, leverage within policy limits, cash-flow sufficiency); **only where no underlying SPV is in 'financial difficulty'**; the **Audit Committee reviews compliance half-yearly**.\n- **Export credit** interest per Board policy; **no loans against the AIFI's own term deposits or CDs** unless RBI-permitted; trade-relief measures per the Trade Relief Directions, 2025.\n\n### Chapter VII — Repeal and Other Provisions\n- Repeals prior AIFI credit-facility instructions (dated 2025-11-28); standard saving clause; RBI interpretation final. **Annex I** = the CIMS reporting format for Digital Lending Apps.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** This is arguably the most business-central direction for NaBFID, because **Chapter IV (Project Finance)** and **Chapter VI (Infrastructure / InvIT lending)** are exactly its core activity. The project-finance rules — 51% cash-flow test, DCCO discipline, the ≤85%-of-economic-life repayment cap, minimum-exposure floors, land/right-of-way thresholds, TEV study for ≥₹100cr, and the 1 Oct 2025 cutoff — directly shape how NaBFID structures and syndicates infrastructure loans. The recent **amendment added the InvIT lending framework** (Chapter VI.C.2).\n\n*Illustrative example:* For a ₹2,000-crore under-construction highway (aggregate lender exposure > ₹1,500cr), NaBFID must hold at least **5% or ₹150 crore, whichever is higher**, document a single DCCO agreed across all lenders, ensure ≥50% land is available before disbursing (PPP), require a TEV study, keep the repayment tenor within 85% of the road's economic life, and maintain the project in its 15-day-update database. Lending to an InvIT that owns operating road SPVs is allowed only if none of those SPVs is in financial difficulty, with half-yearly Audit-Committee review (RBI/DOR/2025-26/323, dated 2025-11-28, updated as on 2026-04-01).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "7a484c71e68b": [
+    1
+   ],
+   "d4591f9fc850": [
+    4
+   ],
+   "3877ce409b9a": [
+    5,
+    7
+   ],
+   "411a6c7c7ddb": [
+    9
+   ],
+   "ae0484778129": [
+    10
+   ],
+   "a55651f19d89": [
+    14
+   ],
+   "db73a61d13e6": [
+    16
+   ],
+   "b3494e03dd6f": [
+    21
+   ],
+   "8d537edfb4fd": [
+    23
+   ],
+   "1f8cf9547408": [
+    24
+   ],
+   "2bba916e404d": [
+    24
+   ],
+   "725dcd8a797c": [
+    25,
+    26
+   ],
+   "4393a56e6027": [
+    23
+   ],
+   "2166431ae067": [
+    28
+   ],
+   "d7233745f88f": [
+    30
+   ],
+   "56224ab88490": [
+    33,
+    34
+   ],
+   "3fbc0d0d4a20": [
+    36
+   ],
+   "77b5571a1beb": [
+    38
+   ],
+   "9e3df4113391": [
+    40
+   ],
+   "755da16fe4aa": [
+    41
+   ],
+   "7e704b808209": [
+    41
+   ],
+   "777b76f24cf9": [
+    42
+   ]
+  },
+  "implications": {
+   "f92d73888151": [
+    1
+   ]
+  }
+ }
+}

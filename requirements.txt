@@ -1,0 +1,29 @@
+# RBI Compliance Assistant — deployment dependencies.
+#
+# Pinned to the exact versions that built the committed data/ and index/, so
+# the app loads the pre-built manifest, chunks and Chroma vector store
+# unchanged (chromadb in particular must match the version that wrote the
+# on-disk index, or it may fail to open it).
+#
+# Hugging Face free Spaces are CPU-only, so prefer CPU PyTorch wheels:
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# --- PDF parsing / page rendering ---
+pdfplumber==0.11.0        # page-level PDF text extraction (chunking)
+pypdf==6.10.2             # page counts / lightweight PDF metadata
+pymupdf==1.28.0           # per-page text + page rendering (citations)
+
+# --- Local embeddings + reranker (open-source, CPU) ---
+sentence-transformers==5.6.0   # BGE-small-en-v1.5 embeddings (downloaded at runtime)
+transformers==5.12.1
+torch==2.12.1
+
+# --- Indexes ---
+chromadb==1.5.9           # MUST match the version that wrote index/chroma
+rank-bm25==0.2.2          # keyword index (exact terms / circular numbers)
+
+# --- LLM adapter (swappable) + frontend ---
+google-genai==2.10.0      # Gemini adapter
+anthropic==0.104.1        # Claude adapter (unused on the Gemini deploy, kept for parity)
+python-dotenv==1.0.1
+streamlit==1.58.0

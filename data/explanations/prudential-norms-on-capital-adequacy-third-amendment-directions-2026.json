@@ -1,0 +1,37 @@
+{
+ "key_points": "### Key Compliance Points — Prudential Norms on Capital Adequacy (Third Amendment) Directions, 2026\n*(RBI/2026-27/133, dated 2026-06-16; effective immediately)*\n\n- **What it does:** Inserts **paragraph 29A** into the Prudential Norms on Capital Adequacy Directions, 2025 (RBI/2026-27/133, 2026-06-16), giving preferential capital treatment to exposures guaranteed under the **Emergency Credit Line Guarantee Scheme (ECLGS) 5.0** (NCGTC circular dated 2026-05-08).\n- **New rule (para 29A):**\n  - **Zero per cent risk weight** on **75% of the guaranteed portion** — i.e., the part where the settlement amount is expected within **thirty days** of invocation.\n  - The **remaining exposure** attracts the **normal (extant) risk weight**.\n- **Commencement:** With **immediate effect** (2026-06-16).\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2026-27/133, dated 2026-06-16 · effective immediately)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Paragraph 29A** | **Inserted** | ECLGS 5.0-guaranteed exposures get **0% risk weight on 75% of the guaranteed portion** (settlement expected within 30 days of invocation); the rest is risk-weighted as usual. |\n\n- **Effective date:** immediate (2026-06-16).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** Guaranteed exposures that qualify for a 0% risk weight consume no capital on that portion, freeing capital for further lending. This amendment extends that benefit to the ECLGS 5.0 government-guarantee scheme, subject to the 75%/30-day condition.\n\n*Illustrative example:* On an ECLGS 5.0-covered facility, NaBFID would hold zero capital against 75% of the guaranteed amount (assuming the 30-day settlement expectation is met) and apply the standard risk weight to the balance — improving the capital efficiency of such lending.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "1915c3b78837": [
+    1
+   ],
+   "5fd79ec6e74c": [
+    1
+   ],
+   "bbac3bb52520": [
+    1
+   ],
+   "1fb5dff64a26": [
+    1
+   ],
+   "1fdf098b9b87": [
+    1
+   ]
+  },
+  "what_changed": {
+   "b6b1ac5fac09": [
+    1
+   ],
+   "506125cbcbb0": [
+    1
+   ]
+  },
+  "implications": {
+   "200393f25a1d": [
+    1
+   ]
+  }
+ }
+}

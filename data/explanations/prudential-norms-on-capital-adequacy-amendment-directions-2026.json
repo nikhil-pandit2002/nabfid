@@ -1,0 +1,47 @@
+{
+ "key_points": "### Key Compliance Points — Prudential Norms on Capital Adequacy (Amendment) Directions, 2026\n*(RBI/2025-26/191, dated 2026-01-09; effective immediately)*\n\n- **What it does:** Substitutes **Para 44** and **Para 125** of the Capital Adequacy Directions, 2025, on **risk-weighting claims on non-resident corporates** and the **eligible rating agencies** (RBI/2025-26/191, 2026-01-09).\n- **Para 44 (substituted) — risk weights for non-resident corporate claims:**\n  - **Table 9.1 (S&P / Fitch / Moody's):** AAA–AA → **20%**, A → **50%**, BBB–BB → **100%**, Below BB → **150%**, Unrated → **100%**.\n  - **Table 9.2 (M/s CareEdge Global IFSC Ltd — for claims originating at the IFSC):** AAA → **20%**, AA → **30%**, A → **50%**, BBB → **100%**, BB & below → **150%**.\n  - **Explanation:** unrated claims with aggregate banking-system exposure **> ₹200 crore → 150%**; claims **> ₹100 crore** that were rated earlier and became unrated → **150%**; **no unrated corporate** claim may get a risk weight preferential to its **sovereign of incorporation**.\n- **Para 125 (substituted):** permitted international rating agencies now: **CareEdge Global IFSC Limited** (for non-resident corporate exposures originating at the IFSC), **Fitch, Moody's, Standard & Poor's**.\n- **Commencement:** **immediate** (2026-01-09).\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2025-26/191, dated 2026-01-09 · effective immediately)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Para 44** | **Substituted** | New risk-weight mapping for non-resident corporate claims (Tables 9.1 and 9.2), including a dedicated **CareEdge Global IFSC** mapping for IFSC-originating claims and ₹200cr/₹100cr unrated thresholds (150%). |\n| **Para 125** | **Substituted** | Adds **CareEdge Global IFSC Limited** to the list of usable rating agencies (for IFSC non-resident corporate exposures), alongside Fitch, Moody's and S&P. |\n\n- **Effective date:** immediate (2026-01-09).\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** For any exposure to non-resident corporates — especially those routed through India's IFSC (GIFT City) — NaBFID now has a clear risk-weight table and can use CareEdge Global IFSC ratings. Correct mapping directly affects how much capital NaBFID must hold against such claims.\n\n*Illustrative example:* A claim on a BBB-rated non-resident corporate originating at the IFSC, rated by CareEdge Global IFSC, is risk-weighted at 100% (Table 9.2). An unrated non-resident corporate with >₹200 crore aggregate banking exposure attracts 150%.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "90db62530d0c": [
+    1,
+    2
+   ],
+   "caaa307be64f": [
+    1
+   ],
+   "5ad91a76923b": [
+    1
+   ],
+   "55f48aee54ee": [
+    2
+   ],
+   "16b69d54b680": [
+    2
+   ],
+   "75e5187fbc31": [
+    2
+   ],
+   "d5cd28c24bd0": [
+    1
+   ]
+  },
+  "what_changed": {
+   "225749511f26": [
+    1
+   ],
+   "87f9853c889d": [
+    2
+   ],
+   "7de05a304f71": [
+    1
+   ]
+  },
+  "implications": {
+   "92663da820cd": [
+    1
+   ]
+  }
+ }
+}

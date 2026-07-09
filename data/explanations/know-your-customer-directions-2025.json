@@ -1,0 +1,72 @@
+{
+ "key_points": "## Know Your Customer (KYC) — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/335, dated 2025-11-28)*\n\nThe AIFI's **Anti-Money-Laundering / Counter-Terrorist-Financing (AML/CFT)** rulebook, implementing the **PML Act 2002 & PML Rules 2005** and FATF standards. A large, operational direction — covered chapter by chapter below.\n\n### Chapter I — Preliminary & Definitions\n- **Applicability:** the five AIFIs (incl. **NaBFID**), and their **foreign branches/majority subsidiaries** (apply the **more stringent** of RBI vs host-country rules).\n- **Beneficial Owner (BO) thresholds:** company — natural person with **> 10%** of shares/capital/profits or control; partnership — **> 10%** of capital/profits; unincorporated body/association — **> 15%**; trust — author, trustee, and **beneficiaries with ≥ 10%** interest. If no natural person is found, the **senior managing official** is the BO.\n- **OVDs** (officially valid documents): passport, driving licence, proof of Aadhaar, Voter ID, NREGA job card, NPR letter (deemed-OVD address proofs allowed for 3 months). Defines V-CIP, Digital KYC, CKYCR, PEP, suspicious transaction, wire-transfer terms.\n\n### Chapter II — General (Governance)\n- A **Board-approved KYC policy** with four elements: **Customer Acceptance Policy, Risk Management, Customer Identification Procedure (CIP), Monitoring of Transactions**. Conduct an **ML/TF Risk Assessment at least annually**; appoint a **Designated Director** and a **Principal Officer** (they must be different people; both reported to FIU-IND and RBI); concurrent/internal audit with quarterly notes to the Audit Committee. **Decision-making on KYC compliance cannot be outsourced.**\n\n### Chapter III — Customer Acceptance Policy\n- No **anonymous/benami/fictitious** accounts; no account where CDD can't be applied (consider filing an STR); screen every customer against **sanctions lists**; apply CDD at the **UCIC** level; do not deny service to the disadvantaged/PwDs and record reasons for any rejection; if CDD would 'tip off' a suspected launderer, **stop and file an STR** instead.\n\n### Chapter IV — Risk Management\n- Categorise every customer **low / medium / high risk** (identity, business, geography, product, channel). Risk category is **confidential** (no tipping off). Review categorisation **at least every 6 months**.\n\n### Chapter V — Customer Identification Procedure (CIP)\n- Identify customers at account opening, for international transfers by non-account-holders, on any doubt, or when a transaction is **structured below the ₹50,000 threshold**. Third-party CDD reliance is allowed (ultimate responsibility stays with the AIFI; third party not in a high-risk jurisdiction).\n\n### Chapter VI — Customer Due Diligence (CDD) — the core\n- **CDD triggers:** account opening, any occasional transaction **≥ ₹50,000** (or connected series), or international money transfer. Obtain Aadhaar/OVD + **PAN or Form 60**.\n- **Digital KYC / V-CIP:** live geo-tagged, watermarked photo + document capture; V-CIP is a live, consented, audio-visual, India-hosted process treated on par with face-to-face; Aadhaar XML/QR not older than 3 working days.\n- **Aadhaar-OTP e-KYC (non-face-to-face) limits:** aggregate deposit balance **≤ ₹1 lakh**, yearly credits **≤ ₹2 lakh**, term loans **≤ ₹60,000/year**, and **full CDD must be completed within 1 year** or the account is closed/frozen.\n- **CDD for legal entities:** prescribed certified documents for companies, partnerships, trusts, unincorporated bodies and juridical persons, plus **BO identification** (listed companies/subsidiaries exempt from BO look-through).\n- **Ongoing due diligence:** monitor large/complex/unusual transactions; **periodic KYC updation — high-risk every 2 years, medium every 8 years, low every 10 years**; self-declaration if no change; **3 advance intimations + 3 reminders** (at least one letter each); customers must report document changes within 30 days; missing PAN/Form 60 → temporarily cease operations after notice.\n- **Enhanced Due Diligence (EDD):** for non-face-to-face onboarding (first transaction must be a credit from the customer's KYC-complied bank account; treat as high-risk). **PEPs:** senior-management approval, establish source of funds/wealth, enhanced ongoing monitoring — extends to **family members and close associates**. **Simplified DD** for SHGs (office-bearers' CDD suffices at opening).\n\n### Chapter VII — Record Management\n- Retain **transaction records for 5 years** from the transaction, and **identity records for 5 years after** the relationship ends; register NPO customers on the **NITI Aayog DARPAN portal**.\n\n### Chapter VIII — Reporting to FIU-IND\n- Furnish **CTR / STR** (and other prescribed reports) to FIU-IND per PML Rule 3/7; each day's delay is a separate violation; **STR filing must stay confidential** (no tipping off) and must not itself freeze the account; deploy alert-generating software.\n\n### Chapter IX — International Obligations / Sanctions\n- Comply with **UAPA s.51A** — no accounts for those on the **UNSC ISIL(Da'esh)/Al-Qaida and Taliban sanctions lists**; **verify the lists daily**, report matches to FIU-IND/MHA, and **freeze** per the 2 Feb 2021 Order. Similar duties under the **WMD Act s.12A** (Director FIU-IND is Central Nodal Officer), the DPRK/UNSCR-1718 list, and **enhanced due diligence for FATF high-risk jurisdictions**.\n\n### Chapter X — Other Instructions\n- **Secrecy** of customer info (limited exceptions). **CKYCR:** upload KYC within **10 days** of account opening; push updates within **7 days**. **FATCA/CRS** reporting (Form 61B via Designated Director). Active measures against **Money Mules** (failure to file an STR on a mule account = non-compliance). Allot a **UCIC** per customer. **Correspondent banking:** senior-management approval, understand the respondent bank, and **never deal with shell banks**. **Wire transfers:** cross-border and domestic ≥ ₹50,000 (non-account-holder) must carry full originator + beneficiary information; screen against designated lists. **Know-Your-Employee** screening and ongoing AML training.\n\n### Chapter XI — Repeal\n- Repeals prior AIFI KYC instructions; RBI interpretation final. Annexes carry the UAPA and WMD implementation orders.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** Even though NaBFID has **no retail depositors**, KYC/AML is a hard legal obligation under the PML Act, and its **large corporate/SPV borrowers** make **beneficial-ownership identification** the central task — tracing the natural persons behind an infrastructure SPV, its holding companies, and any politically-exposed promoters. Weak KYC is an existential compliance and reputational risk for a government DFI. The direction also governs its FIU reporting (STRs on suspicious flows), daily **sanctions-list screening**, **CKYCR** uploads, correspondent-banking and cross-border wire-transfer duties (relevant to its bond-raising and any forex dealings), and record retention.\n\n*Illustrative example:* When NaBFID lends to a special-purpose vehicle for a highway project, it must identify every **beneficial owner holding > 10%** of the SPV (looking through holding companies to the ultimate natural persons), obtain certified incorporation documents, PAN and board resolutions, and screen all of them and the directors against the **UNSC and UAPA lists (checked daily)**. If a promoter is a **PEP**, opening the relationship needs **senior-management approval**, documented source of wealth, and enhanced monitoring. The SPV's KYC is uploaded to **CKYCR within 10 days**, refreshed on the **high/medium/low 2-/8-/10-year** cycle, and any genuinely suspicious transaction is reported to **FIU-IND via an STR** — confidentially, without tipping off the customer (RBI/DOR/2025-26/335, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "66cb05c93fa3": [
+    1
+   ],
+   "f231dacf81a6": [
+    3
+   ],
+   "b54390b6a55b": [
+    5
+   ],
+   "b99b5ebbf466": [
+    7
+   ],
+   "50d02037666b": [
+    18
+   ],
+   "20a02783e3f8": [
+    20
+   ],
+   "0b3f592f400b": [
+    22
+   ],
+   "0660fcf10342": [
+    23
+   ],
+   "0f9d542ec176": [
+    23
+   ],
+   "8bec51da4485": [
+    34
+   ],
+   "e3b2389e15e1": [
+    30
+   ],
+   "4307cca15f41": [
+    38
+   ],
+   "e201c8387818": [
+    41
+   ],
+   "a56155645567": [
+    47
+   ],
+   "4ddb51a85667": [
+    50
+   ],
+   "081be534979b": [
+    51
+   ],
+   "40039056eada": [
+    53,
+    55
+   ],
+   "b81c95c767d9": [
+    62,
+    63
+   ],
+   "31d8aeb9fa2f": [
+    54
+   ]
+  },
+  "implications": {
+   "e0f893868836": [
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "key_points": "### Key Compliance Points — Income Recognition, Asset Classification and Provisioning (Amendment) Directions, 2026\n*(RBI/2026-27/73, dated 2026-04-29; effective 2026-07-01)*\n\n- **What it does:** Adds special IRACP treatment for accounts resolved under the new **calamity framework (Chapter VI-A of the Resolution of Stressed Assets Directions, 2025)** (RBI/2026-27/73, 2026-04-29).\n- **Asset classification (paras 47A–47B inserted):**\n  - Accounts classified **'Standard'** may be **retained as Standard** on implementation of a Chapter VI-A resolution plan; accounts that slipped to **NPA between the calamity date and implementation** are **upgraded to 'Standard'** on implementation. Subsequent classification then follows the normal rules.\n  - Accounts earlier restructured under paras 119I–119Q that need **further restructuring** under Chapter VI-A **continue as 'Standard'**.\n- **Provisioning (Chapter IV, B1, paras 68A–68D inserted):**\n  - **Additional specific provision of 5%** of outstanding debt for borrowers with a Chapter VI-A resolution plan — over and above normal provisions, **capped at 100%**.\n  - **Another 5%** for **each** instance of repeated restructuring (para 68B).\n  - **Write-back:** these additional provisions may be reversed once the borrower repays **at least 20%** of outstanding debt without slipping to NPA and without further restructuring (68C); for non-fund-based / cash-credit-type facilities, reversal allowed after **one year** with no default (68D).\n- **Income recognition (Chapter V, paras 116A–116B inserted):** interest on Chapter VI-A resolved accounts on **accrual basis** (116A); for repeatedly-restructured accounts (para 68B) on **cash basis** (116B).\n- **Commencement:** **July 1, 2026.**\n\n_Verify with the compliance team before acting._",
+ "what_changed": "### What Changed\n*(Amendment: RBI/2026-27/73, dated 2026-04-29 · effective 2026-07-01)*\n\n| Provision | Change type | Effect |\n|---|---|---|\n| **Paras 47A, 47B** | **Inserted** | Calamity-resolution accounts retained/upgraded to 'Standard' on implementation; repeat-restructured accounts continue 'Standard'. |\n| **Chapter IV, B1 — paras 68A–68D** | **Inserted** | Additional 5% specific provision per resolution (and per repeat restructuring), capped at 100%, with defined write-back conditions. |\n| **Chapter V — paras 116A, 116B** | **Inserted** | Interest recognised on accrual basis (116A); on cash basis for repeatedly-restructured accounts (116B). |\n\n- Consequential to the Resolution of Stressed Assets Amendment, 2026 (same date).\n- **Effective date:** July 1, 2026.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** When NaBFID restructures a calamity-hit infrastructure borrower under the new Chapter VI-A route, it can keep the account 'Standard' (avoiding an NPA hit), but must set aside an extra 5% provision (more for repeat restructurings) and follow accrual/cash income-recognition rules accordingly.\n\n*Illustrative example:* A ₹500 crore loan to a project in a flood-declared district, resolved under Chapter VI-A, stays 'Standard' but attracts an additional ₹25 crore (5%) specific provision — reversible once the borrower repays ≥20% without further default.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "8aa4061915c2": [
+    1
+   ],
+   "568fe827494e": [
+    1
+   ],
+   "00e729067e4c": [
+    1
+   ],
+   "33274ee44edc": [
+    1
+   ],
+   "149913b838af": [
+    2
+   ],
+   "2931c509d33a": [
+    2
+   ],
+   "88667df0a8c0": [
+    2
+   ],
+   "c5a39e65cc0c": [
+    2
+   ],
+   "b11899d3f141": [
+    3
+   ],
+   "a7129c47896d": [
+    3
+   ]
+  },
+  "what_changed": {
+   "73749a3eb35c": [
+    1
+   ],
+   "125d16d8c6b1": [
+    2
+   ],
+   "d5790c9c1313": [
+    3
+   ],
+   "7a15cf0fd33b": [
+    1
+   ],
+   "0edb24b55c9f": [
+    3
+   ]
+  },
+  "implications": {
+   "74c848776f6f": [
+    1
+   ]
+  }
+ }
+}

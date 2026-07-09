@@ -1,0 +1,37 @@
+{
+ "key_points": "### Key Compliance Points — Miscellaneous Directions, 2025\n*(RBI/DoR/2025-26/338, dated 2025-11-28; effective immediately)*\n\nA catch-all direction consolidating governance, market-operations, compliance and HR items (RBI/DoR/2025-26/338).\n\n**Chapter I – Preliminary:** applies to the five AIFIs (EXIM, NABARD, SIDBI, NHB, NaBFID); immediate effect; 'Director' defined.\n\n**Chapter II – Role of the Board:** Board-approved policy on staff **certifications** for specialised areas (paras 15–16); Board due diligence before offering **option-premium deferment** (para 11).\n\n**Chapter III – Audit Committee of the Board (ACB):** may set up an **apex ACB of ~5 directors** (some CA/finance/audit experience; no staff directors); meets **at least once a quarter, not less than 6 times a year**; functions include directing the total audit function, reviewing internal inspection/audit and fraud follow-up, following up statutory-audit and RBI-inspection issues.\n\n**Chapter IV – Services and Market Operations:**\n- **Deferment of option premium (para 11):** AIFI may defer premium on plain-vanilla options / forex option structures sold to users, subject to due diligence, uniform quarterly collection, and (for forex structures) user liability never exceeding net premium; not available to intermediary AIFIs without their own option book.\n- **Corporate bond reporting (para 12):** report secondary-market OTC corporate-bond transactions on **FIMMDA's platform**.\n\n**Chapter V – Regulatory Compliance:** **FATCA / US IGA** — register with US authorities and obtain a **GIIN**; specific registration actions for overseas branches in Model 1 / IGA 2 / non-IGA jurisdictions.\n\n**Chapter VI – Human Resource and Capacity Building:** mandatory **certifications** before posting staff in treasury (dealers, mid-office), risk management (credit/market/operational/enterprise/infosec/liquidity), accounting (financial results, audit) and credit management (appraisal, rating, monitoring, administration); Board-approved policy using IBA-recognised courses.\n\n**Chapter VII – Repeal and other provisions.**\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** These are the \"housekeeping\" governance and compliance obligations — a properly constituted Audit Committee, FATCA/GIIN registration, and mandatory certification of staff in specialised functions (treasury, risk, accounting, credit). They are audit-visible and expected to be in place.\n\n*Illustrative example:* Before posting an officer to NaBFID's treasury dealing desk or market-risk function, the officer must hold the Board-mandated certification for that area; and NaBFID must maintain a valid GIIN for FATCA compliance.\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "f99ed9dfb662": [
+    1
+   ],
+   "a530bea1b1e4": [
+    2
+   ],
+   "1f46826d606c": [
+    3
+   ],
+   "ecd5bd3f78fb": [
+    4
+   ],
+   "17a45d6d4981": [
+    5
+   ],
+   "23aa937bf553": [
+    5
+   ],
+   "6ff879e107a6": [
+    6
+   ],
+   "08d5a29336dd": [
+    7
+   ]
+  },
+  "implications": {
+   "29e34f17b5c7": [
+    1
+   ]
+  }
+ }
+}

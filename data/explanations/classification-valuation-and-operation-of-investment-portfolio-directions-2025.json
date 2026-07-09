@@ -1,0 +1,65 @@
+{
+ "key_points": "## Classification, Valuation & Operation of Investment Portfolio — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/329, dated 2025-11-28)*\n\nGoverns how an AIFI classifies, values, trades, and accounts for its **investment portfolio** (Government securities, corporate bonds, equity, mutual funds, AIFs).\n\n### Chapter I — Preliminary\n- **Commencement:** immediate. **Applicability:** the five AIFIs (incl. **NaBFID**). Defines HTM/AFS/HFT, rated/unrated, quoted/listed, repo, STRIPS, etc.\n\n### Chapter II — Role of the Board\n- Board approves the **Investment Policy** and sets up an **Investment Committee** (accountable for every investment decision); Board reviews debt-investment risk **quarterly** and the whole portfolio **half-yearly** (placed within two months). The **ACB** reviews total capital-market exposure every meeting.\n\n### Chapter III — Investment Policy Framework\n- A comprehensive Board-approved policy must set prudential/issuer/sub-limits, minimum rating standards, valuation rules and broker policy; **every investment is appraised to the same credit standard as a loan**; the AIFI must do its **own internal credit rating** (not rely solely on external ratings), check CRILC/defaulter lists, and **hold all securities in demat**.\n\n### Chapter IV — Classification (HTM / AFS / HFT)\n- Category fixed **at acquisition**. **HTM ≤ 25% of total investments** (subsidiaries/JVs, recap bonds and statutory-mandate long-term bonds (≥3-yr residual) are outside the 25% ceiling).\n- **HFT must be sold within 90 days**; anything not HTM/HFT is **AFS**. Converted equity/instruments and quoted equity/AIF units are always AFS.\n- **Shifting to/from HTM: only once a year, Board-approved, normally at year-start.** HFT→AFS shift barred except in genuine liquidity stress. **If HTM sales/transfers exceed 5%** of opening HTM book value, disclose HTM market value & unprovided shortfall in Notes to Accounts (with listed carve-outs: annual one-time transfer, OMO/GSAP, buybacks).\n\n### Chapter V–VI — Valuation & Market Value\n- **HTM:** not marked to market; carried at cost (premium amortised); provide for other-than-temporary diminution in subsidiaries/JVs.\n- **AFS marked to market quarterly, HFT monthly**; value security-wise, **net depreciation provided, net appreciation ignored**, and depreciation in one class can't be offset by appreciation in another.\n- **Mark-ups over FBIL G-sec YTM:** rated bonds **≥ 50 bps**; unrated ≥ rated of equal maturity; special securities **+25 bps**; UDAY per FBIL; discom bonds **+75 bps (state-guaranteed) / +100 bps (unguaranteed) / +50 bps (state-serviced)**. Equity → **break-up value** (balance sheet ≤ 18 months old), else **₹1 per company**. Preference-share dividend arrears force steep discounts (15%/25%…).\n\n### Chapter VII–VIII — Government & Non-Government Securities\n- G-sec via SGL/CSGL under DvP; settlement-date accounting; STRIPS valued as ZCBs.\n- **Only listed** non-government debt, investment-grade rated. **Unlisted ≤ 10%** of prior-year non-gov investments (a further **+10%** only for infra securitisation / SC-RC bonds). **No unrated debt** (exception: infra-company bonds within the 10% unlisted ceiling), **no corporate ZCBs / low-coupon bonds** (unless a sinking fund exists), and no non-gov security of original maturity < 1 year (CP/CD/short NCD carve-out). OTC corporate-bond trades reported within 15 minutes; disclose issuer composition & non-performing non-gov investments in Notes to Accounts.\n\n### Chapter IX–X — Controls, Brokers, Audit\n- Functional separation of trading/settlement/monitoring/accounting; deal slips serially controlled; quarterly reconciliation with PDO. **Broker aggregate contract limit = 5% of total yearly transactions** per broker (breach → written reasons + post-facto to Board; Primary Dealers exempt); brokers only introduce parties, never settle. Treasury under **concurrent audit** (monthly to CMD); half-yearly portfolio review to Board and DoS; annual auditor-certified reconciliation to DoS.\n\n### Chapter XI — Accounting & Provisioning\n- Income accrual only where interest/dividend is serviced and not in arrears; MF income on **cash basis**; broken-period interest expensed (not capitalised).\n- **Investment Reserve Account (IRA):** excess AFS/HFT depreciation provisions routed via P&L to IRA — eligible **Tier 2 within the 1.25%-of-RWA general-provision ceiling**; strict \"no below-the-line provisioning\" rules.\n- **NPI = interest/principal unpaid > 90 days** (mirrors NPA); borrower-linked (issuer NPA ⇒ its securities NPI); no set-off of NPI depreciation against performing appreciation; Central-Government-guaranteed bonds not classed NPI until guarantee repudiated (but income still not accrued).\n\n### Chapter XIII — Repeal\n- Repeals prior AIFI investment-portfolio instructions; RBI interpretation final. **Annex I** = investment reconciliation statement format.\n\n_Verify with the compliance team before acting._",
+ "implications": "**Why it matters for NaBFID:** NaBFID runs a sizeable treasury alongside its lending book — parking bond-raised funds in G-secs and investing in infrastructure bonds, SRs and AIF units. This direction dictates how that book is classified, marked to market, and provisioned, and it interacts with the IRACP Directions (NPI mirrors NPA) and the Financial Statements Directions (issuer-composition and HTM-breach disclosures). The **25% HTM cap, the mark-to-market discipline, the 10% unlisted / unrated limits with the infra carve-out, and the NPI rules** are the day-to-day constraints on the treasury desk.\n\n*Illustrative example:* If NaBFID buys an infrastructure company's **unrated** bond, it may do so only within the **10% unlisted-securities ceiling** and only for infra activity; the bond is valued at **≥ 50 bps over the equivalent FBIL G-sec YTM** (higher, reflecting its credit risk). If the issuer misses a coupon for 91 days, the bond becomes an **NPI**, income stops accruing, and depreciation is provided without offsetting gains elsewhere. Meanwhile its HTM G-sec book must stay **≤ 25%** of total investments, and any HTM sales beyond **5%** of the opening HTM value trigger a Notes-to-Accounts disclosure (RBI/DOR/2025-26/329, dated 2025-11-28).\n\n_Verify with the compliance team before acting._",
+ "citations": {
+  "key_points": {
+   "b19219e5680c": [
+    1
+   ],
+   "ebc38f9cfa68": [
+    5
+   ],
+   "b4eb64a705fa": [
+    7
+   ],
+   "de9bb8b8dfaa": [
+    9
+   ],
+   "dfad25004619": [
+    10
+   ],
+   "d4d5e619547f": [
+    11
+   ],
+   "67131dd90e99": [
+    13
+   ],
+   "719e08920a1c": [
+    14
+   ],
+   "191bed93b3e1": [
+    15
+   ],
+   "75951468dcd8": [
+    17,
+    19
+   ],
+   "c34765ca95eb": [
+    25
+   ],
+   "730daca9d606": [
+    29
+   ],
+   "967633a54c68": [
+    36
+   ],
+   "2383ecae3538": [
+    39
+   ],
+   "a5b3077f8b4a": [
+    40
+   ],
+   "6632d676013e": [
+    42
+   ],
+   "168f87208365": [
+    45
+   ]
+  },
+  "implications": {
+   "c5e3902fedf9": [
+    1
+   ]
+  }
+ }
+}
