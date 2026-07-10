@@ -83,6 +83,35 @@ def _pdf_page_count(rel_path: str) -> int:
         return doc.page_count
 
 
+def _is_mobile() -> bool:
+    """True when the request comes from a phone/tablet browser. Mobile browsers
+    can't render PDFs in an iframe (Android Chrome shows a blank box, iOS Safari
+    shows only page 1) and ignore #page=N anchors, so several surfaces switch to
+    image-based page rendering instead. NaBFID office laptops block the hosted
+    URL, so mobile is the PRIMARY access path for pilot users — not an edge case."""
+    try:
+        ua = st.context.headers.get("User-Agent", "") or ""
+    except Exception:  # very old Streamlit or non-request context
+        return False
+    return bool(re.search(r"Mobi|Android|iPhone|iPad", ua, re.IGNORECASE))
+
+
+@st.cache_data(show_spinner=False, max_entries=64)
+def _page_png(rel_path: str, page: int) -> bytes:
+    """Render one PDF page to a PNG (2x zoom keeps small print legible when
+    pinch-zoomed on a phone). Cached — repeat views of the same page are free."""
+    import fitz
+    with fitz.open(PROJECT_ROOT / rel_path) as doc:
+        pix = doc[page - 1].get_pixmap(matrix=fitz.Matrix(2, 2))
+        return pix.tobytes("png")
+
+
+@st.cache_data(show_spinner=False)
+def _relpath_for_doc(doc_id: str) -> str | None:
+    d = docstore.get_document(doc_id)
+    return d["file_path"] if d else None
+
+
 # The source PDFs are served (as copies) from ./static/ so the browser's native,
 # scrollable PDF viewer can open them at a specific page via "#page=N". Streamlit
 # exposes ./static/ at the URL path "app/static/". Copies are made on demand and
@@ -134,15 +163,19 @@ def _static_url_for_doc(doc_id: str) -> str | None:
 # --------------------------------------------------------------------------
 def _citation_link(idx: int, url: str | None, page: int, title: str) -> str:
     """One inline, clickable citation marker — opens the source PDF at the
-    right page in a new browser tab."""
+    right page in a new browser tab. On mobile the marker shows the page number
+    too ("1·p12"): phone PDF viewers ignore the #page=N anchor (they open at
+    page 1) and touch screens have no hover tooltip, so the label itself is the
+    only way the reader learns which page to go to."""
+    label = f"{idx}·p{page}" if _is_mobile() else str(idx)
     if not url:
-        return f"<sup>[{idx}]</sup>"
+        return f"<sup>[{label}]</sup>"
     href = f"{url}#page={page}&view=FitH"
     return (f'<a href="{href}" target="_blank" rel="noopener noreferrer" '
             f'title="{title}" style="text-decoration:none;color:#1f6feb;'
             'font-size:0.72em;font-weight:700;vertical-align:super;'
             'background:#eef3fb;border:1px solid #d6e2f5;border-radius:4px;'
-            f'padding:0 4px;margin:0 1px;">{idx}</a>')
+            f'padding:0 4px;margin:0 1px;white-space:nowrap;">{label}</a>')
 
 
 # --------------------------------------------------------------------------
@@ -190,9 +223,13 @@ def render_cited_markdown(text: str, doc_id: str,
 
 
 def pdf_preview(doc: dict) -> None:
-    """Full, scrollable + searchable PDF viewer. If the user arrived via a
-    citation, it opens jumped to that page; otherwise page 1. (No single-page
-    image view — the whole document is scrollable in the browser's PDF reader.)"""
+    """PDF viewer with two modes. Desktop default: the browser's embedded,
+    scrollable + searchable PDF reader (iframe). Mobile default: page-by-page
+    images rendered by PyMuPDF — phone browsers cannot render a PDF inside an
+    iframe at all (Android Chrome: blank box; iOS Safari: first page only), and
+    NaBFID office laptops block the hosted URL, so phones are the primary way
+    pilot users will read documents. Both modes are always offered via a toggle;
+    only the default follows the device."""
     rel_path = doc["file_path"]
     path = PROJECT_ROOT / rel_path
     if not path.exists():
@@ -203,20 +240,48 @@ def pdf_preview(doc: dict) -> None:
         st.warning("PDF could not be prepared for viewing.")
         return
 
+    n_pages = _pdf_page_count(rel_path)
     cite_page = st.session_state.get(f"citepage_{doc['doc_id']}")
-    page = min(max(1, cite_page), _pdf_page_count(rel_path)) if cite_page else 1
+    page = min(max(1, cite_page), n_pages) if cite_page else 1
     if cite_page:
         st.success(f"📄 Opened at cited page {page} — scroll freely from here.")
-    st.caption("Full document — scroll to read; use the viewer toolbar or Ctrl+F "
-               "to search.")
-    # Real URL + "#page=N" so the native viewer lands on the right page; the
-    # cache-buster keeps the iframe from re-jumping to the page on every rerun.
-    src = f"{url}#page={page}&view=FitH&toolbar=1"
-    st.markdown(
-        f'<iframe src="{src}" width="100%" height="900" '
-        f'style="border:1px solid #ddd;"></iframe>',
-        unsafe_allow_html=True,
-    )
+
+    MODE_PAGES, MODE_EMBED = "🖼 Page-by-page", "📜 Full document"
+    mode = st.radio("Viewer mode", [MODE_PAGES, MODE_EMBED],
+                    index=0 if _is_mobile() else 1, horizontal=True,
+                    key=f"pdfmode_{doc['doc_id']}",
+                    label_visibility="collapsed")
+
+    if mode == MODE_EMBED:
+        st.caption("Full document — scroll to read; use the viewer toolbar or "
+                   "Ctrl+F to search. (Blank on phones? Switch to page-by-page.)")
+        # Real URL + "#page=N" so the native viewer lands on the right page.
+        src = f"{url}#page={page}&view=FitH&toolbar=1"
+        st.markdown(
+            f'<iframe src="{src}" width="100%" height="900" '
+            f'style="border:1px solid #ddd;"></iframe>',
+            unsafe_allow_html=True,
+        )
+    else:
+        pg_key = f"pdfpage_{doc['doc_id']}"
+        if cite_page:  # a citation jump overrides whatever page was open before
+            st.session_state[pg_key] = page
+            st.session_state.pop(f"citepage_{doc['doc_id']}", None)
+        st.session_state.setdefault(pg_key, page)
+        c_prev, c_num, c_next = st.columns([1, 2, 1])
+        # Buttons are handled BEFORE the number_input widget is instantiated,
+        # so mutating its session-state value here is allowed.
+        if c_prev.button("◀ Prev", key=f"{pg_key}_prev", use_container_width=True,
+                         disabled=st.session_state[pg_key] <= 1):
+            st.session_state[pg_key] = max(1, st.session_state[pg_key] - 1)
+        if c_next.button("Next ▶", key=f"{pg_key}_next", use_container_width=True,
+                         disabled=st.session_state[pg_key] >= n_pages):
+            st.session_state[pg_key] = min(n_pages, st.session_state[pg_key] + 1)
+        cur = c_num.number_input(f"Page (1–{n_pages})", min_value=1,
+                                 max_value=n_pages, key=pg_key)
+        st.image(_page_png(rel_path, cur), use_container_width=True)
+        st.caption(f"Page {cur} of {n_pages} — pinch to zoom on mobile.")
+
     st.download_button("⬇️ Download full PDF", path.read_bytes(),
                        file_name=path.name, mime="application/pdf")
 
@@ -279,6 +344,7 @@ def render_sources(sources: list[dict], key_prefix: str = "src") -> None:
     when no quote could be verified."""
     if not sources:
         return
+    mobile = _is_mobile()
     with st.expander(f"📎 Sources & citations ({len(sources)}) — click 📄 to open "
                      "the cited page (opens in a new tab; your chat stays here)",
                      expanded=False):
@@ -300,6 +366,16 @@ def render_sources(sources: list[dict], key_prefix: str = "src") -> None:
                 url = _static_url_for_doc(c["doc_id"])
                 st.markdown(_open_pdf_button(url, page),
                             unsafe_allow_html=True)
+            # Mobile: phone PDF viewers ignore the #page=N anchor, so an
+            # "Open p.N" link would strand the reader on page 1 of a long
+            # direction. Show the exact cited page inline as an image instead.
+            if mobile:
+                if st.toggle(f"🖼 Show cited page {page} here",
+                             key=f"{key_prefix}_pg_{i}"):
+                    rel = _relpath_for_doc(c["doc_id"])
+                    if rel:
+                        st.image(_page_png(rel, int(page)),
+                                 use_container_width=True)
 
 
 def goto(page: str, doc_id: str | None = None) -> None:
@@ -567,6 +643,21 @@ def _sidebar_conversations() -> None:
 def main() -> None:
     if not gate():
         return
+
+    # Mobile-friendliness (office laptops block the hosted URL, so phones are
+    # the primary access path): wide guide tables scroll sideways inside their
+    # own box instead of stretching the page, and the main-area padding tightens
+    # on narrow screens so content gets the width.
+    st.markdown("""<style>
+    [data-testid="stMarkdownContainer"] table {
+        display: block; overflow-x: auto; max-width: 100%;
+    }
+    @media (max-width: 640px) {
+        .block-container {
+            padding-left: 0.9rem; padding-right: 0.9rem; padding-top: 2.5rem;
+        }
+    }
+    </style>""", unsafe_allow_html=True)
 
     st.sidebar.title("📘 RBI Compliance Assistant")
     st.sidebar.caption(f"NaBFID · model: `{LLM_MODEL}`")
