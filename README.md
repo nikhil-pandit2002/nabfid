@@ -30,17 +30,29 @@ Developed by **Nikhil Pandit** (Risk Management, NaBFID).
   (verified offline against the real page text).
 - **Audit log** — every query recorded, for governance.
 
-## Configuration (Hugging Face → Settings → Variables and secrets)
+## Configuration (host's Secrets / Config Vars settings)
 Set these as **Secrets** (never commit them):
 
 | Secret | Value |
 |---|---|
 | `GEMINI_API_KEY` | your Google AI Studio key (free Gemini Flash tier) |
 | `ACCESS_CODE`    | the shared access code for the login gate |
+| `DATABASE_URL`   | (recommended on Heroku/Streamlit Cloud) connection string for a free hosted Postgres (e.g. Neon, Supabase) — see below |
 
 The LLM layer is swappable via env vars (defaults shown):
 `LLM_PROVIDER=gemini`, `LLM_MODEL=gemini-2.5-flash`. To use Claude instead, set
 `LLM_PROVIDER=anthropic`, `LLM_MODEL=claude-haiku-4-5`, and add `ANTHROPIC_API_KEY`.
+
+### Why `DATABASE_URL` matters on free hosts
+Heroku dynos and Streamlit Community Cloud both wipe the local filesystem on
+every restart/reboot (dyno cycling, redeploys, sleep/wake). Without
+`DATABASE_URL` set, the audit log and saved chat history reset on every such
+event — the read-only corpus (manifest/chunks/index/PDFs) is unaffected since
+it's shipped in the git repo, but new Q&A history is not. Set `DATABASE_URL` to
+a free Postgres connection string (e.g. from neon.tech or supabase.com) and
+`audit.py` / `conversations.py` switch to it automatically — no other code
+changes needed. Leave it unset for local/on-premise use, where local SQLite/JSON
+files are fine.
 
 ## Notes
 - First load takes ~1 minute while the local embedding + reranker models load

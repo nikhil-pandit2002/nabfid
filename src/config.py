@@ -56,3 +56,11 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 # --- Prototype access gate (not real auth; keeps the URL from being open) ----
 ACCESS_CODE = os.getenv("ACCESS_CODE", "nabfid")
 
+# --- Persistent storage for audit log + saved chats -------------------------
+# Empty by default -> local SQLite/JSON files (data/), fine for on-premise or
+# local dev where disk is durable. On free hosts (Heroku dynos, Streamlit
+# Community Cloud) the local filesystem is wiped on every restart/reboot, so
+# set DATABASE_URL (a free hosted Postgres, e.g. Neon/Supabase) there instead —
+# audit.py and conversations.py both switch to it automatically when present.
+DATABASE_URL = os.getenv("DATABASE_URL", "")
+
