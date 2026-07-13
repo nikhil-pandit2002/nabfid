@@ -126,6 +126,30 @@ def _relpath_for_doc(doc_id: str) -> str | None:
     return d["file_path"] if d else None
 
 
+# A figure/table caption at the start of a line, e.g. "Figure 1: ...",
+# "Table 2 -", "Chart 3". RBI documents label their visuals this way, so a
+# match on a cited page means that page carries a diagram/table worth showing
+# alongside the answer (see render_figures).
+_FIGURE_CAPTION_RE = re.compile(
+    r"^\s*(figure|fig\.?|table|chart)\s+\d+\b.*", re.IGNORECASE)
+
+
+@st.cache_data(show_spinner=False)
+def _figure_pages(rel_path: str) -> dict[int, str]:
+    """Map {page_no: caption} of every page in the document that carries a
+    labelled figure/table/chart. Computed in a single pass per document and
+    cached, so figure lookups while rendering answers are instant."""
+    import fitz
+    out: dict[int, str] = {}
+    with fitz.open(PROJECT_ROOT / rel_path) as doc:
+        for i in range(doc.page_count):
+            for line in doc[i].get_text().splitlines():
+                if _FIGURE_CAPTION_RE.match(line):
+                    out[i + 1] = " ".join(line.split())[:120]
+                    break
+    return out
+
+
 # The source PDFs are served (as copies) from ./static/ so the browser's native,
 # scrollable PDF viewer can open them at a specific page via "#page=N". Streamlit
 # exposes ./static/ at the URL path "app/static/". Copies are made on demand and
@@ -427,6 +451,65 @@ def render_sources(sources: list[dict], key_prefix: str = "src") -> None:
                                  use_container_width=True)
 
 
+# Common words to ignore when matching a figure caption to the question, so
+# overlap reflects the topic (e.g. "investments", "capital", "insurance") not
+# filler. Kept small and generic on purpose.
+_FIG_STOP = {
+    "the", "and", "for", "with", "that", "outside", "scope", "such", "all",
+    "under", "from", "into", "over", "per", "cent", "shall", "based", "other",
+    "this", "these", "which", "where", "applicable", "including", "any",
+}
+
+
+def _caption_overlap(caption: str, query: str) -> int:
+    """How many topic words a figure caption shares with the question — a cheap,
+    embedding-free relevance signal. Figure 1's caption is nearly the user's
+    query verbatim (high overlap); an unrelated 'Foreign PSE risk weights' table
+    scores ~0 and is filtered out."""
+    cw = set(re.findall(r"[a-z]{4,}", caption.lower())) - _FIG_STOP
+    qw = set(re.findall(r"[a-z]{4,}", query.lower())) - _FIG_STOP
+    return len(cw & qw)
+
+
+def render_figures(sources: list[dict], query: str) -> None:
+    """Show figures/tables/charts that the answer draws on, right under it — so a
+    diagram (e.g. the capital-instruments deduction flowchart) is visible, not
+    just linked. Pages are detected deterministically from their captions in the
+    real PDF (never hallucinated). Candidates come from the cited chunks' page
+    spans; we then keep only those whose caption is topically relevant to the
+    question and show the best few — otherwise a table on a tangentially-
+    retrieved page could crowd out the figure the user actually asked about."""
+    if not sources or not query:
+        return
+    seen: set[tuple[str, int]] = set()
+    cands: list[tuple[int, int, str, str, str]] = []  # score, pg, rel, cap, circ
+    for c in sources:
+        rel = _relpath_for_doc(c["doc_id"])
+        if not rel:
+            continue
+        figpages = _figure_pages(rel)
+        if not figpages:
+            continue
+        # Scan the cited chunk's whole page span, plus one page either side (a
+        # figure can sit just before/after the paragraph that references it).
+        lo = int(c.get("page_start") or c.get("cite_page") or 1)
+        hi = int(c.get("page_end") or lo)
+        for pg in range(lo - 1, hi + 2):
+            if pg < 1 or pg not in figpages or (rel, pg) in seen:
+                continue
+            seen.add((rel, pg))
+            cap = figpages[pg]
+            cands.append((_caption_overlap(cap, query), pg, rel, cap,
+                          c["circular_no"]))
+    # Keep only captions clearly on-topic (>=2 shared words), best first.
+    cands = sorted((x for x in cands if x[0] >= 2), key=lambda x: -x[0])
+    for rank, (_score, pg, rel, cap, circ) in enumerate(cands[:3]):
+        with st.expander(f"📊 {cap}  ·  {circ} — p.{pg}", expanded=(rank == 0)):
+            st.image(_page_png(rel, pg), use_container_width=True)
+            st.caption(f"Figure/table from {circ}, page {pg}. Shown from the "
+                       "source document — verify against the full circular.")
+
+
 def goto(page: str, doc_id: str | None = None) -> None:
     # `nav` is bound to the sidebar radio widget, so it can't be written after
     # that widget is instantiated. Stash the target and apply it at the top of
@@ -485,6 +568,8 @@ def page_chatbot() -> None:
         with st.chat_message(msg["role"]):
             if msg["role"] == "assistant":
                 render_answer(msg["content"], msg.get("sources") or [])
+                render_figures(msg.get("sources") or [],
+                               history[i - 1]["content"] if i > 0 else "")
             else:
                 st.markdown(msg["content"])
             if msg.get("sources") is not None:
@@ -500,6 +585,7 @@ def page_chatbot() -> None:
                 res = answer(q)
                 audit.log("chatbot", q, res)
             render_answer(res["answer"], res["sources"])
+            render_figures(res["sources"], q)
             render_sources(res["sources"], key_prefix=f"chat_h{len(history)}")
             st.caption(VERIFY_NOTE)
         history.append({"role": "assistant", "content": res["answer"],
@@ -609,6 +695,8 @@ def _document_chat(doc: dict) -> None:
         with st.chat_message(msg["role"]):
             if msg["role"] == "assistant":
                 render_answer(msg["content"], msg.get("sources") or [])
+                render_figures(msg.get("sources") or [],
+                               history[i - 1]["content"] if i > 0 else "")
             else:
                 st.markdown(msg["content"])
             if msg.get("sources") is not None:
@@ -625,6 +713,7 @@ def _document_chat(doc: dict) -> None:
                 res = answer(q, scope_doc_ids=scope)
                 audit.log("document_chat", q, res, scope_doc=doc["doc_id"])
             render_answer(res["answer"], res["sources"])
+            render_figures(res["sources"], q)
             render_sources(res["sources"],
                            key_prefix=f"dchat_{doc['doc_id']}_h{len(history)}")
             st.caption(VERIFY_NOTE)
