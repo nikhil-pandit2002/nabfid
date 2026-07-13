@@ -7,3 +7,9 @@
 [server]
 enableStaticServing = true
 headless = true
+# Disable the source file-watcher in deployment: we don't hot-reload on a
+# server, and the watcher introspects every installed package (incl. all of
+# transformers' image models), spamming the logs with harmless torchvision
+# ModuleNotFoundError noise and wasting memory on the free tier. "none" stops
+# both. (Static serving + the app itself are unaffected.)
+fileWatcherType = "none"
