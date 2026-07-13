@@ -96,6 +96,20 @@ def _is_mobile() -> bool:
     return bool(re.search(r"Mobi|Android|iPhone|iPad", ua, re.IGNORECASE))
 
 
+def _is_android() -> bool:
+    """True on Android browsers (Chrome etc.). Android hands PDFs to an external
+    viewer (Google Drive/preview) that IGNORES the "#page=N" anchor, so a
+    citation link opens page 1 instead of the cited page. iOS Safari and desktop
+    both honour the anchor. So on Android we point citations at an image of the
+    exact page instead (see _citation_href), which every mobile browser renders
+    correctly."""
+    try:
+        ua = st.context.headers.get("User-Agent", "") or ""
+    except Exception:
+        return False
+    return "android" in ua.lower()
+
+
 @st.cache_data(show_spinner=False, max_entries=64)
 def _page_png(rel_path: str, page: int) -> bytes:
     """Render one PDF page to a PNG (2x zoom keeps small print legible when
@@ -140,6 +154,39 @@ def _static_url_for_doc(doc_id: str) -> str | None:
     return _static_pdf_url(d["file_path"]) if d else None
 
 
+@st.cache_data(show_spinner=False)
+def _static_page_png_url(rel_path: str, page: int) -> str | None:
+    """Render one PDF page to a PNG served from ./static/ and return its
+    "app/static/...png" URL. Used for Android citations: opening this image in a
+    new tab shows the exact cited page on every mobile browser, sidestepping
+    Android's PDF viewer that ignores "#page=N"."""
+    src = PROJECT_ROOT / rel_path
+    if not src.exists():
+        return None
+    STATIC_DIR.mkdir(exist_ok=True)
+    name = hashlib.md5(f"{rel_path}::p{page}".encode("utf-8")).hexdigest() + ".png"
+    dest = STATIC_DIR / name
+    if not dest.exists() or dest.stat().st_mtime < src.stat().st_mtime:
+        import fitz
+        with fitz.open(src) as doc:
+            page = max(1, min(page, doc.page_count))
+            doc[page - 1].get_pixmap(matrix=fitz.Matrix(2, 2)).save(str(dest))
+    return f"app/static/{name}"
+
+
+def _citation_href(doc_id: str, url: str | None, page: int) -> str | None:
+    """Where a citation should point. Android: an image of the exact page (its
+    PDF viewer ignores "#page=N" and would strand the reader on page 1). iOS
+    Safari + desktop: the real PDF opened at "#page=N" (full scrollable viewer,
+    better when it works)."""
+    if _is_android():
+        rel = _relpath_for_doc(doc_id)
+        img = _static_page_png_url(rel, page) if rel else None
+        if img:
+            return img
+    return f"{url}#page={page}&view=FitH" if url else None
+
+
 # --------------------------------------------------------------------------
 # Inline citation links.
 #
@@ -161,16 +208,15 @@ def _static_url_for_doc(doc_id: str) -> str | None:
 # browser tab reliably (unlike a script-simulated click), so the chat tab
 # never navigates and there is nothing for Back to undo there.
 # --------------------------------------------------------------------------
-def _citation_link(idx: int, url: str | None, page: int, title: str) -> str:
-    """One inline, clickable citation marker — opens the source PDF at the
-    right page in a new browser tab. On mobile the marker shows the page number
-    too ("1·p12"): phone PDF viewers ignore the #page=N anchor (they open at
-    page 1) and touch screens have no hover tooltip, so the label itself is the
-    only way the reader learns which page to go to."""
+def _citation_link(idx: int, href: str | None, page: int, title: str) -> str:
+    """One inline, clickable citation marker — opens the cited page in a new tab
+    (a #page=N PDF link on desktop/iOS, a page image on Android; the caller
+    picks via _citation_href). On mobile the marker shows the page number too
+    ("1·p12"): touch screens have no hover tooltip, so the label itself tells
+    the reader which page it points at."""
     label = f"{idx}·p{page}" if _is_mobile() else str(idx)
-    if not url:
+    if not href:
         return f"<sup>[{label}]</sup>"
-    href = f"{url}#page={page}&view=FitH"
     return (f'<a href="{href}" target="_blank" rel="noopener noreferrer" '
             f'title="{title}" style="text-decoration:none;color:#1f6feb;'
             'font-size:0.72em;font-weight:700;vertical-align:super;'
@@ -213,7 +259,8 @@ def render_cited_markdown(text: str, doc_id: str,
         chips = ""
         for page in pages:
             num = page_to_num.setdefault(page, len(page_to_num) + 1)
-            chips += _citation_link(num, url, page, f"Source — page {page}")
+            href = _citation_href(doc_id, url, page)
+            chips += _citation_link(num, href, page, f"Source — page {page}")
         base = raw.rstrip()
         if base.endswith("|"):  # markdown table row: keep the chip inside the
             out.append(f"{base[:-1].rstrip()} {chips} |")  # last cell.
@@ -314,20 +361,22 @@ def render_answer(text: str, sources: list[dict]) -> None:
             url = _static_url_for_doc(c["doc_id"])
             page = c.get("cite_page", c["page_start"])
             title = f"{c['circular_no']} ({c['issue_date']}), page {page}"
-            chips.append(_citation_link(i, url, page, title))
+            href = _citation_href(c["doc_id"], url, page)
+            chips.append(_citation_link(i, href, page, title))
         return "".join(chips) if chips else match.group(0)
 
     st.markdown(_CITE_RE.sub(repl, text), unsafe_allow_html=True)
 
 
-def _open_pdf_button(url: str | None, page: int) -> str:
-    """A full-width 'Open p.N' link styled as a button that opens the source
-    PDF at that page in a NEW browser tab — so the chat is never left and the
-    reader can keep clicking other citations (this is what the inline [n]
-    citations do too; the old in-app-navigation button had no way back)."""
-    if not url:
+def _open_pdf_button(doc_id: str, url: str | None, page: int) -> str:
+    """A full-width 'Open p.N' link styled as a button that opens the cited page
+    in a NEW browser tab — so the chat is never left and the reader can keep
+    clicking other citations. Routes through _citation_href, so on Android it
+    opens a page image (its PDF viewer ignores #page=N) and on desktop/iOS the
+    real PDF at that page."""
+    href = _citation_href(doc_id, url, page)
+    if not href:
         return f"<div style='text-align:center;color:#888;'>p.{page}</div>"
-    href = f"{url}#page={page}&view=FitH"
     return (f'<a href="{href}" target="_blank" rel="noopener noreferrer" '
             'style="display:block;width:100%;box-sizing:border-box;'
             'text-align:center;padding:0.35rem 0.5rem;border:1px solid #d0d7de;'
@@ -364,7 +413,7 @@ def render_sources(sources: list[dict], key_prefix: str = "src") -> None:
                     st.caption('"' + " ".join(c["text"].split())[:280] + '…"')
             with col2:
                 url = _static_url_for_doc(c["doc_id"])
-                st.markdown(_open_pdf_button(url, page),
+                st.markdown(_open_pdf_button(c["doc_id"], url, page),
                             unsafe_allow_html=True)
             # Mobile: phone PDF viewers ignore the #page=N anchor, so an
             # "Open p.N" link would strand the reader on page 1 of a long
