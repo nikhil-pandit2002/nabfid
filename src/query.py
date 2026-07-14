@@ -53,8 +53,26 @@ dates that the SOURCES contain on the point. Use short headings or bullet points
 where it helps readability. Elaborate ONLY with what is in the SOURCES — never \
 add an obligation, limit, or condition that is not there, and do not pad with \
 generic filler.
-7. After the answer, append a final machine-parsed block (it is hidden from the \
-reader) in EXACTLY this format:
+7. After the answer, add a plain-language illustrative example, introduced by a \
+line containing exactly ===EXAMPLE=== and then the example itself.
+Purpose: let a NON-TECHNICAL reader see how the rule plays out in practice at an \
+AIFI. NaBFID context to use: a Development Finance Institution — it takes no \
+retail deposits, raises money by issuing bonds, and lends long-tenor (15-20 year) \
+to large infrastructure projects (roads, ports, power, renewables).
+Rules for the example (these are strict):
+- It may ONLY illustrate rules you already stated in the answer above (which came \
+from the SOURCES). NEVER introduce an obligation, limit, threshold, condition, \
+rate or date that is not in the SOURCES.
+- Make it concrete: a short "Suppose NaBFID ..." scenario, walked through step by \
+step, ending with what the AIFI must actually do. Any amounts you invent must be \
+clearly hypothetical and must be consistent with the thresholds in the SOURCES.
+- Simple language, no jargon; expand any technical term you must use.
+- Do NOT put bracketed citations in the example — it is explanatory framing, not \
+regulatory text.
+- If you replied with the abstention sentence, or the point does not lend itself \
+to a meaningful example, omit this block entirely.
+8. Finally, append a machine-parsed block (hidden from the reader) in EXACTLY \
+this format:
 ===CITES===
 1: "a short quote of at most 20 words copied VERBATIM from SOURCE 1's text"
 3: "..."
@@ -62,23 +80,33 @@ One line per source number you actually cited in the answer; the quote must be \
 an exact, contiguous excerpt of that source (it is used to locate the exact PDF \
 page). Nothing else goes in the block. If you replied with the abstention \
 sentence, do not add this block.
+
+Order of your reply: the cited answer, then ===EXAMPLE=== (if any), then \
+===CITES===.
 """
 
 # Parses one line of the ===CITES=== block: `3: "verbatim quote"` (any quote style).
 _CITE_LINE_RE = re.compile(r'^\s*(\d+)\s*[:.\-]\s*["“](.+?)["”]?\s*$')
 
 
-def _split_cites(text: str) -> tuple[str, dict[int, str]]:
-    """Strip the ===CITES=== block off an answer -> (clean answer, {n: quote})."""
-    if "===CITES===" not in text:
-        return text.strip(), {}
-    body, _, block = text.partition("===CITES===")
+def _split_blocks(text: str) -> tuple[str, str, dict[int, str]]:
+    """Split the raw model reply into its three parts.
+
+    The model replies with: the cited answer, then an optional ===EXAMPLE===
+    block (plain-language framing), then a machine-only ===CITES=== block of
+    verbatim quotes. Returns (answer, example, {source_no: quote}). The example
+    is kept SEPARATE from the answer so the app can render it in a distinct
+    callout — CLAUDE.md requires illustrative framing to be visually
+    distinguished from the cited regulatory substance.
+    """
+    body, _, cites_block = text.partition("===CITES===")
     quotes: dict[int, str] = {}
-    for line in block.splitlines():
+    for line in cites_block.splitlines():
         m = _CITE_LINE_RE.match(line)
         if m:
             quotes[int(m.group(1))] = m.group(2).strip()
-    return body.strip(), quotes
+    answer_text, _, example = body.partition("===EXAMPLE===")
+    return answer_text.strip(), example.strip(), quotes
 
 
 def build_context(chunks: list[dict]) -> str:
@@ -105,20 +133,26 @@ def answer(question: str, *, scope_doc_ids: set[str] | None = None,
     chunks = prefetched if prefetched is not None else retrieve(
         question, scope_doc_ids=scope_doc_ids)
     if not chunks:
-        return {"answer": ABSTAIN, "sources": [], "abstained": True}
+        return {"answer": ABSTAIN, "sources": [], "abstained": True, "example": ""}
 
     prompt = (f"SOURCES:\n{build_context(chunks)}\n\n"
               f"QUESTION: {question}\n\n"
               f"Answer using only the SOURCES above. Be detailed and "
               f"well-structured, end each supported sentence with its "
-              f"bracketed source number(s), e.g. [1] or [1][3], and finish "
-              f"with the ===CITES=== block of verbatim quotes.")
-    # Detailed answers need more room than the 2048-token default.
-    text = generate(SYSTEM_PROMPT, prompt, max_tokens=3500)
-    text, quotes = _split_cites(text)
+              f"bracketed source number(s), e.g. [1] or [1][3]. Then give the "
+              f"===EXAMPLE=== block (a plain-language NaBFID/AIFI scenario "
+              f"illustrating only what you stated above), and finish with the "
+              f"===CITES=== block of verbatim quotes.")
+    # Detailed answers + an illustrative example need room. (Thinking is off in
+    # the adapter, so the whole budget goes to the visible reply.)
+    text = generate(SYSTEM_PROMPT, prompt, max_tokens=4500)
+    text, example, quotes = _split_blocks(text)
     abstained = text.strip().startswith(ABSTAIN[:30])
     if abstained:
-        return {"answer": text, "sources": [], "abstained": True}
+        # Never attach an example to an abstention — there is nothing grounded
+        # to illustrate, and a "helpful" example would be exactly the invented
+        # content abstention exists to prevent.
+        return {"answer": text, "sources": [], "abstained": True, "example": ""}
 
     # Pin each cited source to the EXACT page inside its chunk by locating the
     # model's verbatim quote in the per-page PDF text (chunks span pages, so
@@ -134,7 +168,8 @@ def answer(question: str, *, scope_doc_ids: set[str] | None = None,
         else:
             c["cite_page"], c["cite_verified"] = c["page_start"], False
         sources.append(c)
-    return {"answer": text, "sources": sources, "abstained": False}
+    return {"answer": text, "sources": sources, "abstained": False,
+            "example": example}
 
 
 # Standing human-in-the-loop note appended by the app (never by the model).
@@ -145,6 +180,9 @@ def _print_cli(result: dict) -> None:
     print("\n" + "=" * 78)
     print(textwrap.fill(result["answer"], width=78))
     print("=" * 78)
+    if result.get("example"):
+        print("\nILLUSTRATIVE EXAMPLE (explanatory framing, not regulatory text):")
+        print(textwrap.fill(result["example"], width=78))
     if result["sources"]:
         print("\nSOURCES USED:")
         for i, c in enumerate(result["sources"], start=1):

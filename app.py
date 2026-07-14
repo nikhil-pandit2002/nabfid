@@ -471,6 +471,27 @@ def _caption_overlap(caption: str, query: str) -> int:
     return len(cw & qw)
 
 
+def render_example(example: str) -> None:
+    """The plain-language 'how this applies at NaBFID' scenario, in its own
+    bordered callout.
+
+    CLAUDE.md allows illustrative framing to draw on the model's general
+    knowledge so a non-expert can follow the rule — but ONLY if it is visually
+    distinguished from the cited regulatory substance and never adds to it. The
+    model returns it as a separate ===EXAMPLE=== block (see query._split_blocks)
+    precisely so it can never be mistaken for the cited answer above it, and it
+    carries no citations of its own."""
+    if not example:
+        return
+    with st.container(border=True):
+        st.markdown("💡 **Illustrative example — how this applies at an AIFI "
+                    "like NaBFID**")
+        st.markdown(example)
+        st.caption("Plain-language illustration to aid understanding — general "
+                   "framing, not regulatory text. The rule itself, with "
+                   "citations, is above.")
+
+
 def render_figures(sources: list[dict], query: str) -> None:
     """Show figures/tables/charts that the answer draws on, right under it — so a
     diagram (e.g. the capital-instruments deduction flowchart) is visible, not
@@ -570,6 +591,7 @@ def page_chatbot() -> None:
                 render_answer(msg["content"], msg.get("sources") or [])
                 render_figures(msg.get("sources") or [],
                                history[i - 1]["content"] if i > 0 else "")
+                render_example(msg.get("example") or "")
             else:
                 st.markdown(msg["content"])
             if msg.get("sources") is not None:
@@ -586,10 +608,12 @@ def page_chatbot() -> None:
                 audit.log("chatbot", q, res)
             render_answer(res["answer"], res["sources"])
             render_figures(res["sources"], q)
+            render_example(res.get("example") or "")
             render_sources(res["sources"], key_prefix=f"chat_h{len(history)}")
             st.caption(VERIFY_NOTE)
         history.append({"role": "assistant", "content": res["answer"],
-                        "sources": res["sources"]})
+                        "sources": res["sources"],
+                        "example": res.get("example") or ""})
         # Persist to disk so it can be revisited later. Create the conversation
         # on the first exchange; keep updating the same one after that.
         conv_id = st.session_state.get("active_conv_id") or conversations.new_id()
@@ -697,6 +721,7 @@ def _document_chat(doc: dict) -> None:
                 render_answer(msg["content"], msg.get("sources") or [])
                 render_figures(msg.get("sources") or [],
                                history[i - 1]["content"] if i > 0 else "")
+                render_example(msg.get("example") or "")
             else:
                 st.markdown(msg["content"])
             if msg.get("sources") is not None:
@@ -714,11 +739,13 @@ def _document_chat(doc: dict) -> None:
                 audit.log("document_chat", q, res, scope_doc=doc["doc_id"])
             render_answer(res["answer"], res["sources"])
             render_figures(res["sources"], q)
+            render_example(res.get("example") or "")
             render_sources(res["sources"],
                            key_prefix=f"dchat_{doc['doc_id']}_h{len(history)}")
             st.caption(VERIFY_NOTE)
         history.append({"role": "assistant", "content": res["answer"],
-                        "sources": res["sources"]})
+                        "sources": res["sources"],
+                        "example": res.get("example") or ""})
 
 
 # --------------------------------------------------------------------------
