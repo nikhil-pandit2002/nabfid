@@ -20,7 +20,7 @@ from functools import lru_cache
 import chromadb
 
 from config import (
-    BM25_PICKLE, CHROMA_COLLECTION, CHROMA_DIR, RERANK_MODEL,
+    BM25_PICKLE, CHROMA_COLLECTION, CHROMA_DIR, MODELS_DIR, RERANK_MODEL,
 )
 from embeddings import embed_query
 from build_index import tokenize
@@ -64,7 +64,8 @@ def _reranker():
     ceiling, which OOM-killed the container mid-query.
     """
     from fastembed.rerank.cross_encoder import TextCrossEncoder
-    return TextCrossEncoder(model_name=RERANK_MODEL, threads=1)
+    return TextCrossEncoder(model_name=RERANK_MODEL, cache_dir=str(MODELS_DIR),
+                            threads=1)
 
 
 # --- Retrieval stages ------------------------------------------------------

@@ -20,17 +20,20 @@ from functools import lru_cache
 
 from fastembed import TextEmbedding
 
-from config import EMBED_MODEL, BGE_QUERY_PREFIX
+from config import EMBED_MODEL, BGE_QUERY_PREFIX, MODELS_DIR
 
 
 @lru_cache(maxsize=1)
 def _model() -> TextEmbedding:
-    """Load the model once and reuse it (first call downloads ~67 MB).
+    """Load the model once and reuse it.
 
+    cache_dir=MODELS_DIR: the weights ship inside the repo, so this loads from
+    disk and never downloads (see config.MODELS_DIR).
     threads=1: the free host has 1-2 vCPUs, so extra onnxruntime worker threads
     buy no speed but each keeps its own memory arena.
     """
-    return TextEmbedding(model_name=EMBED_MODEL, threads=1)
+    return TextEmbedding(model_name=EMBED_MODEL, cache_dir=str(MODELS_DIR),
+                         threads=1)
 
 
 def embed_passages(texts: list[str]) -> list[list[float]]:

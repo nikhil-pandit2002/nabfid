@@ -20,6 +20,14 @@ SOURCE_DIR = PROJECT_ROOT / "AIFI latest"     # source PDFs (read-only)
 DATA_DIR = PROJECT_ROOT / "data"              # derived data (manifest, chunks, sqlite)
 INDEX_DIR = PROJECT_ROOT / "index"            # vector + keyword indexes
 
+# The ONNX embedding + reranker models, shipped WITH the repo rather than
+# downloaded at runtime. Free hosts hand you a fresh container on every restart,
+# so a runtime download re-runs every time — and HuggingFace throttles anonymous
+# downloads from shared cloud IPs to a crawl (observed: stuck at 20%, app never
+# started). Shipping them makes startup deterministic and offline-capable, which
+# the on-premise NaBFID server will need anyway (no internet to HuggingFace).
+MODELS_DIR = PROJECT_ROOT / "models"
+
 # --- Derived artifacts -----------------------------------------------------
 MANIFEST_CSV = DATA_DIR / "manifest.csv"
 CHUNKS_JSONL = DATA_DIR / "chunks.jsonl"
