@@ -279,3 +279,44 @@ and are flagged in the audit log (`cite_verified = false`).
 citation against page text (hard-fails on any unverifiable auto citation).
 Run it after re-baking guides, re-chunking, or adding documents. As of
 2026-07-07: 513 citations across 34 documents, 0 failures.
+
+## Why the models run on ONNX, not PyTorch (2026-07-14)
+
+**Symptom.** On Streamlit Community Cloud the app hung forever on a query —
+spinner, no answer, no error. Not a code bug: the container was being
+OOM-killed mid-query and silently restarted.
+
+**Cause.** The free tier caps at ~1 GB. Measured RSS with the torch stack:
+`torch` + `sentence-transformers` cost **410 MB before a single model loads**;
+after one real query the process sat at **898 MB**, and Streamlit itself adds
+~150 MB. The app was surviving on a knife-edge; adding the page-image/figure
+features (+45 MB) tipped it over.
+
+**Fix.** Same models, different runtime. `fastembed` runs
+BAAI/bge-small-en-v1.5 and ms-marco-MiniLM-L-6-v2 on **onnxruntime** instead of
+torch. The weights are identical — the ONNX query vectors match the torch ones
+to **cosine 0.999999** (max element diff 3.5e-04), so the *existing Chroma index
+stayed valid and did not need rebuilding*.
+
+**The trap.** The naive port made things *worse*: 2,539 MB. onnxruntime sizes
+its memory arena from the largest activation tensor (batch x sequence) and never
+releases it. Reranking 40 chunks of ~1.7k chars in batches of 8 blew the arena
+up. Counter-intuitively, `batch_size=1` uses the **least** memory *and* scores
+**best**, because the cross-encoder then sees each full passage instead of a
+truncated head. Hence `RERANK_BATCH = 1` in retrieval.py — that line is load
+bearing, do not "optimise" it back up.
+
+**Measured on the 28 answerable eval questions (data/eval_set.jsonl):**
+
+| stack | hit@8 | MRR | peak RSS |
+|---|---|---|---|
+| torch (before) | 26/28 (92.9%) | 0.798 | 898 MB |
+| onnx, batch=8, truncated | 26/28 (92.9%) | 0.798 | 610 MB |
+| onnx, batch=8, full length | 28/28 (100%) | 0.905 | 2539 MB |
+| **onnx, batch=1, full length (shipped)** | **28/28 (100%)** | **0.905** | **444 MB** |
+
+Retrieval quality went *up* (both previous misses now found) while memory
+halved. Citations were structurally unaffected — guide citations are baked
+offline and chat citations are located by matching the model's verbatim quote
+against real page text, so neither path touches the embedding model.
+`eval_citations.py` still reports 0 hard failures.

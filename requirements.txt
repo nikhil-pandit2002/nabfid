@@ -5,18 +5,22 @@
 # unchanged (chromadb in particular must match the version that wrote the
 # on-disk index, or it may fail to open it).
 #
-# Hugging Face free Spaces are CPU-only, so prefer CPU PyTorch wheels:
---extra-index-url https://download.pytorch.org/whl/cpu
+# NO PyTorch. The embedding + reranker models run on onnxruntime via fastembed —
+# same BAAI/bge-small-en-v1.5 and ms-marco-MiniLM-L-6-v2 weights, same maths
+# (verified: cosine 0.999999 vs the torch vectors), but torch +
+# sentence-transformers cost ~410 MB of RSS before a single model loaded and
+# pushed the app past the ~1 GB memory ceiling of free hosts — the container was
+# OOM-killed mid-query and the app appeared to hang forever. Measured on the
+# eval set: torch 898 MB / hit@8 26-28; onnx 444 MB / hit@8 28-28. It is also
+# strictly more portable for the on-premise move (no torch to install).
 
 # --- PDF parsing / page rendering ---
 pdfplumber==0.11.0        # page-level PDF text extraction (chunking)
 pypdf==6.10.2             # page counts / lightweight PDF metadata
-pymupdf==1.28.0           # per-page text + page rendering (citations)
+pymupdf==1.28.0           # per-page text + page rendering (citations, figures)
 
-# --- Local embeddings + reranker (open-source, CPU) ---
-sentence-transformers==5.6.0   # BGE-small-en-v1.5 embeddings (downloaded at runtime)
-transformers==5.12.1
-torch==2.12.1
+# --- Local embeddings + reranker (open-source, CPU, ONNX) ---
+fastembed==0.8.0          # BGE-small-en-v1.5 embeddings + MiniLM cross-encoder
 
 # --- Indexes ---
 chromadb==1.5.9           # MUST match the version that wrote index/chroma
@@ -29,7 +33,7 @@ python-dotenv==1.0.1
 streamlit==1.58.0
 
 # --- Persistent storage on free hosts (used only if DATABASE_URL is set) ---
-# Free hosts (Heroku dynos, Streamlit Community Cloud) wipe local disk on every
-# restart/reboot. Set DATABASE_URL (free Neon/Supabase Postgres) so the audit
-# log and saved chats survive — see config.py / audit.py / conversations.py.
+# Free hosts (Streamlit Community Cloud) wipe local disk on every restart, so
+# set DATABASE_URL (free Neon/Supabase Postgres) to keep the audit log and saved
+# chats — see config.py / audit.py / conversations.py.
 psycopg2-binary==2.9.10

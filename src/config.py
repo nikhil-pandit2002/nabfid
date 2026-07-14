@@ -45,7 +45,10 @@ BGE_QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
 # made the app unusable. MiniLM-L-6 is the standard fast reranker and keeps
 # retrieval quality high. (Swapping the reranker needs no re-indexing — it runs
 # at query time only, independent of the stored embeddings.)
-RERANK_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+# (Xenova/... is the ONNX port of the same cross-encoder/ms-marco-MiniLM-L-6-v2
+# weights — identical model, run by onnxruntime instead of torch. See
+# embeddings.py for why the whole stack moved off torch.)
+RERANK_MODEL = "Xenova/ms-marco-MiniLM-L-6-v2"
 
 # --- LLM adapter (swappable: Gemini now -> local Ollama later) --------------
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")   # "gemini" | "anthropic"

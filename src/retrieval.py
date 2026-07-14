@@ -39,13 +39,32 @@ def _bm25():
         return pickle.load(fh)
 
 
+# Reranker batch size. This is the memory knob that matters: onnxruntime sizes
+# its arena from the largest activation tensor it sees, i.e. batch x sequence.
+# Measured over the real chunks (40 candidates, ~1.7k chars each):
+#
+#   batch=8, truncated to 1000 chars : 409 MB, hit@8 26/28, MRR 0.798
+#   batch=8, full length             : 2539 MB  (arena blows up, never released)
+#   batch=1, full length             : 244 MB, hit@8 28/28, MRR 0.905
+#
+# So scoring one pair at a time uses the LEAST memory AND scores best, because
+# the cross-encoder sees the whole passage instead of a truncated head. It costs
+# a few seconds per query, which is dwarfed by the LLM call anyway. That is why
+# there is no truncation here: batch=1 is what keeps memory flat.
+RERANK_BATCH = 1
+
+
 @lru_cache(maxsize=1)
 def _reranker():
-    from sentence_transformers import CrossEncoder
-    # max_length caps the tokens scored per (query, passage) pair. 256 is plenty
-    # to judge relevance and roughly halves CPU cost vs the 512 default. The full
-    # chunk text still goes to the LLM — this only affects the relevance score.
-    return CrossEncoder(RERANK_MODEL, max_length=256)
+    """The cross-encoder that reorders the candidate pool.
+
+    ONNX (fastembed), not sentence-transformers/torch — same ms-marco-MiniLM-L-6
+    weights, but without dragging torch into the process. See embeddings.py: the
+    torch stack alone cost ~410 MB and pushed the app past the free host's ~1 GB
+    ceiling, which OOM-killed the container mid-query.
+    """
+    from fastembed.rerank.cross_encoder import TextCrossEncoder
+    return TextCrossEncoder(model_name=RERANK_MODEL, threads=1)
 
 
 # --- Retrieval stages ------------------------------------------------------
@@ -93,8 +112,9 @@ def retrieve(query: str, *, top_k: int = 8, pool: int = 20,
         return []
 
     # 2. Rerank the pool with a cross-encoder (query, passage) scorer.
-    pairs = [(query, c["text"]) for c in candidates]
-    scores = _reranker().predict(pairs)
+    scores = _reranker().rerank(
+        query, [c["text"] for c in candidates], batch_size=RERANK_BATCH,
+    )
     for c, s in zip(candidates, scores):
         c["rerank_score"] = float(s)
     candidates.sort(key=lambda c: c["rerank_score"], reverse=True)
