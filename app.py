@@ -30,6 +30,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 from config import ACCESS_CODE, LLM_MODEL, PROJECT_ROOT  # noqa: E402
 import audit  # noqa: E402
 import bake_guide_citations as bake_cite  # noqa: E402  (shared line walk/hash)
+import compare  # noqa: E402
 import conversations  # noqa: E402
 import docstore  # noqa: E402
 import explain  # noqa: E402
@@ -623,6 +624,58 @@ def render_crossrefs(doc_id: str) -> None:
                               incoming=incoming)
 
 
+def page_compare() -> None:
+    """Side-by-side comparison of the two rulebooks on one topic.
+
+    Each side is retrieved from its own entity only (see compare.compare), so a
+    claim about AIFIs can never be supported by a Commercial Banks document. The
+    comparison is deliberately allowed to be asymmetric: where a rulebook is
+    silent it says so, because inventing a matching rule would be far worse than
+    an incomplete table.
+    """
+    st.header("⚖️ Compare rulebooks")
+    st.caption("How the same topic is regulated for AIFIs (NaBFID) versus for "
+               "Commercial Banks. Each side is cited to its own directions.")
+
+    topics = compare.comparable_topics()
+    if not topics:
+        st.info("Comparison needs master directions from both rulebooks.")
+        return
+
+    st.markdown(f"**{len(topics)} topics exist in both rulebooks** and can be "
+                "compared. Pick one to prefill a question, or type your own.")
+    picked = st.selectbox("Topic", ["— choose a topic —"] + [t.title() for t in topics])
+    default = ("" if picked.startswith("—")
+               else f"Compare the requirements on {picked.lower()}.")
+    q = st.text_input("Question to compare", value=default,
+                      placeholder="e.g. What is the single-counterparty exposure limit?")
+
+    if st.button("Compare", type="primary", disabled=not q.strip()):
+        with st.spinner("Reading both rulebooks…"):
+            res = compare.compare(q)
+            audit.log("compare", q, res)
+        st.session_state["_cmp"] = (q, res)
+
+    if "_cmp" not in st.session_state:
+        st.caption("Note: only topics issued for **both** institution types can "
+                   "be compared. For anything else the tool will say the other "
+                   "rulebook has nothing on it, rather than guess.")
+        return
+
+    q, res = st.session_state["_cmp"]
+    st.divider()
+    st.markdown(f"**Question:** {q}")
+    if res.get("abstained"):
+        st.warning(res["answer"])
+        return
+    st.caption(f"Read {res.get('n_a', 0)} AIFI and {res.get('n_b', 0)} "
+               "Commercial Bank passages.")
+    render_answer(res["answer"], res["sources"])
+    render_figures(res["sources"], q)
+    render_sources(res["sources"], key_prefix="cmp")
+    st.caption(VERIFY_NOTE)
+
+
 def goto(page: str, doc_id: str | None = None) -> None:
     # `nav` is bound to the sidebar radio widget, so it can't be written after
     # that widget is instantiated. Stash the target and apply it at the top of
@@ -984,7 +1037,8 @@ def main() -> None:
     st.session_state.setdefault("nav", "Chatbot")
     st.sidebar.radio(
         "Go to",
-        ["Chatbot", "Browse by division", "Document explanation", "Audit log"],
+        ["Chatbot", "Compare rulebooks", "Browse by division",
+         "Document explanation", "Audit log"],
         key="nav",
     )
     st.sidebar.divider()
@@ -997,6 +1051,8 @@ def main() -> None:
         page_browse()
     elif page == "Document explanation":
         page_document()
+    elif page == "Compare rulebooks":
+        page_compare()
     elif page == "Audit log":
         page_audit()
 
