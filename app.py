@@ -16,6 +16,7 @@ Run:  streamlit run app.py
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 import shutil
 import sys
@@ -552,6 +553,76 @@ def render_figures(sources: list[dict], query: str) -> None:
                        "source document — verify against the full circular.")
 
 
+@st.cache_data(show_spinner=False)
+def _crossrefs() -> dict:
+    """Where one direction points at another (built offline by
+    src/build_crossrefs.py). Absent file = feature simply not shown."""
+    p = PROJECT_ROOT / "data" / "crossrefs.json"
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def _crossref_row(entry: dict, key: str, *, incoming: bool) -> None:
+    """One related-direction line: who/what, the sentence, and a jump button."""
+    other = docstore.get_document(entry["doc_id"])
+    if not other:
+        return
+    ent = other.get("entity") or ""
+    icon = ENTITY_ICON.get(ent, "📄")
+    c1, c2 = st.columns([6, 1])
+    with c1:
+        lead = "Referenced by" if incoming else "Refers to"
+        st.markdown(f"{icon} **{lead}:** {other['title']}")
+        st.caption(f"{ent} · {other['circular_no']} · at page {entry['page']}"
+                   + ("  ·  **cross-rulebook**" if entry.get("cross_entity") else ""))
+        if entry.get("quote"):
+            st.caption(f"> …{entry['quote']}…")
+    with c2:
+        if st.button("Open", key=key, use_container_width=True):
+            st.session_state.pop(f"citepage_{other['doc_id']}", None)
+            goto("Document explanation", other["doc_id"])
+
+
+def render_crossrefs(doc_id: str) -> None:
+    """Show the directions this one points at, and those pointing back at it.
+
+    This matters most ACROSS rulebooks: the AIFI directions incorporate parts of
+    the Commercial Banks directions by reference (e.g. an AIFI must follow the
+    Commercial Banks instructions for the Key Fact Statement), so reading only
+    the AIFI document would miss a binding requirement. The exact sentence is
+    shown next to each link because a reference may be a binding incorporation
+    or merely a borrowed definition — that judgement belongs to the reader, not
+    to this tool.
+    """
+    cr = _crossrefs()
+    if not cr:
+        return
+    out = cr.get("references", {}).get(doc_id, [])
+    inc = cr.get("referenced_by", {}).get(doc_id, [])
+    if not out and not inc:
+        return
+    n_cross = sum(1 for e in out + inc if e.get("cross_entity"))
+    label = f"🔗 Related directions ({len(out) + len(inc)})"
+    if n_cross:
+        label += f" — {n_cross} in the other rulebook"
+    with st.expander(label, expanded=bool(n_cross)):
+        if n_cross:
+            st.caption("Cross-rulebook links are the important ones: a direction "
+                       "may adopt another's provisions by reference, which can "
+                       "make them apply here too. Read the quoted sentence and "
+                       "confirm scope with the compliance team.")
+        # Cross-rulebook first — they carry the applicability risk.
+        for lst, incoming in ((out, False), (inc, True)):
+            for i, e in enumerate(sorted(lst, key=lambda x: (not x.get("cross_entity"),
+                                                             x["page"]))):
+                _crossref_row(e, key=f"xref_{doc_id}_{incoming}_{i}",
+                              incoming=incoming)
+
+
 def goto(page: str, doc_id: str | None = None) -> None:
     # `nav` is bound to the sidebar radio widget, so it can't be written after
     # that widget is instantiated. Stash the target and apply it at the top of
@@ -751,6 +822,8 @@ def page_document() -> None:
         st.warning("**Amended by:** " + " · ".join(
             f"{a['title'].split(') ')[-1]} (eff {a['applicable_from'] or a['issue_date']})"
             for a in amds))
+
+    render_crossrefs(doc_id)
 
     # Section selector (replaces st.tabs so a citation click can navigate here).
     sections = ["📌 Key points", "🔁 What changed", "💡 Implications",

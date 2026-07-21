@@ -1,0 +1,2369 @@
+{
+ "references": {
+  "asset-liability-management-directions-2025": [
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 11,
+    "quote": "An AIFI shall also be guided by the Reserve Bank of India (All India Financial Institutions – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "concentration-risk-management-directions-2025": [
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 3,
+    "quote": "(5) “Eligible capital base” for the purposes of these Directions is the effective amount of Tier 1 capital fulfilling the criteria defined under Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Directions, 2025, as per the last audited balance sheet.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 26,
+    "quote": "n-convertible bonds; (6) Units of Mutual Funds under schemes where the corpus is invested exclusively in debt instruments; (7) Shares acquired by the AIFI as a result of conversion of debt / overdue interest into equity as per the exemption provided under the Reserve Bank of India (All India Financial Institutions – Re",
+    "cross_entity": false
+   }
+  ],
+  "credit-facilities-amendment-directions-2026": [
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 2,
+    "quote": "(v) An AIFI shall ensure that lending to an InvIT is not used to fund its SPVs having existing loans from REs and which are facing financial difficulty, as defined in the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "concentration-risk-management-directions-2025",
+    "page": 6,
+    "quote": "(x) Acquisition finance shall be secured by the financial instruments issued by the target company through which control over it is acquired by the acquiring company, without prejudice to the provisions of paragraph 53 of Reserve Bank of India (All India Financial Institutions – Concentration Risk Management) Direction",
+    "cross_entity": false
+   }
+  ],
+  "credit-facilities-directions-2025-updated-as-on-april-1-2026": [
+   {
+    "doc_id": "cb-responsible-business-conduct-directions-2025",
+    "page": 4,
+    "quote": "(ii) ‘Annual Percentage Rate’ (APR) means APR as defined under Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 5,
+    "quote": "(e) The project is faced with financial difficulty as determined under the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "responsible-business-conduct-directions-2025",
+    "page": 10,
+    "quote": "(5) An AIFI shall impart necessary guidance to LSP acting as a recovery agent, to discharge their duties responsibly and ensure that LSP complies with the applicable instructions in the Reserve Bank of India (All India Financial Institutions– Responsible Business Conduct) Directions, 2025, and other relevant instructio",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "managing-risks-in-outsourcing-directions-2025",
+    "page": 10,
+    "quote": "(6) An AIFI shall continue to conform to the extant guidelines on outsourcing in directions Reserve Bank of India (All India Financial Institutions – Managing Risks in Outsourcing) Directions, 2025 and shall ensure that the LSPs engaged by them and the DLAs (either of the AIFI or of the LSPs engaged by the AIFI) comply",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 13,
+    "quote": "Note: Co-lending arrangements shall be governed by the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025, subject to the condition that no third party other than the lenders in a co- lending transaction shall have direct or indirect control over the flo",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 19,
+    "quote": "19 Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 21,
+    "quote": "Recognition of NPA (1) Recognition of individual loan assets in the portfolio as Non-Performing Asset (NPA) and consequent provisioning shall be the responsibility of the AIFI as per the Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 22,
+    "quote": "DLG arrangements entered between an AIFI and their LSP conforming to the instructions laid down in this Chapter shall neither be treated as “synthetic securitisation” as defined under the Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025, nor attract the provisions ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 26,
+    "quote": "An AIFI shall make appropriate disclosures in their financial statements, under ‘Notes to Accounts’, as specified in the Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "concentration-risk-management-directions-2025",
+    "page": 35,
+    "quote": "Notwithstanding paragraph above, AIFI shall comply with all the related regulatory norms including Reserve Bank of India (All India Financial Institutions – Concentration Risk Management) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "re-trade-relief-measures-directions-2025",
+    "page": 41,
+    "quote": "mitigate the burden of debt servicing brought about by trade disruptions caused by global headwinds and to ensure the continuity of viable businesses, AIFIs extending export credit finance may provide relief measures to eligible borrowers, as specified under Reserve Bank of India (Trade Relief Measures) Directions, 202",
+    "cross_entity": true
+   }
+  ],
+  "credit-information-reporting-directions-2025": [
+   {
+    "doc_id": "know-your-customer-directions-2025",
+    "page": 7,
+    "quote": "Explanations: (a) The reporting of shareholders’ information under the ‘relationship’ field of the RS in the Commercial data format should be done only for those shareholders who are ‘Beneficial Owners’ as defined under the Reserve Bank of India (All India Financial Institutions – Know Your Customer) Directions, 2025, ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "managing-risks-in-outsourcing-directions-2025",
+    "page": 9,
+    "quote": "However, it shall follow all general instructions on outsourcing set out in the Reserve Bank of India (All India Financial Institutions – Managing Risks in Outsourcing) Directions, 2025, as amended from time to time, to the extent applicable and shall continue to be responsible for the correctness of the data submitted",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 13,
+    "quote": "A CI shall ensure compliance with the applicable instructions on credit information reporting, as prescribed in the following Directions/ Circulars: (1) Reserve Bank of India (All India Financial Institutions – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025, as amended from time to ti",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 13,
+    "quote": "(2) Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025 (3) Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 13,
+    "quote": "(2) Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025 (3) Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025",
+    "cross_entity": false
+   }
+  ],
+  "credit-risk-management-amendment-directions-2026": [
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 8,
+    "quote": "Consequent to the above amendments, corresponding amendment directions viz., Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) – Amendment Directions, 2026 have been separately issued.",
+    "cross_entity": false
+   }
+  ],
+  "credit-risk-management-second-amendment-directions-2026": [
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 1,
+    "quote": "Singh Marg, Fort, Mumbai – 400001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/75 DOR.STR.REC.64/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (All India Financial Institutions – Credit Risk Management) Second Amendment Directions, 2026 Please refer to Reserve Bank of India (All India Financial Institutions – Re",
+    "cross_entity": false
+   }
+  ],
+  "financial-statements-presentation-and-disclosures-amendment-directions-2026": [
+   {
+    "doc_id": "credit-risk-management-directions-2025-updated-as-on-april-1-2026",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of the Reserve Bank of India (All India Financial Institutions – Credit Risk Management) – Amendment Directions, 2026, and in exercise of the powers conferred by Section 45L of the Reserve Bank of India Act, 1934 and all other provisions / laws enabling the Reserve Bank of India ",
+    "cross_entity": false
+   }
+  ],
+  "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026": [
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 16,
+    "quote": "16 (iv) Particulars of resolution plan and restructuring (a) An AIFI covered by the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025, shall make appropriate disclosures in its financial statements relating to resolution plans implemented.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 18,
+    "quote": "18 Note – *Gross NPAs as specified in Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Directions, 2025 (vii) Write-offs and recoveries (Amount in ₹ crore) Particulars Current year Previous year Opening balance of Technical / Prudential written off acc",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 23,
+    "quote": "Note - These disclosures are originally specified in the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025 and have merely been reproduced here for ease of reference.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 24,
+    "quote": "Unsecured Portion Secured* Portion Unsecured Portion I Outstanding Guarantees (₹ crore) i) In India ii) Outside India II Acceptances, Endorsements and other Obligations (₹ crore) III Other NFB Credit facilities (₹ crore) * Secured portion is as defined under Reserve Bank of India (All India Financial Institutions – Cre",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "concentration-risk-management-directions-2025",
+    "page": 27,
+    "quote": "Total 0.00 0.00 0.00% Note – (i) An exposure shall be determined in terms of Reserve Bank of India (All India Financial Institutions - Concentration Risk Management) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-risk-management-directions-2025-updated-as-on-april-1-2026",
+    "page": 35,
+    "quote": "1[(vi) Exposures to Related Parties Details of exposures to related parties as defined in Reserve Bank of India (All India Financial Institutions – Credit Risk Management) Directions, 2025: (Amount in ₹ crore) Sr.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 41,
+    "quote": "Investor complaints (a) Directly/Indirectly received and; (b) Complaints outstanding Note - Separate table separately for ‘Simple, Transparent and Comparable’ (STC) and non-STC transactions shall be provided AIFIs shall be guided by the Reserve Bank of India (All India Financial Institutions – Securitisation Transactio",
+    "cross_entity": false
+   }
+  ],
+  "managing-risks-in-outsourcing-directions-2025": [
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 5,
+    "quote": "In these Directions, unless the context otherwise requires, the terms herein shall bear the meanings assigned to them below: (1) ‘Group’ shall be as defined in the Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025, as amended from time to time, for the purpose of intra-group tran",
+    "cross_entity": true
+   }
+  ],
+  "responsible-business-conduct-amendment-directions-2026": [
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 1,
+    "quote": "Singh Marg, Fort, Mumbai – 400001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/74 DOR.STR.REC.63/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Amendment Directions, 2026 Please refer to Reserve Bank of India (All India Financial Institutions – Res",
+    "cross_entity": false
+   }
+  ],
+  "responsible-business-conduct-second-amendment-directions-2026": [
+   {
+    "doc_id": "undertaking-of-financial-services-directions-2025-updated-as-on-april-27-2026",
+    "page": 3,
+    "quote": "rvice (TPPS) means a product or service offered by an AIFI to its customers on behalf of a third-party product / service provider (TPPS Provider) after entering into an agency business or referral services arrangement with the TPPS Provider as permitted under Reserve Bank of India (All India Financial Institutions – Un",
+    "cross_entity": false
+   }
+  ],
+  "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025": [
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 3,
+    "quote": "(iv) “default” shall have the same meaning assigned to it in the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 8,
+    "quote": "(2) Transfer of a loan shall mean a transfer undertaken in terms of the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025 and hence, the terms “transfer”, “transferor” and “transferee” shall have the same meaning assigned therein.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 12,
+    "quote": "ess of classification/ declaring the borrower as a wilful defaulter by following the mechanism set out in Paragraph 5, within six months of the account being classified as NPA in accordance with the instructions regarding asset classification contained in the Reserve Bank of India (All India Financial Institutions – In",
+    "cross_entity": false
+   }
+  ],
+  "income-recognition-asset-classification-and-provisioning-amendment-directions-2026": [
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 1,
+    "quote": "00001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/73 DOR.STR.REC.62/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026 Please refer to Reserve Bank of India (All India Financial Institutions – Re",
+    "cross_entity": false
+   }
+  ],
+  "income-recognition-asset-classification-and-provisioning-directions-2025": [
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 3,
+    "quote": "An AIFI shall also follow the prudential guidelines on income recognition, asset classification and provisioning of advances for restructured accounts as prescribed in the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025, in addition to these Directions.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025",
+    "page": 5,
+    "quote": "(13) ‘wilful defaulter’ shall mean the same as defined under the Reserve Bank of India (All India Financial Companies – Treatment of Wilful Defaulters and Large Defaulters) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 5,
+    "quote": "The terms ‘Commercial Real Estate (CRE)’, ‘Commercial Real Estate – Residential Housing Sector (CRE - RH)’, ‘project finance’, and ‘financial closure’ shall have the same meaning as defined in the Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 8,
+    "quote": "An AIFI shall make suitable disclosures in its Notes to Accounts as per the requirements contained in the Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 11,
+    "quote": "11 (5) the amount of liquidity facility remains outstanding for more than 90 days, in respect of a securitisation transaction undertaken in terms of the Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025; (6) in respect of derivative transactions, the overdue receiva",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 17,
+    "quote": "Transfer of Loan Exposures – The asset classification and provisioning requirements in respect of transactions involving transfer of loans shall be as per the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 24,
+    "quote": "(3) While computing the provisioning requirement, an AIFI may adjust financial collateral eligible under credit risk mitigation techniques available in terms of the Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Directions, 2025,",
+    "cross_entity": false
+   }
+  ],
+  "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026": [
+   {
+    "doc_id": "undertaking-of-financial-services-directions-2025-updated-as-on-april-27-2026",
+    "page": 6,
+    "quote": "e’ means ‘recognised stock exchange’ and shall have the same meaning as defined in Section 2 (f) of Securities Contracts (Regulation) Act, 1956; (21) ‘Financial Services Company’ means a company engaged in the 'business of financial services as defined in the Reserve Bank of India (All India Financial Institutions – Un",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "concentration-risk-management-directions-2025",
+    "page": 8,
+    "quote": "ated at all or have not been consolidated in such a way as to result in their assets being included in the calculation of consolidated risk-weighted assets of the group; (35) ‘Large Exposure’ means the sum of all exposure value of an AIFI measured in terms of Reserve Bank of India (All India Financial Institutions – Co",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 9,
+    "quote": "dY = Small change in yield compounded with the frequency of the coupon payment; (41) ‘Mortgage-backed Security’ shall have the same meaning as assigned under Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025; (42) ‘Netting Set’ means a group of transactions with a s",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 12,
+    "quote": "12 (65) ‘‘Trading book’ shall include all instruments that are classified as ‘Held for Trading’ or 'Available for Sale' (AFS) as per Reserve Bank of India (All India Financial Institutions – Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025; (66) ‘Tranche’ means a contractually establis",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 19,
+    "quote": "ctored into capital adequacy computations; (e) the external auditors of the AIFI have not expressed a qualified opinion on the revaluation of the property; and (f) the instructions on valuation of properties and other specific requirements as mentioned in the Reserve Bank of India (Commercial Bank – Credit Risk Managem",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 71,
+    "quote": "(iii) An AIFI shall be guided by the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025 for the prudential treatment of unrealized profits arising because of transfer of loan exposures and SRs guaranteed by Government of India.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 85,
+    "quote": "(12) In terms of Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025, if an AIFI is the Default Loss Guarantee (DLG) provider, it shall deduct full amount of the DLG, which is outstanding, from its capital.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-risk-management-directions-2025-updated-as-on-april-1-2026",
+    "page": 105,
+    "quote": "the risk weight (For example, for an entity which otherwise attracts a risk weight of 50 per cent, the applicable risk weight shall become 75 per cent.) * EBID = Profit After Tax + Depreciation + Interest on debt + Lease Rentals, if any Note - Please refer to Reserve Bank of India (All India Financial Institutions – Cr",
+    "cross_entity": false
+   }
+  ],
+  "resolution-of-stressed-assets-amendment-directions-2026": [
+   {
+    "doc_id": "credit-risk-management-directions-2025-updated-as-on-april-1-2026",
+    "page": 6,
+    "quote": "Reserve Bank of India (All India Financial Institutions – Credit Risk Management) Second Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 6,
+    "quote": "Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "responsible-business-conduct-directions-2025",
+    "page": 6,
+    "quote": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   }
+  ],
+  "resolution-of-stressed-assets-directions-2025": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 8,
+    "quote": "Construction phase’, ‘Date of Financial Closure’, ‘Infrastructure Sector’, ‘Original Date of Commencement of Commercial Operations (Original DCCO)’, ‘Extended DCCO’, ‘Actual DCCO’, ‘Project’, and ‘Project Finance’ shall have the same meaning as defined in the Reserve Bank of India (All India Financial Institutions – Cr",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 12,
+    "quote": "An AIFI shall make suitable disclosures in its financial statements in the ‘Notes to Accounts’, as specified in the Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 20,
+    "quote": "In both above cases, the asset classification shall continue to be governed by the ageing criteria as per extant asset classification norms contained in the Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025",
+    "page": 27,
+    "quote": "ich a wilful defaulter is associated shall be eligible for restructuring subsequent to removal of the name of wilful defaulter from the List of Wilful Defaulters, subject to penal measures applicable to borrowers classified as wilful defaulter in terms of the Reserve Bank of India (All India Financial Institutions – Tr",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 43,
+    "quote": "Debt / quasi-debt / equity instruments shall be subject to all the instructions contained in the Reserve Bank of India (All India Financial Institutions – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025 to the extent they are not inconsistent with these Directions.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "re-trade-relief-measures-directions-2025",
+    "page": 48,
+    "quote": "To mitigate the burden of debt servicing brought about by trade disruptions caused by global headwinds and to ensure the continuity of viable businesses, AIFIs may extend relief measures to eligible borrowers, as specified under Reserve Bank of India (Trade Relief Measures) Directions, 2025 dated November 14, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "securitisation-transactions-directions-2025": [
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 10,
+    "quote": "The originators of such exposures shall have satisfied the Minimum holding period (MHP) requirement as defined in Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 18,
+    "quote": "Exposures to securitisations that are STC-compliant can be subject to the alternative capital treatment as determined by Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 20,
+    "quote": "The originator should verify that the underlying credit claims or receivables meet the following conditions: (1) the credit claims or receivables is not under the monitoring period as defined in defined in the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025; (2)",
+    "cross_entity": false
+   }
+  ],
+  "transfer-and-distribution-of-credit-risk-directions-2025": [
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 4,
+    "quote": "Explanation: The above proviso shall be without prejudice to the provisions of Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025; Master Direction – External Commercial Borrowings, Trade Credits and Structured Obligations dated March 26, 2019; obtention of guarantee",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 8,
+    "quote": "in take-out financing), the same shall be evaluated against restructuring as defined in Reserve Bank of India (All India Financial Institutions– Resolution of Stressed Assets) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "know-your-customer-directions-2025",
+    "page": 10,
+    "quote": "The extant instructions on outsourcing and the applicable provisions of Reserve Bank of India (All India Financial Institutions – Know Your Customer) Directions, 2025 shall be complied with in all cases.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 29,
+    "quote": "The AIFIs should be guided by Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directions, 2025 for all disclosure related requirements.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 30,
+    "quote": "Digital lending arrangements shall continue to be governed by Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025 as amended from time to time.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "responsible-business-conduct-directions-2025",
+    "page": 31,
+    "quote": "All required details of CLA shall be disclosed appropriately to the concerned borrower as laid down on ‘Key Facts Statement (KFS) for Loans & Advances’ under Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "undertaking-of-financial-services-directions-2025-updated-as-on-april-27-2026": [
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 2,
+    "quote": "lve months; (2) ‘Equity instrument’ means equity shares, compulsorily convertible preference shares (CCPS) and compulsorily convertible debentures (CCD); (3) ‘Capital funds’ means the total regulatory capital of an AIFI, fulfilling the criteria defined in the Reserve Bank of India (All India Financial Institutions – Pr",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "concentration-risk-management-directions-2025",
+    "page": 5,
+    "quote": "AIFIs shall formulate policies, with the approval of their Board, covering the following aspects of investments in financial entities to the extent these are not covered under the cross-holding limits prescribed under the Large Exposure Norms, under Reserve Bank of India (All India Financial Institutions - Concentratio",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 6,
+    "quote": "Explanation: Prior approval of the RBI shall not be required if the investments in the financial services companies are held under the “Held for Trading” category as stipulated in the Reserve Bank of India (All India Financial Institutions - Classification, Valuation and Operation of Investment Portfolio) Directions, 2",
+    "cross_entity": false
+   }
+  ],
+  "classification-valuation-and-operation-of-investment-portfolio-directions-2025": [
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 5,
+    "quote": "(15) ‘Securitisation’ shall have the same meaning as defined in Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 31,
+    "quote": "(2) An AIFI shall disclose the details of the issuer composition of non- Government investments and the non-performing non-Government investments in the ‘Notes to Accounts’ of the balance sheet, as per Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directio",
+    "cross_entity": false
+   }
+  ],
+  "cb-ecl-guidelines-for-commercial-banks": [
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 4,
+    "quote": "Banks shall continue to be governed by the Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 until the date of commencement of these Directions.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 4,
+    "quote": "A bank shall also follow the prudential guidelines for restructured accounts as prescribed in the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025, in addition to these Directions, as amended from time to time.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 6,
+    "quote": "(9) “Fair Value through Profit and Loss (FVTPL)” means those financial assets classified as such in terms of the ‘Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025, as amended from time to time.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 40,
+    "quote": "For loan portfolios covered by Default Loss Guarantee (DLG) arrangements in terms of Chapter III of the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 and Part B of the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025, both dated Novembe",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 40,
+    "quote": "For loan portfolios covered by Default Loss Guarantee (DLG) arrangements in terms of Chapter III of the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 and Part B of the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025, both dated Novembe",
+    "cross_entity": true
+   }
+  ],
+  "cb-income-recognition-asset-classification-and-provisioning-amendment-directions-2026": [
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 1,
+    "quote": "Fort, Mumbai – 400001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/45 DOR.STR.REC.34/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026 Please refer to Reserve Bank of India (Commercial Banks – Resolution of Stre",
+    "cross_entity": false
+   }
+  ],
+  "cb-income-recognition-asset-prvisioning-amendment-2025": [
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2025, and in exercise of the powers conferred by the sections 21 and 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve ",
+    "cross_entity": false
+   }
+  ],
+  "cb-irac-norms-2025-directions-2025": [
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 3,
+    "quote": "A bank shall also follow the prudential guidelines on income recognition, asset classification and provisioning of advances for restructured accounts as prescribed in the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025, in addition to these Directions.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025",
+    "page": 5,
+    "quote": "(14) ‘wilful defaulter’ shall mean the same as defined under the Reserve Bank of India (Commercial Banks – Treatment of Wilful Defaulters and Large Defaulters) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 6,
+    "quote": "The terms ‘Commercial Real Estate (CRE)’, ‘Commercial Real Estate – Residential Housing Sector (CRE - RH)’, ‘project finance’, and ‘financial closure’ shall have the same meaning assigned to them in the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 10,
+    "quote": "A bank shall make suitable disclosures in its Notes to Accounts as per the requirements contained in the Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 18,
+    "quote": "the instalment of principal or interest thereon remains overdue for one crop season for long duration crops; (8) the amount of liquidity facility remains outstanding for more than 90 days, in respect of a securitisation transaction undertaken in terms of the Reserve Bank of India (Commercial Banks – Securitisation Tran",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 25,
+    "quote": "Transfer of Loan Exposures – The asset classification and provisioning requirements in respect of transactions involving transfer of loans shall be as per the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 30,
+    "quote": "A bank shall estimate the riskiness of unhedged position of their borrowers as per the instructions on unhedged foreign currency exposures contained in the Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 and make incremental provisions on all their exposures to such entities as under:",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 34,
+    "quote": "(4) While computing the provisioning requirement, a bank may adjust financial collateral eligible under credit risk mitigation techniques available in terms of the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025, if any, available with them with regard to the accounts de",
+    "cross_entity": false
+   }
+  ],
+  "cb-prudential-norms-on-capital-adequacy-directions-2025": [
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 4,
+    "quote": "ates otherwise, the terms herein shall bear the meanings assigned to them below: (1) ‘Banking book’ shall mean all items which are not included under trading book as per these Directions; (2) ‘Capital Market Exposure’ shall have the same meaning as defined in Reserve Bank of India (Commercial Banks – Concentration Risk",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 9,
+    "quote": "The current exposure of a clearing member includes the variation margin due to the clearing member but not yet received; (34) ‘Trading book’ shall include all instruments that are classified as ‘Held for Trading’ as per Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Por",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 9,
+    "quote": "The terms appearing in paragraphs 88 to 126 on ‘Securitisation Exposures’ shall bear the meanings assigned to them under Reserve Bank of India (Commercial Banks – Securitisation Transactions) Directions, 2025, unless stated otherwise herein.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 16,
+    "quote": "ctored into capital adequacy computations; (e) the external auditors of the bank have not expressed a qualified opinion on the revaluation of the property; and (f) the instructions on valuation of properties and other specific requirements as mentioned in the Reserve Bank of India (Commercial Banks – Credit Risk Manage",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 37,
+    "quote": "cases, a bank is required to report to the Reserve Bank within twenty-one days from the date of such appropriation in compliance with Section 17(2) of the BR Act 1949; (e) Prior approval of the Reserve Bank for appropriation of reserves as above, in terms of Reserve Bank of India (Commercial Banks – Financial Statement",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 77,
+    "quote": "(ii) A bank shall be guided by the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025 for the prudential treatment of unrealised profits arising because of transfer of loan exposures and SRs guaranteed by the Government of India.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-directions",
+    "page": 93,
+    "quote": "Note - A bank shall also refer to Reserve Bank of India (Commercial Banks – Undertaking of Financial Services) Directions, 2025 in this regard.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 93,
+    "quote": "(14) In terms of Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025, if a bank is the Default Loss Guarantee (DLG) provider, it shall deduct the full amount of DLG, which is outstanding, from its capital.",
+    "cross_entity": false
+   }
+  ],
+  "cb-prudential-norms-on-capital-adequacy-eighth-amendment-directions-2026": [
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 1,
+    "quote": "On a review, Consequent to the issuance of the Reserve Bank of India (Commercial Banks – Credit Facilities) Third Amendment Directions, 2026, and in exercise of the powers conferred by Sections 21 and 35A of the Banking Regulation Act, 1949 and all other provisions / laws enabling the Reserve Bank of India in this rega",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 1,
+    "quote": "However, if such exposures qualify as capital market exposures in terms of paragraph 95A of the Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025, the applicable risk weight shall be 125 per cent.",
+    "cross_entity": false
+   }
+  ],
+  "cb-prudential-norms-on-capital-adequacy-fourth-amendment-directions-2026": [
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks-Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve Bank b",
+    "cross_entity": false
+   }
+  ],
+  "cb-prudential-norms-on-capital-adequacy-second-amendment-directions-2026-revised": [
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of the Reserve Bank of India (Commercial Banks – Credit Facilities) Amendment Directions, 2026 (Revised) dated March 30, 2026, and in exercise of the powers conferred by the section 21 and 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank of Ind",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 1,
+    "quote": "However, capital shall be maintained only on the exposure reckoned as capital market exposure (CME) in terms of the Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "cb-prudential-norms-on-capital-adequacy-sixth-amendment-directions-2026": [
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026, and in exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 (hereinafter called the Act) and all other ",
+    "cross_entity": true
+   }
+  ],
+  "cb-prudential-norms-on-capital-amendment-2025": [
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 1,
+    "quote": "On a review consequent to the issuance of Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2025, and in exercise of the powers conferred by the sections 21 and 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve B",
+    "cross_entity": false
+   }
+  ],
+  "cb-concentration-risk-management-second-amendment-directions-2026": [
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve Bank",
+    "cross_entity": false
+   }
+  ],
+  "cb-concentration-risk-management-amendment-directions-2025": [
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 5,
+    "quote": "Consequent to amendment(s) in terms of paragraph 3(5) above, other amendment directions viz., Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2025 and the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Amendment ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 5,
+    "quote": "Consequent to amendment(s) in terms of paragraph 3(5) above, other amendment directions viz., Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2025 and the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Amendment ",
+    "cross_entity": false
+   }
+  ],
+  "cb-concentration-risk-management-amendment-directions-2026-revised-pdf": [
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of the Reserve Bank of India (Commercial Banks – Credit Facilities) Amendment Directions, 2026 (Revised) dated March 30, 2026, and in exercise of the powers conferred by the sections 21 and 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank of In",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 4,
+    "quote": "The acquisition of shares due to conversion of debt into equity during a restructuring process in terms of the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025, or as part of corporate insolvency resolution process under the Insolvency and Bankruptcy Code, 2016, will be exempted",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 6,
+    "quote": "(3) Exposure in respect of equity and commodity derivatives shall be calculated as per the Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "cb-concentration-risk-management-directions-2025": [
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 3,
+    "quote": "(1) 1[*****] (2) 2[*****] (3) 3“Eligible capital base” means the effective amount of Tier 1 capital fulfilling the criteria defined in the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025, as per the last audited balance sheet.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 23,
+    "quote": "(2) The amount held under Section 11(2)(b)(i) of the BR Act and earmarked as CRM shall be disclosed by way of a note in Schedule 1: Capital to the Balance Sheet as outlined in Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Directions, 2025: 13[“An amount of ₹… (previous ye",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 25,
+    "quote": "The exposure value of straight debt instruments and equities shall be equal to the market value of the exposure as provided in the Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 36,
+    "quote": "The bank shall be guided by the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 38,
+    "quote": "As indicated in the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025, the acquisition of shares due to conversion of debt to equity during a restructuring process, as permitted in the Master Direction ibid, will be",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-directions",
+    "page": 43,
+    "quote": "Investment by a bank in a subsidiary or in a financial services company not being a subsidiary or a non-financial services company shall be subject to the conditions specified in the Reserve Bank of India (Commercial Banks – Undertaking of Financial Services) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "asset-liability-management-directions-2025",
+    "page": 48,
+    "quote": "The bank shall be guided by the Reserve Bank of India (Commercial Banks – Asset Liability Management) Directions, 2025 in this regard.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 51,
+    "quote": "A bank shall refer to the Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 for detailed instructions on Country Risk Management.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 51,
+    "quote": "Explanation: The country risk ratings for this purpose are covered in the Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "cb-concentration-risk-management-third-amendment-directions-2026": [
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 1,
+    "quote": "Consequent to the amendments proposed in the Reserve Bank of India (Commercial Banks – Credit Facilities) Third Amendment Directions, 2026, and in exercise of the powers conferred by Sections 21 and 35A of the Banking Regulation Act, 1949 and all other provisions / laws enabling the Reserve Bank of India in this regard",
+    "cross_entity": false
+   }
+  ],
+  "cb-credit-facilities-amendment-directions-2026-revised": [
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 6,
+    "quote": "Acquisition finance may also be provided by banks to refinance existing acquisition debt of an acquiring company, subject to compliance with the provisions of these Directions and prudential requirements as specified in paragraph 6(12) of Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directio",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 12,
+    "quote": "Banks shall fix limits for their aggregate exposures towards acquisition finance within the regulatory limit as specified in Chapter V of the Reserve Bank of India (Commercial Banks – Concentration Risk Management) Directions, 2025.”",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resource-raising-norms-directions-2025",
+    "page": 13,
+    "quote": "ithstanding the above, following loans by a bank shall not be permitted: (1) Loans against its own securities; Provided that, a bank may extend loans to individuals against Long- Term Bonds issued by it for infrastructure financing under the provisions of the Reserve Bank of India (Commercial Banks – Resource Raising N",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 14,
+    "quote": "loans against collateral of Indian Depository Receipts (IDRs); (5) loans against securities of such entities to which banks are not allowed to grant loans and advances; (6) loans to companies for buy-back of shares/ securities as specified in paragraph 23 of Reserve Bank of India (Commercial Banks – Credit Risk Managem",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 16,
+    "quote": "Valuation of securities taken as collateral, for the purpose of LTV shall be as per the following norms: (1) Valuation of debt securities shall be in terms of Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025, as updated from time to time.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 22,
+    "quote": "Consequent to the above amendments, other amendment directions viz., Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Second Amendment Directions, 2026 (Revised); Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2026 (Revised); Reserve Bank of",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 22,
+    "quote": "ndment directions viz., Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Second Amendment Directions, 2026 (Revised); Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2026 (Revised); Reserve Bank of India (Commercial Banks – Financial Statemen",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-directions",
+    "page": 22,
+    "quote": "ed); Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2026 (Revised); Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) – Third Amendment Directions, 2026 (Revised); and Reserve Bank of India (Commercial Banks – Undertaking of Fin",
+    "cross_entity": false
+   }
+  ],
+  "cb-credit-facilities-directions-2025": [
+   {
+    "doc_id": "cb-responsible-business-conduct-directions-2025",
+    "page": 7,
+    "quote": "(ii) ‘Annual Percentage Rate’ (APR) means APR as defined under Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 8,
+    "quote": "(e) The project is faced with financial difficulty as determined under the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "managing-risks-in-outsourcing-directions-2025",
+    "page": 15,
+    "quote": "(6) A bank shall continue to conform to the extant guidelines on outsourcing as detailed in Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025 and shall ensure that the LSPs engaged by it and the DLAs (either of the bank or of the LSPs engaged by the bank) comply with these Direct",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 18,
+    "quote": "Explanation: Co-lending arrangements shall be governed by the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025, subject to the condition that no third party other than the lenders in a co-lending transaction shall have direct or indirect control over the flow of funds",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 24,
+    "quote": "(2) The bank shall not enter into DLG arrangements on the loans which are covered by the credit guarantee schemes administered by trust funds as specified under Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 26,
+    "quote": "Recognition of NPA (1) Recognition of individual loan assets in the portfolio as Non-Performing Asset (NPA) and consequent provisioning shall be the responsibility of the bank as per the Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 irrespective of",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 28,
+    "quote": "DLG arrangements entered between a bank and their LSP conforming to the instructions laid down in this Chapter shall neither be treated as “synthetic securitisation” as defined under the Reserve Bank of India (Commercial Banks – Securitisation Transactions) Directions, 2025, nor attract the provisions of ‘loan particip",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "know-your-customer-directions-2025",
+    "page": 32,
+    "quote": "Banks shall comply with the Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 33,
+    "quote": "For instructions on disclosure requirements, the bank shall be guided by the instructions contained in Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 67,
+    "quote": "For prudential credit exposure limits, the bank shall be guided by Reserve Bank of India (Commercial Banks – Concentration Risk Management) Directions, 2025 .",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resource-raising-norms-directions-2025",
+    "page": 85,
+    "quote": "The banks may extend loans to individuals against Long-Term Bonds issued by them for financing the Infrastructure Sub-sector, under the provisions of the Reserve Bank of India (Commercial Banks – Resource Raising Norms) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 93,
+    "quote": "For restrictions regarding investments made by the bank in securities / instruments issued by NBFCs, it shall be guided by the instructions contained in the Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "re-trade-relief-measures-directions-2025",
+    "page": 123,
+    "quote": "mitigate the burden of debt servicing brought about by trade disruptions caused by global headwinds and to ensure the continuity of viable businesses, banks extending export credit finance may provide relief measures to eligible borrowers, as specified under Reserve Bank of India (Trade Relief Measures) Directions, 202",
+    "cross_entity": true
+   }
+  ],
+  "cb-credit-facilities-second-amendment-directions-2026": [
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve Bank",
+    "cross_entity": false
+   }
+  ],
+  "cb-credit-information-reporting-directions-2025": [
+   {
+    "doc_id": "know-your-customer-directions-2025",
+    "page": 8,
+    "quote": "Explanations: (a) The reporting of shareholders’ information under the ‘relationship’ field of the RS in the Commercial data format should be done only for those shareholders who are ‘Beneficial Owners’ as defined under the Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025, as amended from ",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "managing-risks-in-outsourcing-directions-2025",
+    "page": 10,
+    "quote": "However, it shall follow all general instructions on outsourcing set out in the Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025, as amended from time to time, to the extent applicable and shall continue to be responsible for the correctness of the data submitted by the outsourc",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 15,
+    "quote": "(2) Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025, as amended from time to time.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 15,
+    "quote": "(3) Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (4) Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 15,
+    "quote": "(3) Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (4) Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-directions",
+    "page": 16,
+    "quote": "16 (5) Reserve Bank of India (Commercial Banks – Undertaking of Financial Services) Directions, 2025",
+    "cross_entity": false
+   }
+  ],
+  "cb-credit-risk-management-second-amendment-directions-2026": [
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve Bank",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 3,
+    "quote": "tia / syndicates will have the discretion to stipulate repayment of the WCLs in instalments or by way of a 'bullet' repayment, subject to Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and Reserve Bank of India (Commercial Banks – Resolution of Stre",
+    "cross_entity": false
+   }
+  ],
+  "cb-credit-risk-management-directions-2025": [
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 29,
+    "quote": "nt 80bps 25 per centage point increase in the risk weight Explanation: (i) Incremental provisioning and capital requirements shall be over and above the present requirements i.e., general provision for standard assets and applicable credit risk weights as per Reserve Bank of India (Commercial Banks – Income Recognition",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 29,
+    "quote": "ts shall be over and above the present requirements i.e., general provision for standard assets and applicable credit risk weights as per Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 and Reserve Bank of India (Commercial Banks – Prudential Norms o",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 31,
+    "quote": "Note: A banks shall put in place a system for information sharing and dissemination in terms of Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "cb-credit-risk-management-third-amendment-directions-2026pdf": [
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 1,
+    "quote": "r, Shahid Bhagat Singh Marg, Fort, Mumbai – 400001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/47 DOR.STR.REC.36/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (Commercial Banks – Credit Risk Management) Third Amendment Directions, 2026 Please refer to Reserve Bank of India (Commercial Banks – Resolution of Stre",
+    "cross_entity": false
+   }
+  ],
+  "cb-credit-risk-management-amendment-directions-2026": [
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 9,
+    "quote": "Banks shall also adhere to instructions placed in terms of Chapter VI- Prudential Limits on Intra-Group Transactions and Exposure of Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025 for transactions with their group entities.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 9,
+    "quote": "Consequent to the above amendments, corresponding amendment directions viz., Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) – Amendment Directions, 2026 have been separately issued.",
+    "cross_entity": true
+   }
+  ],
+  "cb-resolution-of-stressed-assets-amendment-directions-2026": [
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the Sections 21 and 35A read with Section 56 of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in ",
+    "cross_entity": false
+   }
+  ],
+  "cb-resolution-of-stressed-assets-directions-2025": [
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 9,
+    "quote": "uction phase’, ‘Date of Financial Closure’, ‘Infrastructure Sector’, ‘Original Date of Commencement of Commercial Operations (Original DCCO)’, ‘Extended DCCO’, ‘Actual DCCO’, ‘Project’, and ‘Project Finance’ shall have the same meaning assigned to them in the Reserve Bank of India (Commercial Banks – Credit Facilities)",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 13,
+    "quote": "A bank shall make suitable disclosures in its financial statements in the ‘Notes to Accounts’, as specified in the Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 21,
+    "quote": "In both above cases, the asset classification shall continue to be governed by the ageing criteria as per extant asset classification norms contained in the Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025",
+    "page": 28,
+    "quote": "ich a wilful defaulter is associated shall be eligible for restructuring subsequent to removal of the name of wilful defaulter from the List of Wilful Defaulters, subject to penal measures applicable to borrowers classified as wilful defaulter in terms of the Reserve Bank of India (Commercial Banks – Treatment of Wilfu",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 43,
+    "quote": "Debentures / bonds shall be valued as per the instructions contained in the Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "re-trade-relief-measures-directions-2025",
+    "page": 48,
+    "quote": "To mitigate the burden of debt servicing brought about by trade disruptions caused by global headwinds and to ensure the continuity of viable businesses, banks may extend relief measures to eligible borrowers, as specified under Reserve Bank of India (Trade Relief Measures) Directions, 2025 dated November 14, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "cb-resolution-of-stressed-assets-second-amendment-directions-20269": [
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 6,
+    "quote": "Reserve Bank of India (Commercial Banks – Credit Risk Management) Third Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 6,
+    "quote": "Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-responsible-business-conduct-directions-2025",
+    "page": 7,
+    "quote": "Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   }
+  ],
+  "cb-responsible-business-conduct-directions-2025": [
+   {
+    "doc_id": "know-your-customer-directions-2025",
+    "page": 6,
+    "quote": "(12) Equivalent e-document shall have the same meaning as defined in the Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 6,
+    "quote": "(13) Eligible collateral shall have the same meaning as defined in the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "managing-risks-in-outsourcing-directions-2025",
+    "page": 116,
+    "quote": "The due diligence process shall generally conform to the instructions issued by RBI on outsourcing of financial services vide Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "cb-undertaking-of-financial-services-3rd-amendments": [
+   {
+    "doc_id": "cb-responsible-business-conduct-directions-2025",
+    "page": 1,
+    "quote": "Further, the regulatory instructions on customer service and conduct aspects shall be consolidated in the Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "cb-undertaking-of-financial-services-amendment-directions-2026-revised": [
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of the Reserve Bank of India (Commercial Banks – Credit Facilities) Amendment Directions, 2026 (Revised) dated March 30, 2026, and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank of India (her",
+    "cross_entity": false
+   }
+  ],
+  "cb-undertaking-of-financial-services-directions": [
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 10,
+    "quote": "(ii) Furthermore, following stipulations/restrictions under Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 and Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 shall apply mutatis- mutandis to all the fresh/renewal and additional loans/limits sanctioned/d",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 10,
+    "quote": "(ii) Furthermore, following stipulations/restrictions under Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 and Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 shall apply mutatis- mutandis to all the fresh/renewal and additional loans/limits sanctioned/d",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 13,
+    "quote": "(1) investments in the equity of entities held under ‘Held for Trading’ category as stipulated in the Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025 as updated from time to time, subject to the limit stipulated under Section 19(2) of the Banki",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 17,
+    "quote": "These Directions shall be read in conjunction with Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025 as applicable to banks.",
+    "cross_entity": false
+   }
+  ]
+ },
+ "referenced_by": {
+  "classification-valuation-and-operation-of-investment-portfolio-directions-2025": [
+   {
+    "doc_id": "asset-liability-management-directions-2025",
+    "page": 11,
+    "quote": "An AIFI shall also be guided by the Reserve Bank of India (All India Financial Institutions – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-information-reporting-directions-2025",
+    "page": 13,
+    "quote": "A CI shall ensure compliance with the applicable instructions on credit information reporting, as prescribed in the following Directions/ Circulars: (1) Reserve Bank of India (All India Financial Institutions – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025, as amended from time to ti",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 12,
+    "quote": "12 (65) ‘‘Trading book’ shall include all instruments that are classified as ‘Held for Trading’ or 'Available for Sale' (AFS) as per Reserve Bank of India (All India Financial Institutions – Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025; (66) ‘Tranche’ means a contractually establis",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 43,
+    "quote": "Debt / quasi-debt / equity instruments shall be subject to all the instructions contained in the Reserve Bank of India (All India Financial Institutions – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025 to the extent they are not inconsistent with these Directions.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "undertaking-of-financial-services-directions-2025-updated-as-on-april-27-2026",
+    "page": 6,
+    "quote": "Explanation: Prior approval of the RBI shall not be required if the investments in the financial services companies are held under the “Held for Trading” category as stipulated in the Reserve Bank of India (All India Financial Institutions - Classification, Valuation and Operation of Investment Portfolio) Directions, 2",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 6,
+    "quote": "(9) “Fair Value through Profit and Loss (FVTPL)” means those financial assets classified as such in terms of the ‘Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025, as amended from time to time.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 9,
+    "quote": "The current exposure of a clearing member includes the variation margin due to the clearing member but not yet received; (34) ‘Trading book’ shall include all instruments that are classified as ‘Held for Trading’ as per Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Por",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-sixth-amendment-directions-2026",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026, and in exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 (hereinafter called the Act) and all other ",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 25,
+    "quote": "The exposure value of straight debt instruments and equities shall be equal to the market value of the exposure as provided in the Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-amendment-directions-2026-revised",
+    "page": 16,
+    "quote": "Valuation of securities taken as collateral, for the purpose of LTV shall be as per the following norms: (1) Valuation of debt securities shall be in terms of Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025, as updated from time to time.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 93,
+    "quote": "For restrictions regarding investments made by the bank in securities / instruments issued by NBFCs, it shall be guided by the instructions contained in the Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-information-reporting-directions-2025",
+    "page": 15,
+    "quote": "(2) Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025, as amended from time to time.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 43,
+    "quote": "Debentures / bonds shall be valued as per the instructions contained in the Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-directions",
+    "page": 13,
+    "quote": "(1) investments in the equity of entities held under ‘Held for Trading’ category as stipulated in the Reserve Bank of India (Commercial Banks – Classification, Valuation and Operation of Investment Portfolio) Directions, 2025 as updated from time to time, subject to the limit stipulated under Section 19(2) of the Banki",
+    "cross_entity": true
+   }
+  ],
+  "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026": [
+   {
+    "doc_id": "concentration-risk-management-directions-2025",
+    "page": 3,
+    "quote": "(5) “Eligible capital base” for the purposes of these Directions is the effective amount of Tier 1 capital fulfilling the criteria defined under Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Directions, 2025, as per the last audited balance sheet.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 19,
+    "quote": "19 Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 24,
+    "quote": "(3) While computing the provisioning requirement, an AIFI may adjust financial collateral eligible under credit risk mitigation techniques available in terms of the Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Directions, 2025,",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 18,
+    "quote": "Exposures to securitisations that are STC-compliant can be subject to the alternative capital treatment as determined by Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "undertaking-of-financial-services-directions-2025-updated-as-on-april-27-2026",
+    "page": 2,
+    "quote": "lve months; (2) ‘Equity instrument’ means equity shares, compulsorily convertible preference shares (CCPS) and compulsorily convertible debentures (CCD); (3) ‘Capital funds’ means the total regulatory capital of an AIFI, fulfilling the criteria defined in the Reserve Bank of India (All India Financial Institutions – Pr",
+    "cross_entity": false
+   }
+  ],
+  "resolution-of-stressed-assets-directions-2025": [
+   {
+    "doc_id": "concentration-risk-management-directions-2025",
+    "page": 26,
+    "quote": "n-convertible bonds; (6) Units of Mutual Funds under schemes where the corpus is invested exclusively in debt instruments; (7) Shares acquired by the AIFI as a result of conversion of debt / overdue interest into equity as per the exemption provided under the Reserve Bank of India (All India Financial Institutions – Re",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-amendment-directions-2026",
+    "page": 2,
+    "quote": "(v) An AIFI shall ensure that lending to an InvIT is not used to fund its SPVs having existing loans from REs and which are facing financial difficulty, as defined in the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 5,
+    "quote": "(e) The project is faced with financial difficulty as determined under the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-risk-management-second-amendment-directions-2026",
+    "page": 1,
+    "quote": "Singh Marg, Fort, Mumbai – 400001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/75 DOR.STR.REC.64/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (All India Financial Institutions – Credit Risk Management) Second Amendment Directions, 2026 Please refer to Reserve Bank of India (All India Financial Institutions – Re",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 16,
+    "quote": "16 (iv) Particulars of resolution plan and restructuring (a) An AIFI covered by the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025, shall make appropriate disclosures in its financial statements relating to resolution plans implemented.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "responsible-business-conduct-amendment-directions-2026",
+    "page": 1,
+    "quote": "Singh Marg, Fort, Mumbai – 400001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/74 DOR.STR.REC.63/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Amendment Directions, 2026 Please refer to Reserve Bank of India (All India Financial Institutions – Res",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025",
+    "page": 3,
+    "quote": "(iv) “default” shall have the same meaning assigned to it in the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-amendment-directions-2026",
+    "page": 1,
+    "quote": "00001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/73 DOR.STR.REC.62/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026 Please refer to Reserve Bank of India (All India Financial Institutions – Re",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 3,
+    "quote": "An AIFI shall also follow the prudential guidelines on income recognition, asset classification and provisioning of advances for restructured accounts as prescribed in the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025, in addition to these Directions.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 20,
+    "quote": "The originator should verify that the underlying credit claims or receivables meet the following conditions: (1) the credit claims or receivables is not under the monitoring period as defined in defined in the Reserve Bank of India (All India Financial Institutions – Resolution of Stressed Assets) Directions, 2025; (2)",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 8,
+    "quote": "in take-out financing), the same shall be evaluated against restructuring as defined in Reserve Bank of India (All India Financial Institutions– Resolution of Stressed Assets) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "concentration-risk-management-directions-2025": [
+   {
+    "doc_id": "credit-facilities-amendment-directions-2026",
+    "page": 6,
+    "quote": "(x) Acquisition finance shall be secured by the financial instruments issued by the target company through which control over it is acquired by the acquiring company, without prejudice to the provisions of paragraph 53 of Reserve Bank of India (All India Financial Institutions – Concentration Risk Management) Direction",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 35,
+    "quote": "Notwithstanding paragraph above, AIFI shall comply with all the related regulatory norms including Reserve Bank of India (All India Financial Institutions – Concentration Risk Management) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 27,
+    "quote": "Total 0.00 0.00 0.00% Note – (i) An exposure shall be determined in terms of Reserve Bank of India (All India Financial Institutions - Concentration Risk Management) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 8,
+    "quote": "ated at all or have not been consolidated in such a way as to result in their assets being included in the calculation of consolidated risk-weighted assets of the group; (35) ‘Large Exposure’ means the sum of all exposure value of an AIFI measured in terms of Reserve Bank of India (All India Financial Institutions – Co",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "undertaking-of-financial-services-directions-2025-updated-as-on-april-27-2026",
+    "page": 5,
+    "quote": "AIFIs shall formulate policies, with the approval of their Board, covering the following aspects of investments in financial entities to the extent these are not covered under the cross-holding limits prescribed under the Large Exposure Norms, under Reserve Bank of India (All India Financial Institutions - Concentratio",
+    "cross_entity": false
+   }
+  ],
+  "cb-responsible-business-conduct-directions-2025": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 4,
+    "quote": "(ii) ‘Annual Percentage Rate’ (APR) means APR as defined under Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 7,
+    "quote": "(ii) ‘Annual Percentage Rate’ (APR) means APR as defined under Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-second-amendment-directions-20269",
+    "page": 7,
+    "quote": "Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-3rd-amendments",
+    "page": 1,
+    "quote": "Further, the regulatory instructions on customer service and conduct aspects shall be consolidated in the Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "responsible-business-conduct-directions-2025": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 10,
+    "quote": "(5) An AIFI shall impart necessary guidance to LSP acting as a recovery agent, to discharge their duties responsibly and ensure that LSP complies with the applicable instructions in the Reserve Bank of India (All India Financial Institutions– Responsible Business Conduct) Directions, 2025, and other relevant instructio",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-amendment-directions-2026",
+    "page": 6,
+    "quote": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 31,
+    "quote": "All required details of CLA shall be disclosed appropriately to the concerned borrower as laid down on ‘Key Facts Statement (KFS) for Loans & Advances’ under Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "managing-risks-in-outsourcing-directions-2025": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 10,
+    "quote": "(6) An AIFI shall continue to conform to the extant guidelines on outsourcing in directions Reserve Bank of India (All India Financial Institutions – Managing Risks in Outsourcing) Directions, 2025 and shall ensure that the LSPs engaged by them and the DLAs (either of the AIFI or of the LSPs engaged by the AIFI) comply",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-information-reporting-directions-2025",
+    "page": 9,
+    "quote": "However, it shall follow all general instructions on outsourcing set out in the Reserve Bank of India (All India Financial Institutions – Managing Risks in Outsourcing) Directions, 2025, as amended from time to time, to the extent applicable and shall continue to be responsible for the correctness of the data submitted",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 15,
+    "quote": "(6) A bank shall continue to conform to the extant guidelines on outsourcing as detailed in Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025 and shall ensure that the LSPs engaged by it and the DLAs (either of the bank or of the LSPs engaged by the bank) comply with these Direct",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-information-reporting-directions-2025",
+    "page": 10,
+    "quote": "However, it shall follow all general instructions on outsourcing set out in the Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025, as amended from time to time, to the extent applicable and shall continue to be responsible for the correctness of the data submitted by the outsourc",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-responsible-business-conduct-directions-2025",
+    "page": 116,
+    "quote": "The due diligence process shall generally conform to the instructions issued by RBI on outsourcing of financial services vide Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "transfer-and-distribution-of-credit-risk-directions-2025": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 13,
+    "quote": "Note: Co-lending arrangements shall be governed by the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025, subject to the condition that no third party other than the lenders in a co- lending transaction shall have direct or indirect control over the flo",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-information-reporting-directions-2025",
+    "page": 13,
+    "quote": "(2) Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025 (3) Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 23,
+    "quote": "Note - These disclosures are originally specified in the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025 and have merely been reproduced here for ease of reference.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025",
+    "page": 8,
+    "quote": "(2) Transfer of a loan shall mean a transfer undertaken in terms of the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025 and hence, the terms “transfer”, “transferor” and “transferee” shall have the same meaning assigned therein.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 17,
+    "quote": "Transfer of Loan Exposures – The asset classification and provisioning requirements in respect of transactions involving transfer of loans shall be as per the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 71,
+    "quote": "(iii) An AIFI shall be guided by the Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025 for the prudential treatment of unrealized profits arising because of transfer of loan exposures and SRs guaranteed by Government of India.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "securitisation-transactions-directions-2025",
+    "page": 10,
+    "quote": "The originators of such exposures shall have satisfied the Minimum holding period (MHP) requirement as defined in Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 40,
+    "quote": "For loan portfolios covered by Default Loss Guarantee (DLG) arrangements in terms of Chapter III of the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 and Part B of the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025, both dated Novembe",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 25,
+    "quote": "Transfer of Loan Exposures – The asset classification and provisioning requirements in respect of transactions involving transfer of loans shall be as per the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 77,
+    "quote": "(ii) A bank shall be guided by the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025 for the prudential treatment of unrealised profits arising because of transfer of loan exposures and SRs guaranteed by the Government of India.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 18,
+    "quote": "Explanation: Co-lending arrangements shall be governed by the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025, subject to the condition that no third party other than the lenders in a co-lending transaction shall have direct or indirect control over the flow of funds",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-information-reporting-directions-2025",
+    "page": 15,
+    "quote": "(3) Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (4) Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 31,
+    "quote": "Note: A banks shall put in place a system for information sharing and dissemination in terms of Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "income-recognition-asset-classification-and-provisioning-directions-2025": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 21,
+    "quote": "Recognition of NPA (1) Recognition of individual loan assets in the portfolio as Non-Performing Asset (NPA) and consequent provisioning shall be the responsibility of the AIFI as per the Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 18,
+    "quote": "18 Note – *Gross NPAs as specified in Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Directions, 2025 (vii) Write-offs and recoveries (Amount in ₹ crore) Particulars Current year Previous year Opening balance of Technical / Prudential written off acc",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025",
+    "page": 12,
+    "quote": "ess of classification/ declaring the borrower as a wilful defaulter by following the mechanism set out in Paragraph 5, within six months of the account being classified as NPA in accordance with the instructions regarding asset classification contained in the Reserve Bank of India (All India Financial Institutions – In",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-amendment-directions-2026",
+    "page": 6,
+    "quote": "Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 20,
+    "quote": "In both above cases, the asset classification shall continue to be governed by the ageing criteria as per extant asset classification norms contained in the Reserve Bank of India (All India Financial Institutions – Income Recognition, Asset Classification and Provisioning) Directions, 2025.",
+    "cross_entity": false
+   }
+  ],
+  "securitisation-transactions-directions-2025": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 22,
+    "quote": "DLG arrangements entered between an AIFI and their LSP conforming to the instructions laid down in this Chapter shall neither be treated as “synthetic securitisation” as defined under the Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025, nor attract the provisions ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 41,
+    "quote": "Investor complaints (a) Directly/Indirectly received and; (b) Complaints outstanding Note - Separate table separately for ‘Simple, Transparent and Comparable’ (STC) and non-STC transactions shall be provided AIFIs shall be guided by the Reserve Bank of India (All India Financial Institutions – Securitisation Transactio",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 11,
+    "quote": "11 (5) the amount of liquidity facility remains outstanding for more than 90 days, in respect of a securitisation transaction undertaken in terms of the Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025; (6) in respect of derivative transactions, the overdue receiva",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 9,
+    "quote": "dY = Small change in yield compounded with the frequency of the coupon payment; (41) ‘Mortgage-backed Security’ shall have the same meaning as assigned under Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025; (42) ‘Netting Set’ means a group of transactions with a s",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 4,
+    "quote": "Explanation: The above proviso shall be without prejudice to the provisions of Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025; Master Direction – External Commercial Borrowings, Trade Credits and Structured Obligations dated March 26, 2019; obtention of guarantee",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 5,
+    "quote": "(15) ‘Securitisation’ shall have the same meaning as defined in Reserve Bank of India (All India Financial Institutions – Securitisation Transactions) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 18,
+    "quote": "the instalment of principal or interest thereon remains overdue for one crop season for long duration crops; (8) the amount of liquidity facility remains outstanding for more than 90 days, in respect of a securitisation transaction undertaken in terms of the Reserve Bank of India (Commercial Banks – Securitisation Tran",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 9,
+    "quote": "The terms appearing in paragraphs 88 to 126 on ‘Securitisation Exposures’ shall bear the meanings assigned to them under Reserve Bank of India (Commercial Banks – Securitisation Transactions) Directions, 2025, unless stated otherwise herein.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 28,
+    "quote": "DLG arrangements entered between a bank and their LSP conforming to the instructions laid down in this Chapter shall neither be treated as “synthetic securitisation” as defined under the Reserve Bank of India (Commercial Banks – Securitisation Transactions) Directions, 2025, nor attract the provisions of ‘loan particip",
+    "cross_entity": true
+   }
+  ],
+  "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 26,
+    "quote": "An AIFI shall make appropriate disclosures in their financial statements, under ‘Notes to Accounts’, as specified in the Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "credit-risk-management-amendment-directions-2026",
+    "page": 8,
+    "quote": "Consequent to the above amendments, corresponding amendment directions viz., Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) – Amendment Directions, 2026 have been separately issued.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 8,
+    "quote": "An AIFI shall make suitable disclosures in its Notes to Accounts as per the requirements contained in the Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 12,
+    "quote": "An AIFI shall make suitable disclosures in its financial statements in the ‘Notes to Accounts’, as specified in the Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 29,
+    "quote": "The AIFIs should be guided by Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directions, 2025 for all disclosure related requirements.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+    "page": 31,
+    "quote": "(2) An AIFI shall disclose the details of the issuer composition of non- Government investments and the non-performing non-Government investments in the ‘Notes to Accounts’ of the balance sheet, as per Reserve Bank of India (All India Financial Institutions – Financial Statements: Presentation and Disclosures) Directio",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 10,
+    "quote": "A bank shall make suitable disclosures in its Notes to Accounts as per the requirements contained in the Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 37,
+    "quote": "cases, a bank is required to report to the Reserve Bank within twenty-one days from the date of such appropriation in compliance with Section 17(2) of the BR Act 1949; (e) Prior approval of the Reserve Bank for appropriation of reserves as above, in terms of Reserve Bank of India (Commercial Banks – Financial Statement",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 23,
+    "quote": "(2) The amount held under Section 11(2)(b)(i) of the BR Act and earmarked as CRM shall be disclosed by way of a note in Schedule 1: Capital to the Balance Sheet as outlined in Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Directions, 2025: 13[“An amount of ₹… (previous ye",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-amendment-directions-2026-revised",
+    "page": 22,
+    "quote": "ndment directions viz., Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Second Amendment Directions, 2026 (Revised); Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2026 (Revised); Reserve Bank of India (Commercial Banks – Financial Statemen",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 33,
+    "quote": "For instructions on disclosure requirements, the bank shall be guided by the instructions contained in Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-risk-management-amendment-directions-2026",
+    "page": 9,
+    "quote": "Consequent to the above amendments, corresponding amendment directions viz., Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) – Amendment Directions, 2026 have been separately issued.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 13,
+    "quote": "A bank shall make suitable disclosures in its financial statements in the ‘Notes to Accounts’, as specified in the Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) Directions, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "re-trade-relief-measures-directions-2025": [
+   {
+    "doc_id": "credit-facilities-directions-2025-updated-as-on-april-1-2026",
+    "page": 41,
+    "quote": "mitigate the burden of debt servicing brought about by trade disruptions caused by global headwinds and to ensure the continuity of viable businesses, AIFIs extending export credit finance may provide relief measures to eligible borrowers, as specified under Reserve Bank of India (Trade Relief Measures) Directions, 202",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 48,
+    "quote": "To mitigate the burden of debt servicing brought about by trade disruptions caused by global headwinds and to ensure the continuity of viable businesses, AIFIs may extend relief measures to eligible borrowers, as specified under Reserve Bank of India (Trade Relief Measures) Directions, 2025 dated November 14, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 123,
+    "quote": "mitigate the burden of debt servicing brought about by trade disruptions caused by global headwinds and to ensure the continuity of viable businesses, banks extending export credit finance may provide relief measures to eligible borrowers, as specified under Reserve Bank of India (Trade Relief Measures) Directions, 202",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 48,
+    "quote": "To mitigate the burden of debt servicing brought about by trade disruptions caused by global headwinds and to ensure the continuity of viable businesses, banks may extend relief measures to eligible borrowers, as specified under Reserve Bank of India (Trade Relief Measures) Directions, 2025 dated November 14, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "know-your-customer-directions-2025": [
+   {
+    "doc_id": "credit-information-reporting-directions-2025",
+    "page": 7,
+    "quote": "Explanations: (a) The reporting of shareholders’ information under the ‘relationship’ field of the RS in the Commercial data format should be done only for those shareholders who are ‘Beneficial Owners’ as defined under the Reserve Bank of India (All India Financial Institutions – Know Your Customer) Directions, 2025, ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 10,
+    "quote": "The extant instructions on outsourcing and the applicable provisions of Reserve Bank of India (All India Financial Institutions – Know Your Customer) Directions, 2025 shall be complied with in all cases.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 32,
+    "quote": "Banks shall comply with the Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-information-reporting-directions-2025",
+    "page": 8,
+    "quote": "Explanations: (a) The reporting of shareholders’ information under the ‘relationship’ field of the RS in the Commercial data format should be done only for those shareholders who are ‘Beneficial Owners’ as defined under the Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025, as amended from ",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-responsible-business-conduct-directions-2025",
+    "page": 6,
+    "quote": "(12) Equivalent e-document shall have the same meaning as defined in the Reserve Bank of India (Commercial Banks – Know Your Customer) Directions, 2025.",
+    "cross_entity": true
+   }
+  ],
+  "credit-facilities-directions-2025-updated-as-on-april-1-2026": [
+   {
+    "doc_id": "credit-information-reporting-directions-2025",
+    "page": 13,
+    "quote": "(2) Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025 (3) Reserve Bank of India (All India Financial Institutions – Transfer and Distribution of Credit Risk) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 24,
+    "quote": "Unsecured Portion Secured* Portion Unsecured Portion I Outstanding Guarantees (₹ crore) i) In India ii) Outside India II Acceptances, Endorsements and other Obligations (₹ crore) III Other NFB Credit facilities (₹ crore) * Secured portion is as defined under Reserve Bank of India (All India Financial Institutions – Cre",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 5,
+    "quote": "The terms ‘Commercial Real Estate (CRE)’, ‘Commercial Real Estate – Residential Housing Sector (CRE - RH)’, ‘project finance’, and ‘financial closure’ shall have the same meaning as defined in the Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 85,
+    "quote": "(12) In terms of Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025, if an AIFI is the Default Loss Guarantee (DLG) provider, it shall deduct full amount of the DLG, which is outstanding, from its capital.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 8,
+    "quote": "Construction phase’, ‘Date of Financial Closure’, ‘Infrastructure Sector’, ‘Original Date of Commencement of Commercial Operations (Original DCCO)’, ‘Extended DCCO’, ‘Actual DCCO’, ‘Project’, and ‘Project Finance’ shall have the same meaning as defined in the Reserve Bank of India (All India Financial Institutions – Cr",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "transfer-and-distribution-of-credit-risk-directions-2025",
+    "page": 30,
+    "quote": "Digital lending arrangements shall continue to be governed by Reserve Bank of India (All India Financial Institutions – Credit Facilities) Directions, 2025 as amended from time to time.",
+    "cross_entity": false
+   }
+  ],
+  "credit-risk-management-directions-2025-updated-as-on-april-1-2026": [
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-amendment-directions-2026",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of the Reserve Bank of India (All India Financial Institutions – Credit Risk Management) – Amendment Directions, 2026, and in exercise of the powers conferred by Section 45L of the Reserve Bank of India Act, 1934 and all other provisions / laws enabling the Reserve Bank of India ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026",
+    "page": 35,
+    "quote": "1[(vi) Exposures to Related Parties Details of exposures to related parties as defined in Reserve Bank of India (All India Financial Institutions – Credit Risk Management) Directions, 2025: (Amount in ₹ crore) Sr.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 105,
+    "quote": "the risk weight (For example, for an entity which otherwise attracts a risk weight of 50 per cent, the applicable risk weight shall become 75 per cent.) * EBID = Profit After Tax + Depreciation + Interest on debt + Lease Rentals, if any Note - Please refer to Reserve Bank of India (All India Financial Institutions – Cr",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-amendment-directions-2026",
+    "page": 6,
+    "quote": "Reserve Bank of India (All India Financial Institutions – Credit Risk Management) Second Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   }
+  ],
+  "cb-concentration-risk-management-directions-2025": [
+   {
+    "doc_id": "managing-risks-in-outsourcing-directions-2025",
+    "page": 5,
+    "quote": "In these Directions, unless the context otherwise requires, the terms herein shall bear the meanings assigned to them below: (1) ‘Group’ shall be as defined in the Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025, as amended from time to time, for the purpose of intra-group tran",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-income-recognition-asset-prvisioning-amendment-2025",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2025, and in exercise of the powers conferred by the sections 21 and 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 4,
+    "quote": "ates otherwise, the terms herein shall bear the meanings assigned to them below: (1) ‘Banking book’ shall mean all items which are not included under trading book as per these Directions; (2) ‘Capital Market Exposure’ shall have the same meaning as defined in Reserve Bank of India (Commercial Banks – Concentration Risk",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-eighth-amendment-directions-2026",
+    "page": 1,
+    "quote": "However, if such exposures qualify as capital market exposures in terms of paragraph 95A of the Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025, the applicable risk weight shall be 125 per cent.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-second-amendment-directions-2026-revised",
+    "page": 1,
+    "quote": "However, capital shall be maintained only on the exposure reckoned as capital market exposure (CME) in terms of the Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-amendment-2025",
+    "page": 1,
+    "quote": "On a review consequent to the issuance of Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2025, and in exercise of the powers conferred by the sections 21 and 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve B",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-amendment-directions-2026-revised",
+    "page": 12,
+    "quote": "Banks shall fix limits for their aggregate exposures towards acquisition finance within the regulatory limit as specified in Chapter V of the Reserve Bank of India (Commercial Banks – Concentration Risk Management) Directions, 2025.”",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 67,
+    "quote": "For prudential credit exposure limits, the bank shall be guided by Reserve Bank of India (Commercial Banks – Concentration Risk Management) Directions, 2025 .",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-risk-management-amendment-directions-2026",
+    "page": 9,
+    "quote": "Banks shall also adhere to instructions placed in terms of Chapter VI- Prudential Limits on Intra-Group Transactions and Exposure of Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025 for transactions with their group entities.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-directions",
+    "page": 17,
+    "quote": "These Directions shall be read in conjunction with Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025 as applicable to banks.",
+    "cross_entity": false
+   }
+  ],
+  "undertaking-of-financial-services-directions-2025-updated-as-on-april-27-2026": [
+   {
+    "doc_id": "responsible-business-conduct-second-amendment-directions-2026",
+    "page": 3,
+    "quote": "rvice (TPPS) means a product or service offered by an AIFI to its customers on behalf of a third-party product / service provider (TPPS Provider) after entering into an agency business or referral services arrangement with the TPPS Provider as permitted under Reserve Bank of India (All India Financial Institutions – Un",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 6,
+    "quote": "e’ means ‘recognised stock exchange’ and shall have the same meaning as defined in Section 2 (f) of Securities Contracts (Regulation) Act, 1956; (21) ‘Financial Services Company’ means a company engaged in the 'business of financial services as defined in the Reserve Bank of India (All India Financial Institutions – Un",
+    "cross_entity": false
+   }
+  ],
+  "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025": [
+   {
+    "doc_id": "income-recognition-asset-classification-and-provisioning-directions-2025",
+    "page": 5,
+    "quote": "(13) ‘wilful defaulter’ shall mean the same as defined under the Reserve Bank of India (All India Financial Companies – Treatment of Wilful Defaulters and Large Defaulters) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "resolution-of-stressed-assets-directions-2025",
+    "page": 27,
+    "quote": "ich a wilful defaulter is associated shall be eligible for restructuring subsequent to removal of the name of wilful defaulter from the List of Wilful Defaulters, subject to penal measures applicable to borrowers classified as wilful defaulter in terms of the Reserve Bank of India (All India Financial Institutions – Tr",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 5,
+    "quote": "(14) ‘wilful defaulter’ shall mean the same as defined under the Reserve Bank of India (Commercial Banks – Treatment of Wilful Defaulters and Large Defaulters) Directions, 2025.",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 28,
+    "quote": "ich a wilful defaulter is associated shall be eligible for restructuring subsequent to removal of the name of wilful defaulter from the List of Wilful Defaulters, subject to penal measures applicable to borrowers classified as wilful defaulter in terms of the Reserve Bank of India (Commercial Banks – Treatment of Wilfu",
+    "cross_entity": true
+   }
+  ],
+  "cb-credit-risk-management-directions-2025": [
+   {
+    "doc_id": "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026",
+    "page": 19,
+    "quote": "ctored into capital adequacy computations; (e) the external auditors of the AIFI have not expressed a qualified opinion on the revaluation of the property; and (f) the instructions on valuation of properties and other specific requirements as mentioned in the Reserve Bank of India (Commercial Bank – Credit Risk Managem",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 30,
+    "quote": "A bank shall estimate the riskiness of unhedged position of their borrowers as per the instructions on unhedged foreign currency exposures contained in the Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 and make incremental provisions on all their exposures to such entities as under:",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 16,
+    "quote": "ctored into capital adequacy computations; (e) the external auditors of the bank have not expressed a qualified opinion on the revaluation of the property; and (f) the instructions on valuation of properties and other specific requirements as mentioned in the Reserve Bank of India (Commercial Banks – Credit Risk Manage",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 51,
+    "quote": "A bank shall refer to the Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 for detailed instructions on Country Risk Management.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-amendment-directions-2026-revised",
+    "page": 14,
+    "quote": "loans against collateral of Indian Depository Receipts (IDRs); (5) loans against securities of such entities to which banks are not allowed to grant loans and advances; (6) loans to companies for buy-back of shares/ securities as specified in paragraph 23 of Reserve Bank of India (Commercial Banks – Credit Risk Managem",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-second-amendment-directions-20269",
+    "page": 6,
+    "quote": "Reserve Bank of India (Commercial Banks – Credit Risk Management) Third Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-directions",
+    "page": 10,
+    "quote": "(ii) Furthermore, following stipulations/restrictions under Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 and Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 shall apply mutatis- mutandis to all the fresh/renewal and additional loans/limits sanctioned/d",
+    "cross_entity": false
+   }
+  ],
+  "cb-irac-norms-2025-directions-2025": [
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 4,
+    "quote": "Banks shall continue to be governed by the Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 until the date of commencement of these Directions.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-amendment-directions-2025",
+    "page": 5,
+    "quote": "Consequent to amendment(s) in terms of paragraph 3(5) above, other amendment directions viz., Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2025 and the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Amendment ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 51,
+    "quote": "Explanation: The country risk ratings for this purpose are covered in the Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 26,
+    "quote": "Recognition of NPA (1) Recognition of individual loan assets in the portfolio as Non-Performing Asset (NPA) and consequent provisioning shall be the responsibility of the bank as per the Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 irrespective of",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 29,
+    "quote": "nt 80bps 25 per centage point increase in the risk weight Explanation: (i) Incremental provisioning and capital requirements shall be over and above the present requirements i.e., general provision for standard assets and applicable credit risk weights as per Reserve Bank of India (Commercial Banks – Income Recognition",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 21,
+    "quote": "In both above cases, the asset classification shall continue to be governed by the ageing criteria as per extant asset classification norms contained in the Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-second-amendment-directions-20269",
+    "page": 6,
+    "quote": "Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026 dated April 29, 2026.",
+    "cross_entity": false
+   }
+  ],
+  "cb-resolution-of-stressed-assets-directions-2025": [
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 4,
+    "quote": "A bank shall also follow the prudential guidelines for restructured accounts as prescribed in the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025, in addition to these Directions, as amended from time to time.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-income-recognition-asset-classification-and-provisioning-amendment-directions-2026",
+    "page": 1,
+    "quote": "Fort, Mumbai – 400001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/45 DOR.STR.REC.34/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026 Please refer to Reserve Bank of India (Commercial Banks – Resolution of Stre",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 3,
+    "quote": "A bank shall also follow the prudential guidelines on income recognition, asset classification and provisioning of advances for restructured accounts as prescribed in the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025, in addition to these Directions.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-amendment-directions-2026-revised-pdf",
+    "page": 4,
+    "quote": "The acquisition of shares due to conversion of debt into equity during a restructuring process in terms of the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025, or as part of corporate insolvency resolution process under the Insolvency and Bankruptcy Code, 2016, will be exempted",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 38,
+    "quote": "As indicated in the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025, the acquisition of shares due to conversion of debt to equity during a restructuring process, as permitted in the Master Direction ibid, will be",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-amendment-directions-2026-revised",
+    "page": 6,
+    "quote": "Acquisition finance may also be provided by banks to refinance existing acquisition debt of an acquiring company, subject to compliance with the provisions of these Directions and prudential requirements as specified in paragraph 6(12) of Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directio",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 8,
+    "quote": "(e) The project is faced with financial difficulty as determined under the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-risk-management-second-amendment-directions-2026",
+    "page": 3,
+    "quote": "tia / syndicates will have the discretion to stipulate repayment of the WCLs in instalments or by way of a 'bullet' repayment, subject to Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and Reserve Bank of India (Commercial Banks – Resolution of Stre",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-risk-management-third-amendment-directions-2026pdf",
+    "page": 1,
+    "quote": "r, Shahid Bhagat Singh Marg, Fort, Mumbai – 400001 ᳲहंदी आसान हᱹ, इसका ᮧयोग बड़ाइए RBI/2026-27/47 DOR.STR.REC.36/21-04-048/2026-27 April 29, 2026 Reserve Bank of India (Commercial Banks – Credit Risk Management) Third Amendment Directions, 2026 Please refer to Reserve Bank of India (Commercial Banks – Resolution of Stre",
+    "cross_entity": false
+   }
+  ],
+  "cb-credit-facilities-directions-2025": [
+   {
+    "doc_id": "cb-ecl-guidelines-for-commercial-banks",
+    "page": 40,
+    "quote": "For loan portfolios covered by Default Loss Guarantee (DLG) arrangements in terms of Chapter III of the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 and Part B of the Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025, both dated Novembe",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 6,
+    "quote": "The terms ‘Commercial Real Estate (CRE)’, ‘Commercial Real Estate – Residential Housing Sector (CRE - RH)’, ‘project finance’, and ‘financial closure’ shall have the same meaning assigned to them in the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 93,
+    "quote": "(14) In terms of Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025, if a bank is the Default Loss Guarantee (DLG) provider, it shall deduct the full amount of DLG, which is outstanding, from its capital.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-eighth-amendment-directions-2026",
+    "page": 1,
+    "quote": "On a review, Consequent to the issuance of the Reserve Bank of India (Commercial Banks – Credit Facilities) Third Amendment Directions, 2026, and in exercise of the powers conferred by Sections 21 and 35A of the Banking Regulation Act, 1949 and all other provisions / laws enabling the Reserve Bank of India in this rega",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-second-amendment-directions-2026-revised",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of the Reserve Bank of India (Commercial Banks – Credit Facilities) Amendment Directions, 2026 (Revised) dated March 30, 2026, and in exercise of the powers conferred by the section 21 and 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank of Ind",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-amendment-directions-2026-revised-pdf",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of the Reserve Bank of India (Commercial Banks – Credit Facilities) Amendment Directions, 2026 (Revised) dated March 30, 2026, and in exercise of the powers conferred by the sections 21 and 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank of In",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 36,
+    "quote": "The bank shall be guided by the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-third-amendment-directions-2026",
+    "page": 1,
+    "quote": "Consequent to the amendments proposed in the Reserve Bank of India (Commercial Banks – Credit Facilities) Third Amendment Directions, 2026, and in exercise of the powers conferred by Sections 21 and 35A of the Banking Regulation Act, 1949 and all other provisions / laws enabling the Reserve Bank of India in this regard",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-information-reporting-directions-2025",
+    "page": 15,
+    "quote": "(3) Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 (4) Reserve Bank of India (Commercial Banks – Transfer and Distribution of Credit Risk) Directions, 2025",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-directions-2025",
+    "page": 9,
+    "quote": "uction phase’, ‘Date of Financial Closure’, ‘Infrastructure Sector’, ‘Original Date of Commencement of Commercial Operations (Original DCCO)’, ‘Extended DCCO’, ‘Actual DCCO’, ‘Project’, and ‘Project Finance’ shall have the same meaning assigned to them in the Reserve Bank of India (Commercial Banks – Credit Facilities)",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-responsible-business-conduct-directions-2025",
+    "page": 6,
+    "quote": "(13) Eligible collateral shall have the same meaning as defined in the Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-amendment-directions-2026-revised",
+    "page": 1,
+    "quote": "On a review, consequent to the issuance of the Reserve Bank of India (Commercial Banks – Credit Facilities) Amendment Directions, 2026 (Revised) dated March 30, 2026, and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank of India (her",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-undertaking-of-financial-services-directions",
+    "page": 10,
+    "quote": "(ii) Furthermore, following stipulations/restrictions under Reserve Bank of India (Commercial Banks – Credit Risk Management) Directions, 2025 and Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025 shall apply mutatis- mutandis to all the fresh/renewal and additional loans/limits sanctioned/d",
+    "cross_entity": false
+   }
+  ],
+  "cb-prudential-norms-on-capital-adequacy-directions-2025": [
+   {
+    "doc_id": "cb-irac-norms-2025-directions-2025",
+    "page": 34,
+    "quote": "(4) While computing the provisioning requirement, a bank may adjust financial collateral eligible under credit risk mitigation techniques available in terms of the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025, if any, available with them with regard to the accounts de",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-amendment-directions-2025",
+    "page": 5,
+    "quote": "Consequent to amendment(s) in terms of paragraph 3(5) above, other amendment directions viz., Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2025 and the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Amendment ",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-amendment-directions-2026-revised-pdf",
+    "page": 6,
+    "quote": "(3) Exposure in respect of equity and commodity derivatives shall be calculated as per the Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 3,
+    "quote": "(1) 1[*****] (2) 2[*****] (3) 3“Eligible capital base” means the effective amount of Tier 1 capital fulfilling the criteria defined in the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025, as per the last audited balance sheet.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-amendment-directions-2026-revised",
+    "page": 22,
+    "quote": "Consequent to the above amendments, other amendment directions viz., Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Second Amendment Directions, 2026 (Revised); Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2026 (Revised); Reserve Bank of",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 24,
+    "quote": "(2) The bank shall not enter into DLG arrangements on the loans which are covered by the credit guarantee schemes administered by trust funds as specified under Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-risk-management-directions-2025",
+    "page": 29,
+    "quote": "ts shall be over and above the present requirements i.e., general provision for standard assets and applicable credit risk weights as per Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 and Reserve Bank of India (Commercial Banks – Prudential Norms o",
+    "cross_entity": false
+   }
+  ],
+  "cb-undertaking-of-financial-services-directions": [
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-directions-2025",
+    "page": 93,
+    "quote": "Note - A bank shall also refer to Reserve Bank of India (Commercial Banks – Undertaking of Financial Services) Directions, 2025 in this regard.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 43,
+    "quote": "Investment by a bank in a subsidiary or in a financial services company not being a subsidiary or a non-financial services company shall be subject to the conditions specified in the Reserve Bank of India (Commercial Banks – Undertaking of Financial Services) Directions, 2025.",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-amendment-directions-2026-revised",
+    "page": 22,
+    "quote": "ed); Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2026 (Revised); Reserve Bank of India (Commercial Banks – Financial Statements: Presentation and Disclosures) – Third Amendment Directions, 2026 (Revised); and Reserve Bank of India (Commercial Banks – Undertaking of Fin",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-information-reporting-directions-2025",
+    "page": 16,
+    "quote": "16 (5) Reserve Bank of India (Commercial Banks – Undertaking of Financial Services) Directions, 2025",
+    "cross_entity": false
+   }
+  ],
+  "cb-ecl-guidelines-for-commercial-banks": [
+   {
+    "doc_id": "cb-prudential-norms-on-capital-adequacy-fourth-amendment-directions-2026",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks-Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve Bank b",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-concentration-risk-management-second-amendment-directions-2026",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve Bank",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-facilities-second-amendment-directions-2026",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve Bank",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-credit-risk-management-second-amendment-directions-2026",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the section 35A of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in this regard, the Reserve Bank",
+    "cross_entity": false
+   },
+   {
+    "doc_id": "cb-resolution-of-stressed-assets-amendment-directions-2026",
+    "page": 1,
+    "quote": "Consequent to the issuance of Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 and in exercise of the powers conferred by the Sections 21 and 35A read with Section 56 of the Banking Regulation Act, 1949 and all other laws enabling the Reserve Bank in ",
+    "cross_entity": false
+   }
+  ],
+  "asset-liability-management-directions-2025": [
+   {
+    "doc_id": "cb-concentration-risk-management-directions-2025",
+    "page": 48,
+    "quote": "The bank shall be guided by the Reserve Bank of India (Commercial Banks – Asset Liability Management) Directions, 2025 in this regard.",
+    "cross_entity": true
+   }
+  ],
+  "resource-raising-norms-directions-2025": [
+   {
+    "doc_id": "cb-credit-facilities-amendment-directions-2026-revised",
+    "page": 13,
+    "quote": "ithstanding the above, following loans by a bank shall not be permitted: (1) Loans against its own securities; Provided that, a bank may extend loans to individuals against Long- Term Bonds issued by it for infrastructure financing under the provisions of the Reserve Bank of India (Commercial Banks – Resource Raising N",
+    "cross_entity": true
+   },
+   {
+    "doc_id": "cb-credit-facilities-directions-2025",
+    "page": 85,
+    "quote": "The banks may extend loans to individuals against Long-Term Bonds issued by them for financing the Infrastructure Sub-sector, under the provisions of the Reserve Bank of India (Commercial Banks – Resource Raising Norms) Directions, 2025.",
+    "cross_entity": true
+   }
+  ]
+ },
+ "unresolved": {
+  "Credit Information Companies": [
+   "cb-credit-information-reporting-directions-2025",
+   "credit-information-reporting-directions-2025",
+   "transfer-and-distribution-of-credit-risk-directions-2025"
+  ],
+  "Commercial Banks - Capital Charge for Credit Risk – Standardised Approach": [
+   "cb-credit-facilities-second-amendment-directions-2026",
+   "cb-credit-risk-management-second-amendment-directions-2026",
+   "cb-ecl-guidelines-for-commercial-banks"
+  ],
+  "Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct": [
+   "cb-credit-facilities-directions-2025",
+   "cb-credit-information-reporting-directions-2025",
+   "cb-responsible-business-conduct-directions-2025"
+  ],
+  "Fraud Risk Management in Commercial Banks (including Regional Rural Banks) and A": [
+   "cb-resolution-of-stressed-assets-directions-2025",
+   "treatment-of-wilful-defaulters-and-large-defaulters-directions-2025"
+  ],
+  "Credit Derivatives": [
+   "cb-prudential-norms-on-capital-adequacy-directions-2025",
+   "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026"
+  ],
+  "Commercial Paper and Non-Convertible Debentures of original or initial maturity ": [
+   "classification-valuation-and-operation-of-investment-portfolio-directions-2025",
+   "resource-raising-norms-directions-2025"
+  ],
+  "Relief Measures by Banks in Areas Affected by Natural Calamities": [
+   "cb-resolution-of-stressed-assets-amendment-directions-2026",
+   "cb-resolution-of-stressed-assets-directions-2025"
+  ],
+  "Government Securities Lending": [
+   "financial-statements-presentation-and-disclosures-directions-2025-updated-as-on-april-1-2026"
+  ],
+  "Market-makers in OTC Derivatives": [
+   "miscellaneous-directions-2025"
+  ],
+  "All India Financial Institutions – Governance": [
+   "prudential-norms-on-capital-adequacy-directions-2025-updated-as-on-june-16-2026"
+  ],
+  "Priority Sector Lending – Targets and Classification": [
+   "securitisation-transactions-directions-2025"
+  ],
+  "All India Financial Institutions –Concentration Norms": [
+   "securitisation-transactions-directions-2025"
+  ],
+  "Asset Reconstruction Companies": [
+   "transfer-and-distribution-of-credit-risk-directions-2025"
+  ],
+  "Certificate of Deposit": [
+   "classification-valuation-and-operation-of-investment-portfolio-directions-2025"
+  ],
+  "Commercial Banks – Capital Charge for Credit Risk – Standardised Approach": [
+   "cb-ecl-guidelines-for-commercial-banks"
+  ],
+  "Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio": [
+   "cb-prudential-norms-on-capital-adequacy-directions-2025"
+  ],
+  "Commercial Banks – Forthcoming Instructions": [
+   "cb-prudential-norms-on-capital-adequacy-directions-2025"
+  ],
+  "Commercial Banks – Governance": [
+   "cb-prudential-norms-on-capital-adequacy-directions-2025"
+  ],
+  "Call, Notice and Term Money Markets": [
+   "cb-concentration-risk-management-directions-2025"
+  ],
+  "Commercial Banks – Interest Rates on Advances": [
+   "cb-credit-facilities-directions-2025"
+  ],
+  "Non-Banking Financial Companies – Registration, Exemptions and Framework for Sca": [
+   "cb-credit-facilities-directions-2025"
+  ],
+  "Commercial Banks - Interest Rates on Advances": [
+   "cb-responsible-business-conduct-directions-2025"
+  ],
+  "Commercial Banks – Interest Rate on Deposits": [
+   "cb-responsible-business-conduct-directions-2025"
+  ]
+ }
+}
