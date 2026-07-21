@@ -1,0 +1,66 @@
+{
+ "key_points": "## Resolution of Stressed Assets — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/165, dated 2025-11-28)*\n\nThese Directions set rules for Commercial Banks to identify, classify, and resolve stressed assets through restructuring, compromise, or technical write-off — to preserve recoveries and financial stability.\n\n### Chapter I — Preliminary\n- **Applicability:** Commercial Banks (per Banking Regulation Act, 1949, Sections 5(c), 5(da), 5(nc)). **Exclusions:** MSME revival per RBI Circular FIDD.MSME dated 2016-03-17; borrowers under RBI-directed Insolvency and Bankruptcy Code proceedings.\n- **NaBFID note:** mentioned as \"specified lender\" in paras 6(15)(ii) and 6(6)(iv) where NaBFID participates in multi-lender structures; applicability to NaBFID's own portfolio must be verified against AIFI directions.\n\n### Chapter II — Key Definitions\n- **Default:** non-payment when whole or any part/instalment of debt is due and unpaid. For cash credit, default = outstanding **continuously >30 days** above sanctioned limit or drawing power.\n- **SMA (Special Mention Accounts):** incipient stress flagged immediately on default. **SMA-0:** >**30 days** overdue. **SMA-1:** >**60 days** and ≤**90 days**. **SMA-2:** >**90 days**.\n- **Stressed Asset:** borrower showing signs of financial difficulty (para 10): default, pattern of delinquency, delisting/threat of delisting, insufficient cash flows, NPA status, or internal rating difficulty.\n- **Restructuring:** modification of credit terms (payment period, rate, amount, instalments, roll-over, additional facility, enhancement) due to borrower's financial difficulty. **Compromise settlement** (full cash settlement of claims) with payment >**3 months** is treated as restructuring.\n- **Technical Write-Off:** accounting write-off (fully/partially) of NPA at borrower account level **without waiver of claims** or prejudice to recovery.\n- **Monitoring/Specified Period:** from resolution plan implementation until **≥10%** / **≥20%** respectively of (outstanding principal debt + capitalised interest) is repaid. **Exception for MSMEs** (aggregate bank exposure **<₹25 crore**): specified period = **1 year** from first interest/principal payment (whichever later).\n- **Credit Event (project finance):** default with any lender; lender determination of DCCO extension need; DCCO expiry; additional debt infusion need; or project financial difficulty.\n\n### Chapter III — Board Policies & Early Identification\n- **Resolution policy:** Bank shall adopt Board-approved policies on resolution timelines and **quantitative and qualitative parameters** of financial difficulty (para 9, 10, 11).\n- **Compromise & Technical Write-Off policy (para 12):** process, staff accountability framework with thresholds/timelines, permissible sacrifice levels per exposure category, **current realisable value** of collateral, delegation powers (approval authority **≥1 level above** originating authority; no originator may approve own proposal; **Board approval required** for fraud/wilful defaulter accounts).\n- **Derivative MTM instalment policy (para 13):** Board-approved policy for crystallised MTM payment by instalments.\n- **CRILC reporting (para 17):** monthly report to Central Repository of Information on Large Credits for **aggregate exposure ≥₹5 crore**.\n- **Weekly default reporting (para 18):** close of business Friday (or prior working day) for **aggregate exposure ≥₹5 crore**.\n\n---\n\n*Verify with the compliance team before acting.*",
+ "implications": "# Why This Commercial Banks Direction Matters for NaBFID\n\n**Benchmark for AIFI Rules:** RBI's Commercial Banks direction on stressed asset resolution sets the regulatory standard against which AIFI directions are calibrated. NaBFID's own stressed asset framework typically mirrors or builds on these commercial bank principles, so understanding this direction helps NaBFID staff see what the *baseline expectation* is for asset classification, provisioning, and resolution timelines.\n\n**Cross-Reference Risk:** The AIFI directions (which govern NaBFID) frequently incorporate Commercial Banks directions by reference or adopt them with modifications. Some provisions may directly apply to NaBFID; others may be explicitly adapted. Staff must check the current NaBFID direction to confirm which parts of this Commercial Banks guidance bind the institution.\n\n---\n\n**Illustrative Example (Infrastructure Lending Context):**\nSuppose NaBFID has a long-tenor highway project loan where the concessionaire misses two consecutive quarterly interest payments due to traffic revenue shortfalls. Under the Commercial Banks direction, this would likely trigger NPA classification rules and timeline requirements for resolution attempts. If NaBFID's own AIFI direction cross-refers to or mirrors these rules, NaBFID would need to initiate comparable resolution steps—such as forming a committee or issuing notices—within equivalent timeframes, though the mechanics may be tailored to long-tenor infrastructure loans.\n\n**Next Step:** Confirm applicability by checking the current NaBFID/AIFI direction (DOR/2025-26/XX or your compliance team's latest guidance).",
+ "citations": {
+  "key_points": {
+   "3c49c0b97293": [
+    1
+   ],
+   "74157f1af392": [
+    4
+   ],
+   "2565a40e1d43": [
+    5,
+    8
+   ],
+   "f0d584b9bbeb": [
+    12
+   ],
+   "d4c21d463c2b": [
+    12
+   ],
+   "bc58cfe5b6a4": [
+    10
+   ],
+   "893d2b72ca68": [
+    11
+   ],
+   "7a3884a9429e": [
+    9
+   ],
+   "9a7e8075f4d4": [
+    10
+   ],
+   "96830bcd3547": [
+    5
+   ],
+   "a2e7d24c7c41": [
+    10,
+    52
+   ],
+   "f6c80bb29ae3": [
+    11
+   ],
+   "941b949b151c": [
+    12
+   ],
+   "53bb6d2be620": [
+    13
+   ],
+   "cdc704831a2c": [
+    13
+   ]
+  },
+  "implications": {
+   "1a4fa3908b11": [
+    1
+   ],
+   "ef76eca58ca4": [
+    16
+   ],
+   "e37f301dbb57": [
+    1
+   ]
+  }
+ }
+}

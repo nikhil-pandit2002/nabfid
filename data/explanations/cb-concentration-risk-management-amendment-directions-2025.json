@@ -1,0 +1,180 @@
+{
+ "key_points": "## Concentration Risk Management — Commercial Banks (Amendment), 2025 — Detailed Compliance Guide\n*(RBI/2025-26/126, dated 2025-12-04)*\n\nThis Amendment modifies concentration risk, large exposures, intra-group transaction limits, and governance for **commercial banks**. NaBFID must verify whether its own AIFI directions cross-refer to these provisions; where they do, those provisions bind NaBFID.\n\n### Chapter I — Preliminary: Definitions & Eligible Capital Base\n- **Effective date:** **1 April 2026** (all amendments except paragraph 3(5); early adoption permitted). Chapter IV repeals effective **1 January 2026**.\n- **Eligible Capital Base (LEF):** **Tier 1 capital** per audited balance sheet. Indian banks may include **profit accrued during the financial year** (whether retained or declared) as Tier 1. Capital infused **after balance sheet date** may be included.\n- **Group definition (ITE):** Partially modified (full replacement text not provided). Overseas branches of a parent bank are **not covered** under intra-group exposure limits. Indian bank exposures to **own overseas branches** are **exempt** from ITE norms. Foreign bank branch exposures to **Head Office and overseas branches** are **exempt**, **except proprietary derivative transactions** (which remain subject to ITE).\n- **Deletions:** Paragraphs 4(9), 4(11), 4(12) deleted; no longer apply.\n\n### Chapter II — Board Governance\n- **Mandatory policies:** Board must establish policies on **single counterparty**, **group interconnected counterparty**, and **sectoral exposures**. Bank must have systems to monitor and address risks from **ultra-large borrowers** (excessively leveraged + substantial banking-system borrowings). Banks define their own ultra-large criteria.\n- **Credit assessment:** When assessing ultra-large borrowers, banks **shall take into account** the borrower's **overall borrowings from the banking system**.\n\n### Chapter III — Large Exposures Framework\n- **Foreign bank HO exposures not excluded:** Exposure of foreign bank branch (India) to **Head Office or any HO branch** **shall NOT fall under LEF exclusions**; counterparty limits under paragraph 84 apply **in aggregate**.\n- **Bank-to-bank exposure limits (paragraph 84):** Expressed as **% of eligible capital base**.\n  - Foreign G-SIB branches: **20%** to own HO/other G-SIBs; **25%** to non-G-SIBs.\n  - Foreign non-G-SIB branches: **25%** to own HO/other non-G-SIBs; **20%** to G-SIBs.\n- **Gross calculation (foreign branches):** Exposures between Indian branch and **Head Office or HO branches** cleared through CCP or otherwise **always calculated on gross basis**; no netting.\n- **CRM for derivatives (paragraph 43):** Foreign bank branches may offset **gross exposure (including non-centrally cleared derivatives)** to **Head Office or overseas HO branches** for LEF calculation, **subject to conditions** (not restated here).\n- **CRM disclosure (Schedule I):** Amount designated as CRM for HO derivative offsets **shall be disclosed as note** and **not reckoned for regulatory capital or other statutory requirements**.\n\n### Chapter VI — Intra-Group Transactions & Exposures (ITE)\n- **Exposure value (paragraph 115):** Include **funded/non-funded credit limits** and **investment exposures incl. underwriting commitments** (per paragraphs 32–78). **Exclude equity and regulatory capital instruments** (Tier 1/Tier 2).\n- **ITE limits (paragraphs 116(1)–(2)):** Denominator changed to **eligible capital base** (from Paid-up Capital and Reserves); specific percentage limits unchanged (see underlying Directions).\n- **Existing breach remediation:** Intra-group exposures in breach must be brought within limits within **six months from 4 December 2025** (deadline: **4 June 2026**). Applies to all funded, non-funded, and committed lines.\n- **Derivatives-driven breach relief (paragraph 128(4)):** If breach caused by **mark-to-market of derivatives**, excess **not deducted from CET1 for three months from breach date**. After three months, excess **deducted from CET1**. Foreign banks: **proprietary derivatives with parent/overseas parent branches** now included in ITE exposure.\n\n### Chapter VII — Repeal\n- **Chapter IV repealed:** \"Enhancing Credit Supply for Large Borrowers through Market Mechanism\" **stands repealed effective 1 January 2026**. All provisions, guidelines, and instructions no longer in force.\n\n_Verify with central compliance before implementation._",
+ "what_changed": "# Changes Under RBI/2025-26/126 (Dated 2025-12-04)\n## Effective from 2026-04-01 (except Chapter IV repeal from 2026-01-01)\n\n---\n\n## CHAPTER I – PRELIMINARY\n\n**Paragraph 4(3) – Partially modified**\n- \"Eligible capital base\" for LEF (Large Exposures Framework) now explicitly includes:\n  - Tier 1 capital (effective amount)\n  - Capital infused after the published balance sheet date\n  - Profit accrued during the year (for Indian banks), counted as Tier 1 capital for LEF purposes\n\n**Paragraph 4(4) – Deleted**\n- Entire paragraph removed (previously defined exposure components for ITE)\n\n**Paragraph 4(5) – Partially modified**\n- \"Group\" definition for intra-group transactions and exposures (ITE) redefined (specific text of new definition not provided in amendment excerpt)\n\n**Paragraph 4(5)(iii)(c) – Partially modified**\n- Overseas branches of a parent bank are **excluded from intra-group exposure limits** (paragraph 116)\n- Indian bank exposure to its own overseas branches: **not covered by ITE norms**\n- Foreign bank (India branch) exposure to its Head Office and overseas branches: **not covered by ITE norms** (except for proprietary derivative transactions)\n\n**Paragraph 4(9) – Deleted**\n- Entire paragraph removed\n\n**Paragraph 4(11) – Deleted**\n- Entire paragraph removed\n\n**Paragraph 4(12) – Deleted**\n- Entire paragraph removed\n\n---\n\n## CHAPTER II – ROLE OF THE BOARD\n\n**Paragraph 6 – Partially modified (insertion at beginning)**\n- Banks must have policies on Concentration Risk Management covering:\n  - Single counterparty exposures\n  - Groups of interconnected counterparties\n  - Sector-specific exposures\n  - Monitoring systems for ultra-large, excessively leveraged borrowers with substantial banking system borrowings\n- Banks may define \"ultra-large borrower\" using own criteria but **must consider overall banking system borrowings** of such entities for credit assessment\n\n---\n\n## CHAPTER III – LARGE EXPOSURES FRAMEWORK\n\n**Paragraph 8(7) – Explanation inserted**\n- Foreign bank branches operating in India: exposure to Head Office or HO branches in any jurisdiction **does not qualify for exclusion**\n- Head Office exposures are subject to counterparty limits under paragraph 84 **in aggregate**\n\n**Paragraph 84 – Partially modified**\n- **Indian branches of foreign G-SIBs:**\n  - Exposure limit to Head Office (incl. overseas branches/subsidiaries) and other G-SIBs: **20% of eligible capital base**\n  - Exposure limit to any non-G-SIB: **25% of eligible capital base**\n\n- **Indian branches of foreign non-G-SIBs:**\n  - Exposure limit to Head Office (incl. overseas branches/subsidiaries) and other non-G-SIBs: **25% of eligible capital base**\n  - Exposure limit to a G-SIB: **20% of eligible capital base**\n\n**Paragraph 84 – Explanation inserted**\n- Exposures between Indian branch of foreign bank and its HO (or HO branches) cleared through central counterparty or otherwise: **must be calculated on gross basis** by Indian branch\n\n**Paragraph 43(1) – Partially modified**\n- Indian branches of foreign banks may offset gross exposures (including non-centrally cleared derivative transactions) to Head Office or HO overseas branches for LEF limit calculation, **subject to specified conditions**\n\n**Paragraph 43(2) – Partially modified**\n- Amount held under Banking Regulation Act section 11(2)(b)(i) and earmarked as CRM for non-centrally cleared derivative exposures to Head Office (incl. overseas branches): must be disclosed in Schedule 1: Capital note to Balance Sheet\n- Such amount: **not reckoned for regulatory capital or other statutory requirements**\n\n---\n\n## CHAPTER VI – PRUDENTIAL LIMITS ON INTRA-GROUP TRANSACTIONS AND EXPOSURES (ITE)\n\n**Paragraph 115 – Partially modified**\n- Exposure value computation now includes:\n  - Credit exposure (funded and non-funded credit limits)\n  - Investment exposure (underwriting and similar commitments) per paragraph 4(4)\n- **Equity and other regulatory capital instruments: excluded** from group entity exposure calculation\n\n**Paragraphs 116(1) and 116(2) – Partially modified**\n- Reference to \"Paid-up Capital and Reserves\" **substituted with \"eligible capital base\"**\n- **Proviso added:** Existing intra-group exposures and committed lines in breach must be brought within prescribed limits **within 6 months** from amendment issuance date\n\n**Paragraph 128(4) – Partially modified**\n- If limits breached due to mark-to-market derivative values: excess exposure **not deducted from CET1 capital for 3 months** from breach date\n- **For foreign banks:** proprietary derivative transactions with parent and overseas branches **must be included** in exposure computation\n\n---\n\n## CHAPTER IV – ENHANCING CREDIT SUPPLY FOR LARGE BORROWERS THROUGH MARKET MECHANISM\n\n**Entire Chapter – Repealed**\n- Instructions in this Chapter **stand repealed from 2026-01-01** (earlier than other amendments)\n\n---\n\n## IMPLEMENTATION TIMELINE\n\n| Provision | Effective Date |\n|-----------|----------------|\n| All amendments except Chapter IV repeal | **2026-04-01** (banks may opt for earlier implementation) |\n| Chapter IV repeal | **2026-01-01** |\n\n---\n\n## RELEVANCE TO NaBFID (AIFI)\n\nAs an AIFI, NaBFID incorporates parts of Commercial Banks' directions by reference. Changes to concentration risk definitions, eligible capital base, intra-group exposure limits, and Head Office exposure treatment for foreign bank branches may flow through to NaBFID's own prudential framework via these cross-references.",
+ "implications": "# Why This RBI Direction Matters for NaBFID\n\nNaBFID should monitor this Commercial Banks direction because: **(a) it sets the regulatory benchmark** that shapes the broader RBI supervisory framework—AIFI directions are calibrated with reference to Commercial Bank rules, so changes here signal how the regulator thinks about concentration risk; and **(b) the NaBFID/AIFI directions may incorporate or cross-reference the Commercial Banks direction by specific inclusion**, meaning parts could be binding on NaBFID. **However, you must check the latest NaBFID Directions and your compliance policy to confirm which specific provisions apply to NaBFID; this direction is formally addressed to Commercial Banks, not AIFIs.**\n\n---\n\n## Illustrative Example\n\nA Commercial Bank operating an infrastructure financing arm may face stricter single-borrower or sector concentration caps than NaBFID currently does. If the RBI later harmonizes AIFI concentration rules with Commercial Bank standards—or if NaBFID's own direction explicitly adopts this framework—NaBFID's portfolio (say, 60% in power projects) could face pressure to diversify across transport, water, and telecom, reshaping how it allocates capital.\n\n---\n\n**Confirmation required:** Review your AIFI Directions and Compliance Charter to confirm which Commercial Bank provisions bind NaBFID by cross-reference or adoption.",
+ "citations": {
+  "key_points": {
+   "8f219f9ba7bd": [
+    1
+   ],
+   "2faf7ac30d00": [
+    4
+   ],
+   "b0bbfd85a1b6": [
+    1
+   ],
+   "e3a8721aa5a1": [
+    2
+   ],
+   "1bab1cb9491d": [
+    2
+   ],
+   "3df52e827223": [
+    2
+   ],
+   "b74cab4985e8": [
+    2
+   ],
+   "02f590dd8fd4": [
+    2
+   ],
+   "376970bd0565": [
+    3
+   ],
+   "f0361f4d397d": [
+    3
+   ],
+   "1714abd6910f": [
+    3
+   ],
+   "f769f0f925db": [
+    3
+   ],
+   "8c07115c657e": [
+    3
+   ],
+   "d6cb307cf266": [
+    3
+   ],
+   "0a48c0226541": [
+    4
+   ],
+   "f6c5accc037e": [
+    4
+   ],
+   "c8faffa5e81d": [
+    1,
+    4
+   ],
+   "88fec9225780": [
+    4
+   ],
+   "c3a0f5121d93": [
+    4
+   ]
+  },
+  "what_changed": {
+   "b00fa05e9107": [
+    1
+   ],
+   "41f42a4ffb02": [
+    1
+   ],
+   "ce57dfb231c8": [
+    1
+   ],
+   "4d739c2accb7": [
+    1
+   ],
+   "7b937344c697": [
+    4
+   ],
+   "f5ce44221f50": [
+    2
+   ],
+   "3dbd58a178c3": [
+    2
+   ],
+   "f8a6f179eb45": [
+    2
+   ],
+   "480dfd70e1ce": [
+    2
+   ],
+   "a9fe49c3b4bf": [
+    2
+   ],
+   "1e1396fc49b4": [
+    2
+   ],
+   "7fed7fba4677": [
+    2
+   ],
+   "c2aea0b9c05d": [
+    2
+   ],
+   "b07fed6021c1": [
+    2
+   ],
+   "3f9ce4f1a1e3": [
+    2
+   ],
+   "6aae29641e32": [
+    2
+   ],
+   "788e92a0e2a3": [
+    2
+   ],
+   "c7bf6bcd2c76": [
+    3
+   ],
+   "dc74572e6292": [
+    3
+   ],
+   "4c3196b7f996": [
+    3
+   ],
+   "171af8a74f35": [
+    3
+   ],
+   "4386920a828e": [
+    2
+   ],
+   "4eabbc56e78d": [
+    3
+   ],
+   "6fb562b9c9f1": [
+    3
+   ],
+   "7e522807e1af": [
+    3
+   ],
+   "b19b760c855c": [
+    3
+   ],
+   "5d29ef5e876f": [
+    4
+   ],
+   "286150838b34": [
+    4
+   ],
+   "50e506469ea2": [
+    4
+   ],
+   "12bc97f63594": [
+    2,
+    4
+   ],
+   "9233d7787fa9": [
+    4
+   ],
+   "e35fd0eebdae": [
+    4
+   ],
+   "af222e3b3afd": [
+    4
+   ],
+   "5c8cc46c6278": [
+    4
+   ]
+  },
+  "implications": {
+   "0f3c47438c02": [
+    1
+   ],
+   "e8e62f25e0f6": [
+    2
+   ]
+  }
+ }
+}

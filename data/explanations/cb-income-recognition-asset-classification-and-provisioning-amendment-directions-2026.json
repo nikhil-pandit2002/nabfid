@@ -1,0 +1,126 @@
+{
+ "key_points": "## Income Recognition, Asset Classification and Provisioning — Amendment Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/45, dated 2026-04-29)*\n\nThese amendments modify income recognition, asset classification, and provisioning rules for Commercial Banks following stressed-asset resolution under Chapter VI-A (calamity-related framework). **Effective 1 July 2026.**\n\n### Chapter I — Preliminary\n- **Applicability:** Commercial Banks only. **NaBFID applicability must be confirmed against AIFI-specific directions.** Whether provisions cross-apply to NaBFID depends on the AIFI directions; verify with compliance.\n- **Effective date:** **1 July 2026** (RBI/2026-27/45, section 4).\n- **Related directions:** Reserve Bank of India (Commercial Banks - Resolution of Stressed Assets) Directions, **2025** (dated **28 November 2025**), Chapter VI-A and paragraphs **124I to 124Q**.\n\n### Chapter II — Asset Classification Post-Resolution (Paragraph 62A)\n- **Scope:** Accounts where a resolution plan has been **implemented under Chapter VI-A** (calamity-related framework).\n- **Standard accounts:** May be **retained as 'Standard'** upon plan implementation.\n- **NPA-slipped accounts:** Accounts that slipped into NPA **between calamity occurrence and plan implementation date shall be upgraded to 'Standard'** upon implementation.\n- **Post-implementation governance:** After plan implementation, standard asset classification rules apply.\n\n### Chapter III — Repeated Restructuring Classification (Paragraph 62B)\n- **Scope:** Accounts **restructured under paragraphs 124I to 124Q**, then **subjected to subsequent restructuring under Chapter VI-A**.\n- **Classification:** Must **continue to be classified as 'Standard'** (mandatory; no discretion).\n\n### Chapter IV — Additional Specific Provisioning (Paragraphs 84A–84D)\n- **Single restructuring (84A):** **5%** of outstanding debt as additional specific provision upon plan implementation.\n- **Repeated restructuring (84B):** **5%** of outstanding debt for **each restructuring event under Chapter VI-A** (cumulative if multiple events).\n- **Provisioning ceiling:** Total provisions (prudential + additional) **≤ 100%** of outstanding debt.\n- **Write-back (payment-based; 84C):** Additional provisions may be reversed if: (i) borrower has paid **≥ 20%** of outstanding debt; (ii) borrower **not in NPA post-implementation**; and (iii) **no further restructuring** has occurred.\n- **Write-back (non-fund-based/cash credit; 84D):** For accounts restructured into non-fund-based or cash credit/overdraft facilities only: additional provisions may be reversed **after 1 year post-implementation** if borrower **was not in default during the period**. If default occurs, one-year period re-starts from cure date.\n\n### Chapter V — Interest Income Recognition (Paragraphs 139A–139B)\n- **Single restructuring (139A):** Interest income **recognized on accrual basis** upon plan implementation.\n- **Repeated restructuring (139B):** Interest income **recognized on cash basis** (cash received only) for accounts meeting paragraph 62B criteria.\n\n### Chapter VI — Deleted Provisions\n- **Paragraph 57(4):** Deleted entirely (refer original Directions for substance).\n- **Paragraph 80(6):** Deleted entirely (refer original Directions for substance and provisioning context).\n\n_Verify NaBFID applicability with compliance before acting._",
+ "what_changed": "# Changes Made by RBI/2026-27/45 (Effective 2026-07-01)\n\n## Deletions\n\n**Paragraph 57(4)** — DELETED\n- Effect: Removes an existing provision governing income recognition or asset classification criteria (specific content not detailed in amendment).\n\n**Paragraph 80(6)** — DELETED\n- Effect: Removes an existing provision, likely related to provisioning norms or asset classification rules (specific content not detailed in amendment).\n\n---\n\n## Insertions in Asset Classification (Chapter III)\n\n**Paragraph 62A** — INSERTED\n- Effect: Banks may retain borrower accounts as 'Standard' when a resolution plan is implemented under Chapter VI-A (Stressed Assets Resolution) if they were classified as Standard. Accounts that slipped into NPA between the calamity date and plan implementation must be upgraded back to 'Standard' upon implementation. Post-implementation classification follows normal criteria in these Directions.\n\n**Paragraph 62B** — INSERTED\n- Effect: Accounts restructured under paragraphs 124I–124Q, where further restructuring is needed under Chapter VI-A, shall remain classified as 'Standard'.\n\n---\n\n## Insertions in Provisioning Norms (Chapter IV, new section B1)\n\n**Paragraph 84A** — INSERTED\n- Effect: Banks must maintain an additional specific provision of 5% of outstanding debt for borrowers with resolution plans implemented under Chapter VI-A. This provision is over and above standard prudential provisions, capped at 100% total.\n\n**Paragraph 84B** — INSERTED\n- Effect: When repeated restructuring occurs under Chapter VI-A, banks must provision an additional 5% of outstanding debt for each restructuring instance. This is cumulative, over and above standard provisions, capped at 100% total.\n\n**Paragraph 84C** — INSERTED\n- Effect: Additional provisions under 84A and 84B may be reversed (written back) if the borrower pays at least 20% of outstanding debt, does not slip into NPA post-restructuring, and is not subjected to further restructuring.\n\n**Paragraph 84D** — INSERTED\n- Effect: For accounts with only non-fund-based or cash credit/overdraft facilities post-restructuring, additional provisions may be reversed after one year if the borrower remained in default-free status throughout. If default occurs, the reversal clock restarts from the date default is cured.\n\n---\n\n## Insertions in Income Recognition (Chapter V, Part E)\n\n**Paragraph 139A** — INSERTED\n- Effect: Interest income on borrower accounts with Chapter VI-A resolution plans shall be recognized on an accrual basis.\n\n**Paragraph 139B** — INSERTED\n- Effect: For accounts specified in paragraph 62B (repeated restructuring under Chapter VI-A), interest income shall be recognized on a cash basis.\n\n---\n\n## Relevance to NaBFID\n\nAlthough these amendments sit in the Commercial Banks rulebook, they flow through to AIFIs like NaBFID where AIFI directions incorporate or cross-reference the Commercial Banks directions. Any stress asset resolution and provisioning frameworks NaBFID follows by reference would be affected accordingly.",
+ "implications": "# Why This RBI Commercial Banks Direction Matters to NaBFID\n\n**Benchmark and Regulatory Architecture:**\nRBI's Commercial Banks directions on asset classification and provisioning establish the standard framework against which AIFI prudential norms are calibrated and often benchmarked. When RBI issues parallel directions for AIFIs (Development Finance Institutions), those directions frequently incorporate or cross-reference the Commercial Banks rules by reference, making parts of this direction operationally binding on NaBFID unless the AIFI direction explicitly carves out an exemption.\n\n**Why This Specific Direction Matters:**\nSince this amendment touches asset classification and provisioning — foundational to loan health assessment and reserve adequacy — any change here typically ripples into AIFI rulebooks. You must check whether NaBFID's current AIFI Direction incorporates these provisions by reference; if it does, the 2026 amendment may alter your classification timelines, provisioning percentages, or NPA recognition rules for long-tenor infrastructure loans.\n\n---\n\n**Illustrative Example:**\nIf this amendment tightens the definition of \"standard asset\" or accelerates NPA recognition from, say, 180 days to 90 days of default, and NaBFID's AIFI direction states \"asset classification shall follow the Commercial Banks direction as modified,\" then NaBFID's loan portfolio would need reclassification and additional provisioning, directly affecting capital adequacy and earnings.\n\n---\n\n**Next Step:** Cross-check this 2026 amendment against NaBFID's operative AIFI Direction (RBI/2023-24/08 or successor) to confirm which asset classification and provisioning rules are incorporated by reference, and seek compliance sign-off.",
+ "citations": {
+  "key_points": {
+   "6211a8d0c146": [
+    1
+   ],
+   "f4ddd85b3a10": [
+    1,
+    3
+   ],
+   "ed9698e6e09d": [
+    1
+   ],
+   "65b239a08783": [
+    1
+   ],
+   "769afd7bf808": [
+    1
+   ],
+   "e7b5b3ef2ebb": [
+    1
+   ],
+   "d0f1cb663d4b": [
+    1
+   ],
+   "9d73ae24c2b0": [
+    1
+   ],
+   "85d010018086": [
+    2
+   ],
+   "8f948202f7a2": [
+    2
+   ],
+   "f7e521fe5001": [
+    2
+   ],
+   "2e5ed7a440fa": [
+    2
+   ],
+   "7df2b6d4fdbd": [
+    2,
+    3
+   ],
+   "3b4df8296215": [
+    3
+   ],
+   "a035b3c4f51b": [
+    3
+   ],
+   "ebb5c3f2c7c9": [
+    1
+   ],
+   "7cd7fedbce83": [
+    2
+   ]
+  },
+  "what_changed": {
+   "8aff3804375e": [
+    1
+   ],
+   "8eb60e73ff7d": [
+    1
+   ],
+   "9c426d0f7422": [
+    2
+   ],
+   "f69e1d36e6e7": [
+    1
+   ],
+   "5e95cf52969a": [
+    1
+   ],
+   "ce2565c1580e": [
+    1
+   ],
+   "b30eaf9e68a0": [
+    3
+   ],
+   "89e337aafd8a": [
+    1
+   ],
+   "67affd0a6cb0": [
+    2
+   ],
+   "f612484297c9": [
+    2
+   ],
+   "a43bf434e731": [
+    2
+   ],
+   "0d1df51a67ab": [
+    2
+   ],
+   "1e6aa7be6483": [
+    2
+   ],
+   "cae5e672e099": [
+    3
+   ],
+   "f621e7f3d201": [
+    3
+   ]
+  },
+  "implications": {
+   "b1c4c500881c": [
+    1
+   ],
+   "1f07461afaee": [
+    1
+   ],
+   "77db7cb81fdf": [
+    1
+   ],
+   "7cc5994c2752": [
+    1
+   ],
+   "fdd02709abfa": [
+    1
+   ]
+  }
+ }
+}

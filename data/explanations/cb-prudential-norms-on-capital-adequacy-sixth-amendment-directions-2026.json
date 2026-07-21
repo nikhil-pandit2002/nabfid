@@ -1,0 +1,94 @@
+{
+ "key_points": "# RBI/2026-27/90 Sixth Amendment Directions, 2026 – Compliance Explanation\n\n## Authority and Effective Date\n\n- **Legal basis**: These Directions are issued under Section 35A of the Banking Regulation Act, 1949, and all other enabling laws\n- **Issuing authority**: Reserve Bank of India (Chief General Manager, Sunil T S Nair)\n- **Issue date**: May 18, 2026\n- **Direction reference number**: RBI/2026-27/90, DOR.MRG.REC.No.78/21-01-002/2026-27\n- **Effective date**: These Amendment Directions come into effect from the date of issue (May 18, 2026)\n- **Precedent directions**: These amend the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025, dated November 28, 2025\n\n---\n\n## Applicability\n\n- **Primary addressee**: Commercial Banks\n- **Related trigger**: This amendment is consequent to the issuance of the Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026\n- **NaBFID applicability**: As an All-India Financial Institution (AIFI), NaBFID is required to comply with provisions of Commercial Banks directions only where NaBFID's own prudential directions explicitly incorporate or cross-refer to them. **Confirm with your compliance team whether the NaBFID Capital Adequacy directions reference Sub-paragraph 21(i)(b) of the Commercial Banks directions** – if yes, this deletion is binding on NaBFID; if no, these changes do not directly apply to NaBFID.\n\n---\n\n## Substantive Amendment – Deletion of Sub-paragraph 21(i)(b)\n\n- **Provision amended**: Sub-paragraph 21(i)(b) of the Commercial Banks – Prudential Norms on Capital Adequacy Directions, 2025\n- **Amendment**: Sub-paragraph 21(i)(b) **shall be deleted** entirely (RBI/2026-27/90, dated 2026-05-18)\n- **Effect**: Any obligation, definition, limit, or exception contained in Sub-paragraph 21(i)(b) ceases to apply to commercial banks with effect from May 18, 2026\n- **Cross-reference requirement**: The text of Sub-paragraph 21(i)(b) is not reproduced in this Amendment Direction. To understand what compliance obligation is being removed, you must:\n  - Consult the Commercial Banks – Prudential Norms on Capital Adequacy Directions, 2025 (dated November 28, 2025)\n  - Locate Section/Paragraph 21, sub-paragraph (i), clause (b)\n  - Confirm that deletion has been implemented in your bank's policy and systems as of May 18, 2026\n\n---\n\n## Relationship to Investment Portfolio Directions\n\n- The amendment to Sub-paragraph 21(i)(b) follows and is consequent to the Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Portfolio) **Second Amendment Directions, 2026**\n- Banks should review both sets of amendments concurrently to understand the coordinated change in capital adequacy and investment classification/valuation rules\n- The rationale for deletion of Sub-paragraph 21(i)(b) lies in the revision of investment portfolio rules and should be understood in that integrated context\n\n---\n\n## Immediate Compliance Actions\n\n- **Implementation deadline**: May 18, 2026 (date of effect)\n- **Banks must**:\n  - Remove all references to Sub-paragraph 21(i)(b) from capital adequacy policies and procedures\n  - Update internal compliance checklists and capital calculation methodologies to reflect the deletion\n  - Confirm to the Reserve Bank (if required under existing directions) that the amendment has been implemented\n  - Adjust any prudential ratios, limits, or capital deductions that were triggered by Sub-paragraph 21(i)(b)\n\n---\n\n## Title of Direction\n\n- **Full name**: Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Sixth Amendment Directions, 2026 (RBI/2026-27/90, dated 2026-05-18)\n\n---\n\n**Important**: This is a **short-form amendment direction** that deletes a single provision. The substantive capital adequacy framework remains that set out in the Commercial Banks Prudential Norms on Capital Adequacy Directions, 2025 (November 28, 2025), now modified by this deletion. Ensure your bank maintains current copies of both the base directions and all six amendment directions to maintain a complete, up-to-date statement of obligations.",
+ "what_changed": "# Changes Made by RBI/2026-27/90 (dated 2026-05-18)\n\n**Effective Date:** 2026-05-18\n\n---\n\n## Amendment Summary\n\n| Paragraph Affected | Action | Effect |\n|---|---|---|\n| 21(i)(b) | DELETED | The provision in sub-paragraph 21(i)(b) of the Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Directions, 2025 has been removed. |\n\n---\n\n## Note for NaBFID (AIFI)\n\nWhile this amendment addresses Commercial Banks' capital adequacy norms, the change may be relevant to NaBFID. AIFI directions incorporate or reference provisions from Commercial Banks directions by reference. Any alignment or incorporation of paragraph 21(i)(b) in NaBFID's own directions would require verification against NaBFID-specific guidance. The deletion here establishes the amended baseline in the Commercial Banks rulebook.",
+ "implications": "# Why NaBFID Should Care About This RBI Direction\n\n**Benchmark and Cross-Reference:** RBI capital adequacy directions for Commercial Banks establish the regulatory baseline that RBI uses to calibrate comparable requirements for AIFIs (like NaBFID). Even though this direction does not directly bind NaBFID, understanding Commercial Banks' capital adequacy norms helps NaBFID anticipate how RBI will frame similar expectations for development finance institutions. Additionally, the NaBFID direction and related RBI guidance on AIFIs may explicitly reference or incorporate provisions from the Commercial Banks direction by reference—so parts *may* apply to NaBFID indirectly. **Whether specific provisions bind NaBFID must be verified against the actual AIFI direction and confirmed with your compliance team.**\n\n**Illustrative Example (Infrastructure Lending Context):**  \nIf this direction revises risk weights for long-term infrastructure project loans—say, adjusting weights for roads or renewable energy based on loan tenor or completion stage—NaBFID's treasury and credit teams will want to track those changes. Even if NaBFID's own capital norms differ, watching how RBI recalibrates risk weights for similar long-duration, illiquid assets helps NaBFID anticipate future guidance and stress-test capital planning under evolving regulatory assumptions.",
+ "citations": {
+  "key_points": {
+   "4f58cf7e6bea": [
+    1
+   ],
+   "176a4146299c": [
+    1
+   ],
+   "8a30c376a0c0": [
+    1
+   ],
+   "4a5c01286893": [
+    1
+   ],
+   "e8aa19743e63": [
+    1
+   ],
+   "f9a067e238f9": [
+    1
+   ],
+   "8524bdff0f75": [
+    1
+   ],
+   "171c963d1a49": [
+    1
+   ],
+   "3840fee7cb45": [
+    1
+   ],
+   "04ca5e62df4c": [
+    1
+   ],
+   "5f97e5fd1ddd": [
+    1
+   ],
+   "4cea94010a46": [
+    1
+   ],
+   "90f0f91cd1af": [
+    1
+   ],
+   "ca113364888c": [
+    1
+   ],
+   "915c8b322bc6": [
+    1
+   ],
+   "b220a3d77c04": [
+    1
+   ],
+   "031dbcf26f1f": [
+    1
+   ],
+   "b42edbd311d2": [
+    1
+   ],
+   "4083b5bbbe3f": [
+    1
+   ],
+   "af5a88f3b675": [
+    1
+   ],
+   "4f11b5572238": [
+    1
+   ],
+   "f6cdc32e1111": [
+    1
+   ],
+   "16fdf617fde1": [
+    1
+   ]
+  },
+  "what_changed": {
+   "377a32106f50": [
+    1
+   ],
+   "075e5b3640d2": [
+    1
+   ],
+   "6c93f37c7845": [
+    1
+   ]
+  },
+  "implications": {
+   "494afb0c9e12": [
+    1
+   ]
+  }
+ }
+}

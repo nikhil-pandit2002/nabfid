@@ -1,0 +1,78 @@
+{
+ "key_points": "## Commercial Banks (Undertaking of Financial Services) Amendment — Directions, 2026 — Detailed Compliance Guide\n*(RBI/2025-26/258, dated 2026-03-30)*\n\nAmends Chapter III, paragraph 18(4) of the Commercial Banks Directions to clarify two permissible financial service activities: acquisition/bridge finance for promoter stakes in new companies, and secured lending to individuals.\n\n### Chapter I — Preliminary\n- **Commencement:** the earlier of **(a)** the date a bank implements the Credit Facilities Amendment Directions, 2026 (Revised), or **(b) July 1, 2026**. **Applicability:** **commercial banks**. **NaBFID applicability:** confirm whether AIFI directions cross-refer to this paragraph with compliance team.\n- **Supersession:** the February 13, 2026 amendment (RBI/2025-26/258, dated 2026-02-13) is hereby superseded.\n\n### Chapter II — Amended Permitted Financial Service Activities\n- **Acquisition finance and bridge finance:** banks may finance **promoter's stake in new companies** (amends Chapter III, ¶ 18(4)(ii)(a)iii).\n- **Lending against eligible securities:** banks may extend credit to **individuals against eligible securities** (amends Chapter III, ¶ 18(4)(ii)(b)).\n- **Implementation requirement:** align all undertaking of financial services activities under Chapter III, ¶ 18(4) to these revised sub-paragraphs from the applicable commencement date; discard all prior guidance under the February 13, 2026 amendment.\n\n### Chapter III — Related Provisions\n- **Cross-reference:** read this direction in conjunction with the Credit Facilities Amendment Directions, 2026 (Revised, dated March 30, 2026).\n- **Reporting:** no separate reporting or periodic certification requirement specified beyond those in the base Directions, 2025. Confirm with RBI whether existing financial services reporting frameworks capture these amended categories.",
+ "what_changed": "# Changes under RBI/2025-26/258 (Commercial Banks - Undertaking of Financial Services) - Amendment Directions, 2026\n\n## Summary of Changes\n\n**Chapter/Location Affected:** Chapter III, General Guidelines, Paragraph 18(4)\n\n---\n\n### Change 1\n**Paragraph:** 18(4)(ii)(a)iii  \n**Amendment Type:** Substituted  \n**Effect:** The text governing acquisition finance and bridge finance is replaced with: \"Acquisition finance and bridge finance for financing of promoter's stake in new companies\"\n\n---\n\n### Change 2\n**Paragraph:** 18(4)(ii)(b)  \n**Amendment Type:** Substituted  \n**Effect:** The text governing lending to individuals is replaced with: \"Lending to individuals against eligible securities\"\n\n---\n\n## Effective Date\nThe amendments come into force on the **earlier of:**\n- The date a bank decides to implement the RBI (Commercial Banks - Credit Facilities) Amendment Directions, 2026 (Revised) dated March 30, 2026, **or**\n- **July 1, 2026**\n\nThese changes supersede the prior Amendment Directions dated February 13, 2026.\n\n---\n\n**Note for NaBFID:** As an AIFI, NaBFID directions incorporate parts of the Commercial Banks directions by reference. Changes to paragraph 18(4) of Chapter III here may flow through to NaBFID's applicable framework where such incorporation applies.",
+ "implications": "# Why NaBFID Should Monitor This Commercial Banks Direction\n\n**Benchmark and regulatory mapping:** RBI typically establishes standards for Commercial Banks first, then calibrates AIFI directions (including NaBFID's) against those benchmarks. Understanding the Commercial Banks framework helps NaBFID anticipate how similar constraints or freedoms may be shaped for AIFIs in parallel or subsequent guidance.\n\n**Cross-reference risk:** AIFI directions frequently incorporate Commercial Banks provisions by reference (e.g., \"in line with the Commercial Banks direction on…\"). Parts of this 2026 amendment *may* bind NaBFID directly if NaBFID's AIFI direction on Financial Services Undertakings explicitly adopts them. **You must check NaBFID's own AIFI direction and confirm with your compliance function** to know which specific provisions apply.\n\n**Illustrative example:** If this amendment tightens the definition of what constitutes a permissible \"financial service undertaking\" or restricts cross-subsidisation between lending and ancillary services, NaBFID's long-tenor infrastructure lending model—which often bundles structuring, advisory, or quasi-equity support—would need to be reviewed against parallel AIFI restrictions, if any are imported by reference.\n\n---\n\n**Note:** This direction is addressed to Commercial Banks. Its direct applicability to NaBFID depends on what NaBFID's own AIFI directions state; do not assume applicability without explicit cross-reference confirmation.",
+ "citations": {
+  "key_points": {
+   "6d409d399264": [
+    1
+   ],
+   "39f43d22a67f": [
+    1
+   ],
+   "4328f2888326": [
+    1,
+    2
+   ],
+   "563b3371e1d6": [
+    1
+   ],
+   "938c954451ca": [
+    1
+   ],
+   "5e996a92631c": [
+    1,
+    2
+   ],
+   "173a136f6b7f": [
+    1
+   ],
+   "d6452a5a6284": [
+    1
+   ]
+  },
+  "what_changed": {
+   "368ff9260564": [
+    1
+   ],
+   "3ba99dffde59": [
+    1
+   ],
+   "101f262d83fe": [
+    1
+   ],
+   "6ac280efebe2": [
+    1
+   ],
+   "239a0fbf27e2": [
+    1
+   ],
+   "59d4fdeac7b3": [
+    1
+   ],
+   "62258e755423": [
+    1
+   ],
+   "3fe28aacc0e2": [
+    1
+   ],
+   "f11f18569588": [
+    2
+   ],
+   "7b58bc120cde": [
+    1
+   ]
+  },
+  "implications": {
+   "6b9e05d739dd": [
+    1
+   ],
+   "3328eece26a2": [
+    1
+   ],
+   "22459e1a984c": [
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "key_points": "## Commercial Banks' Undertaking of Financial Services (Third Amendment) — Directions, 2026 — Detailed Compliance Guide\n*RBI/DoR/2026-27/125, dated 2026-06-15*\n\nThese amendments govern how commercial banks may undertake agency business and referral services for regulated financial products and services offered by third-party providers, effective **January 01, 2027**.\n\n### Chapter I — Preliminary\n- **Commencement:** **January 01, 2027**. **Applicability:** commercial banks. **NaBFID Note:** this direction applies to AIFIs only if a separate AIFI direction cross-references these provisions; confirm applicability via AIFI directions before implementation.\n- **Scope:** Amends the Master Direction (2025) on agency business and referral services. Prior paragraphs **7(1), 7(2), 8, 59, 60, 61** are deleted.\n- **Key definitions:** **Agency Business** = bank/group entity acts as **agent** of third-party product/service provider (TPPSP), **without risk participation**, to facilitate sale to bank's customers. **Referral Services** = bank refers customers to TPPSP where **continued distribution, grievance redressal, and post-sales services are NOT undertaken** by the bank. **Regulated Financial Products and Services** = products/services under RBI, SEBI, IRDAI, PFRDA, IFSCA or overseas regulator frameworks (only these permitted).\n\n### Chapter II — Agency Business (Paragraph 58)\n- **Permissible products:** only **regulated financial products and services** permitted under Section 6(1)(a)–(m) and (o) of the Banking Regulation Act, 1949; display only permitted TPPS on website, mobile apps, digital channels.\n- **Responsible Business Conduct:** full compliance with **RBI (Commercial Banks – Responsible Business Conduct) Directions, 2025** mandatory.\n- **Fee-based structure:** undertaking on **fee basis without any risk participation**; must be **explicitly disclosed upfront** to customers.\n- **TPPSP agreement:** bank/group entity must have written agreement with TPPSP before commencing agency business; covers **only regulated financial products or services**.\n- **Grievance redressal:** bank shall ensure TPPSP has **robust customer grievance redressal arrangements**; bank may **facilitate grievance redressal**.\n- **Insurance brokerage:** bank **may, at its option**, act as insurance broker departmentally, subject to paragraph 58 conditions.\n\n### Chapter III — Referral Services (Paragraph 62)\n- **Responsible Business Conduct:** full compliance with **RBI (Commercial Banks – Responsible Business Conduct) Directions, 2025** mandatory.\n- **Pure referral role:** bank role shall be **purely referral in nature** only; permissible activities = marketing and referring TPPS; **prohibited** = selling. **Explicit disclaimer** required upfront.\n- **Bank name/brand prohibition:** bank name/brand shall **not feature** in product/service documents (policy documents, terms and conditions, application forms, marketing materials, etc.).\n- **Publication:** list of TPPS under referral arrangement shall be **published on website, mobile apps, digital banking channels**.\n- **No platform integration:** no TPPS processes shall be **integrated with bank platform**, **carried out within bank premises**, or **accessible as micro-site/micro-application**; only permitted form = **access link redirecting customer to TPPSP's independent platform**.\n- **Due diligence:** TPPSP selection with **proper due diligence** to address reputational risk; ensure TPPSP has **robust customer grievance redressal arrangements**.\n\n_Effective **January 01, 2027**. Verify NaBFID applicability via applicable AIFI direction before acting._",
+ "what_changed": "# Changes Under RBI/DoR/2026-27/125 (Effective 2027-01-01)\n\n## Paragraph 4 (Definitions)\n\n**Sub-para (1) – SUBSTITUTED**\n- \"Agency Business\" now explicitly defined as an arrangement where a bank or group entity acts as agent of a third-party product/service provider (TPPSP) **without risk participation**, facilitating sale of financial products/services to customers. Activities now explicitly include marketing, sales, promotion, initial grievance contact, and after-sale services.\n\n**Sub-para (17) – SUBSTITUTED**\n- \"Referral Services\" now explicitly limited to arrangements where the bank refers customers to a TPPSP by providing information only. Banks **cannot undertake distribution, grievance redressal, or post-sales services** under referral arrangements.\n\n**Sub-para (17A) – INSERTED**\n- New definition: \"Regulated financial products and services\" means products/services falling under RBI, SEBI, IRDAI, PFRDA, or Overseas Regulatory Authorities' (IFSCA) frameworks.\n\n**Sub-paras (19) and (20) – INSERTED**\n- New definitions: \"Third-party Product and Service (TPPS)\" and \"Third-party Product and Service Provider (TPPSP)\" added.\n\n---\n\n## Paragraph 7, Sub-paras (1) and (2) – DELETED**\n- Content of these sub-paragraphs removed entirely.\n\n---\n\n## Paragraph 8 – DELETED**\n- Entire paragraph removed.\n\n---\n\n## Paragraph 52 – SUBSTITUTED**\n- Banks may act as insurance broker departmentally **only** subject to conditions in paragraph 58 on agency business.\n\n---\n\n## Paragraph 58 – SUBSTITUTED**\n- **New framework on Agency Business:**\n  1. Banks deal **only** with regulated financial products/services permitted under Banking Regulation Act Section 6(1)(a)–(m) and (o); only such TPPS listed on websites/apps.\n  2. Full compliance with RBI Responsible Business Conduct Directions, 2025 required.\n  3. Agency business **on fee basis without risk participation** – must be explicitly disclosed upfront.\n  4. Bank/group entity must enter agreement with TPPSP for regulated products/services only.\n  5. Bank must ensure TPPSP has robust grievance redressal; bank may facilitate redressal.\n\n---\n\n## Paragraphs 59–61 – DELETED**\n- Entire paragraphs removed.\n\n---\n\n## Paragraph 62 – SUBSTITUTED**\n- **New framework on Referral Services:**\n  1. Banks refer customers to TPPSP **only** for regulated financial products/services per product regulators' instructions.\n  2. Bank role **purely referral** – may market/refer but **not sell**; disclaimer required upfront.\n  3. Bank name/brand **cannot appear** in product/service documents.\n  4. List of TPPS under referral published on website/app/digital channels for transparency.\n  5. No TPPS processes integrated with bank platform, carried within bank premises, or accessible as micro-site/application—**only direct access link** to TPPSP allowed.\n  6. TPPSP selection requires due diligence for reputational risk; TPPSP must have robust grievance redressal.\n\n---\n\n## Impact for NaBFID (AIFI)\n\nThese changes to the Commercial Banks rulebook flow to AIFIs through incorporation by reference in AIFI Directions. NaBFID must align agency business and referral service arrangements with the tightened regulatory framework: regulated products/services only, explicit fee-based structure without risk, clear separation of referral from sales, and enhanced disclosure/transparency requirements.",
+ "implications": "# Why This RBI Direction Matters to NaBFID\n\n**Benchmark Function:** RBI's Commercial Banks directions establish the regulatory baseline for undertaking financial services. NaBFID's own AIFI directions are interpreted against this standard—where the AIFI framework differs, those differences are deliberate policy choices that NaBFID must understand.\n\n**Cross-Reference Risk:** AIFI directions (including those governing NaBFID) frequently incorporate Commercial Banks provisions by reference or require compliance with equivalent standards. **You must check NaBFID's specific AIFI direction and confirm with your compliance team** to verify which parts of this amendment apply to you.\n\n**Illustrative Example:**  \nIf this amendment tightens limits on third-party financial service offerings (e.g., investment advisory tied to infrastructure debt products), a Commercial Bank cannot offer them above a certain threshold. NaBFID may face a similar or proportionate constraint under its AIFI direction—or may have an explicit exemption. Without checking the AIFI cross-reference, you might misunderstand NaBFID's actual scope.\n\n**Bottom Line:** Treat this direction as a policy signpost. It shows RBI's intent on financial services undertaking, but **do not assume any obligation applies to NaBFID until your compliance function confirms it against the relevant AIFI direction.**",
+ "citations": {
+  "key_points": {
+   "881eb01a2962": [
+    1
+   ],
+   "1cfad7c0112b": [
+    1
+   ],
+   "1dcbe4b7c5d0": [
+    1
+   ],
+   "78a38b1f1ce6": [
+    2,
+    3
+   ],
+   "e561a491a803": [
+    2
+   ],
+   "756a279a9127": [
+    3
+   ],
+   "f51846a3b347": [
+    3
+   ],
+   "46b39ee0b243": [
+    3
+   ],
+   "d1947956d156": [
+    3
+   ],
+   "ffbfa6123fdc": [
+    3
+   ],
+   "154b4141b856": [
+    4
+   ],
+   "adc4af594a3d": [
+    4
+   ],
+   "b8ea78659c3d": [
+    4
+   ],
+   "a13cd03a78cb": [
+    4
+   ],
+   "4faa2dd3e434": [
+    4
+   ],
+   "dbfeb6f65204": [
+    1
+   ]
+  },
+  "what_changed": {
+   "ba68262eb161": [
+    1
+   ],
+   "ad69efe1a8e9": [
+    1
+   ],
+   "49002471f109": [
+    2
+   ],
+   "6359f08bbb2b": [
+    2
+   ],
+   "e24b17b9fe91": [
+    2
+   ],
+   "1f78cc2d9988": [
+    2
+   ],
+   "2be2395c59b7": [
+    2
+   ],
+   "99f439767772": [
+    1
+   ],
+   "eef6ce0c5f0b": [
+    3
+   ],
+   "2eb04e66239e": [
+    3
+   ],
+   "c10748b87308": [
+    3
+   ],
+   "6e7170d7d694": [
+    3
+   ],
+   "1a3825ad1fb8": [
+    3
+   ],
+   "7895c9a8f227": [
+    3
+   ],
+   "61da95a2cb57": [
+    4
+   ],
+   "d055b81e3eee": [
+    4
+   ],
+   "4e435f01027e": [
+    4
+   ],
+   "b5f7a5db628e": [
+    4
+   ],
+   "ee9a9d3afcd8": [
+    4
+   ],
+   "d234abf71615": [
+    2
+   ]
+  },
+  "implications": {
+   "44d1ed59a9b7": [
+    1
+   ],
+   "98b50315e73f": [
+    1
+   ],
+   "19c6b0d0df09": [
+    1
+   ]
+  }
+ }
+}

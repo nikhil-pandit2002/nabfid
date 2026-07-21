@@ -1,0 +1,76 @@
+{
+ "key_points": "## Credit Information Reporting — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/110, dated 2025-12-04)*\n\nAmends the Commercial Banks Credit Information Reporting Directions to modernize submission timelines, require CKYC reporting, and clarify data rectification procedures — effective **1 July 2026**.\n\n### Chapter I — Applicability & Effective Date\n- **Scope:** Commercial Banks as Credit Institutions (CIs). **NaBFID:** confirm with compliance team whether your AIFI directions incorporate these provisions by reference; if yes, comply fully.\n- **Effective date:** **1 July 2026**. All obligations take effect on that date.\n\n### Chapter II — Submission Timelines & Frequency\n- **Reference dates:** Banks shall submit credit information on the **9th, 16th, 23rd, and last day of each month**, or at shorter intervals if mutually agreed with the CIC.\n- **Full file submission (month-end):** Submit all active accounts plus accounts where the borrower relationship ended since last reference date, **by the 5th of the next month**.\n- **Incremental submissions (9th, 16th, 23rd):** Submit only accounts opened since last reference date, accounts with ended relationships, accounts with changes initiated by borrower (repayment, balance change, demographic/related party/guarantor/ownership/account-type updates), and overdue accounts, **within 4 calendar days of each reference date**. Accounts with days-past-due change only also count as incremental.\n- **Non-compliance reporting:** CICs shall report via DAKSH portal to RBI's Department of Supervision a list of non-compliant CIs **half-yearly (as on 31 March and 30 September)**.\n\n### Chapter III — CKYC Number Reporting\n- **Obligation:** Banks shall report the Central KYC (CKYC) number of borrowers to CICs **where already available or as soon as made available** (including fresh applicants).\n\n### Chapter IV — Data Rectification & Re-submission\n- **Rejected data:** Banks shall rectify rejected data and re-submit **before or along with the next reporting reference date submission**.\n\n_Verify applicability to your institution with the compliance team before implementing._",
+ "what_changed": "# Amendment Changes: RBI/DOR/2025-26/110 (dated 2025-12-04)\n**Effective: 2026-07-01**\n\n---\n\n## Change 1: Paragraph 10(2) – Substituted\n\n**Effect:** Replaces the credit information submission frequency and timing requirements for Commercial Banks (CIs) reporting to Credit Information Companies (CICs).\n\n**Key changes in the substituted text:**\n- CIs must submit credit information on **four fixed dates per month** (9th, 16th, 23rd, and last day) instead of prior frequency\n- **Full file submission** (all active accounts + closed relationships) required **by 5th of following month**\n- **Incremental submissions** (9th, 16th, 23rd only) must contain only changed/new accounts, submitted **within 4 calendar days** of each reference date\n- Incremental accounts defined to include: new accounts, closed relationships, accounts with borrower-initiated changes (repayment, balance updates, demographic/guarantor/ownership changes), and overdue interest/principal accounts\n- Days past due changes also trigger reporting requirement\n- **CICs must report non-compliant CIs to RBI Department of Supervision** half-yearly (31 March and 30 September) via DAKSH portal\n- Annex-VI added with illustration timeline table\n\n---\n\n## Change 2: Paragraph 12(10) – Inserted\n\n**Effect:** Adds new mandatory reporting requirement for Commercial Banks.\n\n**Requirement:** CIs must report the **Central KYC (CKYC) number** of borrowers to CICs when available, or when newly assigned to fresh applicants.\n\n---\n\n## Change 3: Paragraph 15 – Substituted\n\n**Effect:** Clarifies the timeline for correcting rejected credit information submissions.\n\n**Requirement:** CIs must rectify and re-submit rejected data **before or along with** the next reporting reference date submission (instead of prior language).\n\n---\n\n## Applicability to NaBFID (AIFI)\n\nSince AIFI directions incorporate Commercial Banks directions by reference, these reporting timeline and CKYC number requirements will flow through to NaBFID's credit information reporting obligations under its applicable directions.",
+ "implications": "# Why NaBFID Should Track This RBI Direction on Credit Information Reporting\n\n**Benchmark and Cross-Reference Risk**\n\nThis direction sets the baseline for how RBI expects regulated entities to report credit data to Credit Information Companies (CICs). Although addressed to commercial banks, NaBFID must care for two reasons: (1) **comparative benchmark** — RBI's AIFI directions on credit reporting often mirror or reference the commercial bank framework, and any gaps in NaBFID's own direction may be interpreted against this standard; (2) **incorporation by reference** — NaBFID's governing directions may explicitly require compliance with parts of this commercial bank direction (this must be verified against the current AIFI Directions and confirmed with NaBFID Compliance, as the specific cross-references are not visible here).\n\n**Why It Matters for Long-Tenor Infrastructure Lending**\n\nInfrastructure loans are typically large-ticket, multi-year facilities with complex disbursement schedules and multiple sub-borrowers. Accurate and timely credit information reporting ensures NaBFID's borrower data feeds correctly into the national credit architecture that lenders, regulators, and credit bureaus rely on—missteps can cascade across the broader lending ecosystem.\n\n**Illustrative Example (for context):** If this amendment changes the definition of when a loan enters \"default\" status or alters frequency of CIC reporting, NaBFID must ensure its long-tenor highway or power project financings are reported consistently; otherwise, downstream lenders' credit assessments of common infrastructure sponsors could be skewed.\n\n**Next Step:** Cross-check NaBFID's Credit Information Reporting Directions against this 2025-26 amendment and confirm applicability with Compliance.",
+ "citations": {
+  "key_points": {
+   "edc2885c3356": [
+    1
+   ],
+   "1069b4cbf25a": [
+    1
+   ],
+   "1c78298c5082": [
+    1
+   ],
+   "a3f5f0a5f6af": [
+    2
+   ],
+   "97a663f35074": [
+    2
+   ],
+   "debcd6f3b28d": [
+    2
+   ],
+   "ba888e28b3e9": [
+    2
+   ],
+   "0ccb66c0a88f": [
+    3
+   ]
+  },
+  "what_changed": {
+   "c4ca80070c65": [
+    1
+   ],
+   "d82c3404e6b9": [
+    1
+   ],
+   "9d7c4906552b": [
+    1
+   ],
+   "73867699ff49": [
+    2
+   ],
+   "528b07297279": [
+    2
+   ],
+   "e30759e921e3": [
+    2
+   ],
+   "e18709bbd5b2": [
+    2
+   ],
+   "b23fb4c586a5": [
+    3
+   ],
+   "a987ed0eaaf1": [
+    2
+   ]
+  },
+  "implications": {
+   "f89b8fd3f054": [
+    1
+   ],
+   "e85487939212": [
+    1
+   ],
+   "bc24075bb972": [
+    2
+   ],
+   "4b3fe16300ab": [
+    1
+   ]
+  }
+ }
+}

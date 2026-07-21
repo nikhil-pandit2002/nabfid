@@ -1,0 +1,78 @@
+{
+ "key_points": "## Trade Relief Measures — Directions, 2025 — Detailed Compliance Guide\n*(RBI/2025-26/96, DOR.STR.REC.60/21.04.048/2025-26, dated 2025-11-14)*\n\nThese Directions mitigate debt servicing burden from trade disruptions and ensure continuity of viable export-oriented businesses.\n\n### Chapter I — Preliminary\n- **Applicability:** Commercial banks, cooperative banking institutions, NBFCs (including HFCs), all-India financial institutions, and CICs (para 16 only).\n- **Commencement:** Immediately, **November 14, 2025**.\n- **RE Policy Framework:** Each RE must frame a policy setting objective eligibility criteria, trade disruption assessment, documentation procedures, and risk management; policy **must be disclosed publicly**. RE must satisfy itself that borrower's business is **demonstrably impacted by trade disruptions caused by global headwinds** — generic slowdown is insufficient.\n\n### Chapter II — Borrower Eligibility (all conditions simultaneous)\n- **Sector:** Borrower **must be engaged in exports** from eligible sectors: HS Codes **03, 29, 38, 39, 40, 42, 57, 61, 62, 63, 64, 68, 71, 73, 76, 84, 85, 87, 90, 94**.\n- **Outstanding Export Credit as of August 31, 2025:** Hard cutoff date; facilities sanctioned after **August 31, 2025** do not qualify; both pre- and post-shipment facilities eligible.\n- **Account Classification (all REs combined):** **All accounts** of borrower with **all REs** must have been classified as **'Standard' as of August 31, 2025** — no NPAs, restructured accounts, or overdue amounts exceeding thresholds on that date; failure of any one account disqualifies the borrower entirely.\n- **Inter-RE Certification:** Non-lending RE may provide relief on written certification from lending RE(s) confirming paragraph 7(ii) satisfaction; receiving RE remains responsible for reasonable due diligence.\n\n### Chapter III — Relief Measures (September 1 – December 31, 2025)\n- **Moratorium on Term Loans:** REs may grant moratorium on **all instalments — principal and/or interest** for period **September 1, 2025 through December 31, 2025** (non-extendable); any instalments falling due during this window are deferred to post-moratorium.\n- **Working Capital CC/OD Interest Deferment:** REs may defer recovery of **interest applied** during **September 1, 2025 through December 31, 2025** on cash credit and overdraft facilities; facility continues to operate; principal remains callable.\n- **Continuing Interest Accrual (Simple, Not Compounded):** During moratorium/deferment, interest accrues on outstanding principal using **simple interest only — no compounding**. Formula: Interest = Principal × Rate × Time.\n- **Conversion to Funded Term Loan:** REs may convert accumulated accrued interest into a funded interest term loan **repayment commencing after March 31, 2026 and maturing not later than September 30, 2026** (bullet or multiple instalments permitted).\n- **Working Capital Limit Flexibility:** During relief period, REs may reduce margins or reassess/modify working capital limits; post-December 31, 2025, only regular assessments apply under standard prudential practice.\n- **Export Credit Tenor Extension:** REs eligible for export financing may permit extended credit period of **up to 450 days** for pre- and post-shipment export credit **disbursed till March 31, 2026** (limit on disbursement date, not approval).\n- **Packing Credit Liquidation:** REs may allow liquidation of packing credit facilities availed **on or before August 31, 2025** from legitimate alternate sources (domestic sale proceeds or substitution of export contract) where original shipment could not proceed.\n\n### Chapter IV — Asset Classification and Provisioning\n- **Moratorium Period Exclusion:** Moratorium/deferment period **shall be excluded** when calculating days past-due under extant IRACP norms; prevents downgrade solely due to relief.\n- **No Restructuring Event:** Grant of moratorium, deferment, or recalculation **shall NOT be treated as restructuring** and **by itself shall NOT result in asset downgrade**; borrower retains Standard classification if other conditions met.\n- **Post-Moratorium Classification:** From **January 1, 2026 onwards**, extant IRACP norms fully apply; subsequent defaults trigger standard NPA classification rules.\n- **General Provision (5%):** Accounts **previously in default but classified Standard as of August 31, 2025** receiving relief must carry **minimum 5% general provision of total outstanding by December 31, 2025**; may be adjusted against future specific provisioning if account slips to NPA post-relief.\n- **CIC Reporting:** REs must ensure CIC submissions do not report moratorium period as default days or relief grant as restructuring; CICs **must ensure** relief utilization does not adversely impact borrower credit history.\n\n*Verify with compliance team before acting.*",
+ "implications": "# RBI Trade Relief Measures Direction – Why It Matters for NaBFID\n\nThis direction likely addresses RBI's framework for helping borrowers manage trade-related financial stress (such as forex volatility, supply chain disruptions, or cross-border payment challenges). For NaBFID, this matters because many infrastructure projects have trade components—whether importing specialized equipment, managing forex exposure on dollar-denominated contracts, or dealing with international supply delays—and the direction may create tools or flexibilities that affect how stressed borrowers can be managed or restructured.\n\nUnderstanding the direction helps NaBFID ensure its lending practices and asset classification align with any RBI expectations around recognizing trade-related stress and any available relief mechanisms for affected borrowers.\n\n**Illustrative example:** A power plant developer facing extended delays and cost inflation in importing turbines from abroad may experience cash flow strain. The direction might clarify how such trade-related stress is treated in asset classification or whether certain restructuring approaches are available—relevant for NaBFID's workout strategy on such exposures.",
+ "citations": {
+  "key_points": {
+   "39b5168a6e04": [
+    1
+   ],
+   "9be90b75bbc7": [
+    2
+   ],
+   "045e48b8ea4a": [
+    1
+   ],
+   "812392f3c970": [
+    2
+   ],
+   "f3f0b38b95f5": [
+    2
+   ],
+   "865e0fdc3d32": [
+    3
+   ],
+   "60026140d446": [
+    2
+   ],
+   "35403e03cdc5": [
+    2
+   ],
+   "d02554e0f4e1": [
+    2
+   ],
+   "c345a00be1e5": [
+    2,
+    3
+   ],
+   "7fe4b75b4251": [
+    3
+   ],
+   "16f6a38378f3": [
+    3
+   ],
+   "362378886f60": [
+    3
+   ],
+   "d0aeaeeedcd1": [
+    3
+   ],
+   "2824915e2e4f": [
+    3
+   ],
+   "096a4a2c7d74": [
+    3
+   ],
+   "18e0dd314c79": [
+    2,
+    3
+   ],
+   "a02bf62faef0": [
+    4
+   ],
+   "92196f755434": [
+    4
+   ]
+  },
+  "implications": {
+   "aa373050002a": [
+    1
+   ],
+   "de5792843a19": [
+    4
+   ],
+   "31159491f799": [
+    3
+   ]
+  }
+ }
+}

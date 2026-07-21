@@ -1,0 +1,79 @@
+{
+ "key_points": "## Concentration Risk Management (Third Amendment) — Commercial Banks, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/110, dated 2026-06-10)*\n\nAmends the Concentration Risk Management Directions, 2025 to impose internal limits on real estate sector exposure and a prudential ceiling on REIT investments.\n\n### Chapter I — Applicability & Scope\n- **Addressee:** Commercial banks.\n- **AIFI note:** NaBFID should verify with its compliance team whether this amendment is cross-referenced in AIFI-specific directions; applicability is not automatic.\n- **Operative Framework:** Chapter V (Exposure Norms) of the Concentration Risk Management Directions, 2025.\n\n### Chapter II — Amendment 1: Deletion of Paragraph 94\n- **Provision Deleted:** Paragraph 94 of Chapter V (Exposure Norms), 2025. Any limits or restrictions therein are **no longer operative** as of the effective date.\n\n### Chapter III — Amendment 2: New Paragraph 94A – Real Estate Exposure Limits\n- **Internal Limits – Aggregate Real Estate:** Banks **shall fix** internal limits for aggregate exposure to the real estate sector, including sub-limits for various real estate sub-categories, determined **in accordance with the bank's business model**.\n- **REIT Prudential Ceiling:** Aggregate exposure to REITs (direct investments, debt, units in REIT schemes, all contractual REIT exposures) **shall be ≤ 10% of the bank's eligible capital base**. This is a mandatory maximum; banks may set lower internal limits.\n- **Hierarchy:** Internal REIT sub-limits must not exceed the **10%** prudential ceiling.\n- **Documentation & Governance:** Limits must be documented, Board/ALCO-approved, and periodically reviewed.\n\n### Chapter IV — Effective Date & Early Implementation\n- **Primary Effective Date:** **October 1, 2026**.\n- **Early Implementation (Optional):** A bank may implement earlier **only if** it has **adopted in entirety** the Reserve Bank of India (Commercial Banks – Credit Facilities) Third Amendment Directions, 2026 **(RBI/2026-27/110)**.\n- **Compliance Expectation:** Existing REIT exposures exceeding **10%** of eligible capital base must be brought within the ceiling by the effective date.\n\n### Chapter V — Compliance Obligations\n- **Fix and document** internal real estate and REIT sub-limits by **October 1, 2026**.\n- **Reduce excess REIT exposure** (any amount above **10%** of eligible capital base) by **October 1, 2026**.\n- **Periodic review:** Internal limits subject to ongoing Board/governance review.\n\n### Chapter VI — Points Requiring RBI Clarification\n- Definition of \"eligible capital base\" (capital tier and regulatory framework).\n- Scope of REIT exposure (equity only, or debt and indirect exposures included?).\n- Treatment of existing excess REIT exposure (grace period or immediate reduction?).\n- Interaction with single-borrower, group-borrower, and sector exposure limits.\n\n_Verify applicability to your institution and cross-reference the Credit Facilities Third Amendment Directions, 2026, before implementation._",
+ "what_changed": "# RBI/2026-27/110 Amendment Changes\n\n**Rulebook:** Commercial Banks - Concentration Risk Management Directions, 2025  \n**Effective Date:** October 1, 2026\n\n---\n\n## Changes:\n\n| Item | Location | Change Type | Effect |\n|------|----------|-------------|--------|\n| 1 | Chapter V - Exposure Norms, paragraph 94 | Deleted | The previous paragraph 94 is removed entirely. |\n| 2 | Chapter V - Exposure Norms, paragraph 94A | Inserted (new) | Banks must now set internal limits for total real estate sector exposure and sub-limits for real estate sub-categories based on their business model. A specific cap is imposed: banks' aggregate REIT (Real Estate Investment Trust) exposure cannot exceed 10% of the bank's eligible capital base. |\n\n---\n\n## Note for NaBFID:\nAs an AIFI, NaBFID should monitor this amendment closely. AIFI directions incorporate provisions of Commercial Banks directions by reference. Changes to concentration risk management for banks—particularly the new restrictions on real estate exposure and REIT limits—may flow through to NaBFID's own regulatory framework or create precedent for similar amendments to AIFI directions.",
+ "implications": "## Why NaBFID Should Care About This RBI Direction\n\n**Benchmark Role:** RBI's Commercial Banks directions on concentration risk serve as the primary regulatory template. NaBFID's own AIFI directions are calibrated by comparison—either aligned with CB standards, relaxed recognizing NaBFID's long-tenor wholesale focus, or tightened for prudential reasons. Understanding the CB framework helps NaBFID staff anticipate the rationale behind its own concentration limits and thresholds.\n\n**Cross-Reference Effect:** AIFI directions (including NaBFID's Master Direction on Lending) frequently incorporate CB directions by reference or require compliance with CB norms unless explicitly carved out. Some provisions on large exposure measurement, sector concentration, or counterparty risk limits may bind NaBFID directly; these must be verified against the current AIFI Master Direction and confirmed with Compliance before relying on any exemption.\n\n---\n\n## Illustrative Example\n\n*A NaBFID portfolio includes ₹500 cr exposure to roads (NH toll BOTs), ₹400 cr to power generation, and ₹350 cr to a single state airport SPV—all in the infrastructure sector. A CB direction capping any single counterparty at 15% of capital might translate to a NaBFID limit of 20% (reflecting long-tenor wholesale dynamics), but the direction's methodology for defining \"exposure\" and calculating net worth still shapes how NaBFID's compliance team measures these exposures.*\n\n---\n\n**Next Step:** Confirm applicability of specific provisions (e.g., sectoral caps, single counterparty limits, exemptions for government-backed projects) with your Compliance team by cross-checking against NaBFID's Master Direction on Lending and any recent AIFI-specific clarifications from RBI.",
+ "citations": {
+  "key_points": {
+   "50c6e643e588": [
+    1
+   ],
+   "560b3a5376fe": [
+    1
+   ],
+   "b7ec6f63b2e8": [
+    1
+   ],
+   "a1a6d0c2300a": [
+    1
+   ],
+   "3c9b31bc62c4": [
+    1
+   ],
+   "dec5d8545794": [
+    1
+   ],
+   "9e0d417c896d": [
+    1
+   ],
+   "a12269ab0883": [
+    1
+   ],
+   "e7f7a602edae": [
+    1
+   ],
+   "7eb3ee05d3e5": [
+    1
+   ],
+   "b417fe65476d": [
+    1
+   ],
+   "b2a55ca1e1e6": [
+    1
+   ],
+   "40d9042799f7": [
+    1
+   ],
+   "35287415f8f4": [
+    1
+   ]
+  },
+  "what_changed": {
+   "0df9a7cb4478": [
+    1
+   ],
+   "db08610c86ef": [
+    1
+   ],
+   "164650426360": [
+    1
+   ],
+   "f0eb5ffd2515": [
+    1
+   ],
+   "5f2e070b86c8": [
+    1
+   ]
+  },
+  "implications": {
+   "04beaa886655": [
+    1
+   ],
+   "c2e769ed2fd1": [
+    1
+   ],
+   "e3c3b704ea91": [
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "key_points": "## Commercial Banks - Resolution of Stressed Assets Amendment Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/23, dated 2026-04-27)*\n\nThese amendments modify the Commercial Banks - Resolution of Stressed Assets Directions, 2025, effective **April 1, 2027**, chiefly by cross-referencing provisioning, asset classification, and income recognition to the Commercial Banks - Asset Classification, Provisioning and Income Recognition Directions, 2026.\n\n### Chapter I — Preliminary\n- **Authority:** Sections 21 and 35A read with Section 56 of the Banking Regulation Act, 1949.\n- **Applicability:** Commercial banks. NaBFID and other AIFIs are bound only where their own directions explicitly cross-refer to the Commercial Banks directions.\n- **Effective date:** **April 1, 2027**. Accounts already under resolution or restructuring must transition to the amended framework by that date.\n\n### Chapter II — New Stress Indicators & Classification Framework\n- **New indicators of financial difficulty (paragraph 10):** Banks must monitor for: **(7)** significant credit rating downgrade (external or internal); **(8)** significant collateral value changes/declines; **(9)** any delay in fee/charge payment per the bank's internal policy; **(10)** expected changes in loan documentation (covenant waivers, interest holidays, rate step-ups, additional collateral, delayed review/renewal, other contractual amendments).\n- **Provisioning in resolution plans (paragraph 48(2)):** Shall be as per the Asset Classification, Provisioning and Income Recognition Directions, 2026 — not standalone from the Stressed Assets Directions.\n- **Asset classification after resolution attempt (paragraph 54):** Governed by ageing criteria in the Asset Classification, Provisioning and Income Recognition Directions, 2026, **regardless of success or failure** of the resolution plan.\n- **Restructured accounts (paragraph 63):** Provisioning as per the Asset Classification, Provisioning and Income Recognition Directions, 2026.\n- **Interim finance in insolvency process (paragraph 67):** Provisioning governed by the Asset Classification, Provisioning and Income Recognition Directions, 2026.\n\n### Chapter III — Special Cases & Moratorium Relief\n- **Post-moratorium provisioning (paragraph 72):** Upon lapse of the provision-freezing period in paragraph 69, provisioning shall be as per the Asset Classification, Provisioning and Income Recognition Directions, 2026.\n- **Rejection of resolution plan (paragraph 73):** Provision-freezing benefit lapses **immediately**; asset classification continues to be governed by the Asset Classification, Provisioning and Income Recognition Directions, 2026.\n- **Implementation conditions (paragraph 77(5)):** Bank must verify that conditions in paragraphs **31–40** are met before implementing a resolution plan.\n- **Farm credit definition (paragraph 96):** \"Farm credit\" refers only to agricultural activities as listed in the Asset Classification, Provisioning and Income Recognition Directions, 2026.\n- **Natural calamity restructuring (paragraph 103):** Asset classification per the Relief Measures by Banks in Areas Affected by Natural Calamities Directions, 2018 (as amended); provisioning per the Asset Classification, Provisioning and Income Recognition Directions, 2026.\n\n### Chapter IV — Income & Project Loans\n- **NPA income recognition (paragraph 119(2)):** Shall follow the Asset Classification, Provisioning and Income Recognition Directions, 2026 exclusively.\n- **DCCO deferment accounts (paragraph 120):** Accounts that have availed Debt Covenant Compliance Obligation deferment (paragraphs 113–116) and remain classified as 'standard' shall maintain **additional specific provisions over and above the applicable staging provisions** per the Asset Classification, Provisioning and Income Recognition Directions, 2026.\n- **Project loan provisioning (paragraph 124):** Shall follow the Asset Classification, Provisioning and Income Recognition Directions, 2026.\n- **Deletion:** Paragraph 162 stands deleted; banks shall not rely upon it.",
+ "what_changed": "# Changes Made by RBI/2026-27/23 (Effective 2027-04-01)\n\n## Summary of Changes to Commercial Banks Resolution of Stressed Assets Directions, 2025\n\n| Paragraph/Chapter | Change Type | Effect |\n|---|---|---|\n| **Paragraph 10** | Inserted | Four new sub-paragraphs (7)–(10) added defining additional triggers for stressed asset classification: significant downgrade in external/internal credit rating; material changes in collateral value; delays in fee/charge payment per bank's internal policy; and expected adverse changes in loan documentation (covenant waivers, amendments, payment holidays, rate step-ups, additional security, delayed review, or other contractual modifications). |\n| **Paragraph 48(2)** | Substituted | Provisioning requirements now explicitly reference the Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026, replacing prior provisioning language. |\n| **Paragraph 54** | Substituted | Asset classification ageing criteria now governed by the 2026 Asset Classification, Provisioning and Income Recognition Directions (updated reference). |\n| **Paragraph 63** | Substituted | Restructured account provisioning now governed by the 2026 Asset Classification, Provisioning and Income Recognition Directions. |\n| **Paragraph 67** | Substituted | Interim finance provisioning during insolvency resolution now governed by the 2026 Asset Classification, Provisioning and Income Recognition Directions. |\n| **Paragraph 72** | Substituted | Post-lapse provisioning now governed by the 2026 Asset Classification, Provisioning and Income Recognition Directions. |\n| **Paragraph 73** | Substituted | Provisions freeze lapses on rejection of resolution plan; asset classification thereafter governed by the 2026 Asset Classification, Provisioning and Income Recognition Directions. |\n| **Paragraph 77(5)** | Substituted | Clarifies resolution plan implementation conditions reference paragraphs 31–40. |\n| **Paragraph 96 (Explanation)** | Substituted | Farm credit definition now explicitly references the 2026 Asset Classification, Provisioning and Income Recognition Directions for the list of qualifying agricultural activities. |\n| **Paragraph 103** | Substituted | Natural calamity loan restructuring follows 2018 Relief Measures Directions; provisioning now governed by the 2026 Asset Classification, Provisioning and Income Recognition Directions. |\n| **Paragraph 119(2)** | Substituted | NPA income recognition now governed by the 2026 Asset Classification, Provisioning and Income Recognition Directions. |\n| **Paragraph 120** | Substituted | Additional specific provisions for DCCO-deferred 'standard' accounts now referenced against 2026 Asset Classification, Provisioning and Income Recognition Directions staging provisions. |\n| **Paragraph 124** | Substituted | Project loan provisioning now governed by the 2026 Asset Classification, Provisioning and Income Recognition Directions. |\n| **Paragraph 162** | Deleted | Entire paragraph removed (content not provided in amendment text). |\n\n---\n\n## Note for NaBFID (AIFI)\n\nWhile these amendments apply directly to Commercial Banks under the RBI rulebook, NaBFID should note that AIFI directions incorporate parts of Commercial Banks directions by reference. Changes to provisioning frameworks, asset classification triggers, and income recognition standards may flow through to NaBFID operations where applicable.",
+ "implications": "# Why NaBFID Should Track This Commercial Banks Direction\n\n**Benchmark comparison:** RBI's Commercial Banks directions on stressed asset resolution establish the regulatory standard that AIFI frameworks are calibrated against or measured against. Understanding the commercial bank requirements helps NaBFID assess what behaviors, timelines, and governance norms the regulator expects across the financial system.\n\n**Potential cross-reference effect:** AIFI directions (including those governing NaBFID) sometimes adopt or incorporate Commercial Banks provisions by reference—meaning parts of this direction *may* apply to NaBFID directly. However, **this must be verified by checking NaBFID's specific AIFI direction and consulting with compliance**, as the scope varies by provision.\n\n---\n\n## Illustrative Example\n\nA Commercial Bank direction might specify a 180-day timeline for classification and 270 days for resolution planning of stressed infrastructure debt. Even if NaBFID's AIFI direction doesn't explicitly adopt this timeline, it signals what RBI regards as the operational cadence for stressed asset management. If NaBFID manages long-tenor infrastructure loans that become stressed, knowing the commercial bank benchmark helps anticipate RBI's expectations and clarifies whether AIFI timelines differ deliberately or align.\n\n---\n\n**Disclaimer:** This is explanatory framing. Confirm actual applicability to NaBFID with your compliance team and the relevant AIFI directions.",
+ "citations": {
+  "key_points": {
+   "70baa98e5ffc": [
+    1
+   ],
+   "2a938c1664c4": [
+    1
+   ],
+   "f1f2214fdf3a": [
+    3
+   ],
+   "4bfce9e1e352": [
+    1
+   ],
+   "499270390a05": [
+    1
+   ],
+   "96420e5df812": [
+    2
+   ],
+   "0caa4d75fe71": [
+    2
+   ],
+   "549bc3ff875c": [
+    2
+   ],
+   "1567c28cb28a": [
+    2
+   ],
+   "eb9f9afb195b": [
+    2
+   ],
+   "6cb146a7ae21": [
+    2
+   ],
+   "aa8ef6139298": [
+    3
+   ],
+   "1a9ef2331842": [
+    3
+   ],
+   "3eb1de6fbd24": [
+    3
+   ],
+   "083b9cedd24b": [
+    3
+   ],
+   "8f6e53ee3b02": [
+    3
+   ],
+   "15f91c558c3e": [
+    3
+   ]
+  },
+  "what_changed": {
+   "16064c12ec18": [
+    1
+   ],
+   "bd82fa84d3d9": [
+    1
+   ],
+   "75f8dd6060ac": [
+    2
+   ],
+   "9c11827c203d": [
+    2
+   ],
+   "782d9d197573": [
+    2
+   ],
+   "be044150544d": [
+    2
+   ],
+   "3cab7f40ea2d": [
+    2
+   ],
+   "1d5ae62a16e8": [
+    2
+   ],
+   "75b6c2a2c5d2": [
+    2
+   ],
+   "a591eb203f77": [
+    3
+   ],
+   "7ef6c559aa3e": [
+    3
+   ],
+   "4985e581befc": [
+    3
+   ],
+   "33132c6f114d": [
+    3
+   ]
+  },
+  "implications": {
+   "b4852c5a70f2": [
+    1
+   ]
+  }
+ }
+}

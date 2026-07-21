@@ -1,0 +1,118 @@
+{
+ "key_points": "## Concentration Risk Management — Amendment Directions, 2026 — Detailed Compliance Guide\n*(RBI/2025-26/255, dated 2026)*\n\nThis amendment modifies the Commercial Banks – Concentration Risk Management Directions, 2025, effective the earlier of: (1) a bank's implementation of the Credit Facilities Amendment Directions, 2026 (Revised), dated March 30, 2026, or (2) **July 1, 2026**. It applies to all commercial banks; NaBFID applicability depends on cross-reference in current AIFI directions.\n\n### Chapter I — Preliminary & Definitions\n- **New definitions added:** \"Acquisition Finance,\" \"Bridge Finance,\" \"Capital Market Intermediaries (CMIs),\" \"Collateral Security,\" \"Primary Security\" (each identical to the Credit Facilities Directions, 2025); \"Non-debt Mutual Funds\" = mutual fund schemes with corpus *not exclusively* in debt securities (any equity or non-debt component). **Deletion:** former paragraph 4(8) is deleted.\n\n### Chapter II — Board Policy\n- **Intra-day exposure limits:** The Board must establish a **policy for fixing intra-day exposure limits to the capital markets**, applied to aggregate CME, *within* prudential ceilings prescribed in these Directions.\n\n### Chapter III — Capital Market Exposure: Definition & Scope\n- **CME includes direct and indirect exposures (fund-based and non-fund-based)** across **ten categories:**\n  - Investment exposures: equity/preference shares, convertible bonds/debentures, non-debt mutual fund units, REIT/InvIT units, AIF units.\n  - Credit exposures: advances to individuals for capital market investment; advances with capital market instruments as primary security; advances secured by capital market collateral (where advances rest on collateral strength); credit to CMIs; acquisition finance; financing to non-debt mutual funds; bridge finance; underwriting commitments; Irrevocable Payment Commitments (IPCs); trade exposures as clearing member in equity/commodity derivatives.\n\n### Chapter IV — CME Prudential Ceilings (Core Limits)\n- **Aggregate CME limit:** **≤ 40% of eligible capital base** (solo & consolidated).\n- **Direct capital market exposure limit:** **≤ 20% of eligible capital base** (solo & consolidated; investment exposures only).\n- **Acquisition finance limit:** **≤ 20% of eligible capital base** (solo & consolidated; within the **40%** aggregate ceiling).\n- **Intra-day sub-limits:** Bank must establish separate **sub-limit for intra-day exposure to single counterparty** and **aggregate intra-day limit** via Board policy, within overall ceilings.\n- **Flexibility:** These are maximum ceilings; banks may adopt **lower ceilings** and must adhere to adopted level on ongoing basis.\n\n### Chapter V — Exemptions from CME Ceilings & Computation\n- **Debt-to-equity conversions** (restructuring under Stressed Assets Directions, 2025; CIRP under IBC 2016) exempt from CME ceilings/restrictions. **Caveat:** Section 19(2) of Banking Regulation Act, 1949 still applies.\n- **Excluded from CME:** own subsidiaries/JVs/RRBs (post-listing, new exposures count); critical financial infrastructure (Annex II list; post-listing, new exposures count); debt refinancing in acquisition; AT1/Tier II of other banks/AIFIs; CDs of other banks; non-voting preference shares; underwriting commitments (**70% of credit equivalent excluded**; **30%** counts); promoters' shares in infrastructure SPV (with security charge); non-commodity/non-equity broker exposures; CMI debt market-making exposures.\n\n### Chapter VI — CME Valuation & Computation\n- **Direct investment:** **cost price**.\n- **Credit exposures (fund/non-fund):** **sanctioned limit or outstanding, whichever higher**; *exception*: fully drawn term loans with no re-drawal = **outstanding only**. *Intra-day short-term facility proviso*: exposure for CME = **30% of intra-day limit** (for settlement timing shortfalls in client centrally-cleared trades, if borrower has expected receivables from QCCP fully covering drawdowns). **End-of-day outstanding: fully reckoned.**\n- **Equity & commodity derivatives:** per Capital Adequacy Directions, 2025.\n- **IPCs:** T+1 settlement cycle (intra-day) = **30% of net settlement obligation**; T+2 settlement cycle (overnight) = **50% of net settlement obligation**. Netting allowed only if both buy/sell cleared by *same* Clearing Corporation and bank holds **absolute, irrevocable lien** over payout securities until client fulfills funding obligations.\n- **Offset by collateral:** CME exposure may be **offset by cash and Government securities** per haircuts/conditions in Capital Adequacy Directions, 2025. Net figure (post-offset) = CME for limit compliance.\n\n### Chapter VII — Intra-day Facility Proviso (Non-debt Mutual Funds)\n- **Exclusion from CME:** Intra-day borrowing limits to non-debt mutual funds excluded if borrowing is intra-day-only and covers guaranteed receivables due same day from: maturity of G-Secs/T-Bills/SDLs or interest thereon held by fund, *or* maturity of TREPS transactions from CCIL.\n\n### Chapter VIII — Critical Financial Infrastructure (Annex II)\n- **Investments in 22 entities excluded from CME** (pre-listing only; post-listing, new exposures count):\n  IFCI Ltd., TFCI, IFCI Venture, TDICI, NHB, SIDBI, NABARD, EXIM Bank, LIC, GIC Re, NSDL, CDSL, NSE Clearing, NSE, CCIL, RBI-registered credit information company (member), MCX, NCDEX, ICEX, NCML, NPCI, BSE.\n\n### Chapter IX — Effective Date & Supersession\n- **Effective:** earlier of implementation date of Credit Facilities Amendment Directions, 2026 (Revised) (dated March 30, 2026) **or July 1, 2026**.\n- **Supersedes:** Commercial Banks – Concentration Risk Management Amendment Directions, 2026, dated February 13, 2026.",
+ "what_changed": "# RBI/2025-26/255 (dated 2026-03-30) – Amendment Summary\n\n## Changes to the Commercial Banks - Concentration Risk Management Directions, 2025\n\n**Effective Date:** Implementation date of RBI (Commercial Banks - Credit Facilities) Amendment Directions, 2026 (Revised), dated March 30, 2026, or July 1, 2026, whichever is earlier.\n\n---\n\n### **Chapter I – Preliminary (Paragraph 4: Definitions)**\n\n| Change | Effect |\n|--------|--------|\n| **Inserted** sub-paragraphs (2A), (2B), (2C), (2D), (9A), (9B) | New definitions added: \"Acquisition Finance,\" \"Bridge Finance,\" \"Capital Market Intermediaries (CMIs),\" \"Collateral Security/Collateral,\" \"Non-debt Mutual Funds\" (mutual fund schemes not exclusively invested in debt), and \"Primary Security\" – all aligned with the Credit Facilities Directions, 2025 or newly defined. |\n| **Deleted** paragraph 4(8) | Removes the previous definition provision for one term (text not shown in amendment). |\n\n---\n\n### **Chapter II – Role of the Board**\n\n| Change | Effect |\n|--------|--------|\n| **Substituted** sub-subparagraph 6(1)(v) | Banks must now frame a policy for fixing intra-day exposure limits to capital markets, keeping within aggregate CME prudential limits. |\n\n---\n\n### **Chapter V – Exposure Norms**\n\n#### **Paragraph 95 (and subsequent deletions/insertions)**\n\n| Change | Effect |\n|--------|--------|\n| **Deleted** paragraph 95 | Removes previous CME definition. |\n| **Inserted** paragraph 95A | **New comprehensive CME definition:** CME includes direct and indirect exposures (fund-based and non-fund-based) across 10 categories: (1) Investment in equity, preference shares, convertible bonds/debentures, non-debt mutual fund units, REITs, InvITs, AIFs; (2) Credit exposures to individuals for capital market investments, advances collateralized by market securities, credit to CMIs, acquisition finance (including overseas branches/subsidiaries), non-debt mutual fund financing, bridge finance, underwriting commitments, IRPCs by custodian banks, and trade exposures for clearing members in derivatives. **Carve-out:** Intraday loans to non-debt mutual funds for guaranteed receivables (maturity proceeds of govt securities, T-Bills, SDLs, TREPS from CCIL) excluded from CME. |\n\n#### **Paragraphs 97–98 (and subsequent replacements)**\n\n| Change | Effect |\n|--------|--------|\n| **Deleted** sub-section titles A.1.4.2.2.1, A.1.4.2.2.2 and paragraphs 97, 98 | Removes prior exposure limit framework. |\n| **Inserted** paragraph 98A | **New prudential ceilings for CME:** (1) Aggregate CME ≤ 40% of eligible capital base (solo & consolidated); (2) Direct capital market investment ≤ 20% of eligible capital base; (3) Acquisition finance ≤ 20% of eligible capital base (within 40% aggregate limit); (4) Intra-day limits to single counterparty and aggregate intra-day limits required. Banks may adopt lower ceilings per risk profile. |\n\n#### **Paragraph 99 (Partial Modification)**\n\n| Change | Effect |\n|--------|--------|\n| **Modified** paragraph 99 | Clarifies that 98A ceilings are maximum permissible; banks may adopt lower limits and must adhere to ceilings on an ongoing basis. |\n\n#### **Paragraph 100 (Partial Modification)**\n\n| Change | Effect |\n|--------|--------|\n| **Modified** paragraph 100 | Exempts share acquisitions from debt-to-equity conversion (under Stressed Assets or IBC insolvency resolution) from CME regulatory ceilings, but banks must still comply with Banking Regulation Act, 1949, Section 19(2). |\n\n#### **Paragraph 101 (and replacement)**\n\n| Change | Effect |\n|--------|--------|\n| **Deleted** paragraph 101 | Removes prior exemption framework. |\n| **Inserted** paragraph 101A | **New exclusions from CME computation:** (1) Investments in own subsidiaries, JVs, sponsored RRBs; (2) Shares/convertible securities of critical financial infrastructure (Annex II entities); (3) Portion of acquisition finance used for refinancing target debt; (4) Tier I & II instruments of RBI-regulated banks and all-India financial institutions; (5) CDs of other banks; (6) Preference shares without voting rights; (7) Own and subsidiary underwriting commitments (up to 70% of credit equivalent, book-running); (8) Promoter shares in infrastructure project SPVs where bank holds security charge; (9) Non-commodity/equity broker exposures; (10) CMI exposures for debt market-making. **Proviso:** Additional post-listing exposures in entities (1)–(2) enter CME. |\n\n#### **Paragraphs 102–107 (and replacements)**\n\n| Change | Effect |\n|--------|--------|\n| **Deleted** Sections A1.4.5, A.1.4.6 and paragraphs 102–107 | Removes prior valuation and offset rules. |\n| **Inserted** paragraphs 107A & 107B | **New CME valuation methodology:** (1) Direct investment at cost price; (2) Credit exposures at sanctioned limit or outstanding (higher), except fully drawn term loans reckon outstanding only; intraday borrowing for settlement shortfalls (centrally cleared) = 30% of intraday limit if receivables from QCCP cover drawdowns (outstanding at day-end fully reckoned); (3) Equity/commodity derivatives per Capital Adequacy Directions, 2025; (4) IPCs: intraday T+1 = 30% of net settlement obligation; overnight T+2 = 50% of net settlement obligation (with netting conditions). **Offset rule:** CME may be offset by cash and govt securities per Capital Adequacy Directions, 2025 haircuts. |\n\n#### **Section B & Paragraph 109 (Deletion)**\n\n| Change | Effect |\n|--------|--------|\n| **Deleted** Section B and paragraph 109 | Removes prior compliance/reporting framework (text not shown). |\n\n#### **Annex II (Substitution)**\n\n| Change | Effect |\n|--------|--------|\n| **Substituted** Annex II | **New list of 22 critical financial infrastructure entities** exempted from CME: IFCI Ltd., TFCI, IFCI Venture, TDICI, NHB, SIDBI, NABARD, EXIM Bank, LIC, GIC, NSDL, CDSL, NSE Clearing, NSE, CCIL, RBI-registered credit information companies (member banks), MCX, NCDEX, ICEX, NCML, NPCI, BSE. |\n\n---\n\n## **Impact on NaBFID (AIFI)**\n\nAlthough this amendment is issued under the Commercial Banks rulebook, **AIFI Directions (including those applicable to NaBFID) incorporate parts of the Commercial Banks Directions by reference**. Changes to concentration risk management, CME definitions, valuation methods, and exempted entity lists may flow through to NaBFID's applicable prudential framework to the extent AIFI directions cross-reference the Commercial Banks Concentration Risk Management Directions.",
+ "implications": "# Why NaBFID Should Care About This Commercial Bank Direction\n\n**Benchmark relevance:** RBI's Commercial Bank concentration risk framework sets the regulatory baseline against which AIFI prudential standards are calibrated and compared. Understanding how RBI defines and limits concentration risk for banks helps NaBFID interpret how similar concepts apply (or differ) in the AIFI rulebook.\n\n**Cross-reference risk:** AIFI directions frequently incorporate Commercial Bank directions by reference or require compliance with analogous principles. Some provisions may bind NaBFID directly—but this must be verified against the current AIFI Directions (2021) and confirmed with your compliance team, as not all commercial bank rules apply to development finance institutions.\n\n---\n\n## Illustrative Example\n\n*If the Commercial Banks direction limits large exposures to a single borrower at (say) 25% of capital, but NaBFID's AIFI direction permits higher concentration for long-tenor infrastructure projects, understanding the bank limit shows* **why** *the AIFI exception exists—and helps you articulate the infrastructure rationale to auditors and RBI supervisors.*\n\n---\n\n**Next step:** Cross-check the exact text of RBI's AIFI Directions to confirm which concentration risk provisions apply to NaBFID and whether this 2026 amendment triggers any reporting or governance changes for your institution.",
+ "citations": {
+  "key_points": {
+   "196b4f634813": [
+    1
+   ],
+   "7806063d9975": [
+    1
+   ],
+   "2c2086e072b5": [
+    2
+   ],
+   "624bc838c7a2": [
+    3
+   ],
+   "e913b0f40d44": [
+    4
+   ],
+   "7b9edade24c6": [
+    4
+   ],
+   "714de1a1b36b": [
+    4
+   ],
+   "dc5d5aab7a70": [
+    4
+   ],
+   "6aa284154cdc": [
+    4
+   ],
+   "04baeff49e8e": [
+    4,
+    5
+   ],
+   "0860a1406e2c": [
+    5
+   ],
+   "97d1af3d7bc9": [
+    6
+   ],
+   "68a9a438331e": [
+    6
+   ],
+   "594b4e409219": [
+    6,
+    7
+   ],
+   "a138987620d0": [
+    7
+   ],
+   "561929f584da": [
+    3
+   ],
+   "c3dfe9826554": [
+    7
+   ],
+   "48f0fa088c22": [
+    8
+   ],
+   "e7ef52c5fca0": [
+    8
+   ]
+  },
+  "what_changed": {
+   "17f2d26b7ece": [
+    1
+   ],
+   "c89550081bd5": [
+    1,
+    2
+   ],
+   "81d42cd73e04": [
+    2
+   ],
+   "4810d002736c": [
+    2,
+    3
+   ],
+   "da7bdbcf2a0d": [
+    4
+   ],
+   "a8f3d968ba1d": [
+    4
+   ],
+   "310c878d087a": [
+    4
+   ],
+   "71b2952d8b1a": [
+    4,
+    5
+   ],
+   "8c866458ffb7": [
+    5
+   ],
+   "0a689a876ea6": [
+    6
+   ],
+   "3156688ada02": [
+    6
+   ],
+   "1e196b77c9b4": [
+    7,
+    8
+   ]
+  },
+  "implications": {
+   "58db4e061d9f": [
+    1
+   ],
+   "175c4a2ed5a0": [
+    6
+   ]
+  }
+ }
+}

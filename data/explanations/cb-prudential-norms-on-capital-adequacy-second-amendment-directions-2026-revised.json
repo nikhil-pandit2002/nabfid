@@ -1,0 +1,85 @@
+{
+ "key_points": "## Capital Adequacy — Irrevocable Payment Commitments to Clearing Corporations, 2026 — Detailed Compliance Guide\n*(RBI/2025-26/256, dated 2026-03-30)*\n\nAmends the treatment of irrevocable payment commitments issued by banks to clearing corporations of stock exchanges on behalf of clients, requiring capital maintenance only on the capital market exposure (CME) portion of such commitments.\n\n### Chapter I — Preliminary\n- **Commencement:** **July 1, 2026**, or earlier if the bank implements the Reserve Bank of India (Commercial Banks – Credit Facilities) Amendment Directions, 2026 (Revised), dated March 30, 2026, whichever is earlier. **Applicability:** commercial banks only; applicability to AIFIs/NaBFID not addressed in this Direction and must be confirmed via the AIFI capital adequacy directions.\n- **Scope:** amends Paragraph 84(6) of the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025; applies when a bank issues an irrevocable payment commitment to clearing corporations of stock exchanges on behalf of its client.\n- **Supersession:** this revised amendment supersedes the earlier Second Amendment Directions dated February 13, 2026.\n\n### Chapter II — Classification, CCF, and Capital Requirement\n- **Classification:** an irrevocable payment commitment by a bank to a clearing corporation, issued on behalf of a client, is a **financial guarantee**.\n- **Credit Conversion Factor (CCF):** **100 per cent** for off-balance-sheet recognition.\n- **Capital maintenance scope:** capital is required **only** on the portion classified as **capital market exposure (CME)** under the Concentration Risk Management Directions, 2025 — not on the full commitment amount.\n- **Risk weight:** **125 per cent** applied to the CME amount.\n- **Example:** a ₹100 crore irrevocable payment commitment has a **100%** CCF (full notional exposure), but the bank maintains capital only on the CME portion of that amount at **125%** risk weight.\n\n---\n\n*Confirm with compliance team and RBI if applicability to AIFIs requires clarification.*",
+ "what_changed": "# RBI Amendment Direction RBI/2025-26/256 (dated 2026-03-30): Changes Summary\n\n## Change Affected\n\n**Paragraph 84(6), Chapter IV (Risk weighted assets (RWAs))**\n\n---\n\n## Nature of Change\n\n**SUBSTITUTED** — The entire paragraph 84(6) has been replaced with revised language.\n\n---\n\n## Effect in Plain Language\n\n**For Banks:**\n\nThe amendment clarifies the capital adequacy treatment of irrevocable payment commitments issued by a bank to clearing corporations of stock exchanges on behalf of clients:\n\n1. **Financial Guarantee Classification**: Such commitments are classified as financial guarantees with a Credit Conversion Factor (CCF) of 100 per cent.\n\n2. **Capital Maintenance Scope (Key Change)**: Capital is **not** maintained on the full guarantee amount. Instead, capital is maintained **only on the exposure that qualifies as Capital Market Exposure (CME)** as defined under the Reserve Bank of India (Commercial Banks - Concentration Risk Management) Directions, 2025.\n\n3. **Risk Weight**: A 125 per cent risk weight applies to the CME amount on which capital is maintained.\n\n**Effect**: This narrows the capital requirement—banks calculate capital only against the CME portion of the exposure, not the full commitment amount.\n\n---\n\n## Effective Date\n\nFrom the **earlier of:**\n- The date a bank decides to implement the Reserve Bank of India (Commercial Banks - Credit Facilities) Amendment Directions, 2026 (Revised) dated March 30, 2026, **or**\n- **July 1, 2026**\n\nThis supersedes the previous Second Amendment Directions dated February 13, 2026.\n\n---\n\n## Note for NaBFID (AIFI)\n\nAs an AIFI, NaBFID's directions incorporate parts of the Commercial Banks directions by reference. This amendment to capital adequacy rules for bank guarantees may flow through to AIFI operations where similar financial guarantee structures exist.",
+ "implications": "# Why NaBFID Should Care About Commercial Banks' Capital Adequacy Directions\n\nEven though this RBI direction addresses commercial banks, NaBFID has two reasons to monitor it:\n\n1. **Benchmark Function**: The commercial banking capital adequacy framework sets the regulatory baseline against which AIFI prudential norms are calibrated and compared. Changes here signal where the RBI's risk philosophy is moving and often influence how AIFI directions are subsequently updated or interpreted.\n\n2. **Cross-Reference Risk**: The AIFI directions (applicable to NaBFID under the Development Financial Institutions Act, 2021) may incorporate provisions from Commercial Banks directions by reference—either explicitly or through parallel prudential standards. Any specific provision that binds NaBFID must be confirmed by checking the relevant AIFI direction and consulting your compliance team; do not assume commercial bank rules apply directly.\n\n---\n\n**Illustrative Example** (for context only):  \nIf this amendment tightens the capital charge on, say, infrastructure project financing in a particular sector due to revised risk weights, a commercial bank lending to the same infrastructure project would face higher capital requirements. NaBFID's own capital adequacy framework may be adjusted similarly in a subsequent AIFI direction—or may already reference the same risk-weighting methodology—making the commercial bank change a leading indicator of possible pressure on NaBFID's capital ratios and lending capacity.",
+ "citations": {
+  "key_points": {
+   "24ad0452c2d6": [
+    1
+   ],
+   "a18735566d77": [
+    1
+   ],
+   "93ebb3e82315": [
+    1
+   ],
+   "92b196476420": [
+    2
+   ],
+   "a7e572bc4981": [
+    1
+   ],
+   "51c17ff599e2": [
+    1
+   ],
+   "492f33b0830d": [
+    1
+   ],
+   "0dcd7477e70e": [
+    1
+   ],
+   "92ae4857079a": [
+    1
+   ]
+  },
+  "what_changed": {
+   "a749940a39b7": [
+    1
+   ],
+   "eba4fb445ae2": [
+    1
+   ],
+   "c56f9c1fe9ba": [
+    1
+   ],
+   "26909173ea95": [
+    1
+   ],
+   "390bddb5e364": [
+    1
+   ],
+   "92f6faf00f01": [
+    1
+   ],
+   "f381bed292c7": [
+    1
+   ],
+   "ec31461e371f": [
+    1
+   ],
+   "3fe28aacc0e2": [
+    1
+   ],
+   "fe99e65fffd3": [
+    2
+   ],
+   "d665d54d6a98": [
+    1
+   ]
+  },
+  "implications": {
+   "60f8dac59fd6": [
+    1
+   ],
+   "a358ba47e5f3": [
+    1
+   ],
+   "94ab07bd7f17": [
+    1
+   ],
+   "eb967d45675a": [
+    1
+   ]
+  }
+ }
+}

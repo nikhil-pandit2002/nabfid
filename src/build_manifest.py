@@ -31,7 +31,9 @@ import pdfplumber
 # Resolve relative to this file so the script works regardless of the
 # directory it is launched from.
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SOURCE_DIR = PROJECT_ROOT / "AIFI latest"
+SOURCE_DIR = PROJECT_ROOT / "AIFI latest"   # kept for back-compat / single-root use
+# Every corpus root and the entity it belongs to (AIFI, Commercial Bank, ...).
+from config import SOURCE_ROOTS  # noqa: E402
 OUTPUT_DIR = PROJECT_ROOT / "data"
 OUTPUT_CSV = OUTPUT_DIR / "manifest.csv"
 
@@ -39,6 +41,7 @@ OUTPUT_CSV = OUTPUT_DIR / "manifest.csv"
 # trailing helper columns support review + later pipeline stages.
 COLUMNS = [
     "doc_id",
+    "entity",
     "division",
     "doc_type",
     "title",
@@ -114,13 +117,26 @@ def extract_dept_ref(text: str) -> str:
 
 
 def extract_title(text: str) -> str:
-    """Full official title, from 'Reserve Bank of India (All India ...' up to
-    the first 'Directions, <year>'. Excludes the '(Updated as on ...)' suffix,
-    which we capture separately as consolidated_as_of."""
-    m = re.search(
-        r"Reserve Bank of India \(All India Financial Institutions.*?Directions,\s*\d{4}",
-        text,
-    )
+    """Full official title, from 'Reserve Bank of India (<entity> ...' up to the
+    first 'Directions, <year>'. Excludes the '(Updated as on ...)' suffix, which
+    we capture separately as consolidated_as_of.
+
+    Matches either regulated entity — 'All India Financial Institutions' or
+    'Commercial Banks'. The title drives doc_type and topic extraction, so an
+    entity whose clause is missing here silently degrades to
+    doc_type=master_direction with no amendment chain.
+    """
+    # Deliberately generic in the bracketed clause: as well as the
+    # "(All India Financial Institutions - X)" / "(Commercial Banks - X)" forms,
+    # RBI issues directions addressed to every regulated entity with no entity
+    # clause at all, e.g. "Reserve Bank of India (Trade Relief Measures)
+    # Directions, 2025". The lazy match still spans nested brackets such as
+    # "(All India Financial Institutions (AIFIs) - ...)" because it backtracks
+    # until the trailing "Directions, <year>" matches.
+    # NB: do NOT require the closing bracket immediately before "Directions" —
+    # amendment titles carry text in between, e.g.
+    # "...Responsible Business Conduct) - Amendment Directions, 2026".
+    m = re.search(r"Reserve Bank of India\s*\(.*?Directions,\s*\d{4}", text)
     return m.group(0).strip() if m else ""
 
 
@@ -189,16 +205,36 @@ def extract_applicable_from(text: str) -> tuple[str, str]:
     return "", "could not detect commencement date; check document"
 
 
+# The regulated-entity clause that opens an RBI title. Both corpora use the same
+# convention, only the entity name differs:
+#   'Reserve Bank of India (All India Financial Institutions (AIFIs) - <topic>)'
+#   'Reserve Bank of India (Commercial Banks - <topic>)'
+_ENTITY_CLAUSES = ("All India Financial Institutions", "Commercial Banks",
+                   "Commercial Bank")
+
+
 def extract_topic(title: str) -> str:
     """The regulated subject, normalized for matching amendments to their parent.
 
     'Reserve Bank of India (All India Financial Institutions (AIFIs) - Prudential
     Norms on Capital Adequacy) Second Amendment Directions, 2026'
         -> 'prudential norms on capital adequacy'
+    'Reserve Bank of India (Commercial Banks - Prudential Norms on Capital
+    Adequacy) Directions, 2025'  ->  'prudential norms on capital adequacy'
+
+    The entity itself is deliberately NOT part of the topic: it is tracked in its
+    own column, and amendment linking is scoped by entity separately (see
+    link_amendments), so the same topic string is expected on both sides.
     """
-    after = title.split("All India Financial Institutions", 1)
-    if len(after) < 2:
-        return ""
+    for clause in _ENTITY_CLAUSES:
+        if clause in title:
+            after = title.split(clause, 1)
+            break
+    else:
+        # No entity clause (a direction addressed to all regulated entities):
+        # the topic is simply the bracketed subject itself.
+        m = re.search(r"Reserve Bank of India\s*\((.*?)\)\s*Directions,", title)
+        return re.sub(r"[^a-z0-9]+", " ", m.group(1).lower()).strip() if m else ""
     tail = after[1]
     tail = tail.replace("(AIFIs)", "")  # drop the nested abbreviation
     tail = tail.lstrip(" -")            # drop the leading dash/spaces
@@ -210,8 +246,13 @@ def extract_topic(title: str) -> str:
 
 
 # --- Per-file processing ---------------------------------------------------
-def process_pdf(path: Path) -> dict:
-    """Read one PDF's first pages and build a manifest row (pre amends-linking)."""
+def process_pdf(path: Path, entity: str = "AIFI", id_prefix: str = "") -> dict:
+    """Read one PDF's first pages and build a manifest row (pre amends-linking).
+
+    entity/id_prefix come from the source root (see config.SOURCE_ROOTS). The
+    prefix namespaces doc_ids per entity — required because 11 filenames collide
+    between the AIFI and Commercial Bank corpora.
+    """
     rel_path = path.relative_to(PROJECT_ROOT).as_posix()
     division = path.parent.name
     notes: list[str] = []
@@ -260,7 +301,8 @@ def process_pdf(path: Path) -> dict:
         notes.append(appl_note)
 
     return {
-        "doc_id": slugify(path.stem),
+        "doc_id": id_prefix + slugify(path.stem),
+        "entity": entity,
         "division": division,
         "doc_type": doc_type,
         "title": title,
@@ -282,13 +324,22 @@ def process_pdf(path: Path) -> dict:
 
 def link_amendments(rows: list[dict]) -> None:
     """Second pass: point each amendment's `amends` at its parent master
-    direction, matched by regulated topic (falls back to same division)."""
-    masters = [r for r in rows if r["doc_type"] == "master_direction"]
+    direction, matched by regulated topic (falls back to same division).
+
+    Matching is scoped to the amendment's OWN entity. Both corpora carry the
+    same topics (both have a "Prudential Norms on Capital Adequacy" master), so
+    without this scope a Commercial Bank amendment could attach to the AIFI
+    master — silently corrupting the supersedence chain that "amendments are
+    final" depends on, and letting an AIFI answer inherit a Commercial Bank rule.
+    """
+    all_masters = [r for r in rows if r["doc_type"] == "master_direction"]
 
     for row in rows:
         if row["doc_type"] != "amendment":
             continue
 
+        # Only ever consider parents regulating the same kind of institution.
+        masters = [m for m in all_masters if m["entity"] == row["entity"]]
         topic = row["_topic"]
         candidates = [m for m in masters if m["_topic"] == topic]
 
@@ -311,26 +362,35 @@ def link_amendments(rows: list[dict]) -> None:
 
 
 def main() -> int:
-    if not SOURCE_DIR.exists():
-        print(f"ERROR: source folder not found: {SOURCE_DIR}", file=sys.stderr)
-        return 1
+    # Walk every configured source root; each maps to one regulated entity.
+    jobs: list[tuple[str, Path, str]] = []
+    for entity, root, prefix in SOURCE_ROOTS:
+        if not root.exists():
+            print(f"WARNING: source folder not found, skipping: {root}",
+                  file=sys.stderr)
+            continue
+        found = sorted(root.rglob("*.pdf"))
+        if not found:
+            print(f"WARNING: no PDFs under {root}", file=sys.stderr)
+            continue
+        print(f"Found {len(found)} PDFs under '{root.name}' -> entity={entity}")
+        jobs += [(entity, p, prefix) for p in found]
 
-    pdf_paths = sorted(SOURCE_DIR.rglob("*.pdf"))
-    if not pdf_paths:
-        print(f"ERROR: no PDFs found under {SOURCE_DIR}", file=sys.stderr)
+    if not jobs:
+        print("ERROR: no PDFs found in any source root.", file=sys.stderr)
         return 1
-
-    print(f"Found {len(pdf_paths)} PDFs under '{SOURCE_DIR.name}'. Parsing...\n")
+    print(f"\nParsing {len(jobs)} PDFs...\n")
 
     rows: list[dict] = []
-    for path in pdf_paths:
+    for entity, path, prefix in jobs:
         try:
-            rows.append(process_pdf(path))
+            rows.append(process_pdf(path, entity=entity, id_prefix=prefix))
         except Exception as exc:  # keep going; flag the failure in the manifest
             print(f"  ! failed to parse {path.name}: {exc}", file=sys.stderr)
             rows.append(
                 {
-                    "doc_id": slugify(path.stem),
+                    "doc_id": prefix + slugify(path.stem),
+                    "entity": entity,
                     "division": path.parent.name,
                     "doc_type": "",
                     "title": "",

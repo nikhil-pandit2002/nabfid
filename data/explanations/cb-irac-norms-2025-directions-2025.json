@@ -1,0 +1,54 @@
+{
+ "key_points": "## Income Recognition, Asset Classification and Provisioning — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/164, dated 2025-11-28)*\n\nThese Directions govern income recognition, asset classification and provisioning for commercial banks to ensure prudent loss recognition and consistent application of credit norms.\n\n### Chapter I — Preliminary\n- **Applicability:** Commercial banks (excluding SFBs, Payment Banks, LABs), corresponding new banks, and SBI. **Dual regime:** these Directions apply alongside RBI (Commercial Banks — Resolution of Stressed Assets) Directions, 2025 for restructured accounts.\n- **Key definitions:** **NPA** = asset ceasing to generate income. **Substandard** = NPA ≤**12 months**. **Doubtful** = substandard **12 months**. **Loss** = loss identified but not written off. **Out of Order (CC/OD):** triggered if (1) balance continuously **>sanctioned limit 90 days**, or (2) balance <limit but **no credits 90 days**, or (3) balance <limit but **credits insufficient to cover interest 90 days**. **Overdue** = any amount not paid on due date. **Security** = tangible security charged; **excludes guarantees**. **Unsecured exposure** = realisable security value **≤10% ab-initio** of outstanding. **Crop Season** per State Level Bankers' Committee; **long duration** = >1 year.\n\n### Chapter II — Board Policy & General Instructions\n- **Board-approved policy** must specify: income recognition on objective recovery basis; floating provision levels and extraordinary deployment circumstances; standard asset provisioning above minimum; external agency guidelines; credit review/renewal methodology and periodicity; exception delegation for automation overrides.\n- **Loan Agreements (sanctioned on/after 31 December 2021):** specify exact due dates, repayment frequency, principal/interest breakup, SMA/NPA classification examples; borrower apprised at sanction, changes, and through repayment; moratorium loans must show exact repayment commencement date.\n- **Working Capital:** drawing power covered by current assets; based on stock statements **not older than 3 months** for large borrowers; irregularity triggered if stock statements **>3 months** old.\n- **Credit Review/Renewal:** regular and ad hoc limits reviewed **≤3 months** from due date; delays **>6 months not desirable**; data captured in core banking system; ad hoc/short renewals without justification avoided.\n- **Stock Audit & Collateral Valuation (NPAs ≥₹5 crore):** annual stock audit by external agencies (Board-approved); immovable property valued once **every 3 years**.\n- **Consumer Education:** banks place literature on website explaining overdue, SMA, NPA, day-end process; display in branches; educate front-line officers at sanction/disbursal/renewal.\n\n### Chapter III — Asset Classification & Automation\n- **Classification:** accounts classified as **Standard Asset** or **Non-Performing Asset (NPA)**.\n- **Day-End Process:** overdue flagged irrespective of process timing; SMA/NPA classification date = calendar date of day-end process; illustration: **30 days overdue = SMA-1**, **60 days = SMA-2**, **90 days = NPA**.\n- **Automation (Paragraph 36–40):** all borrowal accounts (irrespective of size, sector, limit type) and bank investments **automated in IT-based system** for asset classification, upgradation, provisioning. System configured per regulatory norms; provisioning calculation system-based; income recognition for NPAs/NPIs **system-driven without manual intervention**; classification status **updated daily at day-end**.\n- **Exceptions to Automation:** manual overrides **only by 2-level authorisation** per Board-approved policy, suitably documented with audit trails, logged with date/time/user ID/reason, stored **minimum 3 years**. **Exceptions minimal and temporary**; detailed reports to Audit Committee regularly.\n- **System Audit:** annual audit by Internal/External Auditors covering parameters, compliance to norms.\n\n_Verify specific applicability to NaBFID against AIFI directions with your compliance team._",
+ "implications": "# Why NaBFID Should Monitor This Commercial Banks Direction\n\n**Benchmark relevance:** RBI's Commercial Banks directions on asset classification and provisioning establish the regulatory standard against which AIFI prudential requirements are calibrated and justified. Even though NaBFID operates under separate AIFI directions, understanding the commercial banks framework helps your teams contextualise how RBI expects financial institutions to classify stressed assets and build reserves.\n\n**Cross-reference risk:** Some AIFI directions explicitly adopt or reference the Commercial Banks directions. Provisions on NPA recognition timelines, provisioning rates, or restructuring norms may incorporate the commercial banks rules by reference, making them binding on NaBFID unless the AIFI direction explicitly carves out an exemption. This must be verified against the current NaBFID AIFI Directions and confirmed with your compliance function—do not assume a blanket exemption.\n\n---\n\n## Illustrative Example (Infrastructure Lending Context)\n\nSuppose NaBFID finances a 15-year toll-road PPP project with a 2-year construction phase. A concessionaire misses an interest coupon by 45 days during construction. Under the commercial banks direction, a 90-day past-due rule typically triggers NPA classification. *If* the NaBFID AIFI direction cross-refers to or mirrors this threshold, NaBFID's asset classification team must apply the same 90-day rule—even though infrastructure projects often have payment cycles tied to revenue milestones rather than calendar dates. Understanding the commercial banks baseline helps NaBFID's credit teams anticipate how RBI will view restructuring or moratorium requests.\n\n---\n\n**Next step:** Confirm applicability by cross-checking the current NaBFID AIFI Directions (2024 or later) against this commercial banks direction.",
+ "citations": {
+  "key_points": {
+   "3041c5e02007": [
+    1
+   ],
+   "1f995901a0d4": [
+    3
+   ],
+   "8ec1b8d521c2": [
+    5
+   ],
+   "1d27adc162eb": [
+    7
+   ],
+   "1b2c2beb7dcb": [
+    8
+   ],
+   "57f2e359d60a": [
+    8
+   ],
+   "686046df64c2": [
+    9
+   ],
+   "1b6d568b6148": [
+    9
+   ],
+   "0206b963ff47": [
+    10
+   ],
+   "863f936d8e9c": [
+    11,
+    25
+   ],
+   "29c91eb440d4": [
+    12,
+    14
+   ],
+   "77ac538f2cf3": [
+    13
+   ],
+   "4ae071b9ff10": [
+    14
+   ]
+  },
+  "implications": {
+   "281d1312ae82": [
+    1
+   ]
+  }
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "key_points": "## Credit Information Reporting — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/156, dated 2025-11-28)*\n\nThese directions require commercial banks to report credit information systematically to Credit Information Companies to enable prudent lending decisions and borrower risk assessment.\n\n### Chapter I — Preliminary\n- **Applicability:** Commercial Banks (banking companies other than Small Finance Banks, Payment Banks, and Local Area Banks; corresponding new banks; State Bank of India). **Note:** AIFIs are not directly bound; confirm applicability to NaBFID with compliance.\n- **Effective date:** Immediate.\n- **Credit Information Companies (CICs):** Four registered CICs: CRIF High Mark (25 Nov 2010), Equifax (26 Mar 2010), Experian (17 Feb 2010), TransUnion CIBIL (5 Mar 2012).\n\n### Chapter II — Membership\n- **Mandatory membership:** All four registered CICs.\n- **One-time membership fee:** **≤ ₹10,000 per CIC**.\n- **Annual membership fee:** **≤ ₹5,000 per CIC**.\n\n### Chapter III — Credit Information Reporting\n- **Data formats:** Uniform Credit Reporting Format (UCRF) (Annex I): Form 1 (Consumer), Form 2 (Commercial), Form 3 (MFI/SHG).\n- **Reporting schedule:** Fortnightly, as on the **15th and last day of each month**, submitted within **7 calendar days**. Shorter intervals permitted if mutually agreed. No repayment instances (including last instalment) left unreported.\n- **Consent requirement:** No longer required under CICRA; banks need not insist on obtaining consent.\n- **Mandatory reporting practices:**\n  - **Commercial segment:** CIN and credit history of **all directors (by DIN)**.\n  - **Compromise settlements:** Report cases and reason for settlement.\n  - **Part instalment overdue:** Submit as-is; qualitative filtering done by Specified Users, not the bank.\n  - **\"Settled\" status:** Only where principal **or** interest **or** both have been waived due to financial inability; **not** for wrong debits or contested charges (report as \"disputed\").\n  - **Commercial Papers (CP) — IPA reporting:** Issuing and Payment Agent shall report **fortnightly** (Annex II) and any default; investing banks need **not** report.\n  - **Unhedged Foreign Currency Exposure (UFCE):** Report fortnightly if bank is **solo lender, consortium leader, or largest lender**.\n  - **NCLT/NCLAT cases (IBC 2016):** Report as \"suit-filed\" cases.\n  - **Relationship Segment (RS) data:** Mandatory for accounts **opened on or after 1 July 2018**; report only **Beneficial Owner shareholders** (per RBI KYC Directions, 2025).\n  - **Cross-reporting:** Individual and corporate co-borrowers — consumer data in consumer format; co-borrower data in commercial format.\n- **SHG member-level data (Paragraph 13):** Report all SHG member data in MFI format (Annex I, Form 3).\n  - **Collection thresholds (Annex III, Tables 1–2):** Info collected where total SHG loan exceeds **₹30,000** (Table 1) or up to **₹30,000** (Table 2).\n  - **Reporting threshold:** All individual SHG members under UCRF MFI format (Table 3); credit info collection **restricted to SHG members in loans exceeding ₹1,00,000**.\n  - **Non-credit info:** Collect from **all SHG members, regardless of group loan amount** (Table 4 for new Savings Bank Accounts).\n  - **Systems and outsourcing:** Banks must install systems/procedures; may outsource data collection **provided** RBI Outsourcing Directions, 2025 are followed and bank remains responsible for data correctness.\n  - **NPA monitoring trigger:** Collect detailed info from SHG members with loans **> ₹20,000** if **Gross NPA in SHG segment > 10%** **or** **> bank's overall Gross NPA by 5 percentage points**.\n  - **Non-compliance penalty:** Non-adherence excludes non-compliant SHG loan accounts from priority sector lending eligibility.\n  - **Not loan pre-conditions:** Data requirements **shall not** be made pre-conditions for lending; sincere compliance efforts required.\n  - **Credit decisions on defaulting SHGs/members:** Develop policies; do **not** deny loans solely due to defaults; evaluate individual credit history and economic viability.\n\n### Chapter IV — Post-Cancellation and Data Quality\n- **Licence cancellation (Paragraph 14):** Cancelled-licence banks categorized as \"Credit Institution\" under CICRA § 2(f)(vii); **shall continue reporting** to all four CICs until loan lifecycle completion or wind-up (whichever earlier); **shall have access only to borrowers on-boarded pre-cancellation**; **exempt from annual and membership fees**; applies retroactively to pre-2025 cancellations.\n- **Rejected data rectification (Paragraph 15):** Rectify and re-submit within **7 days** of rejection notice.\n- **Half-yearly DQI review (Paragraph 17):** Half-yearly review of Data Quality Index; report issues and corrective steps to **top management within 2 months** of half-year end.\n- **Correction at source (Paragraph 19):** Maintain arrangements to receive customer rectification requests; correct erroneous data at source.\n- **SARFAESI possession display (Paragraph 21):** Banks that are secured creditors **shall display on website** info on borrowers' secured assets taken into possession under SARFAESI Act, 2002 (Annex IV format).",
+ "implications": "# Why NaBFID Should Care About the Commercial Banks Credit Information Reporting Direction\n\n**Benchmark and Regulatory Reference:**\nAlthough this direction is formally addressed to commercial banks, NaBFID must care about it for two reasons: (1) it sets the benchmark standard that RBI's separate AIFI directions are typically benchmarked against or compared to, helping NaBFID understand where its own obligations may be stricter, looser, or aligned; and (2) RBI's AIFI directions frequently incorporate provisions from the Commercial Banks directions by cross-reference, meaning parts of this direction may directly bind NaBFID depending on what the AIFI credit information reporting direction says.\n\n**Why It Matters for Infrastructure Lending:**\nCredit information reporting ensures that default histories, restructuring events, and loan characteristics flow to credit information companies (CICs). For a long-tenor infrastructure lender like NaBFID, this affects how project defaults or covenant waivers are reported—influencing future borrower creditworthiness and the ecosystem's risk assessment of infrastructure sponsors.\n\n**Illustrative Example:**\nIf NaBFID restructures a highway project loan to extend tenor by two years without a formal default, the Commercial Banks direction may require the bank to report this as a \"restructured advance\" to CICs. NaBFID must verify whether its own AIFI direction cross-refers to this reporting standard or sets a different one—a compliance team check is essential before treating infrastructure restructurings as off-record.",
+ "citations": {
+  "key_points": {
+   "7fd1745e2789": [
+    1
+   ],
+   "a7739b297e8a": [
+    3
+   ],
+   "3a88de8f4269": [
+    4
+   ],
+   "c191c2087cc0": [
+    5
+   ],
+   "7790e980911a": [
+    5
+   ],
+   "9bf6142744a4": [
+    6
+   ],
+   "af8d689881a9": [
+    6
+   ],
+   "085e4c02ecab": [
+    6
+   ],
+   "0274927d37b6": [
+    7
+   ],
+   "85fdc5a2b208": [
+    7
+   ],
+   "403e5691c556": [
+    7
+   ],
+   "7e627dd50af6": [
+    7
+   ],
+   "de6bcac6e060": [
+    7
+   ],
+   "1be2d697f7ba": [
+    8
+   ],
+   "1ac82870410c": [
+    8
+   ],
+   "bf6767c69e03": [
+    8
+   ],
+   "d7220d112ad5": [
+    9
+   ],
+   "64e4a9d6e696": [
+    9
+   ],
+   "966b987543fc": [
+    9
+   ],
+   "e9a63b6d95da": [
+    9
+   ],
+   "64773759cb87": [
+    10
+   ],
+   "646c8921b56c": [
+    10
+   ],
+   "6ef304ded118": [
+    10
+   ],
+   "70f0b8998b81": [
+    7
+   ],
+   "7119f9be4b39": [
+    11
+   ],
+   "578bdc21151e": [
+    12,
+    70
+   ],
+   "661ea30762bf": [
+    13
+   ],
+   "84365de98d3c": [
+    13
+   ],
+   "3e972afe8e0c": [
+    13
+   ]
+  },
+  "implications": {
+   "748989f829c4": [
+    1
+   ],
+   "467722a7d1ae": [
+    63
+   ],
+   "c8a9949a3e82": [
+    11
+   ]
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "key_points": "## Credit Risk Management — Third Amendment Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/47, dated 2026-04-29)*\n\nBanks must incorporate the possible impact of calamities on borrowers into credit assessments to strengthen credit risk evaluation.\n\n### Chapter I — Preliminary\n- **Commencement:** **July 1, 2026**. **Applicability:** all commercial banks subject to RBI's Credit Risk Management Directions. **Note on NaBFID:** applicability depends on whether AIFI Directions cross-refer to this paragraph; confirm with compliance team.\n- **Authority:** Banking Regulation Act, 1949, sections 21 and 35A.\n- **Related amendment:** read in conjunction with the Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Second Amendment Directions, 2026, dated April 29, 2026.\n\n### Chapter II — New Paragraph 12A: Credit Assessments and Calamity Impact\n- **Obligation:** a bank **shall suitably factor in the possible impact of calamities** on borrowers who may be impacted by such events in its credit assessments.\n- **Scope:** applies to all **credit assessments carried out by a bank**; no stated exceptions or exemptions.\n- **Methodology:** qualitative requirement; banks have discretion in methodology but must apply reasonable judgment, evaluate borrower-specific and sector-specific exposure to calamity risk (including geographical and operational factors), and document the consideration.\n\n_Verify applicability to your institution with the compliance team before acting._",
+ "what_changed": "# RBI/2026-27/47 Amendment Changes (Effective 2026-07-01)\n\n**Amendment Citation:** Reserve Bank of India (Commercial Banks - Credit Risk Management) Third Amendment Directions, 2026, RBI/2026-27/47, dated 2026-04-29\n\n**Effective Date:** 2026-07-01\n\n---\n\n## Change Summary\n\n| Paragraph | Action | Effect |\n|-----------|--------|--------|\n| 12A | Inserted | Banks must factor in the possible impact of calamities on borrowers who may be impacted by such events when carrying out credit assessments. |\n\n---\n\n## Note for NaBFID\n\nAlthough this amendment appears in the Commercial Banks rulebook, since AIFI directions incorporate parts of the Commercial Banks directions by reference, this insertion of Paragraph 12A on calamity impact assessment in credit risk management may flow through to NaBFID's own regulatory framework for supervised entities.",
+ "implications": "# Why NaBFID Should Follow This Commercial Banks Direction\n\n**Benchmark and Regulatory Reference:**\nRBI's Commercial Banks directions on credit risk management establish the regulatory baseline that AIFI-specific directions are calibrated against. NaBFID's own credit risk framework is designed to align with or adapt these principles, so understanding them clarifies the \"comparator standard\" that RBI expects. Additionally, AIFI directions (particularly NaBFID's own Master Direction) often incorporate portions of the Commercial Banks directions *by reference*, meaning parts may directly apply to NaBFID unless the AIFI direction explicitly carves out an exception.\n\n**Why It Matters in Practice:**\nEven where NaBFID has lighter rules, knowing the Commercial Banks standard helps identify where RBI has granted relief and why—and alerts you to areas where NaBFID's compliance obligations may be stricter or broader than the commercial banking norm (for example, in long-tenor project finance counterparty concentration).\n\n---\n\n### Illustrative Example\n*A Commercial Bank may be required under the direction to impose certain exposure caps on a single infrastructure project counterparty. NaBFID, by contrast, may have a different cap suited to its 15–20 year lending horizon. Understanding the Commercial Banks cap clarifies what \"prudent credit risk\" means at the outset, against which NaBFID's own cap is reasoned.*\n\n---\n\n**⚠ Important:** Confirm with your compliance team which specific provisions of this direction bind NaBFID; do not assume all apply without checking the AIFI Master Direction.",
+ "citations": {
+  "key_points": {
+   "4e2c6a8a6c8b": [
+    1
+   ],
+   "43abca60259b": [
+    1
+   ],
+   "902fb9a77c71": [
+    1
+   ],
+   "0e72fa6a0caf": [
+    1
+   ],
+   "b133187323a5": [
+    1
+   ],
+   "78ae594cf28d": [
+    1
+   ]
+  },
+  "what_changed": {
+   "029044617868": [
+    1
+   ],
+   "9993d4c9efd5": [
+    1
+   ],
+   "b3c9f6c1f33f": [
+    1
+   ]
+  },
+  "implications": {
+   "748989f829c4": [
+    1
+   ],
+   "8319a0104e85": [
+    1
+   ],
+   "fa358a5654ee": [
+    1
+   ],
+   "448d17a48466": [
+    1
+   ]
+  }
+ }
+}

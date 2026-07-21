@@ -1,0 +1,264 @@
+{
+ "key_points": "## Credit Risk Management — Directions, 2026 — Detailed Compliance Guide\n*(RBI/2025-26/173, dated 2026-01-05)*\n\nEstablishes definitions, Board policies, and statutory and regulatory restrictions on lending to related parties, foreign currency exposures, and credit risk governance; effective **1 April 2026** (early implementation permitted).\n\n### Chapter I — Preliminary Definitions\n- **Committee on Lending to Related Parties:** Board committee (may be existing, not Audit Committee) sanctioning related-party loans.\n- **Lending:** **funded and/or non-fund-based credit facilities** to related parties; **excludes equity** investments.\n- **Related Party:** a related person, reciprocally related person, or entity where such person is partner/manager/KMP/director/promoter; holds **>10%** paid-up equity or **>20%** voting rights; has control; nominates a director (except via lending arrangement); is accustomed to act on advice (except professional); is guarantor; is trustee/author/beneficiary of private trust; or is subsidiary/parent/holding/associate/JV. **Exception:** Government-owned entities not related to govt-owned bank by common ownership alone.\n- **Related Person:** promoter, director, or KMP of bank; owns **>5%** paid-up equity or can exercise **>5%** voting rights (via ownership, voting agreement, or arrangement); can nominate director; or singly/jointly controls bank; and their relatives.\n- **Reciprocally Related Person:** director (excl. independent/nominee from Govt/RBI/statutory body) of another commercial bank, AIFI, scheduled cooperative bank, or subsidiary of commercial bank; trustee of mutual fund or AIF established by aforesaid; or relative thereof.\n- **Relative:** per Section 2(77) Companies Act, 2013 and rules thereunder.\n- **Specified Employees:** all employees **up to two levels below Board**, and any employee designated by bank policy.\n- **Promoter, Control, Person, KMP, Entity:** per Companies Act, 2013 and IBC, 2016 as specified.\n\n### Chapter II — Board-Approved Policies\n- **Comprehensive Credit Risk Management Policy required** covering: lending to related parties; country risk; unhedged foreign currency exposures; property valuation and valuer empanelment; current accounts and CC/OD opening.\n- **Note on NaBFID:** confirm with compliance whether AIFI amendment directions incorporate this requirement by reference.\n\n### Chapter IV — Statutory Restrictions (Section 20, Banking Regulation Act, 1949)\n- **Foreign banks:** shall comply with Section 20 spirit; **shall NOT lend** to firm/company if director has interest or company is subsidiary of parent where director is interested.\n- **15A(2)(i) — Pre-Appointment Advances:** facilities granted before directorship may continue; **post-appointment, no renewal, enhancement, or term change** until director relinquishes office.\n- **15A(2)(ii) — Loans to Public Trusts:** permitted where trustee is bank director.\n- **15A(2)(iii) — Loans Against Securities:** advances to director against govt securities, life insurance, fixed deposits; loan-to-value **≤100%** of realisable value.\n- **15A(2)(iv) — Personal Loans to Directors:** permitted if allowed to employees under policy or part of approved compensation; interest rate **≥ employee rate**.\n- **15A(2)(v) — Non-Fund-Based Facilities:** fully secured by **cash collateral of equivalent or higher value** (cash collateral **not required** for derivative exposures).\n- **15A(2)(vi) — CCP Line of Credit:** permitted to qualifying CCP licensed to operate as CCP and permitted by appropriate regulator.\n\n### Chapter V — Regulatory Restrictions\n- **42A:** Section sets prudent risk-management principles for loans to related parties.\n- **42B:** Board responsible for mechanisms and implementation of related-party lending policy.\n- **42C:** Credit policy **shall contain specific provisions** on related-party lending with **additional safeguards**.\n- **42D:** Policy **shall have specific provisions** for lending to specified employees and relatives.\n- **42E:** Policy **shall include whistleblowing mechanism** encouraging confidential reporting of irregular/unethical related-party loans without reprisal.\n- **42F:** Policy **shall specify aggregate and sub-limits** (single counterparty, group) **within extant prudential exposure limits**.\n- **42G — Spouses and Dependents of Directors:** Section 20 restrictions apply; **exception:** spouse with independent income may receive loan on standard procedures, commercial terms, arm's-length basis.\n- **42H — Absolute Prohibition:** **NO exposure** (funded/non-fund/equity/debt) to promoters and relatives, **10%+ shareholders**, and entities with their significant influence/control. **Exception:** financial institutions, scheduled banks, foreign portfolio investors, mutual funds holding **≥10%** as non-strategic investment without control.\n- **42I — Materiality Threshold (individual transaction level):** loans to related parties (unless cash-secured, LTV-compliant, or interbank) subject to threshold **not exceeding:** **₹25 crore** (bank assets **>₹10,00,000 crore**); **₹10 crore** (**≥₹1,00,000 to ₹10,00,000 crore**); **₹5 crore** (**<₹1,00,000 crore**). Asset size per last audited balance sheet.\n- **42J:** Thresholds **may vary by loan category** per bank policy.\n- **42K:** loans **above threshold** sanctioned by Board or Committee on Lending to Related Parties; **below threshold** by appropriate authority.\n\n*Verify applicability to NaBFID and other AIFIs with compliance team before implementation.*",
+ "what_changed": "# Changes Made by RBI/2025-26/173 (Amendment Directions, 2026)\n**Effective Date: April 1, 2026**\n\n---\n\n## Chapter I – Preliminary\n\n**Paragraph 4(1) – Inserted** new definitions:\n- 'Committee on lending to related parties' — Board committee for sanctioning loans to related parties\n- 'Contract or arrangement' — per Companies Act 2013, Section 188(1)(a)–(g)\n- 'Control' — per Companies Act 2013, Section 2(27)\n- 'Director of a bank' — per Banking Regulation Act 1949, Section 20(b); includes nominee and independent directors\n- 'Entity' (in related party context) — person other than individual or HUF\n- 'Key Managerial Personnel (KMP)' — per Companies Act 2013, Section 2(51)\n- 'Lending' (in related party context) — funded/non-fund-based credit to related parties; includes debt instrument investments but excludes equity\n- 'Person' — per Insolvency and Bankruptcy Code 2016, Section 3(23)\n- 'Promoter' — per Companies Act 2013, Section 2(69)\n- 'Reciprocally Related Person' — individual who is director (excluding independent/govt-appointed nominee directors) of another commercial bank, AIFI, scheduled cooperative bank, or subsidiary thereof; trustee of mutual fund/AIF; or relative of such persons\n- 'Related Party' — related person, reciprocally related person, or entity where such person is partner/manager/KMP/director/promoter; shareholder with >10% equity; has control; controls >20% voting rights; has director nomination power; follows directions of such person; is guarantor/surety; is trustee/author/beneficiary of private trust; or is subsidiary/parent/holding/associate/joint venture. Exceptions: director nomination from lending arrangement does not apply; professional advice excluded; govt entities not treated as related parties to govt banks.\n- 'Related Person' — person and relatives where person is promoter/director/KMP; owns >5% equity or voting rights; can nominate director; or has control\n- 'Specified employees' — employees up to two levels below Board, plus any designated per bank policy\n\n**Paragraph 4(1)(xiv) – Substituted:** 'Personal Loan' definition now per Banking Statistics (Harmonised Definitions)\n\n**Paragraph 4(1)(xv) – Substituted:** 'Relative' definition now per Companies Act 2013, Section 2(77) and rules\n\n---\n\n## Chapter II – Board Approved Policies\n\n**Paragraph 5 – Substituted:** Banks must have comprehensive Board-approved Credit Risk Management policy covering lending to related parties, country risk management, unhedged foreign currency exposures, property valuation and valuer empanelment, and opening of current/CC/OD accounts.\n\n---\n\n## Chapter IV – Statutory Restriction\n\n**Paragraph 15 – Deleted**\n\n**Paragraph 15A – Inserted** (new paragraph with explanations under Section 20(4) of Banking Regulation Act 1949):\n- Foreign bank branches in India shall not lend to firms/companies if a foreign board director has interest or if company is subsidiary of parent in which director is interested\n- Exceptions to restrictions in paragraph 14:\n  - Loans to companies with director interest if granted before director's appointment; but no renewal, enhancement, or term changes allowed until director relinquishes position\n  - Advances to public trusts where trustee is director\n  - Loans to directors against govt securities/life insurance/fixed deposits (within LTV limits)\n  - Personal loans to directors as permitted to employees or per approved compensation package (same interest rate as employees)\n  - Non-fund-based facilities for directors/related parties fully secured by cash collateral (waived for derivatives)\n  - Line of credit/overdraft to qualifying central counterparties (QCCP) classified as related parties\n\n**Section B.2 and Paragraphs 16, 17, 18, 19 – Deleted**\n\n---\n\n## Chapter V – Regulatory Restrictions\n\n**Sections A, A.1, B and Paragraphs 24–42 – Deleted**\n\n**New Section B.1 (Paragraphs 42A–42T) – Inserted:**\n\n**B.1.1 – General Principles:**\n- **42A:** Section sets out principles for prudent risk management of loans to related parties\n- **42B:** Board responsible for implementation mechanisms\n- **42C:** Credit policy must contain provisions on lending to related parties with additional safeguards\n- **42D:** Policy must address lending to specified employees and their relatives\n- **42E:** Policy must include whistleblowing mechanism for irregular/unethical loans and eliminate quid pro quo\n- **42F:** Policy must specify aggregate limits, sub-limits for single/group related parties, within RBI prudential exposure limits\n\n**B.1.2 – Regulatory Prohibitions:**\n- **42G:** Paragraph 14 restrictions also apply to spouses and minor/dependent children of bank directors; exception where spouse has independent income and facility is on standard/arm's-length terms\n- **42H:** No exposure (including equity/debt investments) to promoters, their relatives, shareholders with ≥10% equity, or entities where they have significant influence/control (per Ind AS 28/110); exception for financial institutions, scheduled commercial banks, foreign portfolio investors, mutual funds holding ≥10% as non-strategic investment without control\n\n**B.1.3 – Materiality Threshold:**\n- **42I:** Loans above materiality threshold (except cash-secured loans and interbank loans) subject to ceilings by asset size:\n  - >₹10,00,000 crore: ₹25 crore\n  - ₹1,00,000–10,00,000 crore: ₹10 crore\n  - <₹1,00,000 crore: ₹5 crore\n- **42J:** Thresholds may vary by loan category per policy\n- **42K:** Loans above threshold sanctioned by Board or Committee on Lending to Related Parties; below threshold by delegated authority\n\n**B.1.4 – Recusal of Interested Parties:**\n- **42L:** Directors, KMP, specified employees must recuse from deliberations on loans involving themselves/related parties, including material changes, settlements, write-offs, waivers, security enforcement, resolution plans\n\n**B.1.5 – Monitoring:**\n- **42M:** Bank must maintain and update list of related persons and related parties and loans sanctioned to them\n- **42N:** Loans to specified employees and relatives reported annually to Board\n- **42O:** Quarterly or shorter internal audit reviews to check adherence to related party lending guidelines\n- **42P:** Deviations from related party policy reported to Audit Committee\n- **42Q:** Products/structures formed to circumvent Directions (reciprocal lending, quid pro quo) identified by auditors/supervisors treated as related party lending\n\n**B.1.6 – Others:**\n- **42R:** Listed banks must comply with SEBI Listing Regulations 2015 on related parties\n- **42S:** Banks must adhere to Chapter VI (Prudential Limits on Intra-Group Transactions) of RBI Commercial Banks - Concentration Risk Management Directions 2025\n\n**B.1.7 – Enforcement:**\n- **42T:** Non-compliance/circumvention results in RBI enforcement actions: monetary penalties, full provisioning, staff accountability, forensic audits, transaction restrictions\n\n---\n\n## Implementation\n\n**Effective: April 1, 2026** (banks may implement earlier)\n\n**Transition:** Existing related party transactions non-conforming to amendments as of amendment date may run to maturity but cannot be renewed/enhanced unless made compliant.\n\n---\n\n## Impact for NaBFID (AIFI)\n\nAlthough this amendment applies to **Commercial Banks**, NaBFID should note that AIFI directions incorporate parts of Commercial Banks directions by reference. Changes to related party lending definitions, materiality thresholds, Board governance, and prohibited exposures (especially to promoters and high-shareholding entities) may flow through to NaBFID's own related party frameworks.",
+ "implications": "# Why This RBI Commercial Banks Direction Matters to NaBFID\n\n**Benchmark Function:** RBI Credit Risk Management directions for commercial banks set the prudential standard against which AIFI frameworks are calibrated. NaBFID's own governance should be understood as typically *stricter or equivalent* to commercial bank norms, not weaker. Tracking commercial bank directions helps NaBFID anticipate regulatory intent and alignment expectations.\n\n**Cross-Reference Risk:** AIFI directions (including NaBFID's) frequently incorporate or reference commercial bank directions by specific clause. Some provisions may bind NaBFID directly if the AIFI direction states \"as per commercial bank direction\" or similar language. **This must be verified against the actual AIFI direction and NaBFID's compliance framework—do not assume a commercial bank rule applies to NaBFID without explicit confirmation.**\n\n---\n\n**Illustrative Example (Infrastructure Context):**  \nIf the 2026 amendment tightens collateral valuation rules for large exposures in commercial banks (e.g., how road-toll securitization pools are risk-weighted), NaBFID should monitor whether a parallel AIFI amendment follows or whether its existing AIFI credit risk direction already mirrors that standard. This affects how NaBFID models capital adequacy on its long-tenor highway or port financing book.\n\n---\n\n**Action:** Cross-check the specific amendment provisions against NaBFID's current AIFI direction (likely RBI/2021-22/155 or successor) and consult compliance before treating any commercial bank rule as binding.",
+ "citations": {
+  "key_points": {
+   "01ff2844c808": [
+    1
+   ],
+   "5c1e0e38eab3": [
+    1
+   ],
+   "ed94172d55e5": [
+    3,
+    7
+   ],
+   "08bebc69289d": [
+    2
+   ],
+   "b26676506693": [
+    2
+   ],
+   "e68faf8eac3c": [
+    3
+   ],
+   "f82ec46d2e9a": [
+    3
+   ],
+   "d34383458766": [
+    2
+   ],
+   "e0716ce75f34": [
+    4
+   ],
+   "81f06d64bead": [
+    4
+   ],
+   "b9113a6b8f93": [
+    4
+   ],
+   "a3800999bac5": [
+    5
+   ],
+   "819101340b8e": [
+    4
+   ],
+   "a3260037c52e": [
+    7
+   ],
+   "0c44d03bda06": [
+    6
+   ],
+   "4fcb9e6e1ad2": [
+    6
+   ],
+   "f780c19857b7": [
+    6
+   ],
+   "72ccbdde058b": [
+    6
+   ],
+   "d3c3708cbba5": [
+    6
+   ],
+   "429fae61eee5": [
+    6
+   ],
+   "b71b23ab5c53": [
+    6
+   ],
+   "f9d3bdd63933": [
+    7
+   ],
+   "d6455c04684d": [
+    7
+   ],
+   "42f3b1e17db8": [
+    7
+   ],
+   "92f6714d88f8": [
+    7
+   ]
+  },
+  "what_changed": {
+   "bfd62894fa7d": [
+    1
+   ],
+   "1b73ba1a13d1": [
+    1
+   ],
+   "62da03bf19d2": [
+    2
+   ],
+   "96c28ec76a4c": [
+    2
+   ],
+   "573e05931f5d": [
+    2
+   ],
+   "5293a5b4e237": [
+    2
+   ],
+   "4970a89f6400": [
+    2
+   ],
+   "f58e5d8c54f6": [
+    3,
+    7
+   ],
+   "d5d2386859e7": [
+    3
+   ],
+   "c09f750de237": [
+    3
+   ],
+   "e7770cd6826c": [
+    3
+   ],
+   "37b84870345e": [
+    4
+   ],
+   "03e25ed5f2b4": [
+    4
+   ],
+   "b06b0700fd8e": [
+    4
+   ],
+   "43252e71bdbc": [
+    4
+   ],
+   "e323477a627d": [
+    4
+   ],
+   "6fd547dd0750": [
+    5
+   ],
+   "c6185e02f77b": [
+    5
+   ],
+   "0dbdfa43506d": [
+    5
+   ],
+   "8eb16f2b7e49": [
+    5
+   ],
+   "d692bdfe6ec9": [
+    5
+   ],
+   "4a50cc460176": [
+    5
+   ],
+   "57d4a5ea81ae": [
+    5
+   ],
+   "bae8a24bf0ab": [
+    6
+   ],
+   "cb035014299f": [
+    6
+   ],
+   "eca5f575524c": [
+    6
+   ],
+   "f3b6427ee900": [
+    6
+   ],
+   "e5e5a12fa9ff": [
+    6
+   ],
+   "30b7b87ef77a": [
+    6
+   ],
+   "50d31edccd40": [
+    6
+   ],
+   "2fc262259d12": [
+    6
+   ],
+   "b345fc724180": [
+    6
+   ],
+   "20b37954cfa8": [
+    7
+   ],
+   "27667a077445": [
+    7
+   ],
+   "cca1aa941c11": [
+    7
+   ],
+   "90bc39faf8da": [
+    7
+   ],
+   "ab5296c35ba1": [
+    7
+   ],
+   "0406920ed63a": [
+    7
+   ],
+   "583e21687531": [
+    7
+   ],
+   "dd95c5d3e7a2": [
+    7
+   ],
+   "0f92e30035b0": [
+    8
+   ],
+   "1867f352d6c4": [
+    8
+   ],
+   "7a73fa90872d": [
+    8
+   ],
+   "21047ee8f932": [
+    8
+   ],
+   "896d2170df16": [
+    8
+   ],
+   "fc571aa0abdb": [
+    8
+   ],
+   "946b609bea5b": [
+    8
+   ],
+   "76793b7a6cbe": [
+    8
+   ],
+   "91fe3152127e": [
+    8
+   ],
+   "20ffe77f5d5b": [
+    8
+   ],
+   "7155c5333a59": [
+    9
+   ],
+   "da85f881103c": [
+    9
+   ],
+   "cedd63561db1": [
+    9
+   ],
+   "9c7c5e95ea2c": [
+    9
+   ],
+   "83a979fe7314": [
+    9
+   ],
+   "d81fdaaab505": [
+    7
+   ]
+  },
+  "implications": {
+   "1556b046019c": [
+    1
+   ],
+   "65c0108844c4": [
+    4
+   ]
+  }
+ }
+}

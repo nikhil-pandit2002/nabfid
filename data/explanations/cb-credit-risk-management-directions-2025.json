@@ -1,0 +1,125 @@
+{
+ "key_points": "## Credit Risk Management — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/157, dated 2025-11-28)*\n\nSets mandatory credit risk appraisal, related-party lending controls, statutory restrictions on director lending, and foreign currency exposure management for commercial banks.\n\n### Chapter I — Preliminary\n- **Commencement & Applicability:** immediate, effective **2025-11-28**. **Scope:** commercial banks (excluding Small Finance Banks, Payment Banks, Local Area Banks). **NaBFID note:** this direction applies to commercial banks; confirm with compliance which specific provisions bind NaBFID via AIFI cross-reference.\n- **Key Definitions (material to credit risk):**\n  - **Bank Guarantee:** financial or performance guarantees issued on behalf of clients.\n  - **Bills Purchased/Discounted:** negotiable instruments giving right to receive fixed sums; purchase = negotiate sight bills; discounting = negotiate usance bills at discount. Inland or Foreign.\n  - **Cash Credit (CC):** running account with credit limit against hypothecation/pledge of current assets; Drawing Power re-determined periodically.\n  - **Overdraft (OD):** facility to draw agreed sum in excess of credit balance; may be secured (fixed deposits, insurance policy, etc.) or clean. On current/savings account or temporary on credit accounts.\n  - **Term Loans:** specified maturity, payable in instalments or bullet.\n  - **Demand Loans:** all loans repayable on demand (CC, OD, bills, etc.) and short-term loans **up to one year**, secured or unsecured.\n  - **Financial Hedge:** derivative contract with financial institution, purpose and strategy documented at inception; hedge effectiveness assessed periodically per accounting standards and ICAI guidance.\n  - **Natural Hedge:** offsetting cash flows within same accounting year (e.g. export receivable vs. external borrowing repayment maturity).\n  - **Unhedged Foreign Currency Exposure (UFCE):** FCE minus effective financial and natural hedges.\n  - **Related Person:** promoter, director, or KMP of bank; owns **>5%** paid-up equity or voting rights; can nominate director; controls bank singly or jointly.\n  - **Reciprocally Related Person:** director (excl. independent/nominee) of another commercial bank, AIFI, or scheduled cooperative bank, or their relative; or trustee of MF/AIF established by such entity.\n  - **Related Party:** entity where related/reciprocally related person is partner, KMP, director, promoter, **>10%** shareholder, controller (singly or jointly), **>20%** voting-rights holder, director-nominator (excl. lending-arrangement nominations), trustee/author/beneficiary of private trust, guarantee, or subsidiary/parent/associate/JV. **Proviso:** GoI/State Government entities NOT related parties to government banks by common ownership alone.\n  - **Major Shareholder:** **≥10%** paid-up capital OR **₹5 crore** in shares, whichever less.\n  - **EBID:** Profit After Tax + Depreciation + Interest on debt + Lease Rentals (if any).\n  - **Smaller Entities:** total banking system exposure **≤₹50 crore**.\n\n### Chapter II — Board-Approved Policies\n- **Comprehensive Credit Risk Management Policy:** bank **shall** have Board-approved policy covering: lending to related parties; country risk; UFCE; property valuation and valuer empanelment; opening of current accounts and CC/OD accounts.\n\n### Chapter III — Credit Risk Evaluation\n- **Guidance Note Compliance:** bank **shall strictly follow** RBI's 'Guidance Note on Credit Risk Management'.\n- **Independent Appraisal:** bank **shall** conduct independent, objective appraisal; **shall not rely** on in-house consultants of borrowing entity.\n- **Sensitivity Testing:** for infrastructure projects, conduct sensitivity tests/scenario analysis incl. project delays and cost overruns; aid DCCO deferment/restructuring decisions.\n- **Equity Source Quality:** ascertain source and quality of promoter/shareholder equity; **ensure debt of parent company is NOT infused as subsidiary/SPV equity**.\n- **Consumer Credit Limits:** review and place Board-approved limits on consumer credit sub-segments; **prescribe limits for all unsecured consumer credit**; monitor via Risk Management Committee.\n- **Credit Information Reports (CIRs):** include CIR provisions in loan policies/appraisal; obtain CIRs from Credit Information Companies for credit decisions.\n- **External Guidance:** follow DoS.CO.PPG.BC.1/11.01.005/2020-21 dated **2020-08-21** (ad-hoc/short review/renewal) and DBS.CO.PPD.BC.No. 5/11.01.005/2010-11 dated **2011-01-14** (end-use monitoring).\n\n### Chapter IV — Statutory Restrictions\n- **Advances Against Own Shares:** **prohibited** (Section **20(1)(a)**, BR Act, 1949).\n- **Advances to Directors:** **prohibited** to director; firm where director is partner/manager/employee/guarantor; company where director is director/managing agent/manager/employee/guarantor or holds substantial interest; individual where director is partner/guarantor (Section **20(1)(b)**, BR Act, 1949).\n- **Foreign Bank Branches:** spirit of Section 20 applies; **shall not** lend to firm/company in India if foreign Board director has interest or company is subsidiary of parent in which director interested.\n- **Exceptions to Director Lending:**\n  - **Prior facilities:** advance granted or commitment made **before** director appointment; facility **may continue but shall NOT** renew at maturity, be enhanced, or have terms changed before maturity.\n  - **Public trusts:** advances to public trust where trustee is bank director permitted.\n  - **Securities-backed loans:** loans to director against government securities, life insurance, fixed deposit; loan-to-value **≤100%** of realisable value or per RBI norms.\n  - **Personal loans:** personal loans to directors permitted per employee policy; interest rate **NOT lower** than employee rate.\n  - **Non-fund-based (NFB):** NFB facility on behalf of director/related party permitted if **fully secured by cash collateral** of equivalent or higher value (cash collateral NOT mandatory for derivatives).\n  - **QCCP facilities:** line of credit/overdraft to qualifying central counterparty licensed and permitted by overseer where QCCP classified as related party.\n- **Debt Remission:** bank **shall not remit** in whole or part debt due by director, firm/company where director interested (director/partner/managing agent/guarantor), or individual where director is partner/guarantor, **except with prior RBI approval** (Section **20A(1)**, BR Act, 1949). Breach renders remission void and bank liable for loss (Section **20A(2)**).\n\n_Verify applicability to NaBFID with compliance team before acting._",
+ "implications": "# Why NaBFID Should Care About This RBI Commercial Banks Direction\n\n**Benchmark and Regulatory Reference:**\nRBI's Commercial Banks Credit Risk Management Directions set the gold standard that AIFI (All-India Financial Institutions) frameworks are calibrated against. Even though NaBFID is not directly bound by commercial bank rules, RBI's AIFI directions often incorporate or cross-reference commercial bank standards, making this direction a critical touchstone for compliance interpretation.\n\n**Binding via AIFI Cross-Reference:**\nSpecific provisions in the AIFI directions (issued under Section 45ZJ of the RBI Act) explicitly incorporate parts of the Commercial Banks directions by reference—so NaBFID must verify the current AIFI direction text to confirm which credit risk management requirements apply directly.\n\n---\n\n## Illustrative Example (Infrastructure Lending Context)\n\n*If this direction tightens provisions on loan classification, provisioning norms, or collateral valuation, NaBFID's long-tenor infrastructure loans—say a 20-year highway project credit—would need to be assessed under any mirrored AIFI requirements. For example, if commercial banks must re-value security annually, and the AIFI direction adopts that standard, NaBFID's asset quality reporting and reserve adequacy would shift accordingly.*\n\n---\n\n**Next Step:** Consult your Compliance team to cross-check the current AIFI direction (not the commercial bank version) to confirm which provisions bind NaBFID directly.",
+ "citations": {
+  "key_points": {
+   "2de0c543e1f0": [
+    1
+   ],
+   "18072c40a5de": [
+    1
+   ],
+   "f892e74f1ed4": [
+    3
+   ],
+   "1df7b6585b25": [
+    3
+   ],
+   "0bb4c1f383ab": [
+    3
+   ],
+   "a230702b0aee": [
+    6
+   ],
+   "a026159641e8": [
+    9
+   ],
+   "21f6577535af": [
+    4
+   ],
+   "c98c81f1beb5": [
+    5
+   ],
+   "67d9f1347e8d": [
+    6
+   ],
+   "98902e8ceb25": [
+    9
+   ],
+   "0e5c636868a0": [
+    7
+   ],
+   "753aacb7d42f": [
+    7
+   ],
+   "16004ca12dbe": [
+    4,
+    7
+   ],
+   "ce4911d11687": [
+    6
+   ],
+   "c16344a6bbf3": [
+    4
+   ],
+   "f9a8f7861279": [
+    9
+   ],
+   "7ab1fcee2ca3": [
+    10
+   ],
+   "7dd5f6994fbf": [
+    11
+   ],
+   "b5b84070fd1e": [
+    11
+   ],
+   "2e3d46fa564f": [
+    11
+   ],
+   "bdd6cc4cb6d9": [
+    11
+   ],
+   "479a8f21d227": [
+    11
+   ],
+   "cc379e65186e": [
+    11
+   ],
+   "f8747a01d615": [
+    12
+   ],
+   "87d57b8b42d2": [
+    13
+   ],
+   "7dd3f984b9bb": [
+    13
+   ],
+   "73d859e2cb18": [
+    13
+   ],
+   "4f36fbda9fdb": [
+    14
+   ],
+   "d21e6295defe": [
+    14
+   ],
+   "8cd3ac8cd3e0": [
+    14
+   ],
+   "08f887fe34a4": [
+    14
+   ],
+   "2aca03042605": [
+    14
+   ],
+   "c4f556318daa": [
+    15
+   ],
+   "d45cfd8daba9": [
+    15
+   ]
+  },
+  "implications": {
+   "748989f829c4": [
+    1
+   ],
+   "5a354755af15": [
+    25
+   ],
+   "78c75a0c9feb": [
+    30
+   ]
+  }
+ }
+}

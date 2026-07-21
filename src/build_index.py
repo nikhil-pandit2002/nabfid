@@ -16,6 +16,13 @@ Run:  python src/build_index.py
 
 from __future__ import annotations
 
+import os
+
+# Indexing is an offline batch job with no memory ceiling, unlike serving — use
+# more onnxruntime threads so embedding the whole corpus doesn't crawl. Must be
+# set before embeddings is imported (it reads this at module load).
+os.environ.setdefault("EMBED_THREADS", str(max(1, (os.cpu_count() or 4) // 2)))
+
 import csv
 import json
 import pickle
@@ -35,9 +42,9 @@ from embeddings import embed_passages
 # Metadata stored alongside each vector / keyword entry (everything a retrieval
 # hit needs for citation + version filtering, minus the chunk text itself).
 META_FIELDS = [
-    "chunk_id", "doc_id", "division", "doc_type", "title", "circular_no",
-    "issue_date", "applicable_from", "consolidated_as_of", "amends",
-    "page_start", "page_end", "section_ref", "char_count",
+    "chunk_id", "doc_id", "entity", "division", "doc_type", "title",
+    "circular_no", "issue_date", "applicable_from", "consolidated_as_of",
+    "amends", "page_start", "page_end", "section_ref", "char_count",
 ]
 
 

@@ -1,0 +1,58 @@
+{
+ "key_points": "## Concentration Risk Management — Commercial Banks, 2026 (Second Amendment) — Detailed Compliance Guide\n*(RBI/2026-27/27, dated 2026-04-27)*\n\nThis amendment requires commercial banks to use Export Credit Guarantee Corporation of India Limited (ECGC) country risk classifications for concentration risk assessment under paragraph 131, replacing any internal or prior classification methodology.\n\n### Chapter I — Preliminary\n- **Applicability:** commercial banks. **Note on NaBFID:** this direction applies to commercial banks; NaBFID applicability depends on whether NaBFID Directions cross-refer to these provisions — confirmation with compliance team required.\n- **Effective date:** **April 1, 2027**. Banks must transition existing paragraph 131 country risk assessments to ECGC classifications by this date.\n\n### Chapter II — Amendment to Paragraph 131\n- **Requirement:** banks shall refer to country risk classifications **as published by the Export Credit Guarantee Corporation of India Limited (ECGC)**.\n- **Currency:** classifications must be applied **as amended from time to time** — banks must monitor and apply ECGC updates without awaiting further RBI direction.\n- **Scope:** country risk classifications are material to concentration risk limits and thresholds; use of alternative internal or prior methodologies is not permitted for this purpose.\n- **Compliance obligation:** establish documented access to current ECGC classifications; monitor ECGC channels for periodic updates; reclassify existing country risk exposures by **April 1, 2027**; document ECGC as the source in concentration risk reporting.\n\n*Verify current ECGC country risk classifications and review the full Concentration Risk Management Directions, 2025 before applying.*",
+ "what_changed": "# Changes Under RBI/2026-27/27 (dated 2026-04-27)\n\n**Effective Date:** April 1, 2027\n\n---\n\n## Change Summary\n\n| Provision | Action | Effect |\n|-----------|--------|--------|\n| **Paragraph 131 – Explanation** | **Substituted** | The Explanation is amended to specify that banks must refer to country risk classifications **as published by the Export Credit Guarantee Corporation of India Limited (ECGC), as amended from time to time**, for purposes of applying paragraph 131's concentration risk requirements. |\n\n---\n\n## Notes for NaBFID (AIFI Reader)\n\nAlthough this amendment appears in the **Commercial Banks rulebook**, it may flow through to NaBFID's directions on concentration risk management, as AIFI directions typically incorporate or reference relevant parts of the Commercial Banks directions. Any changes to how country risk is classified under concentration risk frameworks could affect NaBFID's parallel obligations, depending on the extent of such incorporation in AIFI-specific directions.",
+ "implications": "# Why NaBFID Should Track This RBI Commercial Banks Direction\n\n**Benchmark and Regulatory Reference:**\nRBI Commercial Banks directions on concentration risk management set the regulatory baseline that AIFI directions are typically measured against and compared to. Additionally, NaBFID's own AIFI directions often incorporate provisions from the Commercial Banks framework by reference or cross-reference specific Commercial Banks rules, meaning some requirements may bind NaBFID either directly or as the foundation for tailored AIFI requirements. You should review NaBFID's own concentration risk direction to confirm which parts of this Commercial Banks amendment apply to your operations.\n\n**Why It Matters in Practice:**\nConcentration risk limits (whether on single exposures, industry groups, or collateral types) affect how much long-tenor infrastructure capital you can deploy to large projects or sectors. Changes to RBI's concentration thresholds or methodology for commercial banks often signal the regulatory direction on what prudent limits look like, even if NaBFID's own limits differ.\n\n---\n\n## Illustrative Example (Infrastructure Context)\n\n*A major highway PPP project requires ₹500 cr from NaBFID. RBI's revised Commercial Banks concentration direction tightens single-exposure limits from 25% to 20% of capital. While NaBFID may operate under different thresholds, this signals tightening regulatory sentiment on large exposures. Your compliance team must check whether NaBFID's own AIFI direction incorporates or references this amendment, and whether your exposure to the project or the transport sector remains within approved limits.*\n\n---\n\n**Next step:** Confirm applicability with your compliance and risk teams using the NaBFID AIFI direction.",
+ "citations": {
+  "key_points": {
+   "518a608aa195": [
+    1
+   ],
+   "0f483c1f71b9": [
+    1
+   ],
+   "62c49604c83a": [
+    1
+   ],
+   "0de6b8f4317f": [
+    1
+   ],
+   "046a2e328cfe": [
+    1
+   ],
+   "d072ee8b7f10": [
+    1
+   ],
+   "54938dc9e07c": [
+    1
+   ],
+   "bea3da3a3aa0": [
+    1
+   ]
+  },
+  "what_changed": {
+   "ce7fd714b625": [
+    1
+   ],
+   "7c0bbe60c73e": [
+    1
+   ],
+   "27781479209b": [
+    1
+   ]
+  },
+  "implications": {
+   "748989f829c4": [
+    1
+   ],
+   "792c81447a13": [
+    1
+   ],
+   "bc7a8f667914": [
+    1
+   ],
+   "235ea5d91af6": [
+    1
+   ]
+  }
+ }
+}

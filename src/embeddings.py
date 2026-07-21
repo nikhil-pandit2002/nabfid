@@ -16,11 +16,18 @@ move later: ONNX runs anywhere, with no torch to install.
 
 from __future__ import annotations
 
+import os
 from functools import lru_cache
 
 from fastembed import TextEmbedding
 
 from config import EMBED_MODEL, BGE_QUERY_PREFIX, MODELS_DIR
+
+# Serving default is 1 thread: the free host has 1-2 vCPUs, so extra
+# onnxruntime workers buy no speed but each keeps its own memory arena, and the
+# app runs near a hard ~1 GB ceiling. Offline index builds have no such limit
+# and are pure throughput, so build_index.py sets EMBED_THREADS higher.
+_THREADS = int(os.getenv("EMBED_THREADS", "1"))
 
 
 @lru_cache(maxsize=1)
@@ -29,11 +36,9 @@ def _model() -> TextEmbedding:
 
     cache_dir=MODELS_DIR: the weights ship inside the repo, so this loads from
     disk and never downloads (see config.MODELS_DIR).
-    threads=1: the free host has 1-2 vCPUs, so extra onnxruntime worker threads
-    buy no speed but each keeps its own memory arena.
     """
     return TextEmbedding(model_name=EMBED_MODEL, cache_dir=str(MODELS_DIR),
-                         threads=1)
+                         threads=_THREADS)
 
 
 def embed_passages(texts: list[str]) -> list[list[float]]:

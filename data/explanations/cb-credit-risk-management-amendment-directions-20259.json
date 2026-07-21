@@ -1,0 +1,192 @@
+{
+ "key_points": "## Credit Risk Management Amendment — Directions, 2026 — Detailed Compliance Guide\n*(RBI/2025-26/141, dated 2025-12-11)*\n\nAmends Chapter XI of the Commercial Banks – Credit Risk Management Directions, 2025 to establish eligibility and operational rules for maintaining Cash Credit, Current, and Overdraft accounts, effective **April 1, 2026**.\n\n### Chapter I — Preliminary\n- **Scope:** These provisions govern Cash Credit (CC) accounts, Current Accounts, and Overdraft (OD) accounts maintained by commercial banks, including SFBs, LABs, and RRBs (excludes Payments Banks).\n- **Commencement:** **April 1, 2026**; voluntary early implementation permitted.\n- **Key definitions:** **Banking System** = commercial banks + urban/rural co-operatives (excludes Payments Banks). **Exposure** = sum of all sanctioned fund-based and non-fund-based facilities. **Designated Account** = CC, Current, or OD account designated by the borrower to receive remitted collection account funds. **Collection Account** = Current or OD account restricted to receipts; outflows subject to remittance rules.\n\n### Chapter II — Account Eligibility Framework\n- **CC Accounts:** Banks **may provide without restriction**; no quota or threshold applies (RBI/2025-26/141).\n- **Low-Exposure Borrowers (< ₹10 crore):** Current/OD accounts **may be maintained without restriction** (RBI/2025-26/141).\n- **High-Exposure Borrowers (≥ ₹10 crore):** Eligibility requires **≥10% share in banking system's aggregate exposure, OR ≥10% share in aggregate fund-based exposure** (RBI/2025-26/141).\n  - **Proviso 1:** If no bank meets 10% threshold, **two largest-exposure banks may maintain accounts** (RBI/2025-26/141).\n  - **Proviso 2:** If sole lender exists, **one additional bank of customer's choice permitted with NOC from sole lender** (RBI/2025-26/141).\n  - **Proviso 3:** If no SCB meets 10% criteria, **one SCB of customer's choice may maintain account with NOCs from all banking system lenders** (RBI/2025-26/141).\n\n### Chapter III — Collection Accounts & Restricted Operations\n- **Ineligible banks:** Must maintain **collection accounts only** (RBI/2025-26/141).\n- **Fund remittance:** Funds credited to collection accounts **shall be remitted within two working days to any designated account** (RBI/2025-26/141).\n- **OD disbursements:** OD draws from collection accounts **routed through designated account only** (RBI/2025-26/141).\n- **Exception:** **Statutory dues and bank dues may be debited before remitting** (RBI/2025-26/141).\n\n### Chapter IV — Exemptions from Eligibility Criteria\n- **91G(1):** FEMA-mandated accounts exempt from 10% share requirement (RBI/2025-26/141).\n- **91G(2):** Accounts mandated by statute or by RBI, SEBI, IRDAI, PFRDA exempt (RBI/2025-26/141).\n- **91G(3):** Accounts of regulated entities used for regulated activities exempt; **surplus funds remitted to designated account** (RBI/2025-26/141).\n\n### Chapter V — Product-Specific Accounts (91H)\n- **Eligible even if ineligible under 91D(1)** if justified by Board-approved product policy (RBI/2025-26/141).\n- **Restrictions:** Transactions limited to specified purpose; **no cash, discretionary debits, cards, or cheque books** (RBI/2025-26/141). **Surplus remitted to designated account** (RBI/2025-26/141).\n- **Anti-circumvention:** Banks **shall implement safeguards against misuse as Current Account substitutes or for fund diversion** (RBI/2025-26/141).\n\n### Chapter VI — Monitoring & Compliance\n- **Biannual review:** Banks **shall monitor all maintained accounts at least once every half-year** for ongoing eligibility (RBI/2025-26/141).\n- **Ineligibility triggers (91J):** Exposure crosses ₹10 crore, or bank's share drops below 10%, or NOC withdrawn.\n- **Notification:** **Within one month of observing ineligibility** (RBI/2025-26/141).\n- **Conversion/closure:** **Complete within three months** (RBI/2025-26/141).\n- **CBS flagging:** Accounts **appropriately flagged in CBS by account type, eligibility basis, exemption, and restrictions**; borrower-level consolidated monitoring mandatory (RBI/2025-26/141).\n\n### Chapter VII — Prohibited Usage\n- **Pass-through restriction:** Accounts **not used as pass-through channels for third-party transactions except where expressly licensed/authorized by RBI, SEBI, IRDAI, PFRDA**; licensed entities' scope strictly limited to authorized activities; CBS-flagged (RBI/2025-26/141).\n- **Unlicensed activity prevention:** Accountholders not licensed for deposits/payment services **cannot use accounts for such activities** (RBI/2025-26/141).\n- **Monitoring systems:** Robust systems **detect unusually high volumes, pass-through patterns, and business inconsistencies** (RBI/2025-26/141).",
+ "what_changed": "# Changes Made by RBI/2025-26/141 (dated 2025-12-11)\n\n**Effective Date: 2026-04-01**\n\n---\n\n## Chapter XI – Deleted and Substituted\n\n**Chapter XI** (\"Opening of Current Accounts and CC / OD Accounts by Banks\") has been **deleted entirely and substituted** with a new **Chapter XIA** (\"Maintenance of Cash Credit Accounts, Current Accounts and Overdraft Accounts by Banks\").\n\n---\n\n## New Framework Introduced (Chapter XIA, Paragraphs 91A–91O)\n\nThe new chapter introduces a comprehensive regulatory framework for maintaining transaction accounts. Key changes are:\n\n### **Section A: Cash Credit Accounts (91B)**\n- Cash Credit accounts are recognized as operationally distinct working capital facilities linked to borrower current assets\n- **No restrictions** on banks providing CC facilities\n\n### **Section B: Current Accounts and OD Accounts (91C–91E)**\n\n**Paragraph 91C** – **Inserted:**\n- Accounts with aggregate banking system exposure **below ₹10 crore**: banks may maintain current or OD accounts without restriction\n- Defines \"Banking System\" (Commercial Banks, SFBs, LABs, RRBs, Urban/Rural Co-operative Banks) and \"Exposure\" (sum of all sanctioned fund and non-fund facilities)\n\n**Paragraph 91D** – **Inserted:**\n- For customers with **exposure ≥ ₹10 crore**, banks may maintain current/OD accounts **only if** they hold:\n  - Minimum 10% share in banking system's aggregate exposure, **OR**\n  - Minimum 10% share in banking system's aggregate fund-based exposure\n- Exception: Two largest-exposure banks may maintain accounts if no single bank meets 10% threshold\n- Further exception: If only one bank has exposure, customer may designate one additional bank (with NOC from existing lender)\n- Further exception: If no Scheduled Commercial Bank meets criteria, borrower may choose one SCB (with NOCs from all lending banks)\n\n**Paragraph 91D(2)** – **Inserted:**\n- Banks not meeting eligibility criteria must maintain **collection accounts only** (restricted to receipts, with limited outflows under 91F)\n\n**Paragraph 91E** – **Inserted:**\n- Lenders may add covenants in loan agreements by mutual consent to strengthen credit discipline\n\n### **Section C: Collection Accounts (91F)**\n\n**Paragraph 91F** – **Inserted:**\n- Funds in collection accounts must be **remitted within two working days** to a borrower-designated account (CC, current, or OD) elsewhere in banking system\n- OD disbursements from collection accounts must flow through the designated account\n- Exception: Statutory dues and bank dues may be debited before remittance\n\n### **Section D: Exemptions (91G–91H)**\n\n**Paragraph 91G** – **Inserted:**\n- Restrictions in 91D(1) do **not apply** to:\n  - Accounts under Foreign Exchange Management Act, 1999 (FEMA)\n  - Accounts mandated by statute or instruction from financial sector regulator or Central/State Government\n  - Accounts of regulated entities (RBI, SEBI, IRDAI, PFRDA) used for regulated activities\n- Defines \"Financial sector regulator\"\n- Surplus funds in exempted accounts must be remitted to designated account\n\n**Paragraph 91H** – **Inserted:**\n- Banks may maintain current accounts (despite ineligibility under 91D(1)) for products/services that inherently require routing through their own account, **subject to**:\n  - Board-approved policy detailing necessity\n  - Transactions limited to specified purpose\n  - No cash transactions, discretionary debits, or instruments (cards, cheques)\n  - Adequate safeguards against circumvention of restrictions\n  - Surplus funds remitted to designated account\n\n### **Section E: Compliance Monitoring (91I–91K)**\n\n**Paragraph 91I** – **Inserted:**\n- Banks must monitor accounts regularly, **at minimum semi-annually**\n\n**Paragraph 91J** – **Inserted:**\n- If a bank becomes ineligible due to:\n  - Exposure threshold breach (rising to ≥ ₹10 crore), **or**\n  - Loss of required share percentage, **or**\n  - Missing NOC from existing lenders\n- Bank must **notify customer within one month** and convert/close account **within three months**\n\n**Paragraph 91K** – **Inserted:**\n- Accounts must be flagged in core banking system (CBS) for identification and monitoring\n- Multi-account borrowers must be monitored at both account and borrower level\n\n### **Section F: Other Provisions (91L–91O)**\n\n**Paragraph 91L** – **Inserted:**\n- Accounts must be used solely for authorized business/activities; **no pass-through channels for third-party transactions** permitted\n- Exception: Entities licensed by financial sector regulator may conduct authorized third-party transactions (flagged in CBS)\n\n**Paragraph 91M** – **Inserted:**\n- Account holders **not licensed** by RBI may **not accept deposits or provide payment services** through accounts\n\n**Paragraph 91N** – **Inserted:**\n- Banks must implement **robust monitoring** to detect prohibited usage (high transaction volume, frequent pass-through, misalignment with stated business)\n\n**Paragraph 91O** – **Inserted:**\n- Term loan disbursements should be made directly to beneficiary accounts or for specified end-use, **not routed through borrower's account**\n\n---\n\n## Impact for NaBFID\n\nWhile this amendment addresses **Commercial Banks**, NaBFID (as an AIFI) should note that AIFI directions incorporate parts of the Commercial Banks directions by reference. Changes to credit risk management frameworks for deposit-taking institutions may establish precedents or principles applicable to AIFI governance structures, particularly regarding account monitoring, exposure tracking, and fund routing controls.",
+ "implications": "# Why NaBFID Should Monitor This Commercial Banks Direction\n\n**Benchmark and Regulatory Alignment**\nRBI's Commercial Banks Credit Risk Management directions set the supervisory standard against which AIFI (including NaBFID) prudential norms are calibrated and justified. Even though NaBFID is not directly subject to this direction, it establishes RBI's contemporary risk philosophy and sectoral priorities—helping NaBFID anticipate where AIFI rules may converge or diverge.\n\n**Cross-Reference Risk**\nNaBFID's own AIFI directions (issued separately by RBI) may incorporate this Commercial Banks direction by reference or adopt aligned language. Some provisions—especially around counterparty concentration, stress testing assumptions, or sectoral exposure caps—could bind NaBFID through cross-reference. **This must be confirmed by reading NaBFID's specific AIFI direction and compliance guidance**, not assumed from the Commercial Banks text alone.\n\n**Illustrative Example (Infrastructure Context)**  \nIf this 2025 amendment introduces new stress-testing scenarios for infrastructure project finance (e.g., construction-delay stress or regulatory-change scenarios), NaBFID should check whether its own AIFI direction either adopts these scenarios or requires comparable stress rigor. A similar tightening in either ruleset could affect how NaBFID models long-tenor project loan losses—even if the triggering direction nominally targets commercial banks.\n\n**Next Step:** Cross-reference your AIFI direction and consult Compliance to identify which provisions, if any, bind NaBFID by incorporation or analogy.",
+ "citations": {
+  "key_points": {
+   "fcccc637cc54": [
+    1
+   ],
+   "1902b73eb17e": [
+    6
+   ],
+   "846a084ed291": [
+    3
+   ],
+   "47883750df9e": [
+    1
+   ],
+   "b1683a036e16": [
+    1,
+    2
+   ],
+   "27847add4f06": [
+    1,
+    2
+   ],
+   "f15545ed81b0": [
+    1
+   ],
+   "dc8f9e549151": [
+    1,
+    2
+   ],
+   "5bb143f67d6e": [
+    1
+   ],
+   "e2733487e734": [
+    1
+   ],
+   "fc72ed6d773c": [
+    1
+   ],
+   "b315ee0526c5": [
+    1
+   ],
+   "c1455d6b5b7c": [
+    1,
+    2
+   ],
+   "08dfd5264acb": [
+    1
+   ],
+   "57b74050b140": [
+    1
+   ],
+   "126161551206": [
+    1
+   ],
+   "4dd25058af1e": [
+    1
+   ],
+   "7c1d9f3fcbb2": [
+    1
+   ],
+   "c549f73d5116": [
+    1
+   ],
+   "bda68c2fa457": [
+    5
+   ],
+   "8f176660e5b8": [
+    1
+   ],
+   "d86609baef43": [
+    1
+   ],
+   "20a199dd0746": [
+    1
+   ],
+   "e02e81fa43e7": [
+    1,
+    6
+   ],
+   "a80b717be00b": [
+    1
+   ]
+  },
+  "what_changed": {
+   "5b0537f5086c": [
+    1
+   ],
+   "bf63a708c62b": [
+    1
+   ],
+   "add1d79119fa": [
+    1
+   ],
+   "639ff807db29": [
+    5
+   ],
+   "187e8c50f43b": [
+    2
+   ],
+   "7ddd23f8b5f3": [
+    2
+   ],
+   "b301685190ec": [
+    2
+   ],
+   "74a6d165f60a": [
+    2
+   ],
+   "64a3b39a494e": [
+    2
+   ],
+   "0ff47360ddad": [
+    3
+   ],
+   "145ef8ef4cbe": [
+    3
+   ],
+   "f794079645e6": [
+    3
+   ],
+   "cefda75270c3": [
+    3
+   ],
+   "c289ef093771": [
+    3
+   ],
+   "88e22a1833e4": [
+    3
+   ],
+   "7cec88892c0a": [
+    4
+   ],
+   "26594e3f0384": [
+    4
+   ],
+   "4826f2e22d0e": [
+    4
+   ],
+   "1a12ceb95937": [
+    4
+   ],
+   "cd89b160bad3": [
+    4
+   ],
+   "468ce8b1e798": [
+    4
+   ],
+   "2526b15d0081": [
+    5
+   ],
+   "15bd5ee84a8d": [
+    5
+   ],
+   "28b35c07112b": [
+    5
+   ],
+   "9a55a90c142f": [
+    5
+   ],
+   "15654024d598": [
+    6
+   ],
+   "4b85cd6dc786": [
+    6
+   ],
+   "9f87ccbd0df7": [
+    6
+   ],
+   "91cb9220fc56": [
+    6
+   ],
+   "8ac102b2b33c": [
+    6
+   ],
+   "bc530442d54e": [
+    3
+   ]
+  },
+  "implications": {
+   "d90299e2aa27": [
+    1
+   ],
+   "9c33dceaaf07": [
+    4
+   ]
+  }
+ }
+}

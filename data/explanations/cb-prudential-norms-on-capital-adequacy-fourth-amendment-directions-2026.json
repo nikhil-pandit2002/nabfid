@@ -1,0 +1,80 @@
+{
+ "key_points": "## Capital Adequacy — Commercial Banks, Fourth Amendment, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/33, dated 2026-04-27)*\n\nAmends the treatment of provisions in Tier 2 capital and aligns asset-classification definitions to align prudential and classification frameworks. Effective **April 1, 2027**. Applicability: commercial banks; **NaBFID applicability contingent on cross-reference in AIFI directions — verify with compliance team.**\n\n### Chapter I — Definitions\n- **Stage 1 / Stage 2 / Stage 3:** incorporated by reference from the Reserve Bank of India (Commercial Banks – Asset Classification, Provisioning and Income Recognition) Directions, 2026. Ensures consistency across capital adequacy and asset classification rules.\n\n### Chapter II — Tier 2 Capital: General and Excess Provisions\n- **Qualifying items:** general provisions on standard assets (Stage 1 or Stage 2); excess provisions from sale of NPAs. Must be freely available (not earmarked or restricted).\n- **Maximum limit:** combined admission to Tier 2 capital **≤ 1.25% of total credit risk-weighted assets under standardised approach.**\n- **Netting election (binding and consistent):** a bank must elect one approach and apply uniformly:\n  - Net floating provision from Gross NPAs to arrive at Net NPA; **or**\n  - Reckon floating provision as part of Tier 2 capital.\n  - **No double-counting permitted.**\n- **Effective date:** **April 1, 2027.**\n\n### Chapter III — Tier 2 Capital: Identified Deterioration (Exclusion)\n- **Exclusion principle:** provisions on identified deterioration of particular assets or liabilities (individual or grouped) **shall not** qualify for Tier 2 capital.\n- **Specific exclusions:** specific provisions on NPAs/Stage 3 exposures (account or portfolio level); provisions in lieu of diminution in fair value on restructured advances; provisions against depreciation in investment value.\n- **Effective date:** **April 1, 2027.**\n\n### Chapter IV — Repeals\n- **Paragraph 130(2):** deleted entirely; former content no longer operative.\n- **Note to Paragraph 223:** deleted entirely; former content no longer operative.\n- **Effective date:** **April 1, 2027.**",
+ "what_changed": "# Changes in RBI/2026-27/33 (dated 2026-04-27)\n**Effective: 2027-04-01**\n\n---\n\n## Summary of Changes\n\n| Paragraph | Action | Effect |\n|-----------|--------|--------|\n| **31A** | Inserted | New paragraph introduced defining 'Stage 1 / 2 / 3' by cross-reference to the RBI (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026. |\n| **21(i)(a)** | Substituted | Modified the rules for general provisions on standard assets and excess provisions from NPA sales to qualify for Tier 2 capital, with a cap of 1.25% of total credit RWAs under the standardised approach. Added a note allowing banks to either net off floating provisions from Gross NPAs or reckon it as Tier 2 capital. |\n| **21(i)(c)** | Substituted | Clarified that specific provisions on NPAs/Stage 3 exposures (individual or portfolio level), provisions for diminution in fair value of restructured advances, and provisions for depreciation in investment values shall be excluded from Tier 2 capital. |\n| **130(2)** | Deleted | Entire provision removed. |\n| **Note to Paragraph 223** | Deleted | Note removed. |\n\n---\n\n## Relevance to NaBFID (AIFI)\n\nThese are amendments to the **Commercial Banks** rulebook. However, since AIFI directions incorporate parts of the Commercial Banks directions by reference, changes to capital adequacy norms and asset classification treatments may flow through to NaBFID's own prudential framework.",
+ "implications": "# Why NaBFID Should Track This Commercial Banks Direction\n\n**Benchmark and Regulatory Alignment:**\nRBI's capital adequacy norms for commercial banks set the baseline prudential standards that the broader regulatory ecosystem references. NaBFID's own AIFI directions are calibrated against these benchmarks—RBI typically applies similar risk-weight and capital ratio logic to long-tenor infrastructure lenders, though with sector-specific adjustments. Understanding the commercial bank framework helps NaBFID staff anticipate likely directions in future AIFI guidance and recognise where the regulator is tightening or relaxing capital discipline.\n\n**Cross-Reference Risk:**\nNaBFID's AIFI capital adequacy direction may incorporate parts of the Commercial Banks directions by reference (e.g., risk-weighting methodologies, stress-testing protocols, or definitions of eligible capital). Any material change to the commercial bank rules can propagate into AIFI practice if the AIFI direction says \"as per Commercial Banks direction\" or uses similar language. **NaBFID must check its own AIFI direction and confirm with compliance whether each provision applies.**\n\n---\n\n**Illustrative Example (Infrastructure Context):**\nIf the 2026 amendment introduces a new risk-weight category for stressed infrastructure assets, commercial banks would reflect this immediately in their capital calculations. If NaBFID's AIFI rules cross-reference the risk-weight schedule, the same category would apply to NaBFID's large road and power sector exposures—affecting how much capital it must hold against those projects and therefore its lending capacity and pricing.",
+ "citations": {
+  "key_points": {
+   "0f90ffe9ede5": [
+    1
+   ],
+   "eedacfbdb998": [
+    1
+   ],
+   "f054728d90e6": [
+    1
+   ],
+   "8d1dc7aa61da": [
+    1
+   ],
+   "5a65c69cfda8": [
+    2
+   ],
+   "6354de0bd53c": [
+    2
+   ],
+   "8500565fda2a": [
+    1,
+    2
+   ],
+   "6d691db727c7": [
+    2
+   ],
+   "77a040011725": [
+    2
+   ],
+   "62587fa3dfb0": [
+    2
+   ],
+   "62b20e949b2b": [
+    2
+   ]
+  },
+  "what_changed": {
+   "b062f8ee09c2": [
+    1
+   ],
+   "b1f9220b7cf4": [
+    1
+   ],
+   "cf5d0e8e3eaf": [
+    1
+   ],
+   "8d13b720fca1": [
+    2
+   ],
+   "9f44e25f3fe7": [
+    2
+   ],
+   "b174dba7e6be": [
+    2
+   ],
+   "dfc8ade845fc": [
+    1
+   ]
+  },
+  "implications": {
+   "c03d315ad9c9": [
+    1
+   ],
+   "6614a018b222": [
+    1
+   ],
+   "8ed9887ef503": [
+    1
+   ],
+   "684e053a75ae": [
+    1
+   ]
+  }
+ }
+}

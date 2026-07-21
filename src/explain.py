@@ -103,6 +103,49 @@ def _cite(doc: dict) -> str:
     return f"{doc['circular_no']}, dated {doc['issue_date']}"
 
 
+def _is_own_rulebook(doc: dict) -> bool:
+    """True when the direction is addressed to NaBFID's own class (AIFIs).
+
+    NaBFID is an AIFI, so the AIFI directions bind it directly. The Commercial
+    Banks directions are addressed to banks — BUT they are not simply "someone
+    else's rules": the AIFI directions incorporate parts of them by reference,
+    which makes those parts binding on an AIFI too. Real examples in this corpus:
+
+      RBI/DOR/2025-26/323 (AIFI Responsible Business Conduct), para on
+      disclosures: "An AIFI SHALL provide a Key Fact Statement (KFS), as per
+      instructions contained in the RBI (Commercial Banks - Responsible
+      Business Conduct) Directions, 2025."
+
+      RBI/DOR/2025-26/321 (AIFI Capital Adequacy), p.41/p.237: "An AIFI shall
+      refer to RBI (Commercial Banks - Credit Risk Management) Directions, 2025
+      which cover provision on unhedged foreign currency exposures."
+
+    So the guides must not claim a Commercial Banks direction is irrelevant to
+    NaBFID, nor that it binds NaBFID wholesale. See _KP_ENTITY_NOTE.
+
+    "All Regulated Entities" counts as NaBFID's own rulebook: those directions
+    name All-India Financial Institutions in their own applicability clause
+    (e.g. Trade Relief Measures 2025), so they bind NaBFID directly and must be
+    explained as such — not framed as somebody else's rules.
+    """
+    return (doc.get("entity") or "AIFI") in ("AIFI", "All Regulated Entities")
+
+
+_KP_ENTITY_NOTE = (
+    " NOTE ON APPLICABILITY — read carefully, the reader is NaBFID (an AIFI), "
+    "and this direction is addressed to COMMERCIAL BANKS. Describe its "
+    "requirements as obligations on BANKS (say 'a bank shall...', not 'NaBFID "
+    "shall...'). However, do NOT state or imply that it is irrelevant to "
+    "NaBFID: the AIFI directions incorporate parts of the Commercial Banks "
+    "directions by reference (for example an AIFI must follow the Commercial "
+    "Banks instructions for the Key Fact Statement, and must refer to them for "
+    "provisioning on unhedged foreign currency exposures), so specific "
+    "provisions here can bind an AIFI. Where the text does not itself settle "
+    "applicability to AIFIs, say plainly that it depends on whether an AIFI "
+    "direction cross-refers to that provision, and that this must be confirmed "
+    "with the compliance team. Never invent such a cross-reference."
+)
+
 _KP_SYSTEM = (
     "You explain RBI directions for NaBFID compliance staff. Use ONLY the "
     "provided document text — do not add rules from outside knowledge, and do not "
@@ -133,11 +176,15 @@ def key_points(doc: dict) -> str:
     multi = len(batches) > 1
     cite = _cite(doc)
 
+    # A Commercial Banks direction does not bind NaBFID; say so up front so the
+    # guide never reads as an obligation on the reader's own institution.
+    base_system = _KP_SYSTEM if _is_own_rulebook(doc) else _KP_SYSTEM + _KP_ENTITY_NOTE
+
     parts: list[str] = []
     for i, batch in enumerate(batches, start=1):
         first_pg, last_pg = batch[0]["page_start"], batch[-1]["page_start"]
         if multi:
-            system = (_KP_SYSTEM + f" This is PART {i} of {len(batches)} of the "
+            system = (base_system + f" This is PART {i} of {len(batches)} of the "
                       "document (a continuous slice, roughly pages "
                       f"{first_pg}-{last_pg}). Explain ONLY the sections in this "
                       "part. Do NOT write an overall introduction or conclusion "
@@ -145,7 +192,7 @@ def key_points(doc: dict) -> str:
                       "section present in this part and continue in order.")
             head = f"\n\n---\n\n### (continued — pages {first_pg}–{last_pg})\n\n" if i > 1 else ""
         else:
-            system = _KP_SYSTEM
+            system = base_system
             head = ""
         prompt = (f"DOCUMENT: {doc['title']} ({cite})\n\n"
                   f"TEXT:\n{_render(batch)}\n\n"
@@ -173,6 +220,12 @@ def what_changed(doc: dict) -> str:
         "in plain language. State the effective date if given. Do not invent "
         "changes. Cite the amendment "
         f"({_cite(doc)})."
+        + ("" if _is_own_rulebook(doc) else
+           " This amendment sits in the COMMERCIAL BANKS rulebook, while the "
+           "reader is NaBFID (an AIFI): describe the changes as changes for "
+           "banks, but do not say they are irrelevant to NaBFID — AIFI "
+           "directions incorporate parts of the Commercial Banks directions by "
+           "reference, so a change here can flow through to an AIFI.")
     )
     prompt = (f"AMENDMENT: {doc['title']} ({_cite(doc)})\n"
               f"Effective (from manifest): {doc.get('applicable_from') or 'see text'}\n\n"
@@ -182,6 +235,7 @@ def what_changed(doc: dict) -> str:
 
 def implications(doc: dict) -> str:
     """NaBFID-context framing. General knowledge allowed but clearly bounded."""
+    own = _is_own_rulebook(doc)
     system = (
         "You help NaBFID staff (a Development Finance Institution doing long-tenor "
         "infrastructure lending, no retail deposits) understand why an RBI "
@@ -190,9 +244,23 @@ def implications(doc: dict) -> str:
         "rule, limit, or obligation as fact, and must not contradict the "
         "direction. Keep it to 2-4 sentences plus at most one clearly-labelled "
         "'Illustrative example'. This is explanatory framing, not legal advice."
+        + ("" if own else
+           " IMPORTANT: this direction is addressed to COMMERCIAL BANKS, not to "
+           "AIFIs. Explain why a NaBFID reader still cares: (a) it is the "
+           "benchmark the AIFI rules are compared against, and (b) AIFI "
+           "directions incorporate parts of the Commercial Banks directions by "
+           "reference, so some provisions can bind NaBFID. Do not assert that "
+           "any specific provision binds NaBFID unless the text says so — say it "
+           "must be checked against the AIFI direction and confirmed with "
+           "compliance.")
     )
+    ask = ("Briefly explain why this matters for NaBFID and give one short "
+           "illustrative example relevant to infrastructure lending."
+           if own else
+           "Briefly explain why a NaBFID (AIFI) reader should care about this "
+           "Commercial Banks direction — as a comparison benchmark and because "
+           "AIFI directions may cross-refer to it — and give one short "
+           "illustrative example relevant to infrastructure lending.")
     prompt = (f"DIRECTION: {doc['title']} ({_cite(doc)}), "
-              f"division: {doc['division']}.\n\n"
-              "Briefly explain why this matters for NaBFID and give one short "
-              "illustrative example relevant to infrastructure lending.")
+              f"division: {doc['division']}.\n\n" + ask)
     return generate(system, prompt, temperature=0.2)

@@ -1,0 +1,210 @@
+{
+ "key_points": "## Credit Facilities to Commercial Banks and AIFIs — Directions, 2026 — Detailed Compliance Guide\n*(RBI/2025-26/254, dated 2026-03-30)*\n\nAmends Commercial Banks Credit Facilities Directions, 2025, and introduces regimes for acquisition finance, bridge finance, loans against financial assets, and credit facilities to capital market intermediaries.\n\n### Chapter I — Preliminary\n- **Effective Date:** **July 1, 2026** (or earlier if adopted in entirety). **Applicability:** Commercial Banks; NaBFID must confirm applicability with compliance.\n- **Acquisition Finance:** Financial facility to eligible Indian non-financial company to acquire control in target company (domestic or foreign), including refinancing of target's existing debt if integral to acquisition.\n- **Bridge Finance:** Interim financing **not exceeding 1 year**, with firm plan and capability to repay via equity issuance, debt/hybrid instruments, or asset divestiture within the interim period.\n- **Capital Market Intermediaries (CMIs):** Regulated entities undertaking trade execution and market infrastructure services (broking, clearing, custody, market making). **Excludes:** Standalone Primary Dealers and QCCPs.\n- **Eligible Securities:** Group-1 listed equities and preference shares; Government Securities and Treasury Bills; listed debt securities rated **BBB or higher**; listed/redeemable mutual fund units; ETFs (excluding commodity); REIT and InvIT units.\n- **Key terms:** **Collateral Security, Loan to Value (LTV), Margin, Primary Security** as defined in source.\n\n### Chapter II — Board-Approved Policy\n- **Required for:** Loan Against Financial Assets (eligible securities); Bridge Finance; Acquisition Finance (including overseas branches); Credit Facilities to CMIs. Board must establish exposure limits and underwriting benchmarks for each category.\n\n### Chapter III — Acquisition Finance (paras 170A–170S)\n- **Eligible Borrower:** Indian non-financial company acquiring control or increasing stake towards control of domestic or foreign non-financial target.\n- **Strategic Investment Requirement:** Investment must be strategic—driven by core objective of creating long-term value through synergies, not mere financial restructuring.\n- **Target Restriction:** Acquisition finance **NOT** extended where target non-financial company has **financial entities as subsidiaries or joint ventures**.\n- **Refinancing Conditions:** Bank may refinance existing acquisition debt only if: full Directions compliance; compliance with RBI (Commercial Banks - Resolution of Stressed Assets) Directions, 2025, para 6(12) **at time of refinance**; acquisition **concluded in all aspects** (no interim refinancing); proceeds **exclusively for retirement of acquisition debt**, not acquiring company's own contribution.\n- **Eligible Borrower Forms:** (1) Acquiring company directly; (2) Acquiring company for on-lending to non-financial subsidiary; (3) Existing non-financial subsidiary on acquiring company's strength; (4) Step-down SPE with no business purpose other than acquisition and holding. Where acquiring company holds **less than majority voting rights**, it must hold the **single largest voting block**.\n- **Financial Criteria:** Minimum net worth **₹500 crore**; net profit after taxes in **each of previous 3 consecutive financial years** (listed and unlisted); unlisted companies require **investment-grade credit rating (BBB– or above)** prior to disbursement if unavailable at sanction. Assessed at consolidated and standalone levels.\n- **Pro-forma Assessment:** Credit assessment on **pro-forma consolidated basis** combining acquiring and target company financials.\n- **Financing Limit:** **≤ 75%** of independently assessed acquisition value. Listed target: one independent valuer per SEBI SAST Regulations; unlisted target: two independent valuers, use **lower valuation** of the two.\n\n### Chapter IV — InvIT Amendment\n- **Paragraph 137:** Deleted entirely.\n- **Paragraph 137A(4):** Bank finance to InvITs for acquiring equity of other entities subject to **Chapter XI—Acquisition Finance** conditions (paras 170A–170S), not standalone infrastructure rules.\n\n_Verify with the compliance team before acting._",
+ "what_changed": "# Summary of Changes\n## RBI/2025-26/254, dated 2026-03-30\n**Effective: 2026-07-01**\n\n---\n\n## **Chapter I – Preliminary (Paragraph 4(1))**\n\n### Renumbering and Substitution\n- **Sub-paragraph (i) renumbered to (ib)** – effect: reorganisation of existing definition.\n- **Sub-paragraph (vii) substituted** – \"Collateral security\" / \"Collateral\" now defined as: an asset on which a security charge is created in favour of the lender for securing a credit facility.\n\n### New Definitions Inserted\n- **(ia) \"Acquisition Finance\"** – financial facility to an eligible borrower to acquire control in a target company (including via amalgamation/merger); may include refinancing of target's existing debt if integral to acquisition.\n- **(iva) \"Bridge Finance\"** – financing a borrower for interim period not exceeding one year for legitimate business purpose, where borrower has firm plan and capability to repay via equity/debt/hybrid issuance or divestiture within that period.\n- **(va) \"Capital Market Intermediaries (CMIs)\"** – regulated entities undertaking trade execution and market infrastructure services (broking, clearing, custody, market making, incidental services); excludes Standalone Primary Dealers and QCCPs.\n- **(vb) \"Cash and cash equivalents\"** – cash, demand and term deposits with lending bank, and overnight mutual fund units (minimum 10% haircut).\n- **(viiia) \"Control\"** – defined per Section 2(27), Companies Act 2013.\n- **(xivb) \"Eligible Securities\"** – now includes: Group-1 listed equity and preference shares; Government Securities / T-Bills / Sovereign Gold Bonds; listed debt securities (BBB or higher rated); MF units (listed or with repurchase/redemption facility) investing in equity/debt; listed ETFs (excluding commodity ETFs); REIT/InvIT units.\n- **(xxiia) \"Loan to Value (LTV)\"** – ratio of outstanding loan to security value on any given day.\n- **(xxiib) \"Margin\"** – borrower's contribution (cash or liquid assets) for purchasing/borrowing security with bank finance or non-fund-based facility.\n- **(xxiic) \"Non-financial company\"** – entity not primarily engaged in financial activities; in domestic context, non-banking institution/company not included in RBI Act 1934 definitions of financial institution or NBFC.\n- **(xxxa) \"Primary Security\"** – security created on assets financed from the credit facility extended to borrower.\n\n---\n\n## **Chapter II – Role of The Board (Paragraph 5)**\n\n### Substitutions and Additions\n- **Sub-paragraph 5(11) substituted** – now reads: \"Loan Against Financial Assets including eligible securities.\"\n- **Sub-paragraph 5(13) substituted** – now reads: \"Bridge Finance\".\n- **New sub-paragraphs inserted after paragraph 14:**\n  - **(15) \"Acquisition Finance\"** – including financing extended by overseas branches of Indian banks.\n  - **(16) \"Credit Facilities to Capital Market Intermediaries (CMIs)\"**.\n\n---\n\n## **Chapter IX – Infrastructure Financing**\n\n### Deletion and Modification\n- **Paragraph 137 deleted** – entire paragraph removed.\n- **Sub-paragraph 137A(4) modified** – now states: \"Bank finance to InvITs for acquiring equity of other entities shall be subject to the relevant conditions given in Chapter XI - Acquisition Finance.\"\n\n---\n\n## **Chapter XI – Acquisition Finance**\n\n### Deletion of Prior Sections\n- **Sections A through C and paragraphs 158–170 deleted** – existing acquisition finance framework removed entirely.\n\n### New Sections and Paragraphs Inserted (After 170)\n\n#### **New Framework: Sections A–H, Paragraphs 170A–170S**\n\n**Section A (170A–170C): Scope and Eligibility**\n- **170A** – Acquisition finance extended by bank to Indian non-financial company to acquire or increase stake towards acquiring 'control' over domestic/foreign non-financial target company as strategic investment (long-term value via synergies, not short-term restructuring).\n- **170B** – Where target acquisition leads to control over multiple companies, synergy criteria assessed for all; restricted: acquisition finance not extended if target has financial entities as subsidiaries/JVs.\n- **170C** – Banks may refinance existing acquisition debt of acquiring company, subject to RBI Stressed Assets Directions; refinance only after acquisition concluded and control established; refinance not for acquiring company's contribution or non-acquisition purposes.\n\n**Section D (170D): Board Approved Policy**\n- Banks must establish Board-approved policy on acquisition finance incorporating underwriting benchmarks for exposure limits, equity contribution, leverage multiples, cash-flow certainty.\n\n**Section E (170E–170F): Eligible Entities and Conditions**\n- **170E** – Acquisition finance extended to:\n  - Acquiring company directly;\n  - Acquiring company for on-lending to non-financial subsidiary (India/overseas);\n  - Existing non-financial subsidiary on strength of acquiring company;\n  - Step-down SPV (single or joint) incorporated India/overseas for acquisition and holding only. \n  \n  Provided: where acquiring company holds <50% voting rights in SPV/subsidiary, must hold single largest voting block and no other shareholder/group can override/veto acquiring company's control.\n\n- **170F** – Introduces financial criteria for acquiring company (below).\n\n**Section G (170G–170L): Financial Criteria and Credit Assessment**\n- **170G** – Acquiring company (or controlling entity for SPV/subsidiary) must meet at sanction:\n  - **If listed on Indian stock exchange:** minimum net worth ₹500 crore; net profit after tax each of previous 3 consecutive financial years.\n  - **If unlisted:** minimum net worth ₹500 crore; net profit after tax each of previous 3 consecutive financial years; investment grade rating (BBB- or above). Rating must be obtained before disbursement if not available at sanction.\n  - Criteria examined at consolidated and standalone levels; net worth per Companies Act 2013 Section 2(57).\n\n- **170H** – Credit assessment on pro-forma consolidated basis incorporating both acquiring and target company financials.\n\n- **170I** – Total bank financing ≤75% of acquisition value independently assessed:\n  - **Listed company:** one independent valuer per SEBI SAST Regulations 2011, para 8(2)(e).\n  - **Unlisted company:** lower of two independent valuers per same SEBI SAST Regulations.\n\n- **170J** – Acquiring company contributes remaining amount from own funds (internal accruals, asset sales, redemption, fresh equity). Proceeds of borrowing, fixed repayment instruments, put options, intragroup funding (where source borrowed) excluded.\n  - **Proviso:** Listed acquiring company may use bridge finance for own funds requirement (max 12 months repayment via internal accruals/equity/asset sales; if from bank, secured basis; no dilution of acquisition finance security).\n\n- **170K** – Corporate guarantee from acquiring company mandatory for financing to subsidiary/SPV.\n\n- **170L** – Post-acquisition, consolidated Debt-to-Equity ≤3:1 continuously.\n\n**Section (170M–170N): Control Acquisition Requirements**\n- **170M** – Control via equity shares, compulsorily convertible preference shares, compulsorily convertible debentures. All debt claims of acquiring company/group on target rank subordinate to bank acquisition finance claims for full tenor.\n- **170N** – Control via single or series of inter-connected transactions within 12 months from first disbursal.\n  - **Proviso:** Where acquiring company already controls target, acquisition finance only for additional stake crossing substantial thresholds (26%, 51%, 75%, 90% of voting rights).\n\n**Section (170O): Related Party Restrictions**\n- Acquiring and target companies not related parties (per Companies Act 2013 Section 2(76) or entities under common control/management/promoter group).\n  - **Proviso:** Restrictions do not apply to additional stake financing per 170N proviso.\n\n**Section G (170P–170Q): Security Creation and Valuation**\n- **170P** – Bank may determine security extent/nature. Acquisition finance secured by financial instruments (equity, compulsorily convertible instruments) through which control acquired, without prejudice to BR Act 1949 Section 19(2). Other unencumbered assets of acquirer/target and promoter personal guarantee may be additional collateral per bank policy.\n-",
+ "implications": "# Why NaBFID Should Track This Commercial Banks Direction\n\n**Benchmark Function:** RBI typically establishes credit facility principles for commercial banks first, then applies analogous (often lighter) standards to AIFIs like NaBFID. Understanding the commercial bank baseline helps NaBFID anticipate where regulatory expectations are heading and assess its own compliance posture relative to the industry standard.\n\n**Potential Cross-Reference:** AIFI directions frequently incorporate commercial bank directions by reference or adopt similar language. Some provisions in this 2026 amendment may be partially binding on NaBFID if the applicable AIFI direction (or a later RBI communication) explicitly cites or adopts them—**this must be verified against NaBFID's own AIFI directions and confirmed with compliance before relying on any provision.**\n\n**Infrastructure Lending Relevance:**  \n*Illustrative example:* If this direction tightens provisioning or collateral valuation rules for large infrastructure exposures, NaBFID's long-tenor infrastructure book would face similar scrutiny, even if the exact thresholds or timelines differ. Monitoring such shifts helps NaBFID avoid compliance drift.\n\n---\n\n**⚠️ Important caveat:** This direction applies to commercial banks. Whether and how specific clauses bind NaBFID depends on your AIFI master direction and RBI's subsequent guidance—**always confirm applicability with your compliance and legal teams.**",
+ "citations": {
+  "key_points": {
+   "349e6b2964ec": [
+    1
+   ],
+   "57f38b2eea78": [
+    22
+   ],
+   "370395b8b55e": [
+    2
+   ],
+   "4678919ee559": [
+    2
+   ],
+   "e34486d5728d": [
+    2
+   ],
+   "ca3b78ee142b": [
+    6
+   ],
+   "01e3e9662da6": [
+    6
+   ],
+   "541fcd117625": [
+    6
+   ],
+   "1573c01d697c": [
+    6
+   ],
+   "f746623cd404": [
+    7
+   ],
+   "a4dd0a59fc14": [
+    8
+   ],
+   "f10e07224361": [
+    9
+   ],
+   "2bf5f99f8181": [
+    9
+   ],
+   "764723d62bde": [
+    5
+   ],
+   "0a7871d5d523": [
+    5,
+    6
+   ]
+  },
+  "what_changed": {
+   "c4ca80070c65": [
+    1
+   ],
+   "006ccb0b262c": [
+    1
+   ],
+   "a68a8f666fa0": [
+    2
+   ],
+   "d0b11128241c": [
+    2
+   ],
+   "48ae653a47af": [
+    2
+   ],
+   "d25636475de5": [
+    2
+   ],
+   "c671a18511ae": [
+    2
+   ],
+   "12fb4f7c445b": [
+    2
+   ],
+   "e9d3d49fa210": [
+    3
+   ],
+   "dc7ffe82ac4c": [
+    3
+   ],
+   "f014b675d9a7": [
+    3
+   ],
+   "5e45c334eb3f": [
+    3
+   ],
+   "edfd7dfed7a8": [
+    4
+   ],
+   "55e06a9970c7": [
+    4
+   ],
+   "d7bd76f4f8e7": [
+    4
+   ],
+   "865b5ec0864a": [
+    4
+   ],
+   "052a11c72259": [
+    5
+   ],
+   "c6bffd89ab1a": [
+    5
+   ],
+   "cea8c80af1d8": [
+    6
+   ],
+   "290c5aa1786d": [
+    6
+   ],
+   "f496d5d58b79": [
+    6
+   ],
+   "73d440f2fd98": [
+    6
+   ],
+   "956f406749c2": [
+    6
+   ],
+   "322f8014e719": [
+    7
+   ],
+   "f26d324f176a": [
+    7
+   ],
+   "229ff738cfda": [
+    7
+   ],
+   "d34a68b99a00": [
+    8
+   ],
+   "315997673b70": [
+    8
+   ],
+   "cef31b685be6": [
+    8
+   ],
+   "192eee38b857": [
+    8
+   ],
+   "1393b0015800": [
+    8
+   ],
+   "dac629403654": [
+    8
+   ],
+   "926df53f8b7b": [
+    8
+   ],
+   "f3e0ceaecbbc": [
+    9
+   ],
+   "905d34540082": [
+    9
+   ],
+   "bca4baac636c": [
+    9
+   ],
+   "f13121ed4c5b": [
+    9
+   ],
+   "33d7124e0c1d": [
+    9
+   ],
+   "695acd90e409": [
+    10
+   ],
+   "e30fea784d49": [
+    10
+   ],
+   "e93a192bcd67": [
+    10
+   ],
+   "cde729cb39e9": [
+    10
+   ],
+   "d7c8299177e7": [
+    10
+   ],
+   "8c4e4537fb4a": [
+    10
+   ],
+   "97fb781b6204": [
+    10,
+    11
+   ],
+   "91fe08b65862": [
+    11
+   ],
+   "4c0a2d7480ed": [
+    11
+   ],
+   "0945d8c4f9c9": [
+    11
+   ],
+   "ca4eab3ca103": [
+    11
+   ]
+  },
+  "implications": {
+   "46230f63a5f4": [
+    1
+   ]
+  }
+ }
+}

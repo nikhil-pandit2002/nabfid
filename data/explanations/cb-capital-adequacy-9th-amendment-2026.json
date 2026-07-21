@@ -1,0 +1,82 @@
+{
+ "key_points": "## Capital Adequacy – ECLGS 5.0 Risk Weighting — Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/132, dated 2026-06-16)*\n\nAmends the Commercial Banks – Prudential Norms on Capital Adequacy Directions, 2025 to specify risk-weighting treatment for exposures guaranteed under the Emergency Credit Line Guarantee Scheme (ECLGS) 5.0.\n\n### Chapter I — Preliminary\n- **Commencement:** **immediate effect, 16 June 2026**. **Applicability:** commercial banks. (NaBFID: confirm whether your governing AIFI directions incorporate this amendment by cross-reference with the compliance team.)\n- **Parent authority:** Banking Regulation Act, 1949, section 35A, and related RBI enabling powers.\n- **Scheme reference:** ECLGS 5.0 guaranteed exposures per National Credit Guarantee Trustee Company (NCGTC) circular ref. no. 0264/NCGTC/ECLGS5.0, dated **08 May 2026**.\n\n### Chapter II — Paragraph 34A – Risk Weighting for ECLGS 5.0 Exposures\n- **Guaranteed portion – 75%:** **0% risk weight** applies to **75% of the guaranteed amount**, provided settlement is expected **within 30 days** of guarantee invocation.\n- **Guaranteed portion – 25%:** **risk weight per extant guidelines** applies to the remaining **25%** of the guaranteed amount.\n- **Unguaranteed portion:** **risk weight per extant guidelines** (standard risk weights for borrower rating or asset class).\n- **Capital adequacy calculation:** incorporate the split into Pillar 1 (minimum capital requirement); the **0% risk weight on 75%** reduces risk-weighted assets (RWA) for that portion.\n- **Systems and records:** update internal models and reporting to identify ECLGS 5.0 exposures, apply the **75% / 25% split**, track invocation date, and confirm **30-day settlement window** is met.\n\n### Chapter III — Compliance and Limitations\n- **No phase-in or exemptions:** full compliance from **16 June 2026**; applies to new and outstanding exposures as of that date.\n- **0% risk weight cap:** capped at **75%** of guaranteed portion; cannot apply to full guarantee.\n- **Settlement window condition:** **0% risk weight conditional on settlement within 30 days** of invocation; if not received within 30 days, reassess per extant guidelines.\n- **Unchanged prudential framework:** all other provisioning, exposure limits, concentration, and governance rules under the 2025 parent Directions remain in force; this amendment is limited to risk weighting only.",
+ "what_changed": "# Changes Under RBI/2026-27/132 (dated 2026-06-16)\n\n**Paragraph 34A – INSERTED**\n\n**Effect:** A new paragraph is added to the Commercial Banks- Prudential Norms on Capital Adequacy Directions establishing a special risk weight treatment for exposures guaranteed under the Emergency Credit Line Guarantee Scheme (ECLGS) 5.0:\n\n- Exposures guaranteed under ECLGS 5.0 shall carry a **zero percent risk weight** on **75% of the guaranteed portion** — specifically, the portion where settlement is expected within 30 days of invocation.\n- The **remaining 25% of the guaranteed portion** shall be risk-weighted according to existing guidelines (i.e., not at zero percent).\n\n**Effective Date:** 2026-06-16 (immediate effect)\n\n---\n\n**Note for NaBFID (AIFI):** Although this amendment is issued under the Commercial Banks rulebook, AIFI directions incorporate parts of the Commercial Banks Prudential Norms directions by reference. This change to the risk weight treatment of ECLGS 5.0 guarantees may flow through to NaBFID's own prudential framework where similar references apply, potentially affecting how NaBFID treats such exposures in its capital adequacy calculations.",
+ "implications": "# Why This Commercial Banks Direction Matters to NaBFID\n\n**Benchmark & Regulatory Cross-Reference:**\nAlthough this direction addresses Commercial Banks, NaBFID must care because (1) RBI's AIFI directions on capital adequacy typically compare against or reference the Commercial Banks prudential norms as a baseline, and (2) the AIFI directions sometimes incorporate Commercial Banks rules by reference. This means *some* provisions may apply to NaBFID; others signal where AIFI rules intentionally diverge. You must check the operative AIFI direction and confirm with your compliance function whether specific capital adequacy, risk-weight, or provisioning changes in this Commercial Banks amendment bind NaBFID.\n\n**Illustrative Example (Infrastructure Lending Context):**\nIf this amendment adjusts risk-weights for long-tenor lending or changes the treatment of infrastructure exposure under capital norms, the change itself is prescribed for banks—but NaBFID needs to understand the logic, as RBI may later align or differentiate AIFI norms accordingly. For instance, if commercial banks' capital requirements for certain infrastructure sectors tighten, NaBFID should anticipate whether a similar tightening will apply to long-tenor infrastructure lenders, and model the impact on capital planning.\n\n**Next Step:** Cross-check this amendment's key provisions against your current AIFI prudential directions and consult your compliance and risk teams to confirm what applies to NaBFID.",
+ "citations": {
+  "key_points": {
+   "8b74e78a7440": [
+    1
+   ],
+   "23c778797b6b": [
+    1
+   ],
+   "52dab60a12fa": [
+    1
+   ],
+   "7c3bbc15e316": [
+    1
+   ],
+   "410c6585ffbb": [
+    1
+   ],
+   "efedc90ddc03": [
+    1
+   ],
+   "b81735208270": [
+    1
+   ],
+   "ce0fe0468dd1": [
+    1
+   ],
+   "bbe85c5139c5": [
+    1
+   ],
+   "f0ee4044f5ed": [
+    1
+   ],
+   "01fe55840c97": [
+    1
+   ],
+   "31a593fd7e32": [
+    1
+   ],
+   "39db50490a32": [
+    1
+   ]
+  },
+  "what_changed": {
+   "22f02269967d": [
+    1
+   ],
+   "f6c681938744": [
+    1
+   ],
+   "714c78caaa7c": [
+    1
+   ],
+   "ec583bf3eb93": [
+    1
+   ],
+   "31549b3a88c3": [
+    1
+   ],
+   "dd6e2502481d": [
+    1
+   ]
+  },
+  "implications": {
+   "c7b520ccf6ca": [
+    1
+   ],
+   "72608feb2d91": [
+    1
+   ],
+   "4c0e43ee0d68": [
+    1
+   ],
+   "4588cb480bc6": [
+    1
+   ]
+  }
+ }
+}

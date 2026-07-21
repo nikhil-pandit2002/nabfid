@@ -1,0 +1,94 @@
+{
+ "key_points": "## Capital Adequacy – REIT Exposures — Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/111, dated 2026-06-10)*\n\nAmends the Commercial Banks – Prudential Norms on Capital Adequacy Directions, 2025 to prescribe risk weights for Real Estate Investment Trust (REIT) exposures, distinguishing domestic and overseas branch lending.\n\n### Chapter I — Preliminary\n- **Commencement:** **October 1, 2026**. **Early adoption:** permitted only if the bank adopts in entirety the Reserve Bank of India (Commercial Banks – Credit Facilities) Third Amendment Directions, 2026.\n- **Applicability:** commercial banks. **NaBFID caveat:** as an AIFI, NaBFID is not directly addressed; applicability depends on whether NaBFID's own directions expressly cross-refer to paragraphs 61A and 61B. Confirm with compliance team.\n- **Authority:** Sections 21 and 35A of the Banking Regulation Act, 1949. **Amendment scope:** adds paragraphs **61A** and **61B** to Chapter IV (Risk Weighted Assets) of the base Directions, 2025.\n\n### Chapter II — REIT Exposures – Domestic Branches\n- **Classification:** all REIT exposures classified as **Commercial Real Estate (CRE) exposures**.\n- **Standard risk weight:** **100%**.\n- **Capital market exception:** if the REIT exposure qualifies as a \"capital market exposure\" under **paragraph 95A of the Concentration Risk Management Directions, 2025**, apply **125%** risk weight instead.\n- **Compliance steps:** (1) identify all REIT exposures; (2) check whether each qualifies as a capital market exposure under the Concentration Risk Management Directions; (3) apply **100%** or **125%** accordingly; (4) include in total RWA calculations.\n\n### Chapter III — REIT Exposures – Overseas Branches\n- **Scope:** lending to REITs undertaken by overseas branches only.\n- **Risk weight:** **150%** (applies regardless of capital market qualification).\n- **Compliance steps:** (1) identify REIT lending by overseas branches; (2) apply **150%** risk weight; (3) include in total RWA calculations.\n\n### Chapter IV — Integration & Reporting\n- **Cross-reference:** banks must ensure compliance with both the risk-weighting rules (paragraphs 61A–61B) and any concentration limits in the Concentration Risk Management Directions, 2025.\n- **Reporting:** include all REIT RWAs in regulatory capital adequacy filings to RBI. Maintain records clearly identifying each REIT exposure and the risk weight applied. No separate RBI reporting format specified in the amendment.\n- **Definitions:** REIT and CRE not redefined here; apply meanings in applicable securities laws and the base Directions, 2025. \"Overseas branch\" = branch physically located and licensed outside India.\n\n*Verify applicability to your institution and consult the Concentration Risk Management Directions (para 95A) before classifying REIT exposures.*",
+ "what_changed": "# Changes in RBI/2026-27/111 (dated 2026-06-10)\n\n**Effective Date:** October 1, 2026 (or earlier if the Commercial Banks - Credit Facilities Third Amendment Directions, 2026 are adopted in entirety)\n\n---\n\n## Change Summary\n\n**Chapter IV – Risk Weighted Assets (RWAs)**\n\n- **Paragraphs 61A and 61B: INSERTED**\n\n**Effect for Commercial Banks:**\n\n1. **Paragraph 61A** – Establishes risk weight treatment for Real Estate Investment Trust (REIT) exposures:\n   - REITs are classified as Commercial Real Estate (CRE) exposures with a standard risk weight of **100 per cent**\n   - Exception: REITs that qualify as capital market exposures under paragraph 95A of the Concentration Risk Management Directions, 2025 attract a higher risk weight of **125 per cent**\n\n2. **Paragraph 61B** – Establishes risk weight for REIT lending by overseas branches:\n   - Lending to REITs by overseas branches of Indian banks attracts a risk weight of **150 per cent**\n\n---\n\n## Relevance to NaBFID (AIFI)\n\nAs an AIFI, NaBFID should monitor this amendment: AIFI directions incorporate provisions of Commercial Banks directions by reference. If NaBFID's prudential norms similarly reference RWA treatment or CRE exposure standards, this amendment's REIT classification and risk weights may flow through to NaBFID's regulatory framework.",
+ "implications": "# Why NaBFID Should Monitor This Commercial Banks Direction\n\n**Benchmark Function:** RBI's Commercial Banks capital adequacy framework sets the regulatory reference standard. NaBFID's own AIFI prudential directions are calibrated against these benchmarks—either aligned for consistency or deliberately differentiated to reflect AIFI risk profiles. Understanding the commercial bank norm helps NaBFID staff interpret whether any gap in AIFI rules is intentional policy or needs clarification.\n\n**Cross-Reference Risk:** AIFI directions frequently incorporate parts of the Commercial Banks directions by reference (e.g., \"as defined under the Commercial Banks direction on capital adequacy\"). If the Eighth Amendment changes definitions, calculation methods, or phase-in timelines, those changes may automatically flow into NaBFID's obligations unless the AIFI direction explicitly carves out an exception.\n\n**Illustrative Example (Infrastructure Lending Context):**  \nIf this amendment tightens the risk-weighting for long-tenor infrastructure project loans (e.g., 15+ year PPP assets), NaBFID's required capital buffer per unit of lending could increase. This matters operationally: either NaBFID's AIFI direction includes the same tightened weight (making lending less attractive), or it does not (widening a competitive advantage NaBFID must verify is permitted).\n\n---\n\n**⚠️ Important:** *Check NaBFID's own AIFI prudential directions and confirm with your compliance team whether any specific provision in this Commercial Banks amendment binds NaBFID directly.*",
+ "citations": {
+  "key_points": {
+   "953a3c56bfb4": [
+    1
+   ],
+   "c99ed11af157": [
+    1
+   ],
+   "86f47729df2c": [
+    1
+   ],
+   "374f7ddaddf4": [
+    1
+   ],
+   "43bd03eb0c72": [
+    1
+   ],
+   "b5f0cdc12724": [
+    1
+   ],
+   "84b24d154484": [
+    1
+   ],
+   "8e48c3237205": [
+    1
+   ],
+   "0506bed17ee9": [
+    1
+   ],
+   "27edafdf2d5e": [
+    1
+   ],
+   "07e55543c565": [
+    1
+   ],
+   "d6d0e571a4b8": [
+    1
+   ],
+   "b2c2dd0c380f": [
+    1
+   ],
+   "6247d300ee1d": [
+    1
+   ],
+   "9f858a96b462": [
+    1
+   ]
+  },
+  "what_changed": {
+   "d80cc090b036": [
+    1
+   ],
+   "2d0c187dd073": [
+    1
+   ],
+   "02e44ae3d911": [
+    1
+   ],
+   "f46a3ee7c76e": [
+    1
+   ],
+   "561969b24a71": [
+    1
+   ],
+   "b0156a720e6f": [
+    1
+   ],
+   "abf0c444920a": [
+    1
+   ],
+   "a222acee2249": [
+    1
+   ]
+  },
+  "implications": {
+   "13acfd44d97b": [
+    1
+   ],
+   "723ecc662013": [
+    1
+   ],
+   "045963fc4268": [
+    1
+   ],
+   "bc746355d8dd": [
+    1
+   ]
+  }
+ }
+}

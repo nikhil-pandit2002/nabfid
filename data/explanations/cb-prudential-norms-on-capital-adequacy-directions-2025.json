@@ -1,0 +1,128 @@
+{
+ "key_points": "## Commercial Banks — Prudential Norms on Capital Adequacy — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/151, dated 2025-11-28)*\n\nThese Directions establish minimum capital, leverage, and risk management requirements for commercial banks to absorb losses and maintain solvency.\n\n### Chapter I — Preliminary\n- **Title & applicability:** RBI (Commercial Banks - Prudential Norms on Capital Adequacy) Directions, 2025. **Applies to:** banking companies (excl. SFBs, Payment Banks, LABs), State Bank of India, and corresponding new banks per Banking Regulation Act 1949 ss. 5(c), 5(da), 5(nc). **NaBFID note:** not directly addressed; verify cross-reference in AIFI directions.\n- **Effective date:** **Immediately** (2025-11-28; updated 2026-06-16).\n- **Key definitions:** Banking book (all non-trading items); Trading book (Held for Trading per Investment Portfolio Directions); Credit Risk; Counterparty Credit Risk (CCR); Market risk; Operational risk; Legal risk; Going-concern vs. gone-concern capital; CCP, QCCP, Clearing Member; Trade exposures; Initial margin; Variation margin; Default Funds; Netting Set; Current Exposure; Securitisation tranche; Tranche maturity; Tranche thickness; Capital Market Exposure.\n\n### Chapter II — Capital Adequacy Framework & Scope\n- **Board policies (mandatory):** Internal Capital Adequacy Assessment Process (ICAAP), explicit capital plan, formal disclosure policy. **Annual assessment:** Board must document whether ICAAP processes achieve stated objectives.\n- **Two-level compliance:** Solo (standalone) and Consolidated (group after consolidating subsidiaries except insurance/non-financial entities; overseas branches covered in both).\n- **WOS foreign banks:** Apply same components as domestic banks; **minimum 10% CRAR continuously for first 3 years** from commencement; maintain Capital Conservation Buffer (CCB).\n- **Consolidated capital adjustments:** All regulatory adjustments (para 28) apply; investments in capital of subsidiaries deducted from corresponding capital tier; shortfall in unconsolidated entity **fully deducted from CET1**; minority interest recognized per para 27; NOFHC consolidated capital adequacy applies; foreign bank NBFCs in India consolidated line-by-line per AS 21 if parent has management control.\n\n### Chapter III — Regulatory Capital Components & Limits\n- **Three-pillar framework:** Pillar 1 (Minimum CRAR **9% RWAs** ongoing); Pillar 2 (Supervisory Review & higher capital per risk profile); Pillar 3 (Market Discipline).\n- **Minimum ratios:** CET1 **5.5% RWAs**; Tier 1 **7% RWAs**; CRAR **9% RWAs**; AT1 max **1.5% of Tier 1**; Tier 2 max **2% of CRAR**; CCB **2.5% CET1**; CET1+CCB **8%**; CRAR+CCB **11.5%**.\n- **Minority interest in subsidiaries:** CET1 recognized (after deducting surplus CET1 = subsidiary CET1 minus lower of: subsidiary minimum **8% RWAs** or its portion of consolidated **8%**). Tier 1 and total capital similarly recognized after surplus deduction.\n\n### Chapter IV — Regulatory Adjustments & Deductions\n- **Deduct from CET1:** Goodwill & intangibles (net of DTL); accumulated-loss DTAs (full); cash flow hedge reserve (non-fair-valued items); cumulative gains/losses on fair-valued liabilities due to own credit risk; defined benefit pension assets (net of DTL); own shares (direct & indirect via funds).\n- **DTA timing differences:** Limited recognition **up to 10% CET1** (after adjustments); combined with significant investments in unconsolidated financials **≤15% CET1** (15%÷85%=17.65% multiplier rule).\n- **Securitisation gains, unrealised profits on loan transfers & SRs:** Per Transfer & Distribution of Credit Risk Directions 2025.\n- **Investments in banking/financial/insurance entities:** Aggregate **≤10% total regulatory capital** (after deductions para 28(1)–28(7)); reciprocal holdings **fully deducted** (corresponding deduction); non-reciprocal ≤10% holdings above 10% aggregate **deducted via corresponding deduction**; >10% holdings **100% deducted**.\n\n### Chapter V — Credit Risk & Counterparty Exposures\n- **Standardised Approach:** Risk weights per ECAI ratings for sovereigns, banks, corporates (**0%–250%**); unrated corporates **100%**; past due loans **150%** (unsecured) or higher per delinquency period; equities **100%** or higher; below-investment-grade unrated **150%**.\n- **CCP exposures:** QCCP trade exposures **2% RW**; default fund **1250% RW**; RWA = Min{(2%×TE + 1250%×DF); 20%×TE}. Non-QCCP trade per counterparty category RW; default fund **1250% RW**.\n- **Failed transactions (DvP):** Exposure from day 5+ settlement failure; capital charge = positive current exposure × factor per maturity (5–15 days **9%**; 16–30 **50%**; 31–45 **75%**; 46+ **100%**).\n- **Failed non-DvP (free deliveries):** After first leg unmet by EOD, treat as **loan**; if second leg unmet 5+ days after contractual date, **1250% RW** on value transferred + replacement cost until completion.\n\n### Chapter VI — Credit Risk Mitigation & Collateral\n- **Eligible financial collateral:** Cash deposits, govt securities, qualifying bank/corporate bonds; haircuts per residual maturity & instrument type (**0%** for deposits same currency; **0.5%–15%** govt securities per maturity; **1%–12%** bank/corp bonds).\n- **Maturity mismatch:** Collateral residual maturity **<1 year not recognized**; **≤3 months never recognized**; maturity mismatch adjustment: $P_a = P × \\frac{(t-0.25)}{(T-0.25)}$ where t = min(T, collateral maturity), T = min(5, exposure maturity) in years.\n- **Guarantees & credit derivatives:** Risk weight = **lower of** (guarantor RW, underlying RW); full recognition if legally valid.\n\n### Chapter VII — Market Risk & Leverage Ratio\n- **Trading book:** Mark daily to fair value. **Specific risk charges** per Tables 30–39 (govt **0%–13.5%**; banks **1.75%–31.5%** by CET1+CCB status; corporates **0.28%–13.5%** by rating; equities **8%–13.5%**). **General market risk:** Interest rate (**15 time-bands, 0.6%–1.0% yield change**), equity (**8%**), forex (**8%**), gold (**8%**).\n- **Interest rate banking book:** Assess via earnings impact (200/300 bp shock) or capital decline (% of base-case capital) or PV01.\n- **Leverage ratio:** Tier 1 ÷ Exposure measure **≥3%** (ongoing). Exposure = on-balance sheet assets (less contra-assets) + OBS CCF conversions (**min 10%** floor for unconditionally cancellable commitments; **20%** maturity ≤1yr; **50%** >1yr; **100%** direct credit substitutes/forward purchases).\n\n### Chapter VIII — Securitisation & Derecognition\n- **Conditions for derecognition (para 96):** Originator must **not control transferred exposures** (no repurchase power except clean-up calls ≤10% threshold at arm's length); **legal isolation** from originator/creditors; **notes not obligations of originator**; clean-up discretionary (not mandatory); **no yield increases** for deterioration in pool; **no termination triggers** except eligible clean-up, tax/regulatory calls, early amortisation.\n- **Capital charge:** SEC-ERBA framework; unrated **100% charge**; cap = actual exposure; originator max charge = capital if underlying not securitised; implicit support **triggers full capital** on underlying + reputational risk consequences.\n\n### Chapter IX — Risk Management & ICAAP\n- **Concentration risk:** Assess counterparty, group, sectoral, geographical, business-line concentrations; Herfindahl-Hirshman Index or equivalent; aggregate large borrower exposure **≤800% capital funds**. Stress test for wrong-way risk (protection provider correlated with obligors).\n- **Liquidity risk:** Maintain liquid asset cushion; manage intraday liquidity; stress test funding scenarios; governance of risk tolerance; early warning indicators.\n- **Interest rate banking book:** Limit via earnings decline % or capital decline %; historical and forward-looking analysis.\n- **Implicit support (securitisation):** Provision voids clean break; capital = underlying exposure as unsecuritized; repeated finding triggers **public disclosure + capital relief moratorium + enhanced RWA treatment**.\n\n### Chapter X — Disclosure & Reporting (Pillar 3)\n- **Public disclosure:** Leverage ratio solo & consolidated on **half-yearly basis minimum** (with three quarterly-minimum items: Tier 1, exposure measure, ratio each quarter-end with prior three quarters). **Common disclosure templates** (Tables DF-1 through DF-18 in Annex III) reconciling accounting assets to regulatory exposures; detailed capital, credit risk, market risk, securitisation, operational risk breakdowns by geography, industry, maturity, ECAI rating, netting.\n- **Regulatory reporting:** Large Exposures return monthly to RBI DOS (top 20 exposures); leverage ratio quarterly to RBI; ICAAP document; NPA schedule, provision movement, capital ratios, stress test results per RBI guidance.\n\n### Chapter XI — Repeal & Interpretation\n- **Repeal:** Prior RBI prudential capital adequacy directions (DOR.RRC.REC.302/33-01-010/2025-26, 2025-11-28) repealed. **Saving clause:** actions, approvals, rights, penalties under repealed directions preserved. **RBI interpretation final & binding** (para 275).",
+ "implications": "# Why This RBI Commercial Banks Direction Matters to NaBFID\n\n**Benchmark and regulatory architecture:** RBI's prudential norms for commercial banks set the baseline capital adequacy framework that AIFI directions are calibrated against or compared to. Even where NaBFID's own AIFI direction differs, understanding the commercial banks' standard helps NaBFID stakeholders see what minimum thresholds are expected across the regulated lending ecosystem.\n\n**Cross-reference incorporation:** NaBFID's AIFI direction and related RBI guidance may explicitly reference or incorporate provisions from the Commercial Banks directions by reference—meaning parts of this direction could bind NaBFID. However, **you must verify the current AIFI direction and confirm with your Compliance team** whether specific capital adequacy clauses apply to NaBFID or are modified for long-tenor infrastructure lenders.\n\n---\n\n## Illustrative Example (not a statement of NaBFID's actual obligation)\n\n*A commercial bank's capital ratio rules might specify a minimum Tier 1 ratio of 9% under this direction. NaBFID's own AIFI direction may set a different ratio (e.g., 8% or 10%) tailored to long-tenor lending risk. Knowing the commercial bank benchmark helps NaBFID's Treasury and Risk teams understand the regulatory ecosystem and quickly spot where NaBFID's rules diverge and why.*\n\n---\n\n**Next step:** Cross-check this direction against NaBFID's published AIFI direction and seek formal guidance from your Compliance Officer on which provisions apply.",
+ "citations": {
+  "key_points": {
+   "cdb36de1c420": [
+    1
+   ],
+   "994fd6c434e9": [
+    4
+   ],
+   "ea594220a10f": [
+    6,
+    8
+   ],
+   "87c7b080f616": [
+    9
+   ],
+   "5693f3f964fe": [
+    10
+   ],
+   "1920b577145e": [
+    11
+   ],
+   "c6cfb489b10f": [
+    11
+   ],
+   "c4a6511c8847": [
+    12
+   ],
+   "5b22d66988c2": [
+    13
+   ],
+   "ff2da2d09520": [
+    15
+   ],
+   "b1890080f2fd": [
+    69
+   ],
+   "6aa9b60dbb4a": [
+    361
+   ],
+   "24d5de325221": [
+    158
+   ],
+   "8a148aecf02b": [
+    77
+   ],
+   "4a9813b6ae3c": [
+    212
+   ],
+   "6b2482aacd1d": [
+    317
+   ],
+   "5847c27cf064": [
+    140
+   ],
+   "7187f43e1521": [
+    245,
+    282
+   ],
+   "34f2eac7ebca": [
+    282
+   ],
+   "c81c8ca381cf": [
+    196
+   ],
+   "5ae4af0cff0c": [
+    156
+   ],
+   "3c802981d9a9": [
+    319
+   ],
+   "03a26288ea7b": [
+    330,
+    336
+   ],
+   "b8e4da414d1e": [
+    275
+   ],
+   "e0fd373852a2": [
+    343
+   ],
+   "284c4fb26d3b": [
+    377
+   ],
+   "85ec0ce55e6e": [
+    356
+   ],
+   "e617cc1860d3": [
+    276
+   ],
+   "ae15b8ad1276": [
+    280
+   ],
+   "7c8766cbcf36": [
+    274
+   ],
+   "59f4736cf91f": [
+    283
+   ],
+   "cc05d346caf1": [
+    345,
+    385
+   ],
+   "fe6bbca0b27d": [
+    344
+   ],
+   "74a17dae0d6b": [
+    347
+   ]
+  },
+  "implications": {
+   "6b710a59edfa": [
+    1
+   ],
+   "61c7e63e8797": [
+    128
+   ],
+   "5e8cd810c58a": [
+    376
+   ],
+   "c6d44244051d": [
+    253
+   ]
+  }
+ }
+}

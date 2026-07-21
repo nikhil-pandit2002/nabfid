@@ -1,0 +1,101 @@
+{
+ "key_points": "## Capital Adequacy – Quarterly Profit Inclusion in CET1 — Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/79, dated 2026-05-08)*\n\nPermits commercial banks to reckon current-year profits in CET1 capital on a quarterly basis for CRAR calculation, subject to audit/limited review and a specified eligible profit formula.\n\n### Chapter I — Preliminary\n- **Commencement:** immediate. **Applicability:** commercial banks. **Note on NaBFID:** this direction is issued to commercial banks; whether it binds NaBFID (an AIFI) depends on cross-reference in the AIFI directions. Compliance teams must confirm applicability.\n- **Key amendment:** modifies Paragraph 12(x) of the Master Direction dated **November 28, 2025**.\n\n### Chapter II — Quarterly Profit Reckoning Framework\n- **Election:** a bank **may** (not must) reckon profits in the current financial year for CRAR on a **quarterly basis**. Annual basis reckoning remains permitted.\n- **Condition 1 — Quarterly audit/review:** financial statements shall be **audited or subjected to limited review on a quarterly basis**. Unaudited or partially reviewed statements do not satisfy this condition.\n- **Condition 2 — Eligible Profit Formula:**\n  - **EP = NP − 0.25 × D × t**\n  - **EP** = Eligible Profit up to quarter **t** (Q1–Q4)\n  - **NP** = Net Profit cumulative from start of financial year to quarter-end\n  - **D** = Average dividend paid in the immediately preceding **3 complete financial years**\n  - **t** = quarter number (**1, 2, 3, or 4**)\n- **Cumulative net loss treatment:** any cumulative net loss up to quarter-end is **fully deducted** from CET1 capital; no eligible profit may be reckoned in that or subsequent quarters until the loss position recovers.\n\n### Chapter III — Obligations & Prohibitions\n- **Bank shall:** ensure quarterly statements are audited/limited-reviewed; apply the formula precisely; calculate **3-year average dividend**; fully deduct cumulative net loss; maintain audit certifications and eligible profit calculations for supervisory review.\n- **Bank shall not:** reckon quarterly profits without satisfying both conditions above; use unaudited or unreviewed quarterly statements; partially deduct a cumulative net loss.\n\n### Chapter IV — Timelines & Reporting\n- **Effective date:** immediate (**May 8, 2026**).\n- **CRAR reporting:** CET1 capital reflecting eligible quarterly profit (or full loss deduction) must be incorporated into regular CRAR submissions to RBI.\n- **Documentation:** banks shall maintain records of quarterly eligible profit calculations, audit/review certifications, and **3-year dividend averages** for RBI inspection.\n\n_Verify NaBFID applicability with the compliance team before acting._",
+ "what_changed": "# Changes under RBI/2026-27/79 (dated 2026-05-08)\n\n**Paragraph 12(x) — Substituted**\n\n**Effect:**\nThe provision governing a bank's ability to include quarterly profits in Common Equity Tier 1 (CET1) capital for CRAR (Capital to Risk-Weighted Assets Ratio) calculation has been replaced with a new framework containing two mandatory conditions:\n\n1. **Audit/Review Requirement:** Financial statements must be audited or subjected to limited review on a quarterly basis (previously not explicitly required).\n\n2. **Eligible Profit Formula:** The amount of quarterly profit a bank may reckon is now subject to a specific calculation:\n   - **EP_t = NP_t − 0.25 × D × t**\n   - Where EP_t is eligible profit up to quarter 't', NP_t is net profit up to quarter 't', and D is the average dividend paid during the last three financial years\n   - This formula introduces a dividend-based adjustment (0.25 × D × t) that reduces the eligible profit each quarter\n   - Cumulative net losses up to quarter-end must be fully deducted from CET1 capital\n\n**Effective Date:** 2026-05-08 (immediate effect)\n\n**Note for NaBFID:** As an AIFI, NaBFID's directions incorporate Commercial Banks directions by reference. Changes to the CET1 quarterly profit inclusion framework for banks may flow through to AIFI capital adequacy requirements where applicable.",
+ "implications": "# Why NaBFID Should Care About Commercial Banks' Capital Adequacy Directions\n\n**Benchmark and Comparative Framework:**\nRBI's prudential norms for Commercial Banks set the regulatory reference standard against which AIFI capital adequacy frameworks are measured and justified. AIFI directions (including those governing NaBFID) often explicitly incorporate, mirror, or depart from Commercial Banks' norms by design—understanding the CB benchmark helps NaBFID anticipate regulatory expectations and identify where AIFI treatment differs due to long-tenor, illiquid infrastructure assets.\n\n**Cross-Reference Risk:**\nAIFI directions on Capital Adequacy frequently reference or incorporate provisions from Commercial Banks directions \"by reference\" or require compliance with principles \"not inconsistent with\" CB norms. This means portions of this CB direction *may* bind NaBFID indirectly; compliance staff must verify this by checking the applicable AIFI Capital Adequacy Direction and confirming scope with legal/compliance.\n\n---\n\n## Illustrative Example\n\nSuppose this CB direction amends risk-weighting rules for corporate exposures. NaBFID's AIFI direction may either (a) adopt the same risk-weight for comparable infrastructure loans, (b) specify a different weight justified by longer tenure and lower default correlation, or (c) cross-refer directly to the CB rule for certain exposures. Without understanding the CB benchmark, NaBFID cannot assess whether its capital charges align with what RBI intends for comparable risk.\n\n---\n\n**Disclaimer:** This is explanatory context only. Whether specific provisions bind NaBFID must be confirmed against the current AIFI Capital Adequacy Direction and reviewed with your compliance team.",
+ "citations": {
+  "key_points": {
+   "a1c4f13d5814": [
+    1
+   ],
+   "0a96a7d878e9": [
+    1
+   ],
+   "ba17301eeb5c": [
+    1
+   ],
+   "d129f0688924": [
+    1
+   ],
+   "950be145996f": [
+    1
+   ],
+   "b2203f212dcd": [
+    2
+   ],
+   "715d538b2826": [
+    2
+   ],
+   "a73001180000": [
+    2
+   ],
+   "677f69049085": [
+    1,
+    2
+   ],
+   "72dca069192b": [
+    1
+   ],
+   "2dbde5cd1648": [
+    2
+   ],
+   "3a29bcee184e": [
+    1
+   ],
+   "573aeac8c944": [
+    1
+   ],
+   "fdbdc5bec45b": [
+    1
+   ],
+   "a1124dc0ad60": [
+    2
+   ],
+   "6e6158a44823": [
+    1
+   ]
+  },
+  "what_changed": {
+   "fbdd2a188ea8": [
+    1
+   ],
+   "7dc79f8f01ed": [
+    1
+   ],
+   "31ce76321c7a": [
+    1
+   ],
+   "afd6e9354854": [
+    1
+   ],
+   "b5fa50921fbb": [
+    2
+   ],
+   "9d8669a8011b": [
+    2
+   ],
+   "f378b4e4017a": [
+    2
+   ],
+   "c35d97251083": [
+    1
+   ],
+   "56ddd808ba3e": [
+    1
+   ]
+  },
+  "implications": {
+   "6f7b8310198d": [
+    1
+   ],
+   "35bed11f3a70": [
+    1
+   ],
+   "e0625a1cf1e1": [
+    1
+   ],
+   "6793fec9c446": [
+    1
+   ]
+  }
+ }
+}

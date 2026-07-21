@@ -17,6 +17,33 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 # Load secrets/config from the project .env (gitignored). Safe if absent.
 load_dotenv(PROJECT_ROOT / ".env")
 SOURCE_DIR = PROJECT_ROOT / "AIFI latest"     # source PDFs (read-only)
+
+# The corpus is split by REGULATED ENTITY: the same RBI topic (capital adequacy,
+# credit risk, ...) is issued separately for AIFIs and for Commercial Banks, and
+# the two must never be mixed — an AIFI answer must not cite a Commercial Bank
+# rule, and an amendment must only ever attach to a parent in its own entity.
+# Each source root maps to one entity; folders inside a root are divisions.
+#
+# doc_id namespacing: AIFI doc_ids are UNPREFIXED and must stay that way — they
+# key the 34 hand-reviewed explanation guides, the baked citations and the
+# committed vector index. Commercial Bank ids carry the "cb-" prefix, which also
+# resolves the 11 real filename collisions between the two corpora (e.g. both
+# have "prudential-norms-on-capital-adequacy-amendment-directions-2026").
+ENTITY_AIFI = "AIFI"
+ENTITY_COMMERCIAL_BANK = "Commercial Bank"
+# Some RBI directions are addressed to ALL regulated entities at once — e.g. the
+# Trade Relief Measures Directions, 2025 apply to "(i) Commercial Banks ...
+# (iv) All-India Financial Institutions". These bind NaBFID directly, so they
+# must surface in the AIFI scope as well as the Commercial Bank one; see
+# docstore.doc_ids_for_entity, which folds them into every entity scope.
+ENTITY_ALL_RES = "All Regulated Entities"
+
+SOURCE_ROOTS = [
+    # (entity, folder, doc_id prefix)
+    (ENTITY_AIFI, PROJECT_ROOT / "AIFI latest", ""),
+    (ENTITY_COMMERCIAL_BANK, PROJECT_ROOT / "commercial bank", "cb-"),
+    (ENTITY_ALL_RES, PROJECT_ROOT / "all regulated entities", "re-"),
+]
 DATA_DIR = PROJECT_ROOT / "data"              # derived data (manifest, chunks, sqlite)
 INDEX_DIR = PROJECT_ROOT / "index"            # vector + keyword indexes
 

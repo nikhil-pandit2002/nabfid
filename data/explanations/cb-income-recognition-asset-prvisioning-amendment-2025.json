@@ -1,0 +1,52 @@
+{
+ "key_points": "## Income Recognition, Asset Classification and Provisioning — Amendment Directions, 2025 — Detailed Compliance Guide\n*(RBI/2025-26/128, dated 2025-12-04)*\n\nThis amendment deletes Paragraph 117 from the Principal Directions and permits banks to release provisions held under that paragraph.\n\n### Chapter I — Preliminary\n- **Commencement:** **January 1, 2026**. **Applicability:** Commercial Banks only. NaBFID applicability must be confirmed via AIFI-specific directions incorporating the Principal Directions.\n- **Amendment scope:** Paragraph 117 (Chapter IV, Provisioning Norms) of the Reserve Bank of India (Commercial Banks - Income Recognition, Asset Classification and Provisioning) Directions, 2025 is **deleted in its entirety** effective **January 1, 2026**.\n\n### Chapter II — Released Provisions\n- **Treatment of provisions:** Banks holding provisions under deleted Paragraph 117 are **free to reverse or transfer such provisions to General Reserve** from the effective date onward.\n- **Discretion:** Choice between reversal and transfer is at the bank's sole discretion; no direction prescribes which option applies in particular circumstances.\n- **Accounting:** Bank must document decision and treatment in financial statements and regulatory filings per applicable accounting standards (Ind-AS / Schedule to Balance Sheet); maintain audit trail of quantum released and treatment adopted.\n\n_For text of deleted Paragraph 117, refer to the Principal Directions. Verify AIFI applicability with compliance team before acting._",
+ "what_changed": "# Changes Under RBI/2025-26/128 (dated 2025-12-04)\n\n## Amendment Summary\n\n| Element | Change |\n|---------|--------|\n| **Location** | Paragraph 117, Chapter IV (Provisioning Norms) |\n| **Type of Modification** | **Deleted** |\n| **Effect** | Paragraph 117 is removed entirely from the Commercial Banks directions. Following deletion, banks gain discretion to either reverse provisions that were previously required under that paragraph, or transfer them to General Reserve. |\n| **Effective Date** | 2026-01-01 (January 1, 2026) |\n\n---\n\n## Implication for NaBFID\n\nAlthough this amendment applies to Commercial Banks, NaBFID (as an AIFI) should note that AIFI directions incorporate provisions of the Commercial Banks rulebook by reference. If NaBFID's own directions reference or adopt Paragraph 117 or its provisioning requirements, this deletion may flow through and affect NaBFID's provisioning obligations as well. Confirmation of whether NaBFID's directions are linked to this specific paragraph is recommended.",
+ "implications": "# Why This RBI Commercial Banks Direction Matters for NaBFID\n\n**Benchmark Function:**\nCommercial bank provisioning rules set the regulatory floor that AIFI directions are measured against. Even though NaBFID operates under separate AIFI directions, regulators often use commercial bank standards as the reference point—if commercial banks must provision 5% for a given stress category, AIFI directions may require equal or sometimes stricter provisioning. Understanding the commercial bank rule helps NaBFID anticipate what its own direction will likely require.\n\n**Cross-Reference Risk:**\nAIFI directions frequently incorporate commercial bank provisions by reference (e.g., \"as per the Commercial Banks directions, except as modified herein\"). Some parts of this amendment *may* bind NaBFID directly; others may not. NaBFID's compliance team must check the parallel AIFI directions to confirm which asset classification and provisioning changes apply in practice.\n\n---\n\n**Illustrative Example:**\nSuppose this amendment tightens the timeline for classifying a stalled infrastructure project loan as NPA (non-performing asset) from 180 days to 120 days of default. NaBFID readers should care because: (1) it signals stricter supervisory thinking about stressed long-tenor projects, and (2) if NaBFID's AIFI direction cross-refers to or mirrors this timeline, it directly affects how NaBFID recognizes and provisions stress on its own infrastructure book.\n\n---\n\n**Next Step:** Confirm applicability by reviewing NaBFID's AIFI direction and consulting your compliance function—do not assume this direction applies directly.",
+ "citations": {
+  "key_points": {
+   "da8ecd41f0d4": [
+    1
+   ],
+   "5070ac488d32": [
+    1
+   ],
+   "abe591dacaa5": [
+    1
+   ],
+   "f93742f96e73": [
+    1
+   ],
+   "f4f2846e03a1": [
+    1
+   ]
+  },
+  "what_changed": {
+   "6ac4e6bea20b": [
+    1
+   ],
+   "8e6fdefe5510": [
+    1
+   ],
+   "b27cee4f5dac": [
+    1
+   ],
+   "d88acbb9b325": [
+    1
+   ]
+  },
+  "implications": {
+   "14d20b6e87b7": [
+    1
+   ],
+   "ff3bba590b00": [
+    1
+   ],
+   "91b3903672e3": [
+    1
+   ],
+   "87b05854ead2": [
+    1
+   ]
+  }
+ }
+}

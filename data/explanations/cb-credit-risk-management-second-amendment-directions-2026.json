@@ -1,0 +1,178 @@
+{
+ "key_points": "## Credit Risk Management — Second Amendment Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/26, dated 2026-04-27)*\n\nThese amendments to the Commercial Banks – Credit Risk Management Directions, 2025 revise country risk classification, unhedged foreign currency exposure (UFCE) capital treatment, and working capital loan repayment structures, effective **April 1, 2027**.\n\n### Chapter I — Country Risk Classification\n- **Scope:** applies to banks using country risk classifications pending transition to internal rating systems.\n- **ECGC seven-category classification:** banks may use the **Export Credit Guarantee Corporation of India Ltd. (ECGC)** framework for country risk assessment.\n- **ECGC obligations:** provide **quarterly updates** of country classifications to requesting banks; **inform all banks immediately** of any **sudden major changes** in classification in the interim period.\n- **Sunset:** provisions apply **till banks move to internal rating systems**.\n\n### Chapter II — Unhedged Foreign Currency Exposure (UFCE) Assessment\n- **Bank obligations:** **assess and monitor UFCE** of all entities; **maintain adequate capital** for UFCE exposures.\n- **Calculation frequency:** minimum **quarterly basis**.\n- **Measurement basis:** for **projects under implementation** and **new entities**, use **projected average annual EBID for three years from commencement of commercial operations** (not historical data).\n- **Insufficient data:** if bank cannot obtain sufficient data to assess UFCE, **apply conservative default: place exposure in the highest bucket** (triggering **25 percentage point risk weight increase**).\n\n### Chapter III — Incremental Capital Requirements for UFCE\n- **Trigger threshold:** incremental capital applies only when **Potential Loss / EBID exceeds 75 per cent**.\n- **Capital requirement:** **25 percentage point increase in risk weight** for exposures where Potential Loss / EBID is **more than 75 per cent**.\n- **Below-threshold bracket:** **0** incremental requirement when Potential Loss / EBID is **75 per cent or below** (applies to all brackets: upto **15%**, **15–30%**, **30–50%**, **50–75%**).\n- **Applicability:** incremental requirements are **over and above extant applicable credit risk weights** per the Capital Charge for Credit Risk – Standardised Approach Directions, 2026.\n- **Example:** entity with **50% base risk weight** + **25 percentage point increase** = **75% final risk weight**.\n- **Computation base:** incremental requirements calculated on **total exposure amount used for credit risk capital computation**.\n\n### Chapter IV — Working Capital Loan (WCL) Repayment & Rollover\n- **Repayment discretion:** banks / consortia / syndicates may stipulate **instalment-based repayment OR bullet repayment** (lump-sum at maturity), at their discretion.\n- **Conditions:** both structures subject to compliance with the **Reserve Bank of India (Commercial Banks – Asset Classification, Provisioning and Income Recognition) Directions, 2026** and the **Reserve Bank of India (Commercial Banks – Resolution of Stressed Assets) Directions, 2025**.\n- **Rollover:** banks **may consider rollover** of WCLs **at the request of the borrower**, subject to the same two directions.\n\n### Chapter V — Deletions\n- **Paragraphs 58(7) and 58(8)** of the 2025 Directions **stand deleted**; any prior provisions therein are no longer valid.\n\n### Chapter VI — Effective Date & Implementation\n- **Commencement:** **April 1, 2027**.\n- **Applicability:** commercial banks. **NaBFID:** verify whether AIFI Directions cross-refer to these paragraphs (51, 56, 58, 92(4)); if so, the same obligations apply to NaBFID by incorporation.\n\n_Verify applicability and implementation timelines with the compliance team._",
+ "what_changed": "# Changes Under RBI/2026-27/26 (Effective 2027-04-01)\n\n## Summary of Amendments to Commercial Banks – Credit Risk Management Directions, 2025\n\n**Paragraph 51** – Substituted\n- Clarifies that banks may use ECGC's seven-category country classification system until they transition to internal rating systems.\n- Adds explicit obligation for ECGC to provide quarterly updates of country classifications to banks and to notify all banks of sudden major changes during interim periods.\n\n**Paragraph 56** – Substituted\n- Restates requirement for banks to assess and monitor Unhedged Foreign Currency Exposure (UFCE) of entities and maintain adequate capital.\n- Adds reference to an explanatory note in Annex I providing background on these instructions.\n\n**Paragraph 58(3) and Table 1** – Substituted\n- Replaces incremental capital requirements framework for UFCE exposures with a new tiered structure:\n  - Up to 15%: 0% increment\n  - More than 15% to 30%: 0% increment\n  - More than 30% to 50%: 0% increment\n  - More than 50% to 75%: 0% increment\n  - More than 75%: 25 percentage point increase in risk weight\n\n**Paragraph 58(3), Explanation (i)** – Substituted\n- Clarifies that incremental capital requirements apply over and above existing credit risk weights under the Standardised Approach Directions, 2026.\n- Adds worked example showing how a 25 percentage point increase applies (e.g., 50% base risk weight becomes 75%).\n- Adds note that incremental capital requirements are based on total exposure amount used for credit risk capital computation.\n\n**Paragraph 58(4)** – Substituted\n- Establishes minimum quarterly calculation requirement for incremental capital for UFCE.\n\n**Paragraph 58(5)** – Substituted\n- For projects under implementation and new entities, incremental capital requirements shall be based on projected average annual EBID (Earnings Before Interest and Depreciation) for three years from commercial operations commencement.\n\n**Paragraph 58(6)** – Substituted\n- Requires conservative approach: where banks lack sufficient data to assess UFCE and compute incremental capital, the exposure must be placed in the highest bucket (Table 1), triggering 25 percentage point risk weight increase.\n\n**Paragraph 58(7)** – Deleted\n- Removes this provision entirely (content not specified in amendment text).\n\n**Paragraph 58(8)** – Deleted\n- Removes this provision entirely (content not specified in amendment text).\n\n**Paragraph 92(4)** – Substituted\n- Clarifies that banks/consortia/syndicates retain discretion to structure Working Capital Loan (WCL) repayment as instalments or bullet repayment, conditional on compliance with Asset Classification, Provisioning and Income Recognition Directions, 2026 and Resolution of Stressed Assets Directions, 2025.\n- Permits bank consideration of WCL rollover at borrower request, subject to the above directions.\n\n---\n\n## Relevance to NaBFID\n\nAlthough these amendments sit in the Commercial Banks rulebook, they affect AIFI directions through incorporation by reference. Changes to UFCE capital requirements, country classification protocols, and WCL repayment structures may flow to NaBFID where its directions reference or adopt Commercial Banks credit risk management frameworks.",
+ "implications": "# Why NaBFID Should Care About This RBI Commercial Banks Direction\n\n**Benchmark Function:** This direction sets the RBI's evolving credit risk framework expectations. NaBFID's own AIFI directions are typically calibrated against or explicitly reference commercial bank standards, making this a critical baseline for understanding regulatory intent and the likely trajectory of AIFI expectations.\n\n**Direct Cross-Reference Risk:** AIFI directions on credit risk management frequently incorporate commercial bank provisions by reference (e.g., \"as per the norms applicable to commercial banks\" or \"mutatis mutandis\"). Some clauses may directly bind NaBFID; others may be adapted. **Any reliance must be verified against the current NaBFID direction and confirmed with Compliance.**\n\n---\n\n**Illustrative Example (Infrastructure Context):**  \nIf this 2026 amendment tightens stress-testing requirements for long-tenor exposures or restructured assets, a commercial bank might need more granular assumptions for, say, a 15-year power transmission loan. NaBFID's portfolio—heavy in such exposures—would likely see comparable (or more stringent) requirements once reflected in AIFI guidance, even if the timeline or detailed mechanics differ.\n\n---\n\n**Next Step:** Cross-check the specific amendments against NaBFID's Credit Risk Management directions and confirm applicability with your Compliance team before operationalizing any new practice.",
+ "citations": {
+  "key_points": {
+   "29300d5e08f4": [
+    1
+   ],
+   "f664313a915f": [
+    1
+   ],
+   "35783264307f": [
+    1
+   ],
+   "f97543d2651c": [
+    1
+   ],
+   "c46983e3ce79": [
+    1
+   ],
+   "c4ea6242a270": [
+    1
+   ],
+   "0a73ab1dc38c": [
+    2
+   ],
+   "820a60a98317": [
+    2
+   ],
+   "063e77577bf7": [
+    2
+   ],
+   "019a7e609cd6": [
+    2
+   ],
+   "95391101d3c1": [
+    2
+   ],
+   "714e93d00ef8": [
+    2
+   ],
+   "c436af8cb985": [
+    2
+   ],
+   "214d1df24cbb": [
+    2
+   ],
+   "514265fd5271": [
+    2
+   ],
+   "ac82eb1f6d07": [
+    3
+   ],
+   "cb2d35bc61ae": [
+    3
+   ],
+   "417a399742c6": [
+    3
+   ],
+   "71f087ae6b55": [
+    1,
+    2
+   ],
+   "d351b4263c6b": [
+    1,
+    3
+   ],
+   "f902118342e2": [
+    1,
+    2
+   ]
+  },
+  "what_changed": {
+   "9c3070705879": [
+    1
+   ],
+   "6ca0e79213d1": [
+    1
+   ],
+   "b6bddaa0fca5": [
+    1
+   ],
+   "42417d0cbed5": [
+    1
+   ],
+   "8ab933ce0f96": [
+    1
+   ],
+   "3b816c77d1fc": [
+    1
+   ],
+   "65cc2e0fd807": [
+    1
+   ],
+   "c21eebe2b2f5": [
+    1
+   ],
+   "9774a5965d89": [
+    2
+   ],
+   "6b0be804b4b0": [
+    2
+   ],
+   "2a213b1b1fdf": [
+    2
+   ],
+   "7cb3100b5809": [
+    2
+   ],
+   "6bdfbb5d4e9e": [
+    2
+   ],
+   "fd353622f937": [
+    2
+   ],
+   "95059851012c": [
+    2
+   ],
+   "e03797c12a1f": [
+    2
+   ],
+   "6701c99e6927": [
+    2
+   ],
+   "baa05bc1e42f": [
+    2
+   ],
+   "ab4d8a24be2a": [
+    2
+   ],
+   "00fcabe1818d": [
+    2
+   ],
+   "20267a01ddbc": [
+    2
+   ],
+   "283f7a19b48f": [
+    2
+   ],
+   "669eaca944a0": [
+    2
+   ],
+   "a78a6e398863": [
+    2
+   ],
+   "d98fad51e0e2": [
+    2
+   ],
+   "5bee7b1e372a": [
+    2
+   ],
+   "3a780dddeebf": [
+    3
+   ],
+   "834b1a0c6527": [
+    3
+   ],
+   "9562c3a6a0dd": [
+    1
+   ]
+  },
+  "implications": {
+   "b4ee9e932a0c": [
+    1
+   ],
+   "71dba7f60541": [
+    1
+   ],
+   "43b041e26725": [
+    2
+   ],
+   "cda03b274920": [
+    1
+   ]
+  }
+ }
+}

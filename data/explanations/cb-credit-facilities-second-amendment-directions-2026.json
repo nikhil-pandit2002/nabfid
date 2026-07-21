@@ -1,0 +1,92 @@
+{
+ "key_points": "## Commercial Banks Credit Facilities — Second Amendment Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/25, dated 2026-04-27)*\n\nThese amendments update asset classification, provisioning, and risk-weight obligations for commercial banks' credit facilities, effective **April 1, 2027**, with cross-references to the 2026 Asset Classification and Capital Charge Directions.\n\n### Chapter I — Preliminary\n- **Commencement:** **April 1, 2027**. **Applicability:** commercial banks; applicability to NaBFID (AIFI) depends on whether AIFI Directions cross-refer to these provisions — confirmation with compliance team essential.\n- **Authority:** Reserve Bank of India, Section 35A, Banking Regulation Act, 1949.\n- **Amendment package:** amends the RBI (Commercial Banks - Credit Facilities) Directions, 2025; cross-references the 2026 Asset Classification, Provisioning and Income Recognition Directions and the 2026 Capital Charge for Credit Risk — Standardised Approach Directions.\n\n### Chapter II — Asset Classification and Provisioning (Amendment 1, Paragraph 25(1))\n- **Core obligation:** Individual loan asset classification and provisioning are **wholly governed** by the RBI (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 (not by standalone rules in the 2025 Credit Facilities Directions).\n- **Scope:** applies to all asset categories (standard, special mention account, substandard, doubtful, loss); consolidates prior parallel regimes into a single cross-referenced framework.\n- **Compliance action:** obtain and apply the 2026 Asset Classification Directions; classify assets per its definitions and timelines; provision at its mandated rates and percentages.\n\n### Chapter III — NPA Classification in Project Finance (Amendment 2, Paragraph 84)\n- **Permission:** a project finance account may be classified as NPA at **any time before actual DCCO** (\"Deemed Commercial Close/Completion Opportunity\"), as per the 2026 Asset Classification, Provisioning and Income Recognition Directions.\n- **Scope:** timing of DCCO is determined \"as per record of recovery\" (the bank's own project milestones and documentation).\n- **Compliance action:** do not defer NPA classification merely because DCCO has not been reached; classify immediately upon meeting underlying NPA criteria; maintain contemporaneous DCCO records; apply provisioning rates for NPAs upon classification.\n\n### Chapter IV — Risk Weight and Provisioning (Amendment 3, Paragraph 132)\n- **Dual obligation:** covered exposures attract **risk weight** (per the 2026 Capital Charge for Credit Risk — Standardised Approach Directions) and **provisioning** (per the 2026 Asset Classification, Provisioning and Income Recognition Directions).\n- **Risk weight:** assign per risk matrices in the 2026 Standardised Approach Directions (e.g., **0%, 20%, 50%, 100%, 150%** or higher).\n- **Provision:** maintain loan loss reserve at percentage mandated in the 2026 Asset Classification Directions.\n- **Ongoing:** monitor and update both risk weight and provision as credit quality changes and Directions are amended.\n\n### Chapter V — Deletion (Amendment 4, Paragraph 172(3)(ii))\n- **Deleted:** Paragraph 172(3)(ii) of the 2025 Credit Facilities Directions is **wholly removed** and has no further effect.\n- **Compliance action:** identify and discontinue any prior compliance process tied to the deleted paragraph; confirm with RBI what the deletion's specific impact is on your credit program.\n\n### Chapter VI — Transition and Effective Date\n- **Effective:** **April 1, 2027**. **Not retroactive.**\n- **Compliance timeline:** prepare systems and policies now; apply the 2026 Directions from April 1, 2027 forward. For any asset classified or provisioned between April 27, 2026 (amendment date) and April 1, 2027, clarify with RBI whether reclassification is required; absent guidance, apply 2026 Directions from their publication or the effective date, as RBI specifies.\n\n---\n\n*Verify with the compliance team before acting. Confirm applicability to NaBFID and other AIFIs through explicit cross-reference check in your institution's directions.*",
+ "what_changed": "# Changes in RBI/2026-27/25 (dated 2026-04-27)\n\n**Effective Date:** 2027-04-01\n\n---\n\n## Changes for Commercial Banks (and incorporated by reference into AIFI directions):\n\n| Paragraph | Change Type | Effect |\n|-----------|------------|--------|\n| **25(1)** | Substituted | Asset classification of individual loan assets and provisioning requirements are now governed exclusively by the Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 (replacing prior language). |\n| **84** | Substituted | Project finance accounts may now be classified as NPA at any time before actual DCCO (Deemed Commercial Closure), determined by recovery records, under the Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026 (replacing prior language). |\n| **132** | Substituted | Exposures now attract risk weight and provisioning requirements as specified in both the Reserve Bank of India (Commercial Banks - Capital Charge for Credit Risk - Standardised Approach) Directions, 2026 and the Reserve Bank of India (Commercial Banks - Asset Classification, Provisioning and Income Recognition) Directions, 2026, as amended from time to time (expanded reference framework). |\n| **172(3)(ii)** | Deleted | This provision is removed entirely. |\n\n---\n\n**Note:** These amendments align the Credit Facilities Directions with the 2026 Asset Classification, Provisioning and Income Recognition framework.",
+ "implications": "# Why This RBI Commercial Banks Direction Matters to NaBFID\n\n**Benchmark Role:** RBI commercial bank directions set the supervisory standard against which AIFI-specific rules are measured and justified. Understanding what commercial banks must do helps NaBFID anticipate how RBI may expect similar or differentiated treatment of credit facilities in the AIFI rulebook.\n\n**Cross-Reference Risk:** AIFI directions (including NaBFID's own governing directions) often incorporate or reference commercial bank requirements by analogy or explicit cross-reference. Some provisions in this Commercial Banks direction *may* bind NaBFID indirectly—but this must be verified against NaBFID's own AIFI direction and confirmed with your compliance team, as AIFIs are subject to modified regimes.\n\n---\n\n## Illustrative Example\n\nIf this direction tightens rules on **tenor mismatches in credit facilities**, commercial banks would face stricter hedging or reserve requirements. NaBFID should then check: (1) Does our AIFI direction reference this rule or adopt it? (2) Are we exempt or subject to a parallel requirement? (3) Do our long-tenor infrastructure loans create different risk profiles that warrant different treatment? Without checking the cross-reference, you risk assuming NaBFID has more flexibility than it does—or vice versa.\n\n---\n\n**Next step:** Cross-check this amendment against your current AIFI Directions and consult your compliance officer on which provisions apply.",
+ "citations": {
+  "key_points": {
+   "4798b25bee07": [
+    1
+   ],
+   "9774ca842641": [
+    1,
+    2
+   ],
+   "9eb0265092c7": [
+    1
+   ],
+   "b00781a000c0": [
+    1
+   ],
+   "e5bcb29fee45": [
+    1
+   ],
+   "3b8324894bbe": [
+    1
+   ],
+   "f34975f7d233": [
+    1
+   ],
+   "606d9153b6d9": [
+    1
+   ],
+   "42a4272ceb79": [
+    1
+   ],
+   "1ce58c627374": [
+    1
+   ],
+   "2635ba5e145c": [
+    1
+   ],
+   "69d34d597a1e": [
+    1
+   ],
+   "ff5d8546e961": [
+    1
+   ],
+   "84943143e75c": [
+    1,
+    2
+   ],
+   "8805cd6dece3": [
+    1,
+    2
+   ],
+   "6ffa7723dcc9": [
+    1,
+    2
+   ]
+  },
+  "what_changed": {
+   "b85bbbeef84e": [
+    1
+   ],
+   "f03f40a5439c": [
+    1
+   ],
+   "ce9045241b6e": [
+    1
+   ],
+   "1c9d2a0c8ef1": [
+    1
+   ],
+   "7b71fb74a15d": [
+    2
+   ],
+   "da8e3df3d0b5": [
+    1
+   ]
+  },
+  "implications": {
+   "6461b993945f": [
+    1
+   ],
+   "27a4360ba2e6": [
+    1
+   ],
+   "d721575b7c8d": [
+    1
+   ]
+  }
+ }
+}

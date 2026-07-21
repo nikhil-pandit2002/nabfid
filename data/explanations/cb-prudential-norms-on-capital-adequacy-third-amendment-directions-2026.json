@@ -1,0 +1,118 @@
+{
+ "key_points": "## Capital Adequacy — Amendment Directions, 2026 — Detailed Compliance Guide\n*(RBI/2025-26/238, dated 2026-03-10)*\n\nAmends the Commercial Banks – Prudential Norms on Capital Adequacy Directions, 2025, effective immediately, to revise counterparty credit risk treatment, add-on factors for derivatives, and capital charges for clearing members.\n\n### Chapter I — Preliminary\n- **Applicability:** commercial banks. **NaBFID:** confirm applicability with compliance team.\n- **Effective date:** **March 10, 2026** (immediate).\n\n### Chapter II — Consolidated CCR & Add-On Factors\n- **Consolidated CCR inclusion:** bank shall include CCR exposures of all consolidated entities when computing capital requirement on consolidated basis.\n- **Add-On Factors (Table 16):** apply to all outstanding off-balance sheet CCR exposures. Revised factors by residual maturity and contract type:\n  - **Interest Rate Contracts:** ≤**1 year 0.25%**; **>1–5 years 0.50%**; **>5 years 1.50%**\n  - **Exchange Rate Contracts:** ≤**1 year 1.00%**; **>1–5 years 5.00%**; **>5 years 7.50%**\n  - **Equities Contracts:** ≤**1 year 6.00%**; **>1–5 years 8.00%**; **>5 years 10.00%**\n  - **Precious Metals & Gold:** ≤**1 year 7.00%**; **>1–5 years 7.00%**; **>5 years 8.00%**\n  - **Other Commodities:** ≤**1 year 10.00%**; **>1–5 years 12.00%**; **>5 years 15.00%**\n\n### Chapter III — Reset Clauses & Interest Rate Floor\n- **Reset clause treatment:** for contracts structured to settle at specified dates with terms reset to zero market value, residual maturity = time to next reset date.\n- **Interest rate floor:** interest rate contracts with residual maturity **>1 year** meeting reset criteria subject to **minimum 0.50% add-on factor** regardless of reset date proximity.\n\n### Chapter IV — Clearing Member Capital Charges\n- **Clearing members of SEBI-recognised exchanges:** compute capital charge for CCR per paragraph 85; Table 16 factors for Equities, Precious Metals (except Gold), and Other Commodities apply **only to equity and commodity derivatives clearing positions**.\n- **Precious Metals definition:** silver, platinum, palladium. **Other Commodities:** energy, agricultural, base metals (aluminium, copper, zinc), non-precious metal contracts. Gold classified separately.\n\n### Chapter V — QCCP Exposure Risk Weight\n- **Clearing member QCCP exposure:** apply **2% risk weight** to bank's trade exposure to QCCP for own OTC derivatives, exchange-traded derivatives, and SFTs.\n- **Client clearing with reimbursement:** **2% risk weight** applies where clearing member is obligated to reimburse client for losses if QCCP defaults.\n- **Exception (no capital required):** if clearing member **not obligated to reimburse** clients **and obtains and maintains independent, written, reasoned legal opinion** establishing protection from reimbursement liability in QCCP default event.\n\n_Verify AIFI applicability and obtain legal opinions for QCCP exceptions before implementation._",
+ "what_changed": "# Changes under RBI/2025-26/238 (dated 2026-03-10)\n\n**Effective Date:** 2026-03-10\n\n---\n\n## Changes to Paragraph 85 (Treatment of Total Counterparty Credit Risk)\n\n### 1. **Paragraph 85(1) — Note Inserted**\nA new note is **inserted** at the end clarifying that for consolidated basis capital requirement calculations, banks must include CCR (Counterparty Credit Risk) exposures of all entities required to be consolidated under Section B, Chapter II of the Directions.\n\n### 2. **Table 16 in Paragraph 85(2) — Substituted**\nTable 16 (Add-on factors for market-related off-balance sheet items) is **substituted** with revised add-on factors (as percentages) across maturity bands:\n- **Interest Rate Contracts, Exchange Rate Contracts, Equities, Precious Metals and Gold, and Other Commodities** \n- Maturity buckets: \"One year or less,\" \"Over one to five years,\" and \"Over five years\"\n- The new table updates percentage values for each contract type and maturity combination.\n\n### 3. **Note (b) in Paragraph 85(2) — Substituted**\nExisting note (b) is **substituted** to clarify residual maturity treatment for contracts with specified reset dates (where market value resets to zero). Adds a floor of **0.50 per cent** for interest rate contracts with residual maturity over one year meeting these criteria.\n\n### 4. **Paragraph 85(2) — New Notes (e), (f), (g) Inserted**\nThree new notes are **inserted** after note (d):\n- **(e)** Clarifies Table 16 add-on factors apply to all outstanding CCR exposures.\n- **(f)** Specifies that clearing members of SEBI-recognised stock exchanges (equity and commodity derivatives) compute CCR capital charge under paragraph 85; Table 16 factors for 'Equities,' 'Precious Metals except Gold,' and 'Other Commodities' apply only to such clearing members.\n- **(g)** Defines 'Precious Metals' (Silver, Platinum, Palladium) and 'Other Commodities' (energy, agricultural, base metals, non-precious metal contracts).\n\n### 5. **Paragraph 85(6)(i)(a) — Substituted**\nSub-paragraph (a) is **substituted** to expand the scope of 2 per cent risk weight application for clearing members of QCCPs (Qualified Central Counterparties):\n- Now covers OTC derivatives, exchange-traded derivatives, and SFTs (Securities Financing Transactions).\n- Extends 2 per cent risk weight to clearing members' exposures to QCCPs when offering clearing services to clients and the bank is obligated to reimburse clients for losses in case of QCCP default.\n- Adds a proviso exempting capital maintenance requirements for such transactions if the clearing member is not obligated to reimburse clients and obtains independent, written legal opinion confirming protection from liability upon QCCP default.\n\n---\n\n## Note for NaBFID (AIFI)\nWhile these amendments sit in the Commercial Banks rulebook, NaBFID should note that AIFI directions incorporate parts of the Commercial Banks directions by reference. Changes to CCR treatment, add-on factors, and QCCP clearing member risk weights may flow through to NaBFID's regulatory framework where applicable.",
+ "implications": "# Why This RBI Commercial Bank Capital Adequacy Direction Matters to NaBFID\n\n**Benchmark and Cross-Reference Logic:**\nRBI capital adequacy directions to commercial banks set the supervisory standard and methodology that RBI typically uses as a starting point for AIFI directions. Even though NaBFID is not directly addressed in this commercial bank direction, the definitions, risk-weighting approach, and Pillar 1/2/3 framework used here often appear—sometimes verbatim, sometimes with sector-specific adjustments—in the corresponding AIFI prudential norms direction. This means understanding the commercial bank version helps decode what NaBFID's own direction will likely require, and AIFI directions frequently incorporate parts of the commercial bank direction \"by reference\" (stating that AIFIs must comply \"to the extent applicable\" or \"with modifications\").\n\n**Why It Affects NaBFID Practice:**\nNaBFID must confirm whether the Third Amendment (2026-03-10) amends any provision that the AIFI rules reference or modify for long-tenor infrastructure lenders. If the AIFI direction says, for example, \"capital adequacy shall be computed in line with Commercial Bank directions *mutatis mutandis*,\" then changes to the commercial bank risk weights or Pillar 2 requirements may flow through to NaBFID's own obligations.\n\n---\n\n**Illustrative Example (Infrastructure Lending):**\nIf this amendment adjusts risk weights for project finance or infrastructure exposures above a certain tenor, a commercial bank lending 20 years might see a higher risk weight than before. NaBFID—whose core business is 15–20 year infrastructure loans—would need to check whether its AIFI direction cross-refers to those weights and, if so, whether the amendment affects its own capital requirement calculations. *This is not legal advice; compliance must confirm the exact language in NaBFID's AIFI prudential norms direction.*",
+ "citations": {
+  "key_points": {
+   "6149cf12a4bf": [
+    1
+   ],
+   "a8a1cbcdf4ad": [
+    1
+   ],
+   "f634ddd270a9": [
+    1
+   ],
+   "3cdf874974c4": [
+    2
+   ],
+   "023b53b0f74f": [
+    2
+   ],
+   "680ade17e668": [
+    2
+   ],
+   "3c1ffef0430a": [
+    2
+   ],
+   "cec19f1f3560": [
+    2
+   ],
+   "27c1a12d921f": [
+    2
+   ],
+   "a7d247ec2c36": [
+    2
+   ],
+   "1b31a4de88d4": [
+    2
+   ],
+   "5d5d1fe3d327": [
+    2
+   ],
+   "6cb4d5059ad8": [
+    2
+   ],
+   "484080fdc0fe": [
+    3
+   ],
+   "94d40ea3924c": [
+    3
+   ],
+   "f951cb6db6c5": [
+    3
+   ]
+  },
+  "what_changed": {
+   "51fb42158d3a": [
+    1
+   ],
+   "5b81be93d815": [
+    1
+   ],
+   "e3c20dd43ebc": [
+    2
+   ],
+   "db8bf8b5739f": [
+    2
+   ],
+   "16221c757b35": [
+    2
+   ],
+   "d99c71a4aee8": [
+    2
+   ],
+   "2a8680b371df": [
+    2
+   ],
+   "b7dc63dfac46": [
+    2
+   ],
+   "ed97d13ebb95": [
+    2
+   ],
+   "1281c4dd3496": [
+    2
+   ],
+   "0bf317a861ad": [
+    2
+   ],
+   "d248e57c5298": [
+    3
+   ],
+   "cd1515c5b49f": [
+    3
+   ],
+   "ed7c9c517e01": [
+    3
+   ],
+   "4bdba4388801": [
+    1
+   ]
+  },
+  "implications": {
+   "b686f63355a9": [
+    1
+   ],
+   "f12aae87a7a1": [
+    1
+   ],
+   "f7f8dd6b46dc": [
+    1
+   ],
+   "8777f3b4dde0": [
+    2
+   ]
+  }
+ }
+}

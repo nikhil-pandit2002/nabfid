@@ -1,0 +1,145 @@
+{
+ "key_points": "## Commercial Banks – Prudential Norms on Capital Adequacy (Non-Resident Corporates) — Amendment Directions, 2026\n*(RBI/2025-26/189, dated 2026-01-09)*\n\nAmends risk-weighting rules for claims on non-resident corporates and expands the list of permitted international credit rating agencies to strengthen capital adequacy frameworks.\n\n### Chapter I — Preliminary\n- **Applicability:** Commercial Banks. (Whether NaBFID is bound depends on whether AIFI prudential directions cross-refer to these paragraphs; confirm with compliance team.)\n- **Effective date:** Immediate effect from **9 January 2026**.\n\n### Chapter II — Risk Weights for Non-Resident Corporate Claims (Amendment to Paragraph 49)\n\n- **Claims outside IFSC** — apply risk weights per **Standard & Poor's, Fitch, or Moody's** ratings:\n  - **AAA to AA** (S&P/Fitch) or **Aaa to Aa** (Moody's): **20%**\n  - **A**: **50%**\n  - **BBB to BB** (S&P/Fitch) or **Baa to Ba** (Moody's): **100%**\n  - **Below BB** or **Below Ba**: **150%**\n  - **Unrated**: **100%**\n\n- **Claims originating at IFSC** — apply risk weights per **CareEdge Global IFSC Limited** ratings:\n  - **AAA**: **20%**\n  - **AA**: **30%**\n  - **A**: **50%**\n  - **BBB**: **100%**\n  - **BB and below**: **150%**\n\n- **Unrated claims:** if aggregate banking-system exposure exceeds **₹200 crore**, apply **150%** risk weight. If aggregate banking-system exposure of previously rated claims (now unrated) exceeds **₹100 crore**, apply **150%** risk weight.\n\n- **Sovereign floor rule:** an unrated corporate claim cannot receive a risk weight lower than its home sovereign's assigned risk weight.\n\n### Chapter III — Permitted International Credit Rating Agencies (Amendment to Paragraph 132)\n\n- **Four agencies permitted:** **CareEdge Global IFSC Limited** (IFSC-originating non-resident corporate claims only), **Fitch**, **Moody's**, **Standard & Poor's**.\n- **CareEdge Global IFSC Limited scope restriction:** permitted only for non-resident corporate exposures originating at IFSC; not for any other asset class or non-IFSC claims.",
+ "what_changed": "# Changes Under RBI/2025-26/189 (Dated 2026-01-09)\n\n**Effective Date:** 2026-01-09 (immediate effect)\n\n---\n\n## Change 1: Paragraph 49 – Substituted\n\n**Affected Section:** Para 49 (Claims on non-resident corporates – Risk weighting)\n\n**Type:** Substituted\n\n**Effect in Plain Language:**\n\nPara 49 is completely replaced to introduce a new risk-weighting framework for claims on non-resident corporates:\n\n- **Table 10.1** establishes risk weights for ratings assigned by S&P, Fitch, or Moody's:\n  - AAA–AA rated: 20% risk weight\n  - A rated: 50% risk weight\n  - BBB–BB rated: 100% risk weight\n  - Below BB rated: 150% risk weight\n  - Unrated: 100% risk weight\n\n- **Table 10.2** (new) introduces a separate risk-weight mapping exclusively for claims originating at the International Financial Services Centre (IFSC) rated by CareEdge Global IFSC Limited:\n  - AAA–BB & above: 20% risk weight\n  - AA: 30% risk weight\n  - A: 50% risk weight\n  - BBB: 100% risk weight\n  - Below BBB: 150% risk weight\n\n- Three new explanatory rules are added:\n  - Unrated claims with banking-system aggregate exposure >₹200 crore: 150% risk weight\n  - Previously rated claims now unrated, with aggregate exposure >₹100 crore: 150% risk weight\n  - Unrated corporate claims cannot receive better risk weight than their sovereign of incorporation\n\n---\n\n## Change 2: Paragraph 132 – Substituted\n\n**Affected Section:** Para 132 (Recognised international credit rating agencies)\n\n**Type:** Substituted\n\n**Effect in Plain Language:**\n\nPara 132 is replaced to expand the list of permissible international credit rating agencies. Banks may now use ratings from:\n\n1. **CareEdge Global IFSC Limited** (new) – for non-resident corporate exposures originating at IFSC only\n2. Fitch\n3. Moody's\n4. Standard & Poor's\n\nThis addition explicitly recognises CareEdge Global IFSC Limited as an approved rating agency for specified IFSC-originating exposures.\n\n---\n\n## Impact for NaBFID (AIFI)\n\nWhile these amendments sit in the Commercial Banks rulebook, NaBFID should note that AIFI directions incorporate or reference parts of the Commercial Banks prudential norms framework. Changes to capital adequacy risk-weighting methodologies and recognised rating agencies may flow through to AIFI compliance obligations where the parent directions apply by incorporation.",
+ "implications": "# Why NaBFID Should Track This Commercial Bank Capital Adequacy Direction\n\n**Benchmark and Regulatory Mirror:**\nRBI's capital adequacy rules for Commercial Banks set the prudential standard against which AIFI regulations are calibrated. Even though NaBFID operates under separate AIFI directions, the Commercial Bank norms establish the baseline risk management philosophy and asset classification logic that RBI applies across the banking ecosystem. Understanding shifts in Commercial Bank capital rules helps NaBFID anticipate how similar principles may evolve for development finance institutions.\n\n**Cross-Reference and Incorporation:**\nAIFI directions (including NaBFID's governing framework) frequently incorporate Commercial Bank rules by reference or adopt parallel obligations. Provisions on risk-weighted assets, provisioning triggers, or capital buffers in the Commercial Bank direction may bind NaBFID either directly (if the AIFI direction says \"as per Commercial Bank directions\") or indirectly (if the same concept is restated in AIFI rules). *This must be verified against NaBFID's specific AIFI direction and confirmed with compliance before treating any provision as mandatory.*\n\n**Illustrative Example:**\nIf this amendment tightens risk-weighted asset classification for infrastructure loans in specific sectors (e.g., raising RWA weights for greenfield projects or altering provisioning thresholds), NaBFID would need to check whether its AIFI direction adopts the same classification or maintains a separate regime—and how that affects capital planning for its long-tenor infrastructure portfolio.",
+ "citations": {
+  "key_points": {
+   "f057d294851e": [
+    1
+   ],
+   "dddc3931dbd6": [
+    1
+   ],
+   "dbd772d16085": [
+    1
+   ],
+   "acb97be0d064": [
+    2
+   ],
+   "d095a1a55db0": [
+    1
+   ],
+   "8e3b2eecf722": [
+    1
+   ],
+   "75947507ee81": [
+    1
+   ],
+   "afcdbef08f0b": [
+    1
+   ],
+   "6159f3a4dfc7": [
+    2
+   ],
+   "fd43967555ef": [
+    1
+   ],
+   "8e9a1020f28d": [
+    2
+   ],
+   "18d3a0a7e9da": [
+    2
+   ],
+   "baf34ccfaa18": [
+    2
+   ],
+   "019765699c60": [
+    2
+   ]
+  },
+  "what_changed": {
+   "cab9d8965438": [
+    1
+   ],
+   "64b07547d260": [
+    1
+   ],
+   "5f5e511ce2f9": [
+    1
+   ],
+   "e1786b01dddb": [
+    1
+   ],
+   "c727536f0f7f": [
+    2
+   ],
+   "faec0691fe18": [
+    2
+   ],
+   "0724a45705ba": [
+    2
+   ],
+   "443648c6473d": [
+    2
+   ],
+   "d54c5c3e546f": [
+    1
+   ],
+   "a8ae69430f60": [
+    2
+   ],
+   "f91a6f6a55fb": [
+    2
+   ],
+   "b536b50ed5bf": [
+    2
+   ],
+   "db757f5e97f9": [
+    1
+   ],
+   "fe32b0b8c125": [
+    1
+   ],
+   "f9ec4c35101d": [
+    1
+   ],
+   "e8c1b792e3ff": [
+    2
+   ],
+   "5721ed3df612": [
+    2
+   ],
+   "6b9fbd3d7555": [
+    2
+   ],
+   "c225aaf8ecfc": [
+    2
+   ],
+   "70f107b611de": [
+    2
+   ],
+   "2fd32ceecaf1": [
+    1
+   ],
+   "2aed9a449a95": [
+    1
+   ],
+   "c07fb3ab558f": [
+    1
+   ],
+   "5da52a2e12b8": [
+    2
+   ],
+   "a84c6b3efa10": [
+    2
+   ],
+   "73de48441ee7": [
+    1
+   ]
+  },
+  "implications": {
+   "8473bb12e793": [
+    1
+   ],
+   "d09657f4d257": [
+    1
+   ],
+   "d568bc8cfe01": [
+    1
+   ],
+   "fa72ed89a842": [
+    1
+   ]
+  }
+ }
+}

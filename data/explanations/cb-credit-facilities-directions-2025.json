@@ -1,0 +1,91 @@
+{
+ "key_points": "## Commercial Banks — Credit Facilities Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/154, dated 2025-11-28)*\n\nThese Directions govern credit facilities extended by commercial banks (including SBI and its associates, but excluding Small Finance Banks, Payment Banks, Local Area Banks) to ensure prudent lending, consumer protection, and regulatory compliance. NaBFID is not directly bound; applicability depends on cross-reference in AIFI-specific directions.\n\n### Chapter I — Preliminary\n- **Commencement:** Immediate. **Applicability:** Commercial banks as defined in Section 5, Banking Regulation Act, 1949 (excluding SFBs, PBs, LABs).\n- **Key definitions:** **Actual DCCO** = date project reaches commercial operation with completion/occupancy certificate. **Original DCCO** = expected DCCO at financial closure. **Extended DCCO** = revised DCCO. **Date of Financial Closure** = date when capital structure (**minimum 90 per cent** of total project cost) becomes legally binding. **Income Generating Loan** = productive economic activities (farm, business, asset creation). **Consumption Loan** = permissible loans outside income generating scope. **Default** = non-payment of debt per IBC 2016 when due and payable. **Default Loss Guarantee (DLG)** = contractual guarantee of compensation for portfolio default loss up to specified percentage. **Guarantee** = contract to discharge third-party liability (Indian Contract Act, 1872). **Primary Gold/Silver** = any form except jewellery, ornaments, coins. **GMS-linked GML** = Gold Metal Loans using GMS deposits/borrowed gold; repayment in gold/cash/both. **Import-linked GML** = GML from bank-imported gold; repayment in cash only. **Digital Lending** = remote automated process via seamless digital tech. **Lending Service Provider (LSP)** = bank agent performing customer acquisition, underwriting, servicing, monitoring, recovery (excludes Payment Aggregators unless performing LSP functions). **Infrastructure Sector** = sub-sectors in Harmonised Master List, Department of Economic Affairs. **Project Finance** = funding where project revenues (≥**51 per cent** at financial closure) are primary repayment source; greenfield or brownfield. **Pre-shipment Credit** = loan for purchase/manufacturing/packing prior to export shipment. **Post-shipment Credit** = loan from date after shipment to realization of proceeds. **Normal transit period** = FEDAI-prescribed average time from bill negotiation to Nostro credit receipt (not goods arrival time).\n\n### Chapter II — Board Role\n- **Board-Approved Credit Policy (para 5):** Must cover Digital Lending (incl. DLG), Gold/Silver Lending, GML, Microfinance, Project Finance, Housing Finance, NBFC Finance, Non-Fund-Based Facilities, Bill Discounting, Export Credit, Loans Against Financial Assets, Overseas JV/Subsidiary Credit, Bridge Loans, InvIT Exposure, Real Estate Credit. Details per relevant paragraphs.\n- **Credit Linked to Payment Instruments (paras 5A–5C, eff. June 23, 2026):** Prudential treatment determined **solely by nature of underlying credit facility**, not delivery mode (e.g., UPI-linked pre-sanctioned lines). Terms shall be in credit policy and comply with all applicable regulations. Only otherwise-permitted facilities may be offered via such arrangements.\n\n### Chapter III — Digital Lending\n- **LSP Due Diligence (para 6):** Contractual agreement required; must define roles/rights/obligations. **Enhanced due diligence** on: LSP technical capability, data privacy/storage, borrower fairness, conduct history, regulatory compliance. **Periodic review** of LSP conduct; **appropriate action** on deviation. Bank **lay down suitable monitoring** for LSP-originated portfolios. LSP recovery agents guided to comply with RBC Directions, 2025. Bank conform to **outsourcing guidelines** (Managing Risks in Outsourcing Directions, 2025); DLAs comply with these Directions. **Bank remains fully responsible and liable** for LSP acts/omissions.\n- **Multi-Lender LSP Arrangements (para 7):** LSP provide **digital view of all matching loan offers** with unmatched lender names. **Consistent matching mechanism** across similarly-placed borrowers; documented with changes. Digital view include: lender name(s), amount/tenor, **APR**, monthly payment, penal charges, fair-comparison format, **KFS link per lender**. Content **unbiased, objective; no dark patterns** promoting specific lender. Ranking by pre-disclosed metric **not** deemed promotion.\n- **Assessing Creditworthiness (para 8):** **Obtain minimum info:** age, occupation, income (on record for audit). **No automatic credit limit increase** unless explicit borrower request received, evaluated, recorded.\n- **Disclosures (para 9):** **KFS per RBC Directions, 2025.** Penal charges per RBC Directions. **Digitally signed documents** (KFS, sanction letter, T&Cs, account statements, privacy) auto-flow to borrower **verified email/SMS on contract execution** (IT Act, 2000 compliance). **Bank website, updated, public domain, prominent single location** showing: **(i)** all digital products/DLAs, **(ii)** LSPs and LSP DLA activities, **(iii)** customer care/grievance mechanism, **(iv)** RBI CMS/Sachet links, **(v)** privacy policies/RBI details. DLAs/LSPs **linked to bank website**. Recovery agent particulars **communicated via email/SMS before contact**.\n- **Disbursal, Servicing, Repayment (para 10):** Disbursement **directly to borrower bank account** except: **(i)** statutory/regulatory mandate (RBI etc.), **(ii)** co-lending inter-lender flows, **(iii)** specific end-use (disbursed to end-beneficiary).\n\n### Chapter XI — Acquisition Finance\n- **PSU Disinvestment Share Lock-in (paras 160–162):** Bank advise borrowers execute agreement: **(i)** Government waiver permit share disposal during lock-in, **OR** **(ii)** Government doc permit bank-pledgee liquidation during lock-in on default/margin shortfall. Bank extend finance if Government doc explicitly permit pledgee liquidation **OR** borrower obtain Government waiver. Bank **not invoke pledge first year** of lock-in. **Second/third years:** invoke if margin unable restore via additional security **OR** non-performance of repayment. Bank conduct **proper appraisal, due caution** on borrower creditworthiness, proposal viability, share disposal documentation acceptability; risks not unacceptable.\n- **SPVs — Exception (paras 163–164):** Banks generally preclude NBFC financing for inter-company investments. **Exception:** SPV **NOT** investment company if **all four** conditions met: **(1)** ≥**90 per cent** total assets in securities for ownership, **(2)** not trade except block sale, **(3)** no other financial activities, **(4)** no public deposits. Such SPVs **eligible** for PSU disinvestment finance.\n- **Bridge Loans (paras 168–169):** Against expected equity flows, **max one year**, Board-approved guidelines, due caution. Against Non-Convertible Debentures, ECBs, GDRs, FDI proceeds: bank satisfied borrower **already made firm arrangements**.\n- **Overseas Equity Acquisition (para 170):** Board-approved policy include: overall limit, borrower terms, security/margin. Acquisitions **beneficial to company and country**. **Section 19(2), Banking Regulation Act, 1949** compliance.\n\n### Chapter XII — Overseas JV / Subsidiary / Step-Down Subsidiary Credit\n- **Fund-Based to Overseas JV/Wholly-Owned Subsidiary (para 171):** Indian holding **>51 per cent**. **Proper risk-management systems** for credit/interest-rate risk. **Section 25, BR Act, 1949:** India assets ≥**75 per cent** demand/time liabilities in India. Resource base = **foreign currency balances** (FCNR(B), EEFC, RFC); exchange risk bank-managed. Maturity mismatch **within approved gap limits**. Adherence to all prudential guidelines (capital adequacy, exposure norms). **Overall exposure limit: 20 per cent** of bank's unimpaired capital funds (Tier I + II).\n- **Step-Down Subsidiary Structure (para 172):** Immediate overseas subsidiary: **direct control** per Accounting Standards; Indian parent **≥51 per cent** direct holding. **All step-down subsidiaries:** **wholly owned OR jointly held** by immediate parent and Indian parent/its subsidiary; immediate parent **wholly/jointly control**. For step-down beyond first level: setup enable bank **effective monitoring**; **additional 2 per cent provisioning** (on top of country-risk provision) for all step-down exposures, covering structure complexity/jurisdiction/political/regulatory risk.\n- **Loan Policy (para 173):** Loans per **proper appraisal, commercial viability** not promoter reputation. **Country restrictions:** none on foreign-currency borrowing/repatriation; **permit non-resident bank legal charge** on overseas securities/assets, right of disposal on default.\n\n### Chapter XIII — Loans Against Financial Assets\n- **Individual Shares/Debentures/Bonds (paras 176–179):** Purpose: **contingencies/personal needs OR subscription to new/rights issues OR secondary market purchase**. **Loan limits:** **₹10 lakh** (physical), **₹20 lakh** (dematerialised) per individual. **Margins (minimum):** **50 per cent** equity/convertible debentures physical; **25 per cent** dematerialised; preference/non-convertible per bank. **Board-approved policy** required; bank **obtain borrower declaration** on other-bank loans; prevent single-company concentration across banks; **aggregate sub-limits** prudential.\n- **Stockbrokers / Commodity Brokers (paras 180–186):** **No Badla financing**. **Need-based overdraft/line of credit** against stock-in-trade shares/debentures; careful assessment of financial position, operations, income, turnover, fund requirements. **Large-scale share investment with bank finance discouraged.** **₹10/20 lakh ceiling inapplicable** to brokers. **DVP working capital:** SEBI-registered brokers meeting capital adequacy; cash flow gap financing; short-term; transaction-basis monitoring. **Guarantees:** per Chapter XVI. **Share transfer in bank name:** **not required** if physical securities <**9 months**; dematerialised: use depository pledge, no transfer needed, broker may substitute. Brokers: **SEBI-registered**, comply **SEBI/Exchange capital adequacy**.\n- **Market Makers (paras 187–188):** **Need-based finance** to approved market makers. **Uniform 50 per cent margin** on advances/IPO/guarantees; **minimum 25 per cent cash margin** (within 50 per cent) for capital-market guarantees. Scrips **other than market-making securities** accepted. **Ensure** advances not diverted; suitable follow-up. **₹10/20 lakh ceiling inapplicable**. **Detailed loan policy:** purpose, pricing, control features, collateral valuation method, **valuation ≥quarterly**, share-transfer guidelines, **maximum exposure per credit** (within Single Borrower Exposure limits).\n\n### Chapter XVIII — Repeal & Interpretation\n- **RBI Interpretation (para 454):** RBI may issue clarifications on these Directions. **RBI interpretation final and binding** on all banks. Banks must implement uniformly without delay upon RBI guidance.\n\n### Annexes\n- **Annex I (Digital Lending Data – CIMS Portal):** Banks submit digital-lending data per RBI specifications on CIMS.\n- **Annex II:** Deleted eff. April 1, 2026.\n- **Annex III (Diamond Client Undertaking):** All diamond-credit clients execute undertaking: **(i)** not knowingly deal in conflict diamonds (UN Resolutions 1173, 1176, 1343); **(ii)** not import rough diamonds from Sierra Leone/Liberia directly/indirectly (UN Resolutions 1306, 1343); **(iii)** follow Kimberley Process Certification Scheme. Client consent to **withdrawal of all credit entitlements** on violation. Bank retain evidence in client file.\n- **Annex IV:** Deleted eff. April 1, 2026.\n- **Annex V (GML Supervisory Return, eff. April 1, 2026):** Banks report quarterly GML by category (GMS-linked/Import-linked) and borrower type (jewellery exporters, other jewellers, MMTC): **disbursed & outstanding quantity (grams), value (₹ crore), weighted average rate (%)**. GML sourced from STBD under GMS and/or gold borrowed under GMS.\n\n_Verify all cross-references with applicable RBC, Managing Risks in Outsourcing, Concentration Risk Management, and Resolution of Stressed Assets Directions before implementation._",
+ "implications": "# Why NaBFID Should Care About This Commercial Banks Direction\n\n**Benchmark and Regulatory Comparison:**\nRBI establishes commercial bank credit norms as the primary regulatory template. AIFI directions (including those governing NaBFID) are calibrated relative to these benchmarks—either adopting similar standards, setting lighter requirements to encourage long-tenor development finance, or imposing stricter safeguards. Understanding the commercial bank baseline helps NaBFID anticipate where its own rulebook will converge or diverge.\n\n**Potential Cross-Reference and Incorporation:**\nAIFI directions sometimes incorporate commercial bank rules by reference (\"as per applicable Commercial Banks Directions\") or require compliance with certain RBI credit facility standards. Parts of this direction may therefore bind NaBFID directly. This must be verified against the current AIFI directions and confirmed with your compliance team—do not assume blanket applicability.\n\n---\n\n## Illustrative Example\n*If this direction imposes enhanced due diligence or collateral valuation rules for large exposures, NaBFID would need to check whether the AIFI direction cross-refers to those standards or sets its own. Infrastructure lending often involves large single exposures (highways, ports, power plants), so credit facility rules directly shape lending capacity and underwriting timelines.*\n\n---\n\n**Next step:** Cross-check the full text of NaBFID's AIFI directions against this direction to identify which provisions apply directly and which serve as guidance only.",
+ "citations": {
+  "key_points": {
+   "f586ea96df79": [
+    1
+   ],
+   "7f558a95eae7": [
+    6
+   ],
+   "cd0a3e8f1df0": [
+    8,
+    9
+   ],
+   "68e41eefdbd5": [
+    13
+   ],
+   "828c9c73a2a9": [
+    14
+   ],
+   "f67d79d92927": [
+    15
+   ],
+   "d298a2cf7ffe": [
+    15,
+    16
+   ],
+   "a5ad6e8ba52b": [
+    16
+   ],
+   "f464e59cbba4": [
+    17
+   ],
+   "ef3283223dc5": [
+    18
+   ],
+   "d0968f7c368b": [
+    72,
+    73
+   ],
+   "0918a7dc8479": [
+    74
+   ],
+   "2b3ab443ccf6": [
+    76
+   ],
+   "9bc9f54ebef8": [
+    76
+   ],
+   "0a369f2f11fb": [
+    77
+   ],
+   "8d3d7a5590ff": [
+    77,
+    78
+   ],
+   "479e08281657": [
+    78
+   ],
+   "8b5b374efc55": [
+    80
+   ],
+   "a89f067b0c85": [
+    81,
+    82
+   ],
+   "0961a25c320c": [
+    80,
+    82
+   ],
+   "49792612aeba": [
+    134
+   ],
+   "3b18cd6ad2b0": [
+    138
+   ],
+   "f815845d8ffe": [
+    140
+   ]
+  },
+  "implications": {
+   "d51b7a439ad0": [
+    1
+   ],
+   "49d15e3e877a": [
+    77
+   ]
+  }
+ }
+}

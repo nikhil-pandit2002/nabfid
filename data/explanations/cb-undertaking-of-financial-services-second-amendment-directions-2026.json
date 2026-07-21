@@ -1,0 +1,58 @@
+{
+ "key_points": "## Commercial Banks – Undertaking of Financial Services – Second Amendment Directions, 2026\n*(RBI/2026-27/22, dated 2026-04-27)*\n\nAdds AgriSURE to Annex I of the parent 2025 Directions, authorizing commercial banks to undertake this financial service.\n\n### Chapter I — Preliminary\n- **Commencement:** **immediate** (April 27, 2026). **Applicability:** commercial banks undertaking financial services. NaBFID applicability depends on whether AIFI directions incorporate or cross-refer to these commercial bank directions; confirm with compliance team.\n- **Amendment scope:** modifies the Reserve Bank of India (Commercial Banks — Undertaking of Financial Services) Directions, **2025**. Banks must comply with both this amendment and all provisions of the parent 2025 Directions as previously modified.\n\n### Chapter II — Annex I Amendment\n- **New entry:** \"**AgriSURE – Agri Fund for Start Ups & Rural Enterprises**\" added as entry **2** to Annex I of the parent Directions, effective **immediately**.\n- **Regulatory treatment:** the specific obligations, definitions, limits, eligibility criteria, provisioning norms, exposure limits, documentation, reporting requirements, and sector-specific regulations applicable to items in Annex I of the parent 2025 Directions shall apply to AgriSURE; banks must consult the parent Directions and all other applicable RBI instructions for full treatment.\n\n### Chapter III — Compliance\n- **System update:** banks shall immediately update Annex I listings, loan origination, approval, monitoring, and reporting systems to recognize AgriSURE as authorized.\n- **Training:** staff shall be trained on the inclusion and applicable regulatory framework.\n- **Existing and new exposures:** shall be classified and treated in accordance with the parent Directions and all applicable RBI instructions.\n- **Reporting:** follow any requirements specified in the parent 2025 Directions or other applicable RBI circulars for Annex I activities.",
+ "what_changed": "# Changes in RBI/2026-27/22 (dated 2026-04-27)\n\n**Annex I | Inserted**\n\nA new entry is added to Annex I of the Commercial Banks - Undertaking of Financial Services Directions, 2025:\n\n\"2. AgriSURE - Agri Fund for Start Ups & Rural Enterprises\"\n\nThis addition expands the list of financial services or schemes that commercial banks are permitted or required to undertake.\n\n**Effective Date:** 2026-04-27 (immediate effect)\n\n---\n\n**Note for NaBFID:** Although this amendment is issued to commercial banks, AIFIs such as NaBFID should monitor whether the Undertaking of Financial Services Directions are incorporated into AIFI directions by reference. If so, this addition to Annex I will flow through to NaBFID's regulatory obligations as well.",
+ "implications": "# Why This RBI Commercial Banks Direction Matters to NaBFID\n\n**Benchmark for AIFI Standards:**\nRBI typically sets the strictest requirements for commercial banks first, then uses those as the reference point when framing AIFI directions. This direction signals where RBI's regulatory thinking stands on financial services undertakings, and NaBFID's own AIFI direction will likely be calibrated against these standards—either mirroring them for comparable activities or explicitly relaxing them for development finance purposes.\n\n**Cross-Reference Risk:**\nThe RBI's AIFI directions (which govern NaBFID) sometimes incorporate Commercial Banks directions by reference or adopt their definitions and requirements. So while this direction is *not automatically binding on NaBFID*, specific provisions may apply if NaBFID's AIFI direction says so. **This must be checked against NaBFID's actual AIFI direction and confirmed with compliance**—do not assume any provision applies without verification.\n\n---\n\n## Illustrative Example\n\nIf this amendment tightens what counts as a \"financial service\" that banks can undertake (say, by narrowing permissible advisory roles), NaBFID would need to check whether its infrastructure project structuring, ratings input, or loan syndication advisory—which are core to long-tenor lending—fall within or outside that boundary. The commercial bank threshold helps NaBFID understand the policy intent, even if NaBFID's own rules differ.\n\n---\n\n**Next step:** Review NaBFID's AIFI direction to confirm which provisions of this amendment, if any, apply by reference or analogy.",
+ "citations": {
+  "key_points": {
+   "d09c942fa856": [
+    1
+   ],
+   "8fcb21fc8079": [
+    1
+   ],
+   "ce6e827305d1": [
+    1
+   ],
+   "45b86b94dc22": [
+    1
+   ],
+   "8e02ee027b6a": [
+    1
+   ],
+   "44ebf3adedb9": [
+    1
+   ],
+   "a4b300fc5b3c": [
+    1
+   ]
+  },
+  "what_changed": {
+   "4f69123ab30a": [
+    1
+   ],
+   "e684fcb5455f": [
+    1
+   ],
+   "e3bbb8e17177": [
+    1
+   ],
+   "29276de36cda": [
+    1
+   ],
+   "43bded8e2cae": [
+    1
+   ]
+  },
+  "implications": {
+   "8bf56f244bdc": [
+    1
+   ],
+   "d08cc4ace869": [
+    1
+   ],
+   "986c84c791f5": [
+    1
+   ]
+  }
+ }
+}

@@ -110,13 +110,21 @@ def _is_android() -> bool:
     return "android" in ua.lower()
 
 
-@st.cache_data(show_spinner=False, max_entries=64)
+# Page-image zoom. 1.5x still reads clearly when pinch-zoomed on a phone, but the
+# rendered pixmap costs ~2.25x less memory than 2x (cost scales with zoom^2). The
+# whole app runs near the ~1 GB ceiling of free hosts, where going over is an
+# OOM kill (the app appears to hang), so this margin is worth more than the extra
+# sharpness. Same reason the cache is kept small.
+_PAGE_ZOOM = 1.5
+
+
+@st.cache_data(show_spinner=False, max_entries=8)
 def _page_png(rel_path: str, page: int) -> bytes:
-    """Render one PDF page to a PNG (2x zoom keeps small print legible when
-    pinch-zoomed on a phone). Cached — repeat views of the same page are free."""
+    """Render one PDF page to a PNG. Cached — repeat views of a page are free."""
     import fitz
     with fitz.open(PROJECT_ROOT / rel_path) as doc:
-        pix = doc[page - 1].get_pixmap(matrix=fitz.Matrix(2, 2))
+        pix = doc[page - 1].get_pixmap(
+            matrix=fitz.Matrix(_PAGE_ZOOM, _PAGE_ZOOM))
         return pix.tobytes("png")
 
 
@@ -194,7 +202,8 @@ def _static_page_png_url(rel_path: str, page: int) -> str | None:
         import fitz
         with fitz.open(src) as doc:
             page = max(1, min(page, doc.page_count))
-            doc[page - 1].get_pixmap(matrix=fitz.Matrix(2, 2)).save(str(dest))
+            doc[page - 1].get_pixmap(
+                matrix=fitz.Matrix(_PAGE_ZOOM, _PAGE_ZOOM)).save(str(dest))
     return f"app/static/{name}"
 
 
@@ -429,7 +438,9 @@ def render_sources(sources: list[dict], key_prefix: str = "src") -> None:
                     f"**[{i}] {c['circular_no']}** ({c['issue_date']}) — "
                     f"{c.get('title') or c['division']}"
                 )
-                st.caption(f"{c['division']} · `{c['doc_type']}` · "
+                ent = c.get("entity") or ""
+                ent_tag = f"{ENTITY_ICON.get(ent, '')} **{ent}** · " if ent else ""
+                st.caption(f"{ent_tag}{c['division']} · `{c['doc_type']}` · "
                            f"p.{page} · {c['section_ref'] or '—'}")
                 if c.get("cite_quote") and c.get("cite_verified"):
                     st.markdown(f"> *“{c['cite_quote']}”* — verified on p.{page}")
@@ -584,6 +595,12 @@ def page_chatbot() -> None:
         st.caption("Ask anything about the RBI directions in the corpus. Answers "
                    "are grounded and cited. This chat is saved automatically.")
 
+    # Which rulebook to answer from. RBI issues the same topics separately for
+    # AIFIs and Commercial Banks, so answering an AIFI question from a
+    # Commercial Bank direction would be a correctness failure, not a nuance.
+    # Default is NaBFID's own rulebook (AIFI); "Both" is for comparison.
+    scope_ids = _entity_scope_picker("chat")
+
     history = st.session_state.setdefault("chat", [])
     for i, msg in enumerate(history):
         with st.chat_message(msg["role"]):
@@ -604,7 +621,7 @@ def page_chatbot() -> None:
         history.append({"role": "user", "content": q})
         with st.chat_message("assistant"):
             with st.spinner("Searching the circulars…"):
-                res = answer(q)
+                res = answer(q, scope_doc_ids=scope_ids)
                 audit.log("chatbot", q, res)
             render_answer(res["answer"], res["sources"])
             render_figures(res["sources"], q)
@@ -625,16 +642,67 @@ def page_chatbot() -> None:
 # --------------------------------------------------------------------------
 # Page: Browse by division
 # --------------------------------------------------------------------------
-def page_browse() -> None:
-    st.header("🗂️ Browse by division")
-    divs = docstore.divisions()
-    names = [d["division"] for d in divs]
-    counts = {d["division"]: d["n"] for d in divs}
+ENTITY_ICON = {"AIFI": "🏛️", "Commercial Bank": "🏦",
+               "All Regulated Entities": "🌐"}
+BOTH_ENTITIES = "Both (compare)"
 
-    sel = st.selectbox("Division", names,
-                       format_func=lambda n: f"{n}  ({counts[n]})")
+
+def _entity_scope_picker(key: str) -> set[str] | None:
+    """Let the reader choose which rulebook the chatbot answers from.
+
+    Returns a set of doc_ids to restrict retrieval to, or None for the whole
+    corpus. This matters for correctness, not just convenience: the AIFI and
+    Commercial Bank directions cover the same topics with different numbers, so
+    an unscoped question can silently mix the two. NaBFID is an AIFI, so that is
+    the default; "Both" exists for deliberate comparison.
+    """
+    # Only the real institution types are offered as scopes. Cross-entity
+    # directions ("All Regulated Entities" — those that bind banks AND AIFIs
+    # alike) are folded into every scope by docstore.doc_ids_for_entity, so
+    # offering them as a separate choice would wrongly narrow the corpus to
+    # just those few documents.
+    names = [e["entity"] for e in docstore.entities()
+             if e["entity"] != docstore.ENTITY_ALL_RES]
+    if len(names) < 2:
+        return None
+    default = names.index("AIFI") if "AIFI" in names else 0
+    choice = st.radio(
+        "Answer from", names + [BOTH_ENTITIES], index=default, horizontal=True,
+        key=f"scope_{key}",
+        help="RBI issues separate directions for AIFIs and Commercial Banks. "
+             "NaBFID is an AIFI. Pick 'Both' only to compare them.",
+    )
+    if choice == BOTH_ENTITIES:
+        return None
+    return docstore.doc_ids_for_entity(choice)
+
+
+def page_browse() -> None:
+    """Library, partitioned by regulated ENTITY first, then division.
+
+    RBI issues the same topics (capital adequacy, credit risk, ...) separately
+    for AIFIs and for Commercial Banks, so entity is the top-level split — a
+    user must always know which rulebook they are reading."""
+    st.header("🗂️ Browse circulars")
+    ents = docstore.entities()
+    if not ents:                       # pre-entity manifest: fall back to flat
+        names = [d["division"] for d in docstore.divisions()]
+        entity, sel = None, st.selectbox("Division", names)
+    else:
+        labels = [f"{ENTITY_ICON.get(e['entity'], '📁')} {e['entity']}  "
+                  f"({e['n']})" for e in ents]
+        idx = st.radio("Regulated entity", range(len(ents)),
+                       format_func=lambda i: labels[i], horizontal=True,
+                       key="browse_entity")
+        entity = ents[idx]["entity"]
+        divs = docstore.divisions(entity)
+        counts = {d["division"]: d["n"] for d in divs}
+        sel = st.selectbox("Division", [d["division"] for d in divs],
+                           format_func=lambda n: f"{n}  ({counts[n]})",
+                           key=f"browse_div_{entity}")
+
     st.divider()
-    for doc in docstore.documents_in(sel):
+    for doc in docstore.documents_in(sel, entity):
         c1, c2 = st.columns([5, 1])
         with c1:
             st.markdown(f"**{doc['title']}**")

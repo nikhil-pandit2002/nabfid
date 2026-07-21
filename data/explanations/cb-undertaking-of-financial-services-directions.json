@@ -1,0 +1,92 @@
+{
+ "key_points": "## Undertaking of Financial Services — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/148, dated 2025-11-28)*\n\nThese directions govern which financial services commercial banks and their group entities may offer, how they must be structured, and the Board policies and prudential limits that apply.\n\n### Chapter I — Preliminary\n- **Applicability:** Commercial banks (excluding Small Finance Banks, Payment Banks, Local Area Banks) as defined in Section 5 of the Banking Regulation Act, 1949; the State Bank of India; new banks. **Paragraph 18(4) binds all NBFCs (including HFCs) that are group entities of a bank.** **NaBFID (as an AIFI) must confirm with its compliance team whether any provision applies before treating it as binding.**\n- **Commencement:** immediate (**28 November 2025**). Amended **5 December 2025** and **27 April 2026**.\n- **Key definitions:** **Agency Business** = bank/group entity acts as agent of third-party product/service provider (TPPSP) without risk participation, limited to regulated financial products/services. **Debtor Company** = any company to which bank has or previously had loan/investment exposure (excluding equity) in **preceding twelve months**. **Equity Instrument** = equity shares, compulsorily convertible preference shares, compulsorily convertible debentures. **Financial Services Company** = thirteen categories including banking, credit facilities, credit information, payment systems, exchanges, depositories, ARCs, merchant banking/securities intermediation, credit rating, collective investment, pension fund management, FEMA 1999 authorized persons, and RBI-specified businesses. **Group Entity** = subsidiary, joint venture, or associate (per Accounting Standards) **except entities held under NOFHC**. **Investment Advisory Service** = service per SEBI (Investment Advisers) Regulations, 2013. **Mutual Fund** = per SEBI (Mutual Funds) Regulations, 1996. **Non-Financial Services Company** = non-financial business. **Pension Fund Management** = per Pension Fund Regulatory Development Authority (Exit and Withdrawals) Regulations, 2014. **Portfolio Management Services** = per SEBI (Portfolio Managers) Regulations, 1993. **Referral Services** = bank refers customers to TPPSP by sharing information only; bank **shall NOT** be involved in TPPS processes, bank name/brand shall **NOT feature** in product documents, no platform/premises/micro-site/micro-application integration **except access link redirect**.\n\n### Chapter II — Board Policies & Oversight\n- **Insurance Distribution (Para 7(1)):** Board-approved policy covering customer suitability, appropriateness, grievance redressal, and compensation for service issues.\n- **Insurance Corporate Agency – Departmental (Para 7(2)):** Board policy specifying insurance distribution model, suitability, appropriateness, and grievance redressal.\n- **Professional Clearing Member (PCM) – Commodity Derivatives (Paras 7(3)–7(4)):** Board policy on risk control measures, prudential norms, exposure limits per trading member, and net worth/business turnover/risk indicators.\n- **Factoring – Underwriting Commitments (Para 10):** Board approves limits for **without-recourse factoring** credit risk on debtors.\n- **PCM – Aggregate Exposure (Para 11):** Board determines **aggregate exposure limits** on registered clients in relation to bank's **net worth**; prescribes **internal margin requirements at least as stringent as** Commodity Exchange and RBI requirements.\n- **GIFT-IFSC – NOC and Framework (Paras 12–16):** Board approves RBI NOC application for GIFT-IFSC branch/subsidiary/JV as Trading Member (TM), Trading & Clearing Member (TCM), or PCM of India International Bullion Exchange IFSC Limited (IIBX); approves risk management framework with **prudential exposure limits per client** and **ongoing monitoring**; **determines total exposure** as PCM in relation to **parent bank's Tier 1 capital AND branch's Tier 1 capital**; approves business plan and risk architecture; prescribes margin requirements.\n- **GIFT-IFSC – Proprietary Position (Para 17):** Board **may** determine global sub-limit for proprietary **net overnight open position** in gold/silver under TM/TCM, **maximum one tonne gold equivalent**.\n- **Sponsored Subsidiary Oversight (Para 9):** Board ensures **arm's length relationship**; reviews performance at **periodic intervals**.\n- **Insurance Grievance Redressal (Para 8):** Board ensures **robust internal mechanism** in place.\n\n### Chapter III — Forms of Business\n- **Permitted Structures (Para 18):** Bank may undertake business under Section 5(b) or 6(1) of Banking Regulation Act, 1949, **departmentally or through group entity**, except: **(1) Banking business — departmental only**; **(2) Time deposits — departmental only, except via housing finance company in bank group**; **(3) One-entity-per-form principle — any form undertaken by one group entity unless Board approves multiple entities for business segmentation/specialization**.\n- **Lending Through Group Entity NBFC/HFC (Para 18(4)):** Group entity must comply with **Upper Layer NBFC regulations** (listing requirement mandatory for identified Upper Layer NBFCs). Fresh/renewal/additional loans/limits by NBFC group entities must comply with bank's Credit Risk Management and Credit Facilities Directions (mutatis-mutandis) regarding: advances against parent bank shares, to Directors/relatives, for Promoter Contribution, Land Acquisition financing; and limits on advances against Shares/Debentures/Bonds/Indian Depository Receipts, IPO financing, ESOP funding.\n- **Prohibited Departmental Activities (Para 18(5)):** Mutual fund, insurance, pension fund management, investment advisory/management, portfolio management, and broking services shall be undertaken **only through group entity**.\n- **New Forms of Business (Para 18(6)):** Prior RBI approval required for any new form not already permitted.\n- **Policy Per Form (Para 18(7)):** Each form of business requires policy comprehensively covering identified risks, risk mitigation, and capital allocation norms.\n- **Transition (Para 19):** Banks not in conformity with Para 18 shall **not undertake new business** in the segment from **1 April 2026**; **compliance status due 31 March 2026**; existing facilities continue to maturity.\n- **NOFHC Structure (Para 20):** NOFHC entities **do not require prior approval** for mutual fund, insurance, pension fund management, investment advisory/management, portfolio management, and broking businesses; must **notify RBI within 15 days** of Board resolution; **prior approval required** for other forms of business.\n- **Overseas Branches (Para 21):** Unless specifically permitted, overseas branches (including IFSC/GIFT City) require **RBI no-objection** for business requiring **parent bank prior approval**; must adhere to **more stringent of host or home country regulations**.\n\n### Chapter IV — Prudential Investment Limits\n- **Individual Equity Investment (Para 23):** Bank's equity investment in any entity, including group entity, **individually shall not exceed 10%** of bank's paid-up share capital and reserves (as per last audited or latest quarter audited/unaudited balance sheet, **whichever is lower**).\n- **Aggregate Equity Investment (Para 24):** **Aggregate shall not exceed 20%** of paid-up share capital and reserves (same valuation basis). **Exclusions:** **(1) \"Held for Trading\" category investments** subject to Section 19(2) limit; **(2) Non-financial entity equity acquired through debt restructuring or loss mitigation (up to 30%)**.\n- **Investment <20% — No Prior Approval (Para 25):** Bank group may invest <**20%** aggregate (with or without bank investment) in entity's equity without prior approval if: **(1) post-investment CRAR ≥ minimum prescribed capital (including Buffer)**; **(2) bank reported net profit in each of preceding **two financial years****.\n- **Held for Trading — No Prior Approval (Para 26):** Investments in \"Held for Trading\" category do not require prior approval, subject to Section 19(2) limit.\n\n_Verify with the compliance team before acting._",
+ "implications": "# Why This Commercial Banks Direction Matters to NaBFID\n\n**Benchmark and Cross-Reference Effect:**\nRBI Commercial Banks directions establish the regulatory baseline against which AIFI rules are calibrated and compared by stakeholders, auditors, and RBI oversight. More importantly, AIFI-specific directions (issued under Section 45L of the RBI Act) often incorporate Commercial Banks provisions *by reference* or require AIFIs to comply with analogous safeguards, so parts of this direction may apply to NaBFID despite being formally addressed to banks. NaBFID's compliance team must check whether the AIFI direction on undertaking of financial services cross-refers to or mirrors this commercial direction.\n\n**Illustrative Example for Infrastructure Lending:**\nIf this direction restricts or conditions the undertaking of treasury, forex, or custodial services for certain counterparties or products, a Commercial Bank might be barred from accepting collateral derivatives in a syndicated term loan to an SPV. NaBFID, which originates long-tenor infrastructure loans and may arrange treasury or derivative solutions for borrowers, must verify whether analogous restrictions bind it, because if the AIFI direction incorporates the same safeguard, NaBFID's borrowers would face the same service constraints—affecting loan structuring and competitiveness.\n\n---\n\n**Important caveat:** This explanation does not constitute legal advice. Whether any specific provision in this direction actually binds NaBFID must be confirmed by reading the AIFI direction and consulting NaBFID's Compliance Officer.",
+ "citations": {
+  "key_points": {
+   "4c2c303ce6dc": [
+    1
+   ],
+   "09b3a384e8b6": [
+    3
+   ],
+   "f90682d86886": [
+    3
+   ],
+   "554954374398": [
+    6
+   ],
+   "d4d75d96b2eb": [
+    8
+   ],
+   "eb2b219740cd": [
+    8
+   ],
+   "163e05d1457d": [
+    8
+   ],
+   "453639d3f8c4": [
+    8
+   ],
+   "fe1150fad719": [
+    9
+   ],
+   "f61a08bc2ef6": [
+    9
+   ],
+   "b507a9ef1281": [
+    9
+   ],
+   "c272a57dac24": [
+    8
+   ],
+   "6570007649c9": [
+    8
+   ],
+   "eb8e07ed1239": [
+    10
+   ],
+   "bf2edbfbd5a5": [
+    11
+   ],
+   "ded68711c2c9": [
+    11
+   ],
+   "395b92fffedb": [
+    11
+   ],
+   "bb13f65eb745": [
+    11
+   ],
+   "cb639607524b": [
+    11
+   ],
+   "f4cfcef8a169": [
+    12
+   ],
+   "06e2e6a1d31f": [
+    12
+   ],
+   "01521917543d": [
+    12,
+    13
+   ],
+   "a17df915673f": [
+    21
+   ],
+   "34411501eb41": [
+    13
+   ]
+  },
+  "implications": {
+   "f4fac06bec72": [
+    1
+   ],
+   "af3a097a83d4": [
+    25
+   ],
+   "cf8f91ba60f0": [
+    28
+   ]
+  }
+ }
+}

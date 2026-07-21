@@ -1,0 +1,133 @@
+{
+ "key_points": "## Commercial Banks – Prudential Norms on Capital Adequacy (Tenth Amendment) — Directions, 2026 — Detailed Compliance Guide\n*(RBI/2026-27/155, dated 2026-06-24)*\n\nAmends the foreign exchange risk capital charge framework to ensure alignment with international standards and consistent implementation of Net Open Position methodology across commercial banks.\n\n### Chapter I — Commencement and Scope\n- **Effective Date:** **April 1, 2027**. **Applicability:** commercial banks (all classes).\n- **Amendment:** amends paragraph **199 (Section D.4 – Foreign Exchange Risk)** of the Capital Adequacy Directions, 2025.\n- **Core Obligation:** compute capital charge for foreign exchange risk at **both consolidated (group) and solo (standalone) levels**, on a **continuous basis** (at close of each business day). End-of-business-day timing defined by internal policy, applied consistently.\n\n### Chapter II — Exclusions from Net Open Position\n- **Regulatory Capital Deductions:** positions deducted from regulatory capital (and hedges thereof) **exempt** from forex risk capital requirement.\n- **Capital Instruments at 1250% Risk Weight:** holdings of own eligible regulatory capital instruments and other banks'/financial entities' equivalent instruments deducted from capital or risk-weighted at **1250%** — **exempt**.\n- **Matured and Non-Performing Securities:** unpaid securities and non-performing assets/investments — **exempt from forex risk** (credit risk capital applies only).\n\n### Chapter III — Structural Foreign Exchange Positions\n- **Discretionary Exclusion:** banks **may** exclude structural (non-dealing) foreign currency investments from Net Open Position at **solo and consolidated basis**, on a case-by-case basis, consistently.\n- **Eligible Structural Positions:** capital investments in overseas operations; accumulated/unremitted surplus in overseas operations; positions in overseas subsidiaries, joint ventures, associates, overseas branches, IFSC Banking Units, Offshore Banking Units in SEZs.\n- **Mandatory Conditions for Exclusion (all five must be met):**\n  - Exclusion limited to amount that **neutralises capital ratio sensitivity** to exchange rate movements.\n  - Exclusion for **minimum 6 months**.\n  - Follows bank's documented risk management policy.\n  - Applied **consistently** for **life of assets**.\n  - **Documented and available for supervisory review**.\n\n### Chapter IV — Calculation of Structural Exemption Amount\n- **Basis:** **CET1 ratio on quarter-end basis**.\n- **Forex RWAs Definition:** two approaches permitted: (a) **all RWAs in that foreign currency** (excl. forex market risk RWAs), or (b) **credit RWAs only in that foreign currency** (for operational convenience).\n- **Cap:** structural exemption **≤ eligible amount of structural positions in that currency**.\n- **Frequency:** **recalculate quarterly**.\n- **Per-Currency Calculation:** formula = **(CET1 Ratio / 100) × Forex RWAs in that Currency**; each foreign currency calculated separately. Bank may adopt alternative reasonable methodology, documented in policy.\n- **Timing of Structural Positions:** include based on **quarter-end position**.\n- **Conditions Still Apply:** all paragraphs 199(6)–(9) conditions must be met to be eligible for exclusion.\n\n### Chapter V — Components of Net Open Position\n- **All positions** in foreign currencies (including gold), regardless of trading book or banking book, included in scope.\n- **Single Currency Net Open Position = sum of:**\n  - Net spot position (assets less liabilities, including accrued interest, denominated in that currency).\n  - Net forward position (tom, spot unsettled; forward/futures; cross-currency swap principal and other forex derivatives).\n  - Guarantees certain to be called and irrecoverable.\n  - Net future income/expenses **where certain and fully hedged by bank**.\n  - Other profit/loss items in foreign currencies.\n  - **Net delta-based equivalent of total foreign currency options book** (options also subject to separate gamma/vega capital requirement per paragraph 211(1), or alternative methods per paragraphs 208–211).\n\n### Chapter VI — Treatment of Gold, Interest, and Derivative Positions\n- **Gold Positions:** expressed first in standard measurement unit (tonnes/kilos/ounces), valued at **current spot rates**; interest/FX exposure from other leg of forward contract reported per paragraphs 186–194 and 199(15).\n- **Interest and Accrued Expenses:** accrued interest/expenses **included as spot position**; unearned future interest **excluded unless certain and hedged**; if included, applied **consistently and not selectively**.\n- **Derivatives:** measured using **current spot rates without present value adjustment**.\n\n### Chapter VII — Overseas Operations\n- **Capital Invested in Overseas Operations:** **include** in net spot position (overseas branches, IFSC Banking Units, Offshore Banking Units in SEZs, subsidiaries, associates, joint ventures).\n- **Accumulated/Unremitted Surplus of Overseas Operations:** **include** in net spot position.\n- **No Separate Onshore/Offshore Calculation Required:** all onshore and offshore operations captured in unified Net Open Position; forward positions of offshore branches (e.g., GBP forwards from US branch) **included separately** in Net Open Position if not in structural position.\n\n_Verify with compliance before April 1, 2027 implementation._",
+ "what_changed": "# Changes Under RBI/2026-27/155 (Dated 2026-06-24)\n\n**Effective Date:** 2027-04-01\n\n---\n\n## Change Summary\n\n**Paragraph 199 (Section D.4 – Foreign Exchange Risk) of the Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Directions, 2025 — SUBSTITUTED**\n\nThe entire paragraph 199 has been replaced with a comprehensive new framework for computing capital charge on foreign exchange risk. The changes include:\n\n### Major New/Revised Provisions:\n\n1. **Scope of Application** – Banks must compute Net Open Position and maintain capital charge at both consolidated and standalone levels, on a continuous (daily close) basis.\n\n2. **Exclusions from Net Open Position** – New detailed carve-outs added:\n   - Positions deducted from regulatory capital (including hedges thereof)\n   - Capital instruments risk-weighted at 1250%\n   - Non-performing/matured unpaid securities (credit risk only)\n\n3. **Structural Foreign Exchange Position Exclusion** – **NEW** optional mechanism allowing banks to exclude certain structural (non-dealing) foreign currency investments from Net Open Position calculation, including:\n   - Capital investments in overseas subsidiaries, branches, IFSC Banking Units, Offshore Banking Units\n   - Accumulated/unremitted surplus in such entities\n   - Subject to documented conditions (must neutralize capital ratio sensitivity, minimum 6-month duration, consistent application, supervisory documentation)\n\n4. **Calculation Methodology** – Enhanced framework including:\n   - Detailed measurement of single currency exposure (net spot, forward, guarantees, options with delta/gamma/vega treatment)\n   - Gold position measurement in standard units at spot rates\n   - Accrued/unearned interest treatment\n   - Overseas operations capitalization treatment (quarterly basis)\n   - Shorthand method for portfolio risk (aggregating largest of net long/short positions plus gold position)\n\n5. **Capital Requirement** – **Maintained at 9% of overall Net Open Position** (consistent with prior practice, but now applied to revised NOP calculation)\n\n6. **Spot Rate Benchmarking** – Banks must use spot rates from FMRD-authorized benchmark administrators\n\n7. **Reporting Basis** – CET1 ratio used on quarter-end basis for structural exemption calculations; structural exemptions recalculated quarterly\n\n---\n\n## Relevance to NaBFID (AIFI)\n\nAlthough this amendment addresses Commercial Banks' prudential norms, NaBFID should note that AIFI directions (including those for development financial institutions) incorporate or reference Commercial Banks' prudential directions by cross-reference or adoption. Changes to the foreign exchange risk capital framework here may flow through to AIFI capital adequacy requirements depending on NaBFID's specific master directions and any applicable exemptions or modifications.",
+ "implications": "# Why NaBFID Should Monitor This Commercial Banks Direction\n\n**Benchmark comparison:** RBI's capital adequacy framework for commercial banks sets the regulatory standard against which AIFI prudential norms are calibrated. Even though NaBFID is subject to a separate AIFI regulatory regime, the commercial banks' direction establishes the baseline risk-weighted asset (RWA) methodology, risk weights for asset classes, and capital buffer thresholds that inform how AIFI directions are crafted and interpreted by regulators.\n\n**Cross-referencing risk:** Many AIFI directions explicitly incorporate provisions from the Commercial Banks directions by reference or require AIFIs to apply analogous principles. Specific provisions in this amendment (particularly on capital ratios, risk-weight classifications, or stress-testing requirements) may directly bind NaBFID if the AIFI direction says \"as per Commercial Banks direction\" or \"mutatis mutandis.\"\n\n**Action required:** NaBFID's treasury and compliance teams should review the Tenth Amendment against the current **AIFI Capital Adequacy Direction** to confirm which changes apply in parallel. Do not assume this direction applies directly—confirmation with RBI's AIFI-specific guidance and internal compliance is essential.\n\n---\n\n### Illustrative Example\nIf the Commercial Banks direction revises the risk weight for infrastructure project financing from 75% to 60% RWA (reflecting lower systematic risk), NaBFID must check whether the AIFI direction cross-references that methodology. If it does, NaBFID's capital calculations for long-tenor road or power lending could improve, reducing required capital buffers—but only if the AIFI direction confirms the same weight applies.",
+ "citations": {
+  "key_points": {
+   "4b6ea316a272": [
+    1
+   ],
+   "a6b76fcfa70d": [
+    1
+   ],
+   "51671f26bde9": [
+    1
+   ],
+   "a652de9afbf6": [
+    2
+   ],
+   "470a682f9c9b": [
+    2
+   ],
+   "f8dcf2a67f3f": [
+    2
+   ],
+   "838715c61a54": [
+    2
+   ],
+   "e6eb7d67ace3": [
+    3
+   ],
+   "d9318a700498": [
+    3
+   ],
+   "274d8ff8cfff": [
+    3
+   ],
+   "f178aed6173a": [
+    7
+   ],
+   "0747e4a4f39d": [
+    4
+   ],
+   "859b491a1331": [
+    8
+   ],
+   "21664d05f946": [
+    9
+   ],
+   "400b9c6c039d": [
+    8
+   ],
+   "ce8724a61941": [
+    8
+   ],
+   "3d88f01aabbc": [
+    9
+   ],
+   "41d67e4620c5": [
+    9
+   ],
+   "caf28ab2bcf6": [
+    9
+   ],
+   "65c71886d163": [
+    10
+   ],
+   "1463ac3d476e": [
+    10
+   ],
+   "8cb544a8fa0a": [
+    9
+   ]
+  },
+  "what_changed": {
+   "b85bbbeef84e": [
+    1
+   ],
+   "38218865d5eb": [
+    1
+   ],
+   "da2ed940d5f9": [
+    2
+   ],
+   "812bbb3781bb": [
+    2
+   ],
+   "724946c1c0b6": [
+    2
+   ],
+   "f9338e349ef8": [
+    2
+   ],
+   "b4a1499255f9": [
+    2
+   ],
+   "a842073d65ca": [
+    2
+   ],
+   "5ab1946ec441": [
+    3
+   ],
+   "f51ef75f3fe6": [
+    8
+   ],
+   "c3f6d0fb07bd": [
+    10
+   ],
+   "237003c9b58c": [
+    10
+   ],
+   "4e4ed3c7d5ce": [
+    7
+   ],
+   "fdbe6181c9d2": [
+    1
+   ]
+  },
+  "implications": {
+   "89d22a2c6965": [
+    1
+   ],
+   "77062eb718d0": [
+    1
+   ],
+   "a554592070e4": [
+    1
+   ],
+   "4b0f3f8f5157": [
+    1
+   ]
+  }
+ }
+}

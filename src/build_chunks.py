@@ -203,7 +203,7 @@ def load_manifest() -> list[dict]:
 # Manifest fields copied onto every chunk so retrieval results are self-contained
 # (citations + version filtering need no join back to the manifest).
 CARRIED_FIELDS = [
-    "doc_id", "division", "doc_type", "title", "circular_no",
+    "doc_id", "entity", "division", "doc_type", "title", "circular_no",
     "issue_date", "applicable_from", "consolidated_as_of", "amends",
 ]
 

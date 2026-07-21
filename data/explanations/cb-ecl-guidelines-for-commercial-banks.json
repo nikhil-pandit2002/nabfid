@@ -1,0 +1,55 @@
+{
+ "key_points": "## Asset Classification, Provisioning and Income Recognition — Directions, 2026 — Detailed Compliance Guide\n*(RBI/DOR/2026-27/398, dated 2026-04-27)*\n\nThese Directions prescribe rules for classifying bank assets, computing loss allowances under an Expected Credit Loss (ECL) framework, and recognizing income — effective **April 1, 2027**, replacing the 2025 Directions.\n\n### Chapter I — Preliminary\n- **Applicability:** Commercial Banks (Banking Regulation Act, 1949, Section 5(c) and 5(nc)), excluding Small Finance Banks, Payment Banks, Local Area Banks. Effective **April 1, 2027**.\n- **Key definitions:** **Amortised Cost** = carrying amount after principal repayments and cumulative amortisation using EIR, adjusted for loss allowance. **Effective Interest Rate (EIR)** = rate discounting future cash flows over expected life to **gross carrying amount**. **Loss Allowance** = provision for Expected Credit Loss (ECL). **12-Month ECL** = ECL from defaults within **12 months from reporting date**. **Lifetime ECL** = ECL from **all possible default events over expected life**. **Significant Increase in Credit Risk (SICR)** = **significant or material change** in estimated default risk. **Standard Assets** = **not classified as non-performing**. **POCI** = financial assets **credit-impaired on initial recognition**; credit-adjusted EIR applies.\n- **Agricultural loan categories:** **(a) Individual farmers/SHGs/JLGs:** crop loans, ag. loans (≤ **₹60 lakh**, ≤ **12 months** pledge). **(b) Corporate farmers/FPOs/partnerships (aggregate ≤ **₹4 crore**):** crop loans, ag. loans (≤ **₹2.5 crore**, ≤ **12 months**). **(c) PACS/FSS/LAMPS:** for on-lending to agriculture.\n\n### Chapter II — Classification as Non-Performing Asset\n- **Primary NPA triggers (any one classifies as NPA):** Term Loans/Bills: **>90 days** overdue. OD/CC: **out of order** status. **OD/CC with old statements:** drawings permitted **90 days** from statements **>3 months** old. **Short-duration crops:** **2 crop seasons** overdue. **Long-duration crops:** **1 crop season** overdue. **Liquidity facility (securitisation):** **>90 days** outstanding. **Partial credit enhancement:** **≥90 days** from drawal. **Credit cards:** minimum due **not paid within 90 days** from payment due date (report to CICs/levy charges if **>3 days** past due). **Debt instruments:** **>90 days** due and unpaid. **Borrower-level:** **all exposures to a borrower classified as NPA if any one exposure is NPA**.\n- **Upgrading to Standard:** repayment of **entire arrears** of principal and interest across **all facilities** of the borrower.\n- **Special cases:** Bills under LC exempt unless documents rejected/payment refused and borrower does not repay immediately. **Co-lending:** borrower-level; either RE classifying as SMA/NPA applies to both; share **next working day latest**. **Consortium:** classification by **individual member recovery**; non-receiving members from pooled remittances treat as **not serviced** (NPA). **Advances vs term deposits (same bank):** exempt if **margin ≥100%** at all times. **Interest moratorium:** interest due **only after moratorium ends**; **not NPA**. **Natural calamities:** reclassified loans treated as **current dues, not NPA**. **Government exposures:** Central/SLR-eligible State Securities **not classified as NPI**; CoI-guaranteed advances **not NPA if counter-guarantor solvent**.\n\n### Chapter VI — Reporting to RBI\n- **Loss Allowance Reconciliation:** by Stage (**1, 2, 3, POCI, Total**) — opening balance, net remeasurement, new instruments, closing balance (₹ crore).\n- **Table 4 (Quarterly):** PD, EAD, LGD by **product-wise**, Stage **1 and 2**.\n- **Table 5 (RBI-only):** Macroeconomic assumptions (**Central, Upside, Downside** scenarios, **1-year forward & 5-year average** %).\n- **Table 9 (by June 30, 2027):** Transitional Adjustment Schedule — Opening Retained Earnings Under Extant Norms + Stage adjustments = Adjusted Opening Retained Earnings (effective **April 1, 2027**).\n- **Table 10:** Gross Standard Advances + Gross NPAs = Gross Advances; Net after provisions.\n\n### Chapter IV — Repeal\n- Prior asset classification directions repealed; RBI's interpretation final.\n\n_Verify with compliance before acting._",
+ "implications": "# Why NaBFID Should Track This Commercial Banks Direction\n\n**Benchmark & Regulatory Yardstick:**\nThe RBI typically establishes asset classification and provisioning norms for commercial banks first, then calibrates AIFI directions around those standards. Even where AIFI rules differ (reflecting longer tenor and lower volatility of infrastructure assets), this commercial bank direction sets the baseline regulatory philosophy—what triggers NPA status, how provisioning buffers work, and how income is recognized. Understanding it helps NaBFID staff anticipate likely expectations and spot where AIFI exemptions or modifications apply.\n\n**Potential Cross-Reference Risk:**\nNaBFID's AIFI direction and compliance framework may explicitly or implicitly reference or incorporate provisions from the Commercial Banks directions. Some operational details (e.g., definitions of \"default,\" stress indicators, or reporting formats) could bind NaBFID unless the AIFI direction explicitly carves out an exception. **This must be verified against the current NaBFID direction and confirmed with your compliance team.**\n\n---\n\n## Illustrative Example  \nA 15-year infrastructure loan to a port authority shows a 90-day payment lag. Under the commercial bank direction, this triggers NPA classification and provisioning. NaBFID would check its own AIFI direction: it may allow a longer grace period for infrastructure projects (e.g., 120–180 days) before classification, reflecting typical project cash-flow cycles. But the *mechanics* of what happens once an asset is classified (provision rates, disclosure, capital impact) likely mirror the commercial bank standard, making this direction a critical reference.",
+ "citations": {
+  "key_points": {
+   "e977b6ed03bc": [
+    1
+   ],
+   "a9a965011e53": [
+    4
+   ],
+   "3675b93823e7": [
+    6
+   ],
+   "df1e275ee398": [
+    6
+   ],
+   "91575b2ddc15": [
+    10
+   ],
+   "30d15532e88b": [
+    11
+   ],
+   "a134d5561149": [
+    12
+   ],
+   "27d032f51d93": [
+    74
+   ],
+   "2dd10f8b7d04": [
+    77
+   ],
+   "d49c3260e48f": [
+    77
+   ],
+   "863d73f5aee1": [
+    79
+   ],
+   "626f82bc4a59": [
+    80
+   ],
+   "67884c3a5b50": [
+    58
+   ]
+  },
+  "implications": {
+   "7a0c8493993c": [
+    1
+   ],
+   "049c76b7e627": [
+    32
+   ]
+  }
+ }
+}

@@ -32,24 +32,73 @@ def _amend_map() -> dict[str, list[str]]:
     return out
 
 
-def divisions() -> list[dict]:
-    """Each division with its document count, alphabetical."""
+def entities() -> list[dict]:
+    """Each regulated entity (AIFI, Commercial Bank) with its document count.
+
+    The corpus holds the SAME RBI topics issued separately for each kind of
+    institution, so the entity is the top level of Browse — and the two must
+    never be conflated in an answer.
+    """
+    return _rows(
+        "SELECT entity, COUNT(*) AS n FROM documents "
+        "WHERE entity != '' GROUP BY entity ORDER BY entity"
+    )
+
+
+def divisions(entity: str | None = None) -> list[dict]:
+    """Each division with its document count, alphabetical.
+
+    entity: restrict to one regulated entity. Omit for the whole corpus (the
+    same division name can exist under both entities, so callers that show a
+    flat list should expect them merged).
+    """
+    if entity:
+        return _rows(
+            "SELECT division, COUNT(*) AS n FROM documents "
+            "WHERE entity = ? GROUP BY division ORDER BY division",
+            (entity,),
+        )
     return _rows(
         "SELECT division, COUNT(*) AS n FROM documents "
         "GROUP BY division ORDER BY division"
     )
 
 
-def documents_in(division: str) -> list[dict]:
+def documents_in(division: str, entity: str | None = None) -> list[dict]:
     """Documents in a division, master directions first then by date."""
-    docs = _rows(
-        "SELECT * FROM documents WHERE division = ? "
-        "ORDER BY (doc_type != 'master_direction'), issue_date",
-        (division,),
-    )
+    if entity:
+        docs = _rows(
+            "SELECT * FROM documents WHERE division = ? AND entity = ? "
+            "ORDER BY (doc_type != 'master_direction'), issue_date",
+            (division, entity),
+        )
+    else:
+        docs = _rows(
+            "SELECT * FROM documents WHERE division = ? "
+            "ORDER BY (doc_type != 'master_direction'), issue_date",
+            (division,),
+        )
     for d in docs:
         d["status"] = status_of(d)
     return docs
+
+
+ENTITY_ALL_RES = "All Regulated Entities"
+
+
+def doc_ids_for_entity(entity: str) -> set[str]:
+    """All doc_ids in scope for one entity — used so an AIFI question is never
+    answered from Commercial Bank rules.
+
+    Cross-entity directions (those addressed to ALL regulated entities, e.g.
+    Trade Relief Measures 2025, which applies to Commercial Banks AND
+    All-India Financial Institutions alike) are folded into EVERY scope: they
+    genuinely bind NaBFID, so excluding them from the AIFI scope would hide a
+    rule that actually applies.
+    """
+    return {r["doc_id"] for r in
+            _rows("SELECT doc_id FROM documents WHERE entity = ? OR entity = ?",
+                  (entity, ENTITY_ALL_RES))}
 
 
 def get_document(doc_id: str) -> dict | None:

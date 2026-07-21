@@ -1,0 +1,82 @@
+{
+ "key_points": "# RBI/2025-26/130: Commercial Banks – Prudential Norms on Capital Adequacy – Amendment Directions, 2025\n\n---\n\n## **DOCUMENT REFERENCE AND AUTHORITY**\n\n- **Citation:** RBI/2025-26/130, dated December 4, 2025\n- **Authority:** Issued under sections 21 and 35A of the Banking Regulation Act, 1949 and other enabling laws\n- **Regulatory Basis:** Amendment to the Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025\n- **Triggering Event:** Review consequent to issuance of Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2025\n\n---\n\n## **SCOPE AND APPLICABILITY**\n\n- This direction is addressed to **commercial banks**\n- The amendment modifies the principal Directions on Prudential Norms on Capital Adequacy\n- **Application to NaBFID (as an AIFI):** This direction does not on its face apply to non-bank financial institutions. However, NaBFID compliance teams must confirm whether the AIFI-specific Directions cross-refer to or incorporate by reference any provision affected by this amendment. If such cross-reference exists, the amended provisions bind NaBFID; if not, this amendment does not directly apply to the institution. **Consult your compliance team to confirm what, if any, parts of this amendment are binding on NaBFID.**\n\n---\n\n## **SUBSTANTIVE AMENDMENT: DELETION OF PARAGRAPH 78**\n\n- **Provision Amended:** Paragraph 78, contained under Chapter IV (Risk Weighted Assets – RWAs) of the principal Directions\n- **Amendment:** Paragraph 78 **shall stand deleted** (RBI/2025-26/130, dated December 4, 2025)\n- **Effect:** The entire paragraph is removed and ceases to have force and effect\n- **Context:** The deletion occurs following the issuance of the Concentration Risk Management Amendment Directions, 2025, indicating potential overlap or supersession of provisions\n- **Compliance Impact:** Banks must disregard any obligations, definitions, thresholds, or reporting requirements previously contained in Paragraph 78; any capital adequacy calculations or RWA methodologies dependent on that paragraph must be revised to remove references to it\n\n---\n\n## **EFFECTIVE DATE**\n\n- **Commencement:** January 1, 2026 (RBI/2025-26/130, dated December 4, 2025)\n- **Compliance Deadline:** All banks must ensure full compliance with this amendment (deletion of Paragraph 78) effective from the commencement date\n- **Transition Period:** None specified; the amendment takes effect immediately upon the commencement date\n\n---\n\n## **CROSS-REFERENCE OBLIGATION**\n\n- Banks must simultaneously review and comply with the Reserve Bank of India (Commercial Banks – Concentration Risk Management) Amendment Directions, 2025, as the deletion of Paragraph 78 was prompted by amendments in that separate direction\n- The two sets of amendments are coordinated; compliance with both is required\n\n---\n\n## **IMPORTANT NOTE FOR NaBFID COMPLIANCE TEAMS**\n\nThe present amendment is **not independently applicable to NaBFID** unless:\n\n1. The AIFI Directions (RBI directions applicable to NaBFID as an All-India Financial Institution) explicitly cross-refer to Paragraph 78 or to Chapter IV of the Commercial Banks Capital Adequacy Directions, or\n2. An AIFI Direction incorporates the Commercial Banks directions (or parts thereof) by reference as minimum standards for NaBFID\n\n**Action Required:** Consult with your RBI compliance and regulatory liaison team to determine whether:\n- NaBFID's AIFI Directions currently reference or incorporate Paragraph 78\n- Any NaBFID capital adequacy or RWA calculations depend on provisions in Chapter IV of the Commercial Banks Directions\n- This amendment triggers any corresponding amendment to NaBFID Directions\n\nUntil such confirmation is received, assume this amendment does not directly bind NaBFID, but flag it in your regulatory monitoring system as a related market-wide change that may affect comparative risk frameworks or peer benchmarking.",
+ "what_changed": "# Changes Under RBI/2025-26/130 (dated 2025-12-04)\n\n| Paragraph/Chapter Affected | Amendment Type | Effect in Plain Language |\n|---|---|---|\n| Paragraph 78, Chapter IV (Risk weighted assets - RWAs) | **Deleted** | Paragraph 78 is removed entirely from the Capital Adequacy Directions. The specific provision that was in this paragraph no longer applies to banks' RWA calculations. |\n\n**Effective Date:** January 1, 2026\n\n---\n\n**Note for NaBFID (AIFI):** This deletion in the Commercial Banks rulebook may flow through to NaBFID via incorporation by reference in AIFI directions. You should verify whether Paragraph 78 was similarly adopted in your applicable AIFI prudential norms, as any corresponding provision in your framework may also be affected by alignment with this Commercial Banks change.",
+ "implications": "# Why NaBFID Should Track This RBI Commercial Banks Direction\n\n**Benchmark and Regulatory Alignment:**  \nRBI's capital adequacy norms for commercial banks set the reference standard against which AIFI prudential requirements are calibrated and compared. Even though NaBFID operates under separate AIFI directions, the commercial banks framework establishes the policy floor and methodology that informs AIFI rule-making. Understanding the amendment helps NaBFID anticipate how RBI may harmonize or differentiate AIFI capital rules.\n\n**Cross-Reference and Incorporation:**  \nAIFI directions frequently incorporate provisions from the Commercial Banks directions by reference (e.g., risk-weighting methodologies, calculation mechanics, or phase-in timelines). Some parts of this amendment may bind NaBFID indirectly. **This must be confirmed against the applicable AIFI direction and checked with your compliance team—do not assume applicability.**\n\n**Illustrative Example (Infrastructure Lending Context):**  \nIf this amendment resets risk-weights for long-tenor project finance exposures or changes the capital charge for infrastructure assets, NaBFID's treasury and lending committees need to know the direction of change. Even if NaBFID's own capital adequacy framework differs, the commercial banks benchmark signals RBI's stance on infrastructure risk and may influence future AIFI guidance on lending appetite, provisioning, or capital buffers for similar assets.",
+ "citations": {
+  "key_points": {
+   "e87dac58858a": [
+    1
+   ],
+   "5200b678a96d": [
+    1
+   ],
+   "39bd7f829d45": [
+    1
+   ],
+   "f4f04d402e31": [
+    1
+   ],
+   "c0caf3c692f1": [
+    1
+   ],
+   "6cb416706326": [
+    1
+   ],
+   "900b91ed875a": [
+    1
+   ],
+   "58d66eb2386d": [
+    1
+   ],
+   "637e705bae4f": [
+    1
+   ],
+   "46ff9856bec9": [
+    1
+   ],
+   "e72649429a1b": [
+    1
+   ],
+   "34a4650b5986": [
+    1
+   ],
+   "e0acee60dd46": [
+    1
+   ],
+   "23ff5d8bbc40": [
+    1
+   ],
+   "d61e6ed82456": [
+    1
+   ],
+   "54fdf9de287c": [
+    1
+   ]
+  },
+  "what_changed": {
+   "53557591e6a9": [
+    1
+   ],
+   "8f2639eb95d7": [
+    1
+   ],
+   "a688be9e47ae": [
+    1
+   ]
+  },
+  "implications": {
+   "c03d315ad9c9": [
+    1
+   ],
+   "2ffade552189": [
+    1
+   ],
+   "8a5333152971": [
+    1
+   ],
+   "e15acc105039": [
+    1
+   ]
+  }
+ }
+}

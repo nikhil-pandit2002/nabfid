@@ -1,0 +1,100 @@
+{
+ "key_points": "## Concentration Risk Management — Directions, 2025 — Detailed Compliance Guide\n*(RBI/DOR/2025-26/158, dated 2025-11-28)*\n\nLimits how much a commercial bank can be exposed to any one counterparty, group of connected counterparties, and the capital markets — to prevent a single failure from threatening the institution.\n\n### Chapter I — Preliminary\n- **Commencement:** immediate. **Applicability:** commercial banks (excl. Small Finance Banks, Payment Banks, Local Area Banks), including SBI; State Bank of India; and corresponding new banks per Banking Regulation Act, 1949, clauses (c), (da), (nc).\n- **Eligible capital base:** effective **Tier 1 capital** per Capital Adequacy Directions, last audited balance sheet; **Tier 1 infusions after balance sheet date** allowed with external auditor certificate to RBI (DOS). **Profit accrued during year** reckoned as Tier 1.\n- **Large Exposure (LE):** sum of all exposure values to a **single counterparty or group of connected counterparties ≥ 10%** of eligible capital base.\n- **Net worth:** paid-up capital + free reserves (incl. share premium) + Investment Fluctuation Reserve + P&L credit balance, less P&L debit, accumulated losses, intangible assets; excludes provisions.\n- **QCCP:** entity licensed as central counterparty, permitted by regulator to operate, and prudentially supervised in a jurisdiction applying domestic rules consistent with CPSS-IOSCO Principles.\n\n### Chapter II — Board Policies (mandatory)\n- **Concentration Risk Management Policy:** covers single counterparties, connected groups, sectoral exposures; systems to monitor ultra-large, excessively leveraged borrowers and those with substantial banking-system borrowings.\n- **Additional 5% exposure allowance:** Board-approved policy required to permit single counterparty exposures **up to 25%** (normal **20%** + exceptional **5%**).\n- **Connectedness determination:** Board-approved policy per paragraphs **19–31** (control and economic interdependence).\n- **Sector-specific limits:** Board-approved limits for specific sectors (e.g., textiles, jute, tea) to ensure even spread.\n- **Consumer credit sub-segment limits:** mandatory limits for unsecured consumer credit, monitored by Risk Management Committee.\n- **Intra-day capital market exposure limits:** Board-approved policy with ongoing monitoring systems.\n- **Call/notice/term money market lending:** Board-approved limits within LEF single counterparty/group ceilings.\n- **Intra-Group Transactions and Exposures (ITE):** comprehensive Board policy (Chapter VI); systems to identify, assess, report material ITEs.\n- **Internal capital market ceiling:** Board may set lower ceiling than regulatory **40%** and **20%** limits.\n- **Country exposure limits:** Board-approved limits in relation to **Tier I + Tier II capital**; sub-limits by product/branch/maturity optional; annual review.\n- **Annual exposure management review:** completed **before end of June**.\n- **Material ITEs reporting:** Board receives regular reporting on significant transactions with group entities.\n- **Non-benchmark ITE terms:** where terms/conditions with group entities differ from third-party benchmarks, reported to Board with justification.\n\n### Chapter III — Large Exposures Framework\n- **Application levels:** **consolidated (group)** level (subsidiaries, JVs, associates, overseas branches; excl. insurance/non-financial); **solo (standalone)** level (incl. overseas branches). Each measured against respective eligible capital base.\n- **Exempted exposures (reportable if ≥ 10%):** GoI/State Government exposures at **0%** risk weight; GoI-guaranteed principal/interest; GoI-issued securities; foreign sovereigns/**central banks** at **0%** risk weight, **denominated in domestic currency, funded in same currency**; RBI exposures; intra-day interbank; **intra-group** (Chapter VI, except foreign bank branch HO/overseas branch exposures, which use counterparty limits per paragraph 84); food credit authorized borrowers; QCCP clearing; NABARD/NHB/SIDBI/MUDRA PSL shortfall deposits.\n- **Special rule:** entities controlled by/economically dependent on a sovereign-exempted entity but otherwise unconnected are **not** a group.\n- **Hedged exempted exposures:** treated as exposure to credit protection counterparty.\n- **Consortium/syndication:** each participant applies limits to its own exposure.\n- **Bills under LC:** where discounting bank ≠ LC issuing bank, exposure is to **LC issuer**; if same entity, exposure is to **borrower**; exceptions for \"under reserve\" negotiations and HO/branch LC issuance.\n- **Reporting (Annex I):** all LE exposures **≥ 10%** of eligible capital (with CRM effect); all exposures **≥ 10%** (without CRM); all exempted **≥ 10%**; **20 largest exposures** irrespective of size.\n\n### Chapter IV — Exposure Limits\n- **Single counterparty:** **20%** of eligible capital base; Board may permit additional **5% (up to 25% total)** in exceptional cases with Board-approved policy.\n- **Group of connected counterparties:** **25%** of eligible capital base.\n- **Measurement:** per paragraphs **32–85**; modulations for CCPs, NBFCs per paragraphs **73–85**.\n\n_Verify with the compliance team before acting._",
+ "implications": "# Why NaBFID Should Track This Commercial Banks Direction\n\n**Benchmark and Regulatory Framework**: RBI directions to Commercial Banks establish the foundational concentration risk principles that AIFI directions are *calibrated against*. Even though NaBFID operates under separate AIFI governance, understanding Commercial Banks concentration limits and methodologies helps NaBFID anticipate how RBI may interpret or evolve similar risks in the AIFI space.\n\n**Cross-Reference Risk**: AIFI directions (including NaBFID's own) frequently incorporate Commercial Banks directions by reference or adopt parallel provisions. Some concentration risk rules—such as large exposure reporting or sectoral ceilings—may *apply directly* to NaBFID depending on what the applicable AIFI direction states. This must be confirmed against NaBFID's specific AIFI direction and in consultation with your compliance team.\n\n---\n\n**Illustrative Example**:  \nIf the 2025 Commercial Banks direction sets a single-borrower concentration limit at (say) 15% of capital, and if NaBFID's AIFI direction cross-references that methodology for calculating large exposures, then NaBFID's underwriting of a major highway PPP concession must be stress-tested against that benchmark—even though the actual binding obligation in NaBFID's case requires checking the AIFI text itself.\n\n---\n\n**Action**: Review your AIFI direction and confirm which concentration risk provisions explicitly bind NaBFID and which are advisory benchmarks.",
+ "citations": {
+  "key_points": {
+   "80d9e70306b3": [
+    1
+   ],
+   "6d9a66809b38": [
+    3
+   ],
+   "1617bf2f511a": [
+    3
+   ],
+   "34359c384a16": [
+    5
+   ],
+   "9cf5820f52fa": [
+    6
+   ],
+   "656b954ac039": [
+    7
+   ],
+   "5cc157fb9987": [
+    7
+   ],
+   "c7f5dead9fe6": [
+    7
+   ],
+   "0b8026a17a25": [
+    7
+   ],
+   "fe3cdd631e79": [
+    36
+   ],
+   "5a8b3dec7c1e": [
+    7
+   ],
+   "28b504a711cf": [
+    7
+   ],
+   "626d8a08a33d": [
+    7
+   ],
+   "77f2ded7d773": [
+    8
+   ],
+   "d106c1fb591d": [
+    8
+   ],
+   "035a50c37d42": [
+    8
+   ],
+   "16b183914219": [
+    8
+   ],
+   "f96ba8228bdd": [
+    8
+   ],
+   "0f75dc880d43": [
+    9
+   ],
+   "0b29afea4a31": [
+    10
+   ],
+   "07a4fe602e2d": [
+    10
+   ],
+   "0b5ab633e2b7": [
+    10
+   ],
+   "4f9d3471e878": [
+    11
+   ],
+   "277ccadc4722": [
+    11
+   ],
+   "7bdbaa8a5be6": [
+    11
+   ],
+   "365d359f45ec": [
+    11
+   ],
+   "2e2b14523e2b": [
+    12
+   ]
+  },
+  "implications": {
+   "2491feffc884": [
+    1
+   ],
+   "aeb23645ad9e": [
+    12
+   ],
+   "18e6b659f7f2": [
+    14
+   ]
+  }
+ }
+}
