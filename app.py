@@ -303,13 +303,21 @@ def render_cited_markdown(text: str, doc_id: str,
 
 
 def pdf_preview(doc: dict) -> None:
-    """PDF viewer with two modes. Desktop default: the browser's embedded,
-    scrollable + searchable PDF reader (iframe). Mobile default: page-by-page
-    images rendered by PyMuPDF — phone browsers cannot render a PDF inside an
-    iframe at all (Android Chrome: blank box; iOS Safari: first page only), and
-    NaBFID office laptops block the hosted URL, so phones are the primary way
-    pilot users will read documents. Both modes are always offered via a toggle;
-    only the default follows the device."""
+    """PDF viewer with two modes, defaulting to page-by-page images.
+
+    Page-by-page renders each page with PyMuPDF and shows it via st.image, which
+    is served from Streamlit's own same-origin media endpoint. That works
+    everywhere:
+      * phone browsers cannot render a PDF in an iframe at all (Android Chrome
+        shows a blank box, iOS Safari only the first page); and
+      * when the app is deployed PRIVATELY, a request for the served PDF under
+        app/static/ is 303-redirected to share.streamlit.io for login — a
+        different origin, whose login page refuses to be framed, so Chrome
+        blocks the iframe outright ("page blocked").
+
+    "Full document" (the embedded, scrollable, searchable reader) is still
+    offered and is the nicer desktop experience — but only once the app is
+    public, so it is not the default."""
     rel_path = doc["file_path"]
     path = PROJECT_ROOT / rel_path
     if not path.exists():
@@ -328,13 +336,15 @@ def pdf_preview(doc: dict) -> None:
 
     MODE_PAGES, MODE_EMBED = "🖼 Page-by-page", "📜 Full document"
     mode = st.radio("Viewer mode", [MODE_PAGES, MODE_EMBED],
-                    index=0 if _is_mobile() else 1, horizontal=True,
+                    index=0, horizontal=True,
                     key=f"pdfmode_{doc['doc_id']}",
                     label_visibility="collapsed")
 
     if mode == MODE_EMBED:
         st.caption("Full document — scroll to read; use the viewer toolbar or "
-                   "Ctrl+F to search. (Blank on phones? Switch to page-by-page.)")
+                   "Ctrl+F to search. If this stays blank, your browser has "
+                   "blocked the embedded PDF — use Page-by-page or the download "
+                   "button below.")
         # Real URL + "#page=N" so the native viewer lands on the right page.
         src = f"{url}#page={page}&view=FitH&toolbar=1"
         st.markdown(
