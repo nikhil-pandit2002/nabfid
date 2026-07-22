@@ -807,8 +807,25 @@ def _entity_scope_picker(key: str) -> set[str] | None:
              "NaBFID is an AIFI. Pick 'Both' only to compare them.",
     )
     if choice == BOTH_ENTITIES:
+        st.caption("🔎 Answering from **both rulebooks** — each citation is "
+                   "tagged with the entity it came from.")
         return None
-    return docstore.doc_ids_for_entity(choice)
+    ids = docstore.doc_ids_for_entity(choice)
+    # Spell out exactly what is in scope. Cross-entity directions are included
+    # because their own applicability clause names this entity (e.g. Trade
+    # Relief Measures 2025 applies to "(i) Commercial Banks ... (iv) All-India
+    # Financial Institutions"), so they bind here too — but say so rather than
+    # let a reader wonder why a differently-titled document appeared.
+    n_cross = sum(1 for d in ids
+                  if (docstore.get_document(d) or {}).get("entity")
+                  == docstore.ENTITY_ALL_RES)
+    note = (f"🔎 Answering **only** from the {choice} rulebook "
+            f"({len(ids) - n_cross} directions)")
+    if n_cross:
+        note += (f", plus {n_cross} direction(s) addressed to *all* regulated "
+                 f"entities, which bind {choice} too")
+    st.caption(note + ". No document from the other rulebook is used.")
+    return ids
 
 
 def page_browse() -> None:
