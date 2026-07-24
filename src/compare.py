@@ -62,21 +62,27 @@ change is not yet in force.
 by the application to pin each citation to the exact PDF page, so an answer \
 without it is incomplete. Include one line for every source number you cited.
 
-Structure your answer exactly like this:
+Be CRISP. The whole answer is a verdict line and a table — no essay. Output \
+exactly these three parts and nothing else:
 
-**In short:** one or two sentences naming the single most important difference \
-(or stating that the two are substantially the same).
+FIRST LINE — the verdict, in bold, one of:
+**⚠️ Different** — <max 12 words naming the key difference>
+**✅ Same** — <max 12 words, e.g. "both require 9% CRAR, 5.5% CET1">
+**◑ Partly different** — <max 12 words>
+
+SECOND: the table. AT MOST 5 rows — only the aspects that matter most, and \
+prefer rows where the two sides actually DIFFER (skip minor details that are \
+identical). Each cell must be a short phrase with the key figure, roughly 12 \
+words max — never a sentence. Numbers, not prose.
 
 | Aspect | {ENTITY_A} (NaBFID) | {ENTITY_B} |
 |---|---|---|
-| <the specific aspect> | <rule + exact figure>[n] | <rule + exact figure>[n] |
+| <aspect> | <figure/rule, ≤12 words>[n] | <figure/rule, ≤12 words>[n] |
 
-Use one row per aspect that genuinely differs or is genuinely worth confirming. \
-Put the exact numbers in the cells. Keep cells short.
-
-**Why it differs / what to watch:** two or three bullets on the practical \
-consequence for NaBFID. Then, ONLY if the sources show it, note any place where \
-the AIFI directions incorporate the Commercial Banks rules by reference.
+Do NOT add a "why it differs", "what to watch", background, or summary section. \
+Do NOT restate the table in prose. Do NOT include a row where both cells say the \
+same thing unless it is a headline number the reader expects to see. If a figure \
+needs a caveat, put it in the cell in brackets — never as a paragraph.
 
 Then append the machine block described below.
 
