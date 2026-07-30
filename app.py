@@ -119,8 +119,16 @@ def _is_android() -> bool:
 # sharpness. Same reason the cache is kept small.
 _PAGE_ZOOM = 1.5
 
+# How many consecutive pages the page-by-page viewer stacks in one view. Enough
+# to scroll through continuously, few enough that a 400-page direction does not
+# try to render itself into memory all at once.
+PAGE_WINDOW = 5
 
-@st.cache_data(show_spinner=False, max_entries=8)
+
+# max_entries covers three full windows, so paging back and forth re-uses
+# rendered images instead of re-rasterising them. Each page is ~160 KB, so the
+# whole cache is a couple of MB — immaterial against the process footprint.
+@st.cache_data(show_spinner=False, max_entries=16)
 def _page_png(rel_path: str, page: int) -> bytes:
     """Render one PDF page to a PNG. Cached — repeat views of a page are free."""
     import fitz
@@ -355,24 +363,41 @@ def pdf_preview(doc: dict) -> None:
             unsafe_allow_html=True,
         )
     else:
+        # Render a WINDOW of consecutive pages stacked vertically, not a single
+        # page. Showing one page at a time left nothing to scroll — the reader
+        # had to click through a 400-page direction one page per click. Stacking
+        # a few pages restores continuous reading while keeping memory bounded:
+        # rendering every page of a 412-page document as an image would exhaust
+        # the host long before it finished.
         pg_key = f"pdfpage_{doc['doc_id']}"
         if cite_page:  # a citation jump overrides whatever page was open before
             st.session_state[pg_key] = page
             st.session_state.pop(f"citepage_{doc['doc_id']}", None)
         st.session_state.setdefault(pg_key, page)
+
         c_prev, c_num, c_next = st.columns([1, 2, 1])
         # Buttons are handled BEFORE the number_input widget is instantiated,
         # so mutating its session-state value here is allowed.
-        if c_prev.button("◀ Prev", key=f"{pg_key}_prev", use_container_width=True,
+        if c_prev.button("◀ Previous", key=f"{pg_key}_prev",
+                         use_container_width=True,
                          disabled=st.session_state[pg_key] <= 1):
-            st.session_state[pg_key] = max(1, st.session_state[pg_key] - 1)
+            st.session_state[pg_key] = max(
+                1, st.session_state[pg_key] - PAGE_WINDOW)
         if c_next.button("Next ▶", key=f"{pg_key}_next", use_container_width=True,
-                         disabled=st.session_state[pg_key] >= n_pages):
-            st.session_state[pg_key] = min(n_pages, st.session_state[pg_key] + 1)
-        cur = c_num.number_input(f"Page (1–{n_pages})", min_value=1,
-                                 max_value=n_pages, key=pg_key)
-        st.image(_page_png(rel_path, cur), use_container_width=True)
-        st.caption(f"Page {cur} of {n_pages} — pinch to zoom on mobile.")
+                         disabled=st.session_state[pg_key] + PAGE_WINDOW > n_pages):
+            st.session_state[pg_key] = min(
+                n_pages, st.session_state[pg_key] + PAGE_WINDOW)
+        start = c_num.number_input(f"Start at page (1–{n_pages})", min_value=1,
+                                   max_value=n_pages, key=pg_key)
+
+        last = min(start + PAGE_WINDOW - 1, n_pages)
+        st.caption(f"Showing pages {start}–{last} of {n_pages} — scroll to read, "
+                   "pinch to zoom on mobile.")
+        for pg in range(start, last + 1):
+            st.image(_page_png(rel_path, pg), use_container_width=True)
+            st.caption(f"page {pg}")
+        if last < n_pages:
+            st.caption(f"↓ {n_pages - last} more page(s) — use Next to continue.")
 
     st.download_button("⬇️ Download full PDF", path.read_bytes(),
                        file_name=path.name, mime="application/pdf")
