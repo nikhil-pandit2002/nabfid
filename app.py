@@ -119,16 +119,16 @@ def _is_android() -> bool:
 # sharpness. Same reason the cache is kept small.
 _PAGE_ZOOM = 1.5
 
-# How many consecutive pages the page-by-page viewer stacks in one view. Enough
-# to scroll through continuously, few enough that a 400-page direction does not
-# try to render itself into memory all at once.
-PAGE_WINDOW = 5
+# How many consecutive pages are loaded into the scrollable viewer at once.
+# Enough to read continuously without constant paging, few enough that a
+# 400-page direction never tries to rasterise itself into memory in one go.
+PAGE_WINDOW = 10
 
 
-# max_entries covers three full windows, so paging back and forth re-uses
-# rendered images instead of re-rasterising them. Each page is ~160 KB, so the
-# whole cache is a couple of MB — immaterial against the process footprint.
-@st.cache_data(show_spinner=False, max_entries=16)
+# max_entries covers two full windows, so paging back and forth re-uses rendered
+# images instead of re-rasterising them. Each page is ~160 KB, so the whole cache
+# is a few MB — immaterial against the process footprint.
+@st.cache_data(show_spinner=False, max_entries=24)
 def _page_png(rel_path: str, page: int) -> bytes:
     """Render one PDF page to a PNG. Cached — repeat views of a page are free."""
     import fitz
@@ -344,21 +344,24 @@ def pdf_preview(doc: dict) -> None:
     if cite_page:
         st.success(f"📄 Opened at cited page {page} — scroll freely from here.")
 
-    MODE_PAGES, MODE_EMBED = "🖼 Page-by-page", "📜 Full document (scrollable)"
-    # Desktop defaults to the embedded reader: it is the whole document in one
-    # continuously scrollable pane, with the browser's own search and zoom.
-    # Mobile defaults to page images because phone browsers cannot render a PDF
-    # in an iframe at all (Android Chrome shows nothing, iOS Safari shows only
-    # the first page).
+    MODE_PAGES, MODE_EMBED = "📖 Scrollable pages", "📜 Native PDF reader"
+    # "Scrollable pages" is the default on every device because it cannot be
+    # blocked: the pages are rendered server-side and shown as images inside a
+    # fixed-height Streamlit container, so there is no iframe, no reliance on
+    # the browser's PDF plugin, and no cross-origin or cookie policy involved.
+    # The native reader is kept as an option (better search and zoom when it
+    # works) but it depends on the browser being willing to frame a PDF, which
+    # phones refuse outright and desktop Chrome can refuse depending on how the
+    # host serves the file.
     mode = st.radio("Viewer mode", [MODE_PAGES, MODE_EMBED],
-                    index=0 if _is_mobile() else 1, horizontal=True,
+                    index=0, horizontal=True,
                     key=f"pdfmode_{doc['doc_id']}",
                     label_visibility="collapsed")
 
     if mode == MODE_EMBED:
-        st.caption("Full document — scroll to read; use the viewer toolbar or "
-                   "Ctrl+F to search. If this stays blank (common on phones), "
-                   "switch to Page-by-page or download the PDF below.")
+        st.caption("Opens the browser's own PDF reader. If it shows a blocked or "
+                   "blank panel, your browser is refusing to embed the file — "
+                   "switch back to Scrollable pages, or download the PDF below.")
         # Real URL + "#page=N" so the native viewer lands on the right page.
         src = f"{url}#page={page}&view=FitH&toolbar=1"
         st.markdown(
@@ -395,13 +398,17 @@ def pdf_preview(doc: dict) -> None:
                                    max_value=n_pages, key=pg_key)
 
         last = min(start + PAGE_WINDOW - 1, n_pages)
-        st.caption(f"Showing pages {start}–{last} of {n_pages} — scroll to read, "
-                   "pinch to zoom on mobile.")
-        for pg in range(start, last + 1):
-            st.image(_page_png(rel_path, pg), use_container_width=True)
-            st.caption(f"page {pg}")
+        st.caption(f"Showing pages {start}–{last} of {n_pages} — scroll inside "
+                   "the panel to read; pinch to zoom on mobile.")
+        # A fixed-height container scrolls its own overflow, which is what makes
+        # this a viewer rather than a stack of images pushed down the page.
+        with st.container(height=760, border=True):
+            for pg in range(start, last + 1):
+                st.image(_page_png(rel_path, pg), use_container_width=True)
+                st.caption(f"page {pg} of {n_pages}")
         if last < n_pages:
-            st.caption(f"↓ {n_pages - last} more page(s) — use Next to continue.")
+            st.caption(f"Reached page {last}. Use Next to load the following "
+                       f"{min(PAGE_WINDOW, n_pages - last)} page(s).")
 
     st.download_button("⬇️ Download full PDF", path.read_bytes(),
                        file_name=path.name, mime="application/pdf")
