@@ -344,17 +344,21 @@ def pdf_preview(doc: dict) -> None:
     if cite_page:
         st.success(f"📄 Opened at cited page {page} — scroll freely from here.")
 
-    MODE_PAGES, MODE_EMBED = "🖼 Page-by-page", "📜 Full document"
+    MODE_PAGES, MODE_EMBED = "🖼 Page-by-page", "📜 Full document (scrollable)"
+    # Desktop defaults to the embedded reader: it is the whole document in one
+    # continuously scrollable pane, with the browser's own search and zoom.
+    # Mobile defaults to page images because phone browsers cannot render a PDF
+    # in an iframe at all (Android Chrome shows nothing, iOS Safari shows only
+    # the first page).
     mode = st.radio("Viewer mode", [MODE_PAGES, MODE_EMBED],
-                    index=0, horizontal=True,
+                    index=0 if _is_mobile() else 1, horizontal=True,
                     key=f"pdfmode_{doc['doc_id']}",
                     label_visibility="collapsed")
 
     if mode == MODE_EMBED:
         st.caption("Full document — scroll to read; use the viewer toolbar or "
-                   "Ctrl+F to search. If this stays blank, your browser has "
-                   "blocked the embedded PDF — use Page-by-page or the download "
-                   "button below.")
+                   "Ctrl+F to search. If this stays blank (common on phones), "
+                   "switch to Page-by-page or download the PDF below.")
         # Real URL + "#page=N" so the native viewer lands on the right page.
         src = f"{url}#page={page}&view=FitH&toolbar=1"
         st.markdown(
